@@ -1,0 +1,45 @@
+{
+  "dataset": "3D Turbulence DNS dataset",
+  "intro": {
+    "official_link": "https://turbulence.idies.jhu.edu/home",
+    "brief_description": "这个目标是为了为计算流体力学（CFD）开发人员提供一个资源，以便： 获取关于广泛使用的雷诺平均纳维-斯托克斯（RANS）湍流模型的准确和最新信息;和验证模型的正确开发。‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "雷诺平均纳维-斯托克斯（RANS）方程的湍流模型包含诸多假设和简化闭合方案。多年来，人们开发了多种模型，但每种模型都存在不同缺陷。尽管大量集体努力试图针对各类问题验证湍流模型，但由于缺乏网格收敛性、未能在不同代码中进行模型验证或其他原因，结论往往含糊不清。本数据集主要结合近年多次研讨会成果，探讨湍流模型的验证与确认工作，整理了一个基于网络的湍流建模资源库，其目标包括湍流模型文档化、验证及确认。通过该资源库，可便捷地对特定模型执行验证测试流程，从而有效消除编程错误。"
+  },
+  "openness": {
+    "license_type": "ODC-By",
+    "license_source_link": "https://opendatacommons.org/licenses/by/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "申请简单"
+  },
+  "data_scale": {
+    "data_volume": "2.5PB",
+    "data_volume_mb": "2684354560.0",
+    "source_of_data_volume": "https://turbulence.idies.jhu.edu/home",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://turbulence.pha.jhu.edu/papers/turb-sc07.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "263.0",
+    "google_scholar_screenshot": "3D Turbulence DNS dataset.png",
+    "download_volume_or_user_count": "105个星标（stars）",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2007/01/01",
+    "source_link": "https://turbulence.idies.jhu.edu/citing",
+    "last_update_date": "2021/04/14"
+  }
+}

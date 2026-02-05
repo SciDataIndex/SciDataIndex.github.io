@@ -87,6 +87,12 @@
       border: 2px solid rgba(255, 255, 255, 0.6);
     }
 
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
     .nav-links {
       display: flex;
       gap: 26px;
@@ -183,6 +189,148 @@
       color: #cfe5ff;
     }
 
+    .rank-section {
+      margin: 0;
+      padding: 70px 0 90px;
+      background: #f5f7fb;
+      color: #101827;
+    }
+
+    .rank-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    .rank-title {
+      font-size: clamp(22px, 3vw, 30px);
+      margin: 0 0 10px;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    .rank-subtitle {
+      margin: 0 0 28px;
+      color: #5b6b89;
+      font-size: 14px;
+    }
+
+    .rank-actions {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+
+    .rank-actions .btn.secondary {
+      color: #1f2a44;
+      background: #ffffff;
+      border: 1px solid #d7deea;
+      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.08);
+    }
+
+    .rank-actions .btn.secondary:hover {
+      border-color: #6aa8ff;
+      box-shadow: 0 10px 18px rgba(15, 23, 42, 0.12);
+    }
+
+    .rank-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .rank-card {
+      background: #ffffff;
+      border: 1px solid #dbe2ef;
+      border-radius: 14px;
+      overflow: hidden;
+      text-align: left;
+      box-shadow: 0 16px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    .rank-card-header {
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(135deg, #2c4a8a, #4167b7);
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .rank-card-header span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .rank-list {
+      padding: 12px 0;
+    }
+
+    .rank-item {
+      display: grid;
+      grid-template-columns: 32px 1fr 72px;
+      gap: 10px;
+      padding: 12px 18px;
+      align-items: center;
+      border-top: 1px solid #edf1f7;
+    }
+
+    .rank-item:first-child {
+      border-top: none;
+    }
+
+    .rank-badge {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      font-size: 13px;
+      color: #1a2d4f;
+      background: linear-gradient(135deg, #bfe4ff, #7fe0f5);
+    }
+
+    .rank-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1f2a44;
+      text-decoration: none;
+      display: block;
+    }
+
+    .rank-score {
+      font-size: 16px;
+      font-weight: 700;
+      text-align: right;
+      color: #1f2a44;
+    }
+
+    .rank-score small {
+      display: block;
+      font-size: 11px;
+      color: #6b7c99;
+      font-weight: 400;
+    }
+
+    .rank-footer {
+      padding: 10px 18px 16px;
+      text-align: center;
+      border-top: 1px solid #edf1f7;
+    }
+
+    .rank-footer a {
+      color: #2c4a8a;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
     .hero-actions {
       display: flex;
       justify-content: center;
@@ -199,6 +347,7 @@
       color: #021019;
       background: linear-gradient(135deg, #baf4ff, var(--btn));
       box-shadow: 0 10px 24px rgba(83, 211, 255, 0.35);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
     }
 
     .btn.secondary {
@@ -206,6 +355,12 @@
       background: linear-gradient(135deg, rgba(57, 74, 123, 0.8), rgba(23, 33, 73, 0.8));
       border: 1px solid var(--stroke);
       box-shadow: none;
+    }
+
+    .hero-actions .btn:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.1);
+      box-shadow: 0 14px 28px rgba(83, 211, 255, 0.4);
     }
 
     .earth-glow {
@@ -240,22 +395,27 @@
       .hero-actions {
         flex-direction: column;
       }
+
+      .rank-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
   <div class="stars"></div>
   <header class="nav">
-    <div class="brand">
-      <span class="brand-logo"></span>
-      SciDataIndex
+    <div class="nav-left">
+      <div class="brand">
+        <span class="brand-logo"></span>
+        SciDataIndex
+      </div>
+      <nav class="nav-links">
+        <a href="data_ranks/earth_science.html">数据榜单</a>
+        <a href="evaluation.html">评价说明</a>
+        <a href="about.html">关于我们</a>
+      </nav>
     </div>
-    <nav class="nav-links">
-      <a href="data_rank.html">数据榜单</a>
-      <a href="#">模型榜单</a>
-      <a href="#">评价说明</a>
-      <a href="#">关于我们</a>
-    </nav>
     <div class="nav-action">EN</div>
   </header>
 
@@ -277,10 +437,287 @@
     </section>
 
     <div class="hero-actions">
-      <a class="btn secondary" href="#">查看模型榜单</a>
-      <a class="btn" href="data_rank.html">查看数据榜单</a>
+      <a class="btn secondary" href="data_ranks/earth_science.html">地球科学</a>
+      <a class="btn secondary" href="data_ranks/neuroscience.html">神经科学</a>
+      <a class="btn secondary" href="data_ranks/life_science.html">生命科学</a>
     </div>
     <div class="earth-glow"></div>
   </main>
+
+  <section class="rank-section" id="rankSection">
+    <div class="rank-inner">
+      <h2 class="rank-title">评测榜单</h2>
+      <p class="rank-subtitle">展示三大领域数据集的综合评分排行（Top 5）</p>
+      <div class="rank-grid" id="rankGrid"></div>
+    </div>
+  </section>
+
+  <script>
+    const DATASETS = {
+      "地球科学": [
+        {
+          "name": "Coupled Model Intercomparison Project",
+          "desc": "耦合气候模型比较项目",
+          "detail": "基于第一性原理计算，提供大规模材料结构与能带性质数据",
+          "rating": {
+            "openness": 8,
+            "quality": 10,
+            "scale": 10,
+            "impact": 6,
+            "safety": 10,
+            "ai_readiness": 6,
+            "total_score": 8.0
+          }
+        },
+        {
+          "name": "Hubble Space Telescope Data",
+          "desc": "哈勃太空望远镜图像观测数据",
+          "detail": "用于研究催化反应路径、吸附能与反应能垒的高质量数据集",
+          "rating": {
+            "openness": 8,
+            "quality": 10,
+            "scale": 8,
+            "impact": 6,
+            "safety": 10,
+            "ai_readiness": 6,
+            "total_score": 7.4
+          }
+        },
+        {
+          "name": "ECMWF reanalysis",
+          "desc": "欧洲气象中心全球气象再分析资料",
+          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
+          "rating": {
+            "openness": 8,
+            "quality": 10,
+            "scale": 8,
+            "impact": 0,
+            "safety": 7,
+            "ai_readiness": 7,
+            "total_score": 5.95
+          }
+        },
+        {
+          "name": "Sloan Digital Sky Survey",
+          "desc": "斯隆数字天空巡天",
+          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 8,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 7.15
+          }
+        },
+        {
+          "name": "Event Horizon Telescope Observations",
+          "desc": "事件视界望远镜观测数据",
+          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
+          "rating": {
+            "openness": 10,
+            "quality": 0,
+            "scale": 9,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 6.75
+          }
+        }
+      ],
+      "神经科学": [
+        {
+          "name": "Hemibrain Connectome Dataset",
+          "desc": "果蝇半脑连接组图谱",
+          "detail": "高分辨率人类脑结构与功能连接数据",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 7,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.85
+          }
+        },
+        {
+          "name": "HMC Sleep Staging Dataset",
+          "desc": "五分类睡眠分期脑电数据集",
+          "detail": "提供多尺度脑区基因表达与解剖结构信息",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 4,
+            "impact": 4,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.45
+          }
+        },
+        {
+          "name": "BOLD5000",
+          "desc": "一个大规模、慢速事件相关的fMRI数据集",
+          "detail": "基于高通道电极的神经元放电记录数据",
+          "rating": {
+            "openness": 9,
+            "quality": 9,
+            "scale": 5,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.35
+          }
+        },
+        {
+          "name": "RSNA Intracranial Hemorrhage Detection",
+          "desc": "RSNA颅内出血检测/分类数据集",
+          "detail": "基于高通道电极的神经元放电记录数据",
+          "rating": {
+            "openness": 0,
+            "quality": 0,
+            "scale": 5,
+            "impact": 6,
+            "safety": 10,
+            "ai_readiness": 4,
+            "total_score": 4.3
+          }
+        },
+        {
+          "name": "APT-36K",
+          "desc": "用于动物姿态估计与跟踪的大规模基准数据集",
+          "detail": "基于高通道电极的神经元放电记录数据",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 4,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 9,
+            "total_score": 5.55
+          }
+        }
+      ],
+      "生命科学": [
+        {
+          "name": "AlphaFold Protein Structure Database",
+          "desc": "AlphaFold数据库",
+          "detail": "全球最大的核酸序列存储与共享数据库之一",
+          "rating": {
+            "openness": 8,
+            "quality": 10,
+            "scale": 7,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 6.95
+          }
+        },
+        {
+          "name": "STRING — Search Tool for the Retrieval of Interacting Genes/Proteins",
+          "desc": "STRING蛋白交互网络数据库",
+          "detail": "提供高质量的蛋白质序列、功能与结构注释信息",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 5,
+            "impact": 8,
+            "safety": 7,
+            "ai_readiness": 5,
+            "total_score": 6.55
+          }
+        },
+        {
+          "name": "Universal Protein Resource",
+          "desc": "蛋白质统一资源库",
+          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "rating": {
+            "openness": 8,
+            "quality": 10,
+            "scale": 4,
+            "impact": 8,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 6.55
+          }
+        },
+        {
+          "name": "InterPro",
+          "desc": "综合蛋白质家族、结构域和功能位点注释数据库",
+          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "rating": {
+            "openness": 0,
+            "quality": 10,
+            "scale": 6,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 8,
+            "total_score": 6.25
+          }
+        },
+        {
+          "name": "SPICE: Substituted, Polar, Intermolecular, Conformational, and Electronic dataset",
+          "desc": "SPICE分子力场机器学习数据集",
+          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "rating": {
+            "openness": 9,
+            "quality": 9,
+            "scale": 4,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 8,
+            "total_score": 6.45
+          }
+        }
+      ]
+    };
+
+    function toFileName(name) {
+      return `${name.replace(/\\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
+    }
+
+    function formatScore(value) {
+      if (!Number.isFinite(value)) return "-";
+      const text = value.toFixed(2);
+      return text.replace(/\\.00$/, ".0").replace(/(\\.\\d)0$/, "$1");
+    }
+
+    const grid = document.getElementById("rankGrid");
+    Object.entries(DATASETS).forEach(([subject, datasets]) => {
+      const items = [...datasets].sort((a, b) => {
+        const scoreA = a.rating?.total_score ?? 0;
+        const scoreB = b.rating?.total_score ?? 0;
+        return scoreB - scoreA;
+      });
+      const card = document.createElement("div");
+      card.className = "rank-card";
+      card.innerHTML = `
+        <div class="rank-card-header">
+          <span>📊 ${subject}榜单</span>
+          <span>综合分</span>
+        </div>
+        <div class="rank-list"></div>
+        <div class="rank-footer">
+          <a href="data_ranks/${subject === "地球科学" ? "earth_science" : subject === "神经科学" ? "neuroscience" : "life_science"}.html">查看完整榜单 →</a>
+        </div>
+      `;
+      const list = card.querySelector(".rank-list");
+      items.forEach((item, idx) => {
+        const fileName = toFileName(item.name);
+        const row = document.createElement("div");
+        row.className = "rank-item";
+        row.innerHTML = `
+          <div class="rank-badge">${idx + 1}</div>
+          <a class="rank-name" href="dataset_detail.html?name=${encodeURIComponent(item.name)}&file=${encodeURIComponent(fileName)}">${item.name}</a>
+          <div class="rank-score">
+            ${formatScore(item.rating?.total_score)}
+            <small>综合分</small>
+          </div>
+        `;
+        list.appendChild(row);
+      });
+      grid.appendChild(card);
+    });
+  </script>
 </body>
 </html>

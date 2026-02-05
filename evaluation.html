@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SciDataIndex · 评价说明</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
+
+    :root {
+      --bg: #f6f8fb;
+      --text-0: #111827;
+      --text-1: #5b6b89;
+      --card: #ffffff;
+      --stroke: #e3e9f2;
+      --accent: #2c4a8a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
+      color: var(--text-0);
+      background: var(--bg);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 40px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--stroke);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--accent);
+    }
+
+    .brand-logo {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #6bf6ff, #1aa7ff 60%, #0a3476 100%);
+      box-shadow: 0 0 18px rgba(83, 211, 255, 0.4);
+    }
+
+    .nav a {
+      color: var(--text-1);
+      text-decoration: none;
+      font-size: 14px;
+      margin-left: 16px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .header h1 {
+      margin: 0 0 10px;
+      font-size: clamp(26px, 4vw, 38px);
+    }
+
+    .header p {
+      margin: 0;
+      color: var(--text-1);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      border-radius: 14px;
+      padding: 18px;
+      min-height: 180px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 16px;
+      color: var(--accent);
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--text-1);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <span class="brand-logo"></span>
+      SciDataIndex
+    </div>
+    <div>
+      <a href="index.html">首页</a>
+      <a href="about.html">关于我们</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="header">
+      <h1>评价说明</h1>
+      <p>六大评分维度的定义、范围与评估标准（内容由你补充）</p>
+    </div>
+
+    <section class="grid">
+      <article class="card">
+        <h3>开放性</h3>
+        <p>在此填写开放性维度的意义、评分标准与参考指标。</p>
+      </article>
+      <article class="card">
+        <h3>数据规模</h3>
+        <p>在此填写数据规模维度的意义、评分标准与参考指标。</p>
+      </article>
+      <article class="card">
+        <h3>影响力</h3>
+        <p>在此填写影响力维度的意义、评分标准与参考指标。</p>
+      </article>
+      <article class="card">
+        <h3>安全性</h3>
+        <p>在此填写安全性维度的意义、评分标准与参考指标。</p>
+      </article>
+      <article class="card">
+        <h3>AI 就绪度</h3>
+        <p>在此填写 AI 就绪度维度的意义、评分标准与参考指标。</p>
+      </article>
+      <article class="card">
+        <h3>数据质量</h3>
+        <p>在此填写数据质量维度的意义、评分标准与参考指标。</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

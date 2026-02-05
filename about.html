@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SciDataIndex · 关于我们</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
+
+    :root {
+      --bg: #f6f8fb;
+      --text-0: #111827;
+      --text-1: #5b6b89;
+      --card: #ffffff;
+      --stroke: #e3e9f2;
+      --accent: #2c4a8a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
+      color: var(--text-0);
+      background: var(--bg);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 40px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--stroke);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--accent);
+    }
+
+    .brand-logo {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #6bf6ff, #1aa7ff 60%, #0a3476 100%);
+      box-shadow: 0 0 18px rgba(83, 211, 255, 0.4);
+    }
+
+    .nav a {
+      color: var(--text-1);
+      text-decoration: none;
+      font-size: 14px;
+      margin-left: 16px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 12px 26px rgba(15, 23, 42, 0.06);
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(26px, 4vw, 38px);
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--text-1);
+      line-height: 1.7;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      border-radius: 14px;
+      padding: 18px;
+      min-height: 160px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      color: var(--accent);
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--text-1);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <span class="brand-logo"></span>
+      SciDataIndex
+    </div>
+    <div>
+      <a href="index.html">首页</a>
+      <a href="evaluation.html">评价说明</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>关于我们</h1>
+      <p>在此填写平台背景、使命愿景、团队介绍与合作伙伴信息。</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>平台愿景</h3>
+        <p>填写平台愿景与长期目标描述。</p>
+      </article>
+      <article class="card">
+        <h3>核心团队</h3>
+        <p>填写团队背景、组织结构与关键成员信息。</p>
+      </article>
+      <article class="card">
+        <h3>合作伙伴</h3>
+        <p>填写合作机构、实验室或产业伙伴信息。</p>
+      </article>
+      <article class="card">
+        <h3>联系我们</h3>
+        <p>填写联系方式、邮箱、地址或表单入口。</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
