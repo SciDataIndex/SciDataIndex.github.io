@@ -151,6 +151,8 @@
 
     .dataset-name {
       font-weight: 600;
+      color: var(--text-0);
+      text-decoration: none;
     }
 
     .dataset-desc {
@@ -332,6 +334,10 @@
       return text.replace(/\.00$/, ".0").replace(/(\.\d)0$/, "$1");
     }
 
+    function toFileName(name) {
+      return `${name.replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
+    }
+
     function clampPercent(value) {
       if (!Number.isFinite(value)) return 0;
       return Math.max(0, Math.min(100, value * 10));
@@ -351,10 +357,11 @@
       const aiReady = ds.rating?.ai_readiness;
       const row = document.createElement("div");
       row.className = "board-row";
+      const fileName = toFileName(ds.name);
       row.innerHTML = `
         <div class="rank">${String(index + 1).padStart(2, "0")}</div>
         <div>
-          <div class="dataset-name">${ds.name}</div>
+          <a class="dataset-name" href="../dataset_detail.html?name=${encodeURIComponent(ds.name)}&file=${encodeURIComponent(fileName)}">${ds.name}</a>
           <div class="dataset-desc">${ds.desc}</div>
         </div>
         <div>${TOPIC}</div>
