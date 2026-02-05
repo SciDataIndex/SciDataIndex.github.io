@@ -109,12 +109,13 @@
       flex-wrap: wrap;
     }
 
-    .pill {
+    .meta-badge {
       padding: 6px 14px;
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid var(--stroke);
       font-size: 12px;
+      color: var(--text-1);
     }
 
     .btn {
@@ -156,19 +157,44 @@
       font-size: 18px;
     }
 
+    .tab-bar {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      margin-bottom: 20px;
+    }
+
+    .tab-btn {
+      border: none;
+      background: transparent;
+      color: var(--text-1);
+      padding: 10px 4px 12px;
+      font-size: 14px;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+    }
+
+    .tab-btn.active {
+      color: var(--glow);
+      border-bottom-color: var(--glow);
+    }
+
     .detail-list {
       display: grid;
       gap: 14px;
     }
 
     .detail-item {
-      padding-bottom: 12px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 16px 16px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
 
-    .detail-item:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
+    .detail-item strong {
+      display: block;
+      font-size: 14px;
     }
 
     .detail-item span {
@@ -176,12 +202,40 @@
       color: var(--text-1);
       font-size: 13px;
       margin-top: 6px;
+      line-height: 1.6;
+      word-break: break-all;
     }
 
     .radar-wrap {
       display: grid;
       gap: 16px;
       align-content: start;
+    }
+
+    .fixed-panel {
+      height: 520px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .scroll-panel {
+      flex: 1;
+      overflow: auto;
+      padding-right: 6px;
+    }
+
+    .scroll-panel::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .scroll-panel::-webkit-scrollbar-thumb {
+      background: rgba(107, 220, 255, 0.35);
+      border-radius: 999px;
+    }
+
+    .scroll-panel::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 999px;
     }
 
     canvas {
@@ -206,6 +260,14 @@
       .hero {
         margin: 20px 16px;
       }
+
+      .fixed-panel {
+        height: auto;
+      }
+
+      .scroll-panel {
+        overflow: visible;
+      }
     }
   </style>
 </head>
@@ -227,23 +289,26 @@
       <p id="datasetBrief">这里展示数据集简介。</p>
       <div class="hero-actions">
         <a class="btn" id="officialLink" href="#" target="_blank" rel="noreferrer">官方链接</a>
-        <a class="btn ghost" href="index.html">返回首页</a>
-        <span class="pill" id="tagCharging">收费模式</span>
-        <span class="pill" id="tagAccess">访问限制</span>
+        <span class="meta-badge" id="tagCategory">所属类别</span>
       </div>
     </div>
   </section>
 
   <main class="content">
-    <section class="card">
+    <section class="card fixed-panel">
       <h3>数据集信息</h3>
-      <div class="detail-list" id="detailList"></div>
+      <div class="tab-bar" id="tabBar"></div>
+      <div class="scroll-panel">
+        <div class="detail-list" id="detailList"></div>
+      </div>
     </section>
 
-    <section class="card radar-wrap">
+    <section class="card radar-wrap fixed-panel">
       <h3>综合评分雷达图</h3>
-      <canvas id="radarCanvas" width="420" height="380"></canvas>
-      <div class="notice" id="scoreNotice">评分维度：开放性 / 规模 / 影响力 / 安全性 / AI 就绪度 / 数据质量</div>
+      <div class="scroll-panel">
+        <canvas id="radarCanvas" width="420" height="380"></canvas>
+        <div class="notice" id="scoreNotice">评分维度：开放性 / 规模 / 影响力 / 安全性 / AI 就绪度 / 数据质量</div>
+      </div>
     </section>
   </main>
 
@@ -265,15 +330,15 @@
     const titleEl = document.getElementById("datasetTitle");
     const briefEl = document.getElementById("datasetBrief");
     const officialLink = document.getElementById("officialLink");
-    const tagCharging = document.getElementById("tagCharging");
-    const tagAccess = document.getElementById("tagAccess");
+    const tagCategory = document.getElementById("tagCategory");
+    const tabBar = document.getElementById("tabBar");
 
     function addDetail(title, content, link) {
       const item = document.createElement("div");
       item.className = "detail-item";
       item.innerHTML = `
         <strong>${title}</strong>
-        <span>${content || "-"}</span>
+        <span>${content || "待填写"}</span>
         ${link ? `<span><a href="${link}" target="_blank" rel="noreferrer">${link}</a></span>` : ""}
       `;
       detailList.appendChild(item);
@@ -339,6 +404,72 @@
       ctx.stroke();
     }
 
+    function renderTab(name, label, data) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "tab-btn";
+      btn.textContent = label;
+      btn.dataset.tab = name;
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tab-btn").forEach(el => el.classList.remove("active"));
+        btn.classList.add("active");
+        detailList.innerHTML = "";
+        data();
+      });
+      tabBar.appendChild(btn);
+      return btn;
+    }
+
+    function buildTabs(data) {
+      tabBar.innerHTML = "";
+      detailList.innerHTML = "";
+
+      const opennessTab = renderTab("openness", "开放性", () => {
+        addDetail("许可证类型", data?.openness?.license_type);
+        addDetail("许可证来源链接", data?.openness?.license_source_link);
+        addDetail("收费模式", data?.openness?.charging_mode);
+        addDetail("访问限制", data?.openness?.access_restrictions);
+        addDetail("申请难度", data?.openness?.application_difficulty);
+      });
+
+      renderTab("scale", "数据集规模", () => {
+        addDetail("数据体量", data?.data_scale?.data_volume);
+        addDetail("数据体量来源", data?.data_scale?.source_of_data_volume);
+        addDetail("是否人工估算", data?.data_scale?.estimated_manually);
+      });
+
+      renderTab("impact", "影响力", () => {
+        addDetail("引用与论文", data?.impact?.paper_link);
+        addDetail("引用量/被引", data?.impact?.paper_citations);
+        addDetail("相关论文数", data?.impact?.google_scholar_related_papers);
+        addDetail("下载或用户量", data?.impact?.download_volume_or_user_count);
+        addDetail("下游模型使用", data?.impact?.models_using_this_dataset);
+      });
+
+      renderTab("safety", "安全性", () => {
+        addDetail("管控级别", data?.safety?.control_level);
+        addDetail("可追溯性", data?.safety?.traceability);
+        addDetail("合规与风险", "");
+      });
+
+      renderTab("ai", "AI 就绪度", () => {
+        addDetail("标注密度", data?.AI_readiness?.annotation_density);
+        addDetail("预处理程度", data?.AI_readiness?.preprocessing_level);
+        addDetail("格式一致性", data?.AI_readiness?.format_consistency);
+        addDetail("可用性补充", "");
+      });
+
+      renderTab("quality", "数据质量", () => {
+        addDetail("完整性", data?.data_quality?.integrity);
+        addDetail("首次发布", data?.data_quality?.first_release_date);
+        addDetail("最近更新", data?.data_quality?.last_update_date);
+        addDetail("来源链接", data?.data_quality?.source_link);
+      });
+
+      opennessTab.classList.add("active");
+      opennessTab.click();
+    }
+
     async function loadDataset() {
       try {
         const res = await fetch(filePath);
@@ -349,24 +480,9 @@
         briefEl.textContent = data.intro?.brief_description || "暂无简介";
         officialLink.href = data.intro?.official_link || "#";
         officialLink.textContent = data.intro?.official_link ? "官方链接" : "暂无链接";
+        tagCategory.textContent = getParam("category") || "所属类别未知";
 
-        tagCharging.textContent = data.openness?.charging_mode || "收费模式未知";
-        tagAccess.textContent = data.openness?.access_restrictions || "访问限制未知";
-
-        detailList.innerHTML = "";
-        addDetail("数据集简介", data.intro?.detailed_description);
-        addDetail("许可证类型", data.openness?.license_type);
-        addDetail("许可证来源", data.openness?.license_source_link, data.openness?.license_source_link);
-        addDetail("申请难度", data.openness?.application_difficulty);
-        addDetail("数据规模", data.data_scale?.data_volume);
-        addDetail("影响力数据", data.impact?.google_scholar_related_papers);
-        addDetail("引用/下载信息", data.impact?.download_volume_or_user_count);
-        addDetail("安全性", data.safety?.control_level);
-        addDetail("可追溯性", data.safety?.traceability);
-        addDetail("AI 就绪度", data.AI_readiness?.preprocessing_level);
-        addDetail("数据质量", data.data_quality?.integrity);
-        addDetail("首次发布", data.data_quality?.first_release_date);
-        addDetail("最近更新", data.data_quality?.last_update_date);
+        buildTabs(data);
 
         const scores = [
           getScore(data, "openness"),
@@ -381,6 +497,7 @@
       } catch (err) {
         titleEl.textContent = "数据集文件未找到";
         briefEl.textContent = "请确认 data_json 目录下存在对应的数据集 JSON 文件。";
+        buildTabs(null);
         detailList.innerHTML = "";
         addDetail("加载错误", `无法加载 ${filePath}`);
         drawRadar([0, 0, 0, 0, 0, 0]);
