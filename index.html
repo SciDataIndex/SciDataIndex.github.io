@@ -727,7 +727,7 @@
         </div>
         <div class="rank-list"></div>
         <div class="rank-footer">
-          <a href="data_ranks/${subject === "地球科学" ? "earth_science" : subject === "神经科学" ? "neuroscience" : "life_science"}.html">查看完整榜单 →</a>
+          <a href="data_ranks/${subject === "地球科学" ? "earth_science" : subject === "神经科学" ? "neuro_science" : "life_science"}.html">查看完整榜单 →</a>
         </div>
       `;
       const list = card.querySelector(".rank-list");
@@ -737,11 +737,18 @@
         row.className = "rank-item";
         const badgeClass = idx === 0 ? "gold" : idx === 1 ? "silver" : idx === 2 ? "bronze" : "";
         const medalIcon = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : "";
+        const categoryParam = subject === "地球科学"
+          ? "earth_science"
+          : subject === "神经科学"
+            ? "neuro_science"
+            : subject === "生命科学"
+              ? "life_science"
+              : "";
         row.innerHTML = `
           <div class="rank-badge ${badgeClass}">
             ${medalIcon || (idx + 1)}
           </div>
-          <a class="rank-name" href="dataset_detail.html?name=${encodeURIComponent(item.name)}&file=${encodeURIComponent(fileName)}">${item.name}</a>
+          <a class="rank-name" href="dataset_detail.html?name=${encodeURIComponent(item.name)}&file=${encodeURIComponent(fileName)}&category=${encodeURIComponent(categoryParam)}">${item.name}</a>
           <div class="rank-score">
             ${formatScore(item.rating?.total_score)}
             <small>综合分</small>
