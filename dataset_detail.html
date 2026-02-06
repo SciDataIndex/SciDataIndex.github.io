@@ -588,6 +588,7 @@
           getScore(scoreSource, "ai_readiness"),
           getScore(scoreSource, "quality")
         ];
+        console.log("加载的评分数据:", scores);
         const safeScores = scores.map(score => (Number.isFinite(score) ? score : 0));
         drawRadar(safeScores);
       } catch (err) {
