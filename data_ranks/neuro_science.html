@@ -60,6 +60,12 @@
       box-shadow: 0 0 20px rgba(83, 211, 255, 0.55);
     }
 
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
     .nav-links {
       display: flex;
       gap: 22px;
@@ -221,16 +227,18 @@
 </head>
 <body>
   <header class="nav">
-    <div class="brand">
-      <span class="brand-logo"></span>
-      SciDataIndex
+    <div class="nav-left">
+      <div class="brand">
+        <span class="brand-logo"></span>
+        SciDataIndex
+      </div>
+      <nav class="nav-links">
+        <a href="../index.html">首页</a>
+        <a href="earth_science.html">地球科学</a>
+        <a href="neuro_science.html">神经科学</a>
+        <a href="life_science.html">生命科学</a>
+      </nav>
     </div>
-    <nav class="nav-links">
-      <a href="../index.html">首页</a>
-      <a href="earth_science.html">地球科学</a>
-      <a href="neuro_science.html">神经科学</a>
-      <a href="life_science.html">生命科学</a>
-    </nav>
   </header>
 
   <main class="container">
@@ -250,11 +258,11 @@
       <div class="board-head">
         <div>排名</div>
         <div>数据集</div>
+        <div>AI 就绪度</div>
         <div>开放性</div>
         <div>规模</div>
         <div>影响力</div>
         <div>安全性</div>
-        <div>AI 就绪度</div>
         <div>数据质量</div>
         <div>综合评分</div>
       </div>
@@ -379,11 +387,11 @@
           <a class="dataset-name" href="../dataset_detail.html?name=${encodeURIComponent(ds.name)}&file=${encodeURIComponent(fileName)}&category=neuro_science">${ds.name}</a>
           <div class="dataset-desc">${ds.desc}</div>
         </div>
+        <div>${formatScore(aiReady)}</div>
         <div>${formatScore(openness)}</div>
         <div>${formatScore(scale)}</div>
         <div>${formatScore(impact)}</div>
         <div>${formatScore(safety)}</div>
-        <div>${formatScore(aiReady)}</div>
         <div>${formatScore(quality)}</div>
         <div>
           <div class="score">${formatScore(total)}</div>

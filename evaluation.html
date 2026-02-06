@@ -30,10 +30,21 @@
     .nav {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       padding: 18px 40px;
       background: #ffffff;
       border-bottom: 1px solid var(--stroke);
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
     }
 
     .brand {
@@ -57,7 +68,6 @@
       color: var(--text-1);
       text-decoration: none;
       font-size: 14px;
-      margin-left: 16px;
     }
 
     .container {
@@ -288,9 +298,15 @@
       <span class="brand-logo"></span>
       SciDataIndex
     </div>
-    <div>
-      <a href="index.html">首页</a>
-      <a href="about.html">关于我们</a>
+    <div class="nav-left">
+      <div class="brand">
+        <span class="brand-logo"></span>
+        SciDataIndex
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我们</a>
+      </nav>
     </div>
   </header>
 
