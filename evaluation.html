@@ -81,6 +81,10 @@
       color: var(--text-1);
     }
 
+    .header.secondary {
+      margin-top: 60px;
+    }
+
     .section {
       background: var(--card);
       border: 1px solid var(--stroke);
@@ -211,15 +215,58 @@
       align-items: start;
     }
 
-    .roadmap-placeholder {
-      height: 220px;
-      border-radius: 14px;
-      border: 1px dashed #c9d4ea;
+    .roadmap-figure {
+      width: 100%;
+      margin: 18px 0 22px;
+    }
+
+    .roadmap-figure img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+      border: 1px solid var(--stroke);
       background: #f4f7fd;
+    }
+
+    .milestone-list {
+      list-style: none;
+      padding: 0;
+      margin: 3px 0 0;
       display: grid;
-      place-items: center;
-      color: #6b7c99;
+      gap: 10px;
+    }
+
+    .milestone-item {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 10px;
+      align-items: start;
       font-size: 13px;
+      color: var(--text-1);
+      line-height: 1.7;
+      padding: 10px 0;
+      border-bottom: 1px dashed #d7deea;
+    }
+
+    .milestone-item:last-child {
+      border-bottom: none;
+    }
+
+    .milestone-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #6bdcff, #2ee6c9);
+      margin-top: 6px;
+      box-shadow: 0 0 8px rgba(46, 230, 201, 0.35);
+    }
+
+    .milestone-item strong {
+      color: var(--text-0);
+      font-weight: 600;
+      display: block;
+      margin-bottom: 4px;
     }
 
     @media (max-width: 980px) {
@@ -477,17 +524,45 @@
       </div>
     </section>
 
+    <div class="header secondary">
+      <h1>技术路线</h1>
+      <p>技术路线图与简要说明</p>
+    </div>
+
     <section class="section">
       <div class="section-title">
         <h2>技术路线</h2>
         <span class="section-tag">Roadmap</span>
       </div>
-      <div class="roadmap">
-        <div class="roadmap-placeholder">在此放置技术路线图</div>
-        <div class="info-block">
-          <div><strong>路线说明：</strong>在此填写技术路线的简要说明。</div>
-          <div><strong>阶段目标：</strong>在此填写关键阶段与里程碑描述。</div>
-        </div>
+      <div class="roadmap-figure">
+        <img src="images/technical_approach.png" alt="技术路线图" />
+      </div>
+      <div class="info-block">
+        <div><strong>路线说明：</strong>SciDataIndex 采用“广域发现—智能评价—任务驱动应用”三阶段技术路线。系统首先通过跨学科广域搜索获取潜在科学数据线索，并结合科研需求筛选高质量数据资源；随后基于多维指标对数据集进行分类分级与综合评估，构建统一的数据知识库；最终通过意图解析与任务匹配技术，实现面向科学问题的数据整合与智能推荐，为科研分析与模型建模提供精准数据支撑。</div>
+        <div><strong>阶段目标：</strong></div>
+        <ul class="milestone-list">
+          <li class="milestone-item">
+            <span class="milestone-dot"></span>
+            <div>
+              <strong>2025-12</strong>
+              基于白皮书整理科学数据信息，完成初版 SciDataIndex：未知数据在线挖掘、推理驱动的未知数据分类分级、需求引导的数据知识检索生成，并在 ID 平台上线运行。
+            </div>
+          </li>
+          <li class="milestone-item">
+            <span class="milestone-dot"></span>
+            <div>
+              <strong>2026-02</strong>
+              实现科学数据情报自动挖掘与追踪，SciDataIndex 知识库持续迭代。
+            </div>
+          </li>
+          <li class="milestone-item">
+            <span class="milestone-dot"></span>
+            <div>
+              <strong>2026-05</strong>
+              链接 SciDataTools，成为一站式科学数据链接器。
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
