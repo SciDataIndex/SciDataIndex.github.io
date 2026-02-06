@@ -482,38 +482,23 @@
       }
     }
 
-    async function loadScores(mappedName, fallbackName, categoryFromPath) {
+    async function loadScores(mappedName, fallbackName, category) {
+      if (!category) return null;
       const mappedFile = toFileName(mappedName).replace("_ratings1.json", "_scores.json");
       const fallbackFile = toFileName(fallbackName).replace("_ratings1.json", "_scores.json");
-      const candidates = [];
-
-      if (categoryFromPath) {
-        candidates.push(`${scoreRoot}/${categoryFromPath}/${mappedFile}`);
-        if (fallbackFile !== mappedFile) {
-          candidates.push(`${scoreRoot}/${categoryFromPath}/${fallbackFile}`);
-        }
-      }
-
-      candidates.push(`${scoreRoot}/${mappedFile}`);
+      const candidates = [
+        `${scoreRoot}/${category}/${mappedFile}`
+      ];
       if (fallbackFile !== mappedFile) {
-        candidates.push(`${scoreRoot}/${fallbackFile}`);
+        candidates.push(`${scoreRoot}/${category}/${fallbackFile}`);
       }
-
-      ["earth_science", "neuro_science", "life_science"].forEach(folder => {
-        candidates.push(`${scoreRoot}/${folder}/${mappedFile}`);
-        if (fallbackFile !== mappedFile) {
-          candidates.push(`${scoreRoot}/${folder}/${fallbackFile}`);
-        }
-      });
 
       for (const path of candidates) {
         console.log(`尝试加载评分数据文件: ${path}`);
         const res = await fetch(path);
         if (res.ok) {
           const data = await res.json();
-          if (data && data.scores) {
-            return data.scores;
-          }
+          if (data && data.scores) return data.scores;
         }
       }
       return null;
@@ -522,28 +507,17 @@
     async function loadDataset() {
       try {
         const mappedName = await resolveDatasetName();
+        if (!categoryParam) {
+          throw new Error("missing category");
+        }
         const mappedFile = toFileName(mappedName);
         const fallbackFile = fileParam || toFileName(datasetName);
-        const candidates = [];
-
-        if (categoryParam) {
-          candidates.push(`data_json/${categoryParam}/${mappedFile}`);
-          if (fallbackFile !== mappedFile) {
-            candidates.push(`data_json/${categoryParam}/${fallbackFile}`);
-          }
-        }
-
-        candidates.push(`data_json/${mappedFile}`);
+        const candidates = [
+          `data_json/${categoryParam}/${mappedFile}`
+        ];
         if (fallbackFile !== mappedFile) {
-          candidates.push(`data_json/${fallbackFile}`);
+          candidates.push(`data_json/${categoryParam}/${fallbackFile}`);
         }
-
-        ["earth_science", "neuro_science", "life_science"].forEach(folder => {
-          candidates.push(`data_json/${folder}/${mappedFile}`);
-          if (fallbackFile !== mappedFile) {
-            candidates.push(`data_json/${folder}/${fallbackFile}`);
-          }
-        });
 
         let data = null;
         let loadedPath = null;
@@ -560,27 +534,19 @@
 
         titleEl.textContent = data.dataset || datasetName;
         briefEl.textContent = data.intro?.brief_description || "暂无简介";
-        let categoryFromPath = "";
-        if (loadedPath) {
-          if (loadedPath.includes("/earth_science/")) {
-            tagCategory.textContent = "地球科学";
-            categoryFromPath = "earth_science";
-          } else if (loadedPath.includes("/neuro_science/")) {
-            tagCategory.textContent = "神经科学";
-            categoryFromPath = "neuro_science";
-          } else if (loadedPath.includes("/life_science/")) {
-            tagCategory.textContent = "生命科学";
-            categoryFromPath = "life_science";
-          } else {
-            tagCategory.textContent = "所属类别未知";
-          }
+        if (categoryParam === "earth_science") {
+          tagCategory.textContent = "地球科学";
+        } else if (categoryParam === "neuro_science") {
+          tagCategory.textContent = "神经科学";
+        } else if (categoryParam === "life_science") {
+          tagCategory.textContent = "生命科学";
         } else {
           tagCategory.textContent = "所属类别未知";
         }
 
         buildTabs(data);
 
-        const scoreData = await loadScores(mappedName, datasetName, categoryFromPath);
+        const scoreData = await loadScores(mappedName, datasetName, categoryParam);
         console.log("加载的评分数据对象:", scoreData);
         const scoreSource = scoreData || data;
         const scores = [
@@ -599,7 +565,7 @@
         briefEl.textContent = "请确认 data_json 目录下存在对应的数据集 JSON 文件。";
         buildTabs(null);
         detailList.innerHTML = "";
-        addDetail("加载错误", "无法加载匹配的数据集文件，请检查映射表与文件路径。");
+        addDetail("加载错误", "无法加载匹配的数据集文件，请检查映射表、category 参数与文件路径。");
         drawRadar([0, 0, 0, 0, 0, 0]);
       }
     }
