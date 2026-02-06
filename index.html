@@ -462,6 +462,7 @@
       <a class="btn secondary" href="data_ranks/earth_science.html">地球科学</a>
       <a class="btn secondary" href="data_ranks/neuro_science.html">神经科学</a>
       <a class="btn secondary" href="data_ranks/life_science.html">生命科学</a>
+      <a class="btn secondary" href="data_ranks/material_science.html">物质科学</a>
     </div>
     <div class="earth-glow"></div>
   </main>
@@ -691,6 +692,73 @@
             "total_score": 6.45
           }
         }
+      ],
+      "物质科学": [
+        {
+          "name": "Buchwald-Hartwig couplings",
+          "desc": "以主动学习为核心的钯催化 C–N 偶联反应条件与产率数据集。",
+          "rating": {
+            "openness": 0,
+            "quality": 9,
+            "scale": 2,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 8,
+            "total_score": 3.95
+          }
+        },
+        {
+          "name": "C-N cross-coupling",
+          "desc": "高通量 C–N 偶联反应数据，用于预测催化剂耐受性与机制分析。",
+          "rating": {
+            "openness": 0,
+            "quality": 10,
+            "scale": 2,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 10,
+            "total_score": 4.45
+          }
+        },
+        {
+          "name": "MoleculeNet",
+          "desc": "分子机器学习的大规模基准与模型评测集合。",
+          "rating": {
+            "openness": 0,
+            "quality": 0,
+            "scale": 3,
+            "impact": 4,
+            "safety": 7,
+            "ai_readiness": 3,
+            "total_score": 2.85
+          }
+        },
+        {
+          "name": "Open-catalyst-project",
+          "desc": "Open Catalyst Project 挑战赛结构与能量/力标签数据集。",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 6,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.55
+          }
+        },
+        {
+          "name": "SPICE-2.0.1",
+          "desc": "含 1.1M 分子 DFT 计算能量与受力结果的分子力场数据集。",
+          "rating": {
+            "openness": 9,
+            "quality": 9,
+            "scale": 7,
+            "impact": 0,
+            "safety": 7,
+            "ai_readiness": 7,
+            "total_score": 5.65
+          }
+        }
       ]
     };
 
@@ -708,7 +776,8 @@
     const SUBJECT_ICONS = {
       "地球科学": "🌍",
       "神经科学": "🧠",
-      "生命科学": "🧬"
+      "生命科学": "🧬",
+      "物质科学": "🧪"
     };
 
     Object.entries(DATASETS).forEach(([subject, datasets]) => {
@@ -720,6 +789,15 @@
       const card = document.createElement("div");
       card.className = "rank-card";
       const icon = SUBJECT_ICONS[subject] || "📊";
+      const subjectSlug = subject === "地球科学"
+        ? "earth_science"
+        : subject === "神经科学"
+          ? "neuro_science"
+          : subject === "生命科学"
+            ? "life_science"
+            : subject === "物质科学"
+              ? "material_science"
+              : "";
       card.innerHTML = `
         <div class="rank-card-header">
           <span>${icon} ${subject}榜单</span>
@@ -727,7 +805,7 @@
         </div>
         <div class="rank-list"></div>
         <div class="rank-footer">
-          <a href="data_ranks/${subject === "地球科学" ? "earth_science" : subject === "神经科学" ? "neuro_science" : "life_science"}.html">查看完整榜单 →</a>
+          <a href="data_ranks/${subjectSlug || "earth_science"}.html">查看完整榜单 →</a>
         </div>
       `;
       const list = card.querySelector(".rank-list");
@@ -737,13 +815,7 @@
         row.className = "rank-item";
         const badgeClass = idx === 0 ? "gold" : idx === 1 ? "silver" : idx === 2 ? "bronze" : "";
         const medalIcon = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : "";
-        const categoryParam = subject === "地球科学"
-          ? "earth_science"
-          : subject === "神经科学"
-            ? "neuro_science"
-            : subject === "生命科学"
-              ? "life_science"
-              : "";
+        const categoryParam = subjectSlug;
         // console.log("index:", categoryParam);
         row.innerHTML = `
           <div class="rank-badge ${badgeClass}">

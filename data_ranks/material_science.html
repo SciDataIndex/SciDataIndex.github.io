@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SciDataIndex · 物质科学数据榜单</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
+
+    :root {
+      --bg-0: #02061a;
+      --bg-1: #061338;
+      --bg-2: #0a1f4f;
+      --accent: #2ee6c9;
+      --glow: #6bdcff;
+      --text-0: #e9f2ff;
+      --text-1: #b6c7e6;
+      --card: rgba(12, 27, 69, 0.7);
+      --stroke: rgba(255, 255, 255, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
+      color: var(--text-0);
+      background: radial-gradient(900px 450px at 20% 20%, #183ea4 0%, transparent 60%),
+        radial-gradient(900px 520px at 80% 20%, #0c1a45 0%, transparent 70%),
+        linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 50%, var(--bg-0) 100%);
+      min-height: 100vh;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 48px;
+      background: rgba(3, 9, 32, 0.7);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--glow);
+    }
+
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #6bf6ff, #1aa7ff 60%, #0a3476 100%);
+      box-shadow: 0 0 20px rgba(83, 211, 255, 0.55);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 22px;
+      font-size: 14px;
+      color: var(--text-1);
+    }
+
+    .nav-links a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .title-block h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 40px);
+    }
+
+    .title-block p {
+      margin: 0;
+      color: var(--text-1);
+      font-size: 15px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .filter-chip {
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(255, 255, 255, 0.06);
+      font-size: 13px;
+      color: var(--text-1);
+    }
+
+    .board {
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      overflow: hidden;
+      background: var(--card);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .board-head,
+    .board-row {
+      display: grid;
+      grid-template-columns: 80px 1.6fr repeat(6, 90px) 120px;
+      gap: 12px;
+      padding: 16px 20px;
+      align-items: center;
+    }
+
+    .board-head {
+      background: rgba(12, 22, 56, 0.9);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #8ea5d7;
+    }
+
+    .board-row {
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 15px;
+    }
+
+    .rank {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .dataset-name {
+      font-weight: 600;
+      color: var(--text-0);
+      text-decoration: none;
+    }
+
+    .dataset-desc {
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--text-1);
+    }
+
+    .score {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .score-bar {
+      height: 6px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      margin-top: 6px;
+    }
+
+    .score-bar span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, #6bf6ff, #2ee6c9);
+    }
+
+    .back-link {
+      margin-top: 28px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-0);
+      text-decoration: none;
+      border: 1px solid var(--stroke);
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (max-width: 980px) {
+      .board-head,
+      .board-row {
+        grid-template-columns: 60px 1fr 1fr;
+        gap: 10px;
+      }
+
+      .board-head div:nth-child(3),
+      .board-head div:nth-child(4),
+      .board-head div:nth-child(5),
+      .board-head div:nth-child(6),
+      .board-head div:nth-child(7),
+      .board-head div:nth-child(8),
+      .board-head div:nth-child(9),
+      .board-row div:nth-child(3),
+      .board-row div:nth-child(4),
+      .board-row div:nth-child(5),
+      .board-row div:nth-child(6),
+      .board-row div:nth-child(7),
+      .board-row div:nth-child(8),
+      .board-row div:nth-child(9) {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <div class="brand">
+        <span class="brand-logo"></span>
+        SciDataIndex
+      </div>
+      <nav class="nav-links">
+        <a href="../index.html">首页</a>
+        <a href="earth_science.html">地球科学</a>
+        <a href="neuro_science.html">神经科学</a>
+        <a href="life_science.html">生命科学</a>
+        <a href="material_science.html">物质科学</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="header">
+      <div class="title-block">
+        <h1>物质科学数据榜单</h1>
+        <p>聚焦开放性、规模性、影响力与 AI 就绪度的综合评分排名</p>
+      </div>
+      <div class="filters">
+        <div class="filter-chip">2025 年度</div>
+        <div class="filter-chip">综合评分</div>
+        <div class="filter-chip">物质科学</div>
+      </div>
+    </div>
+
+    <section class="board">
+      <div class="board-head">
+        <div>排名</div>
+        <div>数据集</div>
+        <div>AI 就绪度</div>
+        <div>开放性</div>
+        <div>规模</div>
+        <div>影响力</div>
+        <div>安全性</div>
+        <div>数据质量</div>
+        <div>综合评分</div>
+      </div>
+      <div id="boardRows"></div>
+    </section>
+
+    <a class="back-link" href="../index.html">返回 SciDataIndex 首页</a>
+  </main>
+
+  <script>
+    const TOPIC = "物质科学";
+    const DATASETS = [
+      {
+        "name": "Buchwald-Hartwig couplings",
+        "desc": "以主动学习为核心的钯催化 C–N 偶联反应条件与产率数据集。",
+        "rating": {
+          "openness": 0,
+          "quality": 9,
+          "scale": 2,
+          "impact": 2,
+          "safety": 7,
+          "ai_readiness": 8,
+          "total_score": 3.95
+        }
+      },
+      {
+        "name": "C-N cross-coupling",
+        "desc": "高通量 C–N 偶联反应数据，用于预测催化剂耐受性与机制分析。",
+        "rating": {
+          "openness": 0,
+          "quality": 10,
+          "scale": 2,
+          "impact": 2,
+          "safety": 7,
+          "ai_readiness": 10,
+          "total_score": 4.45
+        }
+      },
+      {
+        "name": "MoleculeNet",
+        "desc": "分子机器学习的大规模基准与模型评测集合。",
+        "rating": {
+          "openness": 0,
+          "quality": 0,
+          "scale": 3,
+          "impact": 4,
+          "safety": 7,
+          "ai_readiness": 3,
+          "total_score": 2.85
+        }
+      },
+      {
+        "name": "Open-catalyst-project",
+        "desc": "Open Catalyst Project 挑战赛结构与能量/力标签数据集。",
+        "rating": {
+          "openness": 8,
+          "quality": 9,
+          "scale": 6,
+          "impact": 2,
+          "safety": 7,
+          "ai_readiness": 6,
+          "total_score": 5.55
+        }
+      },
+      {
+        "name": "SPICE-2.0.1",
+        "desc": "含 1.1M 分子 DFT 计算能量与受力结果的分子力场数据集。",
+        "rating": {
+          "openness": 9,
+          "quality": 9,
+          "scale": 7,
+          "impact": 0,
+          "safety": 7,
+          "ai_readiness": 7,
+          "total_score": 5.65
+        }
+      }
+    ];
+
+    function formatScore(value) {
+      if (!Number.isFinite(value)) return "-";
+      const text = value.toFixed(2);
+      return text.replace(/\.00$/, ".0").replace(/(\.\d)0$/, "$1");
+    }
+
+    function toFileName(name) {
+      return `${name.replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
+    }
+
+    function clampPercent(value) {
+      if (!Number.isFinite(value)) return 0;
+      return Math.max(0, Math.min(100, value * 10));
+    }
+
+    const rows = document.getElementById("boardRows");
+    const datasets = [...DATASETS].sort((a, b) => {
+      const scoreA = a.rating?.total_score ?? 0;
+      const scoreB = b.rating?.total_score ?? 0;
+      return scoreB - scoreA;
+    });
+
+    rows.innerHTML = "";
+    datasets.forEach((ds, index) => {
+      const total = ds.rating?.total_score;
+      const openness = ds.rating?.openness;
+      const scale = ds.rating?.scale;
+      const impact = ds.rating?.impact;
+      const safety = ds.rating?.safety;
+      const aiReady = ds.rating?.ai_readiness;
+      const quality = ds.rating?.quality;
+      const row = document.createElement("div");
+      row.className = "board-row";
+      const fileName = toFileName(ds.name);
+      row.innerHTML = `
+        <div class="rank">${String(index + 1).padStart(2, "0")}</div>
+        <div>
+          <a class="dataset-name" href="../dataset_detail.html?name=${encodeURIComponent(ds.name)}&file=${encodeURIComponent(fileName)}&category=material_science">${ds.name}</a>
+          <div class="dataset-desc">${ds.desc}</div>
+        </div>
+        <div>${formatScore(aiReady)}</div>
+        <div>${formatScore(openness)}</div>
+        <div>${formatScore(scale)}</div>
+        <div>${formatScore(impact)}</div>
+        <div>${formatScore(safety)}</div>
+        <div>${formatScore(quality)}</div>
+        <div>
+          <div class="score">${formatScore(total)}</div>
+          <div class="score-bar"><span style="width: ${clampPercent(total)}%;"></span></div>
+        </div>
+      `;
+      rows.appendChild(row);
+    });
+  </script>
+</body>
+</html>
