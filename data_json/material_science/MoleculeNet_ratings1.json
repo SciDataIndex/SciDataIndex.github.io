@@ -1,0 +1,45 @@
+{
+  "dataset": "MoleculeNet",
+  "intro": {
+    "official_link": "https://moleculenet.org/",
+    "brief_description": "MoleculeNet 是分子机器学习的大规模基准。",
+    "detailed_description": "MoleculeNet是一个专门用于测试分子属性机器学习方法的基准平台。为促进分子机器学习方法的发展，本研究整合了多组数据集，并开发了一套包含多种已知特征化方法和已有算法的软件工具。所有方法与数据集均作为开源DeepChem软件包（MIT许可协议）的组成部分集成发布。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://moleculenet.org/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "7GB",
+    "data_volume_mb": "7168.0",
+    "source_of_data_volume": "https://moleculenet.org/?utm_source=chatgpt.com",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.arxiv.org/pdf/1703.00564v1",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "3710.0",
+    "google_scholar_screenshot": "MoleculeNet.png",
+    "download_volume_or_user_count": "6,300星标，1,900复刻",
+    "models_using_this_dataset": "多种模型：传统机器学习（分子指纹+随机森林、XGBoost 等）与图神经网络（GraphConv、Weave、MPNN等）"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2017/03/01",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

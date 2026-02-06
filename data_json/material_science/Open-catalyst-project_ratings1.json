@@ -1,0 +1,45 @@
+{
+  "dataset": "Open-catalyst-project",
+  "intro": {
+    "official_link": "https://opencatalystproject.org/",
+    "brief_description": "Open-catalyst-project challenge比赛数据集，包含structure和energy、force标签",
+    "detailed_description": "Open-catalyst-project challenge比赛数据集，包含structure和energy、force标签"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://ai.meta.com/research/impact/open-catalyst/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3TB",
+    "data_volume_mb": "3145728.0",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://pubs.acs.org/doi/abs/10.1021/acscatal.0c04525https://arxiv.org/abs/2306.12059https://arxiv.org/abs/2204.02782https://www.nature.com/articles/s41524-023-01121-5",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "345.0",
+    "google_scholar_screenshot": "Open-catalyst-project.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "基于图结构的深度学习模型，尤其是图神经网络（GNN）: 最初基线采用CGCNN、SchNet、DimeNet等GNN"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2020/10/14",
+    "source_link": "https://opencatalystproject.org/",
+    "last_update_date": "2023/10/31"
+  }
+}

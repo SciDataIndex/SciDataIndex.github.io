@@ -1,0 +1,13 @@
+{
+  "dataset_name": "SPICE-2.0.1",
+  "scores": {
+    "openness": 9,
+    "quality": 9,
+    "scale": 7,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 7,
+    "total_score": 5.65
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "C-N cross-coupling",
+  "intro": {
+    "official_link": "https://doyle.princeton.edu/wp-content/uploads/2020/07/43-Predicting-Reaction-Performance-in-C-N-Cross-Coupling-Using-Machine-Learning.pdf",
+    "brief_description": "包含钯催化C–N偶联反应的高通量实验数据，用于训练机器学习模型预测催化剂对复杂底物的耐受性，并帮助分析其抑制机制。",
+    "detailed_description": "化学家通常通过将催化剂应用于一系列简单化合物来发现反应。在药物研究中调整这些反应以容忍更多的结构复杂性非常耗时。Ahneman等人报告称，机器学习可以提供帮助。他们使用高通量数据集训练了一种随机森林算法，以预测在 C-N 键形成过程中哪种特定的钯催化剂最能耐受异恶唑（具有 N-O 键的环状结构）。这些预测还有助于指导对催化剂抑制机制的分析。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://docs.open-reaction-database.org/en/latest/overview.html",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "620 MB",
+    "data_volume_mb": "620.0",
+    "source_of_data_volume": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc04074f?utm_source=chatgpt.com",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.science.org/doi/10.1126/science.aar5169",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "539.0",
+    "google_scholar_screenshot": "C-N cross-coupling.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/04/13",
+    "source_link": "https://pubs.rsc.org/en/content/articlelanding/2025/gc/d5gc03438h/unauth",
+    "last_update_date": "2025/09/15"
+  }
+}

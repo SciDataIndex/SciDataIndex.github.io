@@ -1,0 +1,45 @@
+{
+  "dataset": "SPICE-2.0.1",
+  "intro": {
+    "official_link": "https://github.com/openmm/spice-dataset",
+    "brief_description": "SPICE-2.0.1 含有1.1M个类药物和氨基酸小分子DFT( ωB97M-D3(BJ)/def2-TZVPPD)计算能量受力的结果,涵盖15种元素、带点与中性分子、共价作用力与非共价作用力‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+    "detailed_description": "SPICE-2.0.1 含有1.1M个类药物和氨基酸小分子DFT( ωB97M-D3(BJ)/def2-TZVPPD)计算能量受力的结果,涵盖15种元素、带点与中性分子、共价作用力与非共价作用力‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "CC0",
+    "license_source_link": "https://zenodo.org/records/10975225",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "69.1TB",
+    "data_volume_mb": "72456601.6",
+    "source_of_data_volume": "https://zenodo.org/records/10975225",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://www.researchgate.net/publication/366871460_SPICE_A_Dataset_of_Drug-like_Molecules_and_Peptides_for_Training_Machine_Learning_Potentials",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "14.0",
+    "google_scholar_screenshot": "SPICE-2.0.1.png",
+    "download_volume_or_user_count": "921 /月",
+    "models_using_this_dataset": "机器学习势能模型：文献中使用TorchMD-NET实现的等变Transformer网络来拟合能量和力"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2023/01/04",
+    "source_link": "https://github.com/openmm/spice-dataset",
+    "last_update_date": "2024/04/15"
+  }
+}

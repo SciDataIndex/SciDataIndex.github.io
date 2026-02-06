@@ -1,0 +1,45 @@
+{
+  "dataset": "Buchwald-Hartwig couplings",
+  "intro": {
+    "official_link": "https://doyle.princeton.edu/wp-content/uploads/2020/07/43-Predicting-Reaction-Performance-in-C-N-Cross-Coupling-Using-Machine-Learning.pdf",
+    "brief_description": "以主动学习为核心，通过系统化流程设计与实验，深入探索并记录了多样化钯催化C–N偶联反应条件下的底物配对及其产率数据，为神经网络模型在样本外反应中高效预测并筛选高产方案提供了丰富而精准的数据支撑。",
+    "detailed_description": "机器学习方法在加速识别化学转化反应条件方面具有巨大潜力。本文介绍了一种工具，该工具可为钯 (Pd) 催化的碳氮 (C–N) 偶联提供底物自适应条件。该工具的设计和构建需要生成一个实验数据集，该数据集可探索一组反应条件下反应物配对的多样化网络。神经网络模型通过使用系统流程设计实验，主动学习了大量 C–N 偶联。这些模型在实验验证中表现出色：从一系列旨在挑战模型的样本外反应物的偶联中分离出十种产品，产率超过 85%。重要的是，随着数据量的增长，开发的工作流程不断提高工具的预测能力。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://docs.open-reaction-database.org/en/latest/overview.html",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "620 MB",
+    "data_volume_mb": "620.0",
+    "source_of_data_volume": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc04074f?utm_source=chatgpt.com",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://doyle.princeton.edu/wp-content/uploads/2020/07/43-Predicting-Reaction-Performance-in-C-N-Cross-Coupling-Using-Machine-Learning.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "357.0",
+    "google_scholar_screenshot": "Buchwald-Hartwig couplings.png",
+    "download_volume_or_user_count": "299星标，74复刻",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/02/15",
+    "source_link": "https://pubs.acs.org/doi/10.1021/acscatal.4c05134",
+    "last_update_date": "2024/11/01"
+  }
+}

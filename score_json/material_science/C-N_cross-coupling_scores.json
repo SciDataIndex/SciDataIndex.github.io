@@ -1,0 +1,13 @@
+{
+  "dataset_name": "C-N cross-coupling",
+  "scores": {
+    "openness": 0,
+    "quality": 10,
+    "scale": 2,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 10,
+    "total_score": 4.45
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "MoleculeNet",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 3,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 3,
+    "total_score": 2.85
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}
