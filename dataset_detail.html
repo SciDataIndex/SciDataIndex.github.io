@@ -314,7 +314,7 @@
 
   <script>
     function toFileName(name) {
-      return `${name.replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
+      return `${name.replace(/ /g, "_").replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
     }
 
     function getParam(name) {
