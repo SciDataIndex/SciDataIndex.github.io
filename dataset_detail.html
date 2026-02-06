@@ -489,9 +489,9 @@
 
       if (categoryFromPath) {
         candidates.push(`${scoreRoot}/${categoryFromPath}/${mappedFile}`);
-        if (fallbackFile !== mappedFile) {
-          candidates.push(`${scoreRoot}/${categoryFromPath}/${fallbackFile}`);
-        }
+        //if (fallbackFile !== mappedFile) {
+        //  candidates.push(`${scoreRoot}/${categoryFromPath}/${fallbackFile}`);
+        //}
       }
 
       // candidates.push(`${scoreRoot}/${mappedFile}`);
@@ -528,9 +528,9 @@
 
         if (categoryParam) {
           candidates.push(`data_json/${categoryParam}/${mappedFile}`);
-          if (fallbackFile !== mappedFile) {
-            candidates.push(`data_json/${categoryParam}/${fallbackFile}`);
-          }
+          //if (fallbackFile !== mappedFile) {
+          //  candidates.push(`data_json/${categoryParam}/${fallbackFile}`);
+          //}
         }
 
         //candidates.push(`data_json/${mappedFile}`);
@@ -560,23 +560,7 @@
 
         titleEl.textContent = data.dataset || datasetName;
         briefEl.textContent = data.intro?.brief_description || "暂无简介";
-        let categoryFromPath = "";
-        if (loadedPath) {
-          if (loadedPath.includes("/earth_science/")) {
-            tagCategory.textContent = "地球科学";
-            categoryFromPath = "earth_science";
-          } else if (loadedPath.includes("/neuro_science/")) {
-            tagCategory.textContent = "神经科学";
-            categoryFromPath = "neuro_science";
-          } else if (loadedPath.includes("/life_science/")) {
-            tagCategory.textContent = "生命科学";
-            categoryFromPath = "life_science";
-          } else {
-            tagCategory.textContent = "所属类别未知";
-          }
-        } else {
-          tagCategory.textContent = "所属类别未知";
-        }
+        
 
         buildTabs(data);
 
@@ -603,7 +587,24 @@
         drawRadar([0, 0, 0, 0, 0, 0]);
       }
     }
-
+    
+    let categoryFromPath = "";
+    if (loadedPath) {
+          if (loadedPath.includes("/earth_science/")) {
+            tagCategory.textContent = "地球科学";
+            categoryFromPath = "earth_science";
+          } else if (loadedPath.includes("/neuro_science/")) {
+            tagCategory.textContent = "神经科学";
+            categoryFromPath = "neuro_science";
+          } else if (loadedPath.includes("/life_science/")) {
+            tagCategory.textContent = "生命科学";
+            categoryFromPath = "life_science";
+          } else {
+            tagCategory.textContent = "所属类别未知";
+          }
+        } else {
+          tagCategory.textContent = "所属类别未知";
+        }
     loadDataset();
   </script>
 </body>
