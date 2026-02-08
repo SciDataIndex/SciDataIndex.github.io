@@ -1,0 +1,45 @@
+{
+  "dataset": "EHT M87 Polarized Data",
+  "intro": {
+    "official_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87pol2017_Nov2023",
+    "brief_description": "事件视界望远镜对 M87 黑洞 2017 年观测得到的校准极化数据集",
+    "detailed_description": "EHT M87 Polarized Data 是事件视界望远镜对 M87 黑洞 2017 年观测得到的校准极化数据集，覆盖四天、多频段，并包含两种独立处理管线（HOPS 和 CASA）版本，用于分析黑洞喷流的磁场结构。"
+  },
+  "openness": {
+    "license_type": "PDDL",
+    "license_source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87pol2017_Nov2023",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "7031.7KB",
+    "data_volume_mb": "6.86689453125",
+    "source_of_data_volume": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_FirstSgrAPol_Mar2024",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://iopscience.iop.org/article/10.3847/2041-8213/abe71d",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "85500.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/04/05",
+    "source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_FirstSgrAPol_Mar2024",
+    "last_update_date": "2024/04/05"
+  }
+}

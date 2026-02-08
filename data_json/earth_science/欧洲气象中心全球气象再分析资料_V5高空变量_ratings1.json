@@ -1,0 +1,45 @@
+{
+  "dataset": "欧洲气象中心全球气象再分析资料 V5高空变量",
+  "intro": {
+    "official_link": "https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5",
+    "brief_description": "ERA5 是由欧洲中期天气预报中心（ECMWF）发布的第五代全球气候再分析数据集，V6高空变量",
+    "detailed_description": "数据集简述\nERA5 是由欧洲中期天气预报中心（ECMWF）发布的第五代全球气候再分析数据集。提供了全球范围内高时空分辨率的大气、海洋和陆地表面气象变量，全面覆盖每小时全球多层次气象状态，已广泛应用于气象分析、气候研究、环境建模及可再生能源评估等领域。\n数据集内容\n高空变量包含：地势高度（z），相对湿度（r），比湿（q），温度（t），垂直速度（w），水平风速分量（u，v） 覆盖气压层：从 1 hPa 至 1000 hPa 共 37 层。\n关键元信息\n文件为逐日，但每个文件包含逐小时数据 ，空间分辨率：0.25° × 0.25° 覆盖时间范围：1950 年至今 格式：GRIB（高空数据），压强层级：1–1000 hPa（共 38 层）\n重要应用场景\n全球气象分析，天气预报模型建模，AI同化系统构建、大气科学理论研究"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://forum.ecmwf.int/t/cc-by-licence-to-replace-licence-to-use-copernicus-products-on-02-july-2025/13464",
+    "charging_mode": "完全免费",
+    "access_restrictions": "分批下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "566808GB",
+    "data_volume_mb": "580411392.0",
+    "source_of_data_volume": "采样日单变量全部压力层大小为1.13GB，共16个变量，时间从1940-2025年10月，共31350天。考虑部分变量之间数据量大小可能存在差异，实际值应比估计值小，但不会偏差很大。",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.3803",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "nan",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/06/14",
+    "source_link": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=download",
+    "last_update_date": "2025/10/27"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "JWST历史全部观测数据",
+  "intro": {
+    "official_link": "https://archive.stsci.edu/missions-and-data/jwst?utm_source=chatgpt.com",
+    "brief_description": "JWST历史全部观测数据（All historical observation data of JWST），包含仪器：NIRCam-A(604次观测)、NIRCam-B(26次观测)、NIRISS(10次观测)、FGS-1(10次观测)、FGS-2(8次观测)、MIRI(5次观测)。覆盖时间跨度为：2022-3-7——2024-3-20 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "詹姆斯·韦伯太空望远镜（JWST）科学数据产品高层指南可参阅《JWST科学数据概述》文档。总体而言，JWST提供的数据主要包括以下类别：\n• 科学数据（包含未校准、中间处理及最终校准/合并阶段的数据产品）\n• 用于科学数据校准的参考文件\n• 伴随导星数据\n• 已规划但未执行观测的元数据\n• 同步校准的工程数据\n• 阶段性波前传感数据"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://science.nasa.gov/researchers/science-information-policy_faq/?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.5TB",
+    "data_volume_mb": "1572864.0",
+    "source_of_data_volume": "https://www.theregister.com/2025/06/09/jwst_open_science_data/?utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://ui.adsabs.harvard.edu/abs/2023hsa..conf..401L/abstract?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "93700.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2021/12/25",
+    "source_link": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/jwst/?utm_source=chatgpt.com",
+    "last_update_date": "2022/08/08"
+  }
+}

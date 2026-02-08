@@ -1,0 +1,45 @@
+{
+  "dataset": "STEAD",
+  "intro": {
+    "official_link": "https://github.com/smousavi05/STEAD",
+    "brief_description": "STEAD（STanford EArthquake Dataset）地震数据集是斯坦福大学公布的一个大规模、高质量的全球性地震数据集。数据集包含来自全球地震台站的约120万条时间序列数据，记录了 1）局部地震波形，2）地震噪声波形。数据集总计超过19,000小时的地震信号，经过严格的质量控制和标签验证，确保其准确性和可靠性。",
+    "detailed_description": "数据集简述：STEAD（STanford EArthquake Dataset）地震数据集是斯坦福大学公布的一个大规模、高质量的全球性地震数据集。数据集包含来自全球地震台站的约120万条时间序列数据，记录了 1）局部地震波形，2）地震噪声波形。数据集总计超过19,000小时的地震信号，经过严格的质量控制和标签验证，确保其准确性和可靠性。数据集内容：STEAD 包含超过105万条局地地震三分量波形记录（每条60秒），以及约10万条非地震噪声波形。所有地震记录均来自距离震中不超过350公里的2613个地震台站，涵盖1984年至2018年间发生的约45万次地震事件。波形数据以 NumPy 格式存储，每条记录包含东西、南北和垂直三个方向的波形数据，并附带丰富的标签信息，包括震源位置、震级、起始时间、震源深度、P/S波到时、信噪比、尾波终点、震中距、台站信息等。关键元信息：STEAD 的关键元信息不仅覆盖了震源和测站属性，还包含波形质量、地震类型、仪器类型、震源机制（包括走向、倾角和滑动角）等参数。重要应用场景：STEAD 支持多个AI地震学任务的研究，包括地震信号检测、P/S波自动挑选、噪声抑制、地震事件分类、地震位置和参数估计等。被广泛应用于构建用于地震预警、地震定位、断层识别和地震事件判别的AI模型。除了地震学，STEAD 与音频信号在结构上的相似性也使其在跨模态研究中具有潜在价值，推动了地震信号与音频处理技术之间的交叉融合。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://github.com/smousavi05/STEAD/blob/master/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "85GB",
+    "data_volume_mb": "87040.0",
+    "source_of_data_volume": "https://github.com/smousavi05/STEAD",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://ieeexplore.ieee.org/abstract/document/8871127",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1010.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "356 星标, 77 复刻",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2019/12/23",
+    "source_link": "https://zenodo.org/records/11083249?utm_source=chatgpt.com",
+    "last_update_date": "2024/04/29"
+  }
+}

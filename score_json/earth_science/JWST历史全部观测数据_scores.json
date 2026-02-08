@@ -1,0 +1,13 @@
+{
+  "dataset_name": "JWST历史全部观测数据",
+  "scores": {
+    "openness": 0,
+    "quality": 9,
+    "scale": 6,
+    "impact": 6,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 5.75
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

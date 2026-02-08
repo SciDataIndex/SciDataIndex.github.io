@@ -1,0 +1,45 @@
+{
+  "dataset": "US-NAM",
+  "intro": {
+    "official_link": "https://catalog.data.gov/dataset/north-american-mesoscale-forecast-system-nam-12-km2?utm_source=chatgpt.com",
+    "brief_description": "North American Mesoscale (NAM) Forecast System，美国官方运行的区域性中尺度数值天气预报模型，提供北美地区高时空分辨率的天气预测数据。",
+    "detailed_description": "核心功能\n覆盖北美大陆（包括美国本土、阿拉斯加、夏威夷和波多黎各），水平分辨率12公里（嵌套网格可达3公里，火险天气域1.5公里）；\n预测参数包括温度、降水、风速、湍流动能等数十种气象指标；\n每日4次运行（00Z/06Z/12Z/18Z），预报时效84小时，时间分辨率1小时；\n技术升级\nNAMv4版本改进微物理方案（Ferrier-Aligo），减少降水高偏差；增加每小时同化循环（含雷达和闪电观测）；\n统一嵌套网格分辨率至3公里，提升对强对流等中尺度现象的捕捉能力；\n数据应用\n通过Windy等平台集成可视化，支持航空、航海、灾害应急等领域；\n输出GRIB2格式数据，经UPP后处理系统转换后用于业务预报。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://www.ncei.noaa.gov/products/weather-climate-models/north-american-mesoscale?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "20TB",
+    "data_volume_mb": "20971520.0",
+    "source_of_data_volume": "根据资料：对于 12 km 分辨率域（CONUS），一个 +84 h 预报周期（3h 步长）其文件约 1.616 Gb，模型每天 4 次运行（00 UTC、06 UTC、12 UTC、18 UTC）覆盖 +84 h。若每周期约1.6 GB，则一天 ≈ 1.6 ×4 = 6.4 GB。 假定全年 365 天运行，则年数据量 ≈ 6.4 GB × 365 ≈ 2.34 TB。",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.researchgate.net/publication/255044034_THE_NCEP_NORTH_AMERICAN_MESOSCALE_MODELING_SYSTEM_RECENT_CHANGES_AND_FUTURE_PLANS?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2950.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2004/03/01",
+    "source_link": "https://catalog.data.gov/dataset/north-american-mesoscale-forecast-system-nam-12-km2?utm_source=chatgpt.com",
+    "last_update_date": "2023/09/19"
+  }
+}

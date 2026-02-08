@@ -1,0 +1,13 @@
+{
+  "dataset_name": "US-NAM",
+  "scores": {
+    "openness": 0,
+    "quality": 9,
+    "scale": 7,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 5.55
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

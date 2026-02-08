@@ -1,0 +1,13 @@
+{
+  "dataset_name": "STEAD",
+  "scores": {
+    "openness": 8,
+    "quality": 9,
+    "scale": 4,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 7,
+    "total_score": 5.65
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}
