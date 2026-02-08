@@ -1,0 +1,45 @@
+{
+  "dataset": "InterPro",
+  "intro": {
+    "official_link": "https://www.ebi.ac.uk/interpro/",
+    "brief_description": "综合性蛋白质家族、结构域和功能位点注释数据库，提供多数据库整合的标准化功能分析。",
+    "detailed_description": "1. 数据内容：覆盖>2亿条蛋白质序列（UniProtKB），整合13个成员数据库的签名模型，注释蛋白质家族、结构域、功能位点及进化关系。\n2. 功能工具：支持序列搜索（FASTA格式）、结构域架构分析、AlphaFold结构预测集成，并提供GO术语和通路注释（如Reactome、MetaCyc）。\n3. 更新频率：每8周更新一次，2025年版本（101.0）新增5000+条目，覆盖8.5万个蛋白质家族。\n4. 应用场景：基因组注释、疾病相关基因筛选、跨物种功能比较及AI驱动的蛋白质家族描述优化。"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://ftp.ebi.ac.uk/pub/databases/interpro/releases/latest/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.5TB",
+    "data_volume_mb": "1572864.0",
+    "source_of_data_volume": "https://ftp.ebi.ac.uk/pub/databases/interpro/releases/latest/",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC9825450&blobtype=pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "53900.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2022/09/09",
+    "source_link": "https://www.ebi.ac.uk/interpro/release_notes/",
+    "last_update_date": "2025/10/16"
+  }
+}

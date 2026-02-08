@@ -1,0 +1,45 @@
+{
+  "dataset": "UniProt（Universal Protein Resource）",
+  "intro": {
+    "official_link": "https://www.uniprot.org/",
+    "brief_description": "全球最权威的蛋白质数据库，整合序列、功能注释及结构信息，支持生物医学与蛋白质组学研究。",
+    "detailed_description": "1. 核心子库：\n- UniProtKB：分为人工注释的Swiss-Prot（高质量）和自动注释的TrEMBL（未校验）；\n- UniParc：非冗余序列归档库，整合多源数据；\n- UniRef：聚类序列（UniRef100/90/50），加速相似性搜索；\n- Proteomes：全基因组测序物种的蛋白质组数据；\n2. 数据特点：\n- 覆盖280+百万条蛋白质序列（2025年），含功能、结构、疾病关联等注释；\n- 支持BLAST比对、多序列对齐（Align）等工具；\n3. 应用场景：\n- 疾病靶点筛选、药物开发（如PD-1抗体研究）；\n- 蛋白质组学分析（如COVID-19蛋白组）；\n- 进化生物学（通过序列聚类分析亲缘关系）；"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://ngdc.cncb.ac.cn/databasecommons/database/id/29",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "57.7GB",
+    "data_volume_mb": "59084.8",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/UniProt",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://watermark02.silverchair.com/gky092.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA0swggNHBgkqhkiG9w0BBwagggM4MIIDNAIBADCCAy0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM9tUVSMiibcl2rs1qAgEQgIIC_joD6bCXKF-lPObJiZUXaixdeqsTtjefrnYobwiGpFUoJfI1KYpGDCQ5V0cZeRmPt3hrsB1Trst5MDZLP4EYr2wpEhNTlG6wwGxeWXAZJ-CiC00D5Y8VUuvNsaSjoCGwghUFgk8pzIvZJg8lBF5L8b7YmCAD41H0-7wogTUJsnougAbHaezDFhmUzDrQth-iqXzlouHWnNTxYxg5tOT8Ekoj2pnUrRSNxuJhnNVPvMrYHr7mjdgiWH0295SwH86_uoDVHLIRA-MmqksDHqBQtf041XYLA8b_UQuFrA0sX5BvzfOnoRUoBcJtBK1tFj1vyJksQTsalVLoEs8SM1_kR7dvVBgFEvgiZhY0eF77cq8H8n2topncKAkovM04BO4CqVa_hwjtUsUF3Gttr4Lq-vz06JyriQW7VO1c631KdIIglR_4eK0zu7uYPCacgYcmgZFF3iMjkaIylxPqOMQyib-YWO-8atJ55bC4Cbt0eqN6CAqEwnemLvNZBo_pL-ifGUW42WWhM1I5TlyH-TEVvW05gfRqyRLulkV26mZ33Ws8vPogt3_HejHQ63aq9FVD41LBzn_1rF9YeSFJV7SvFbx8iCFw5e65JEiVji2h3EuT_qmpZ14HjT8sWO9vnsyS_SRWPtRaCt2AVjT7xoG9IeU_O0bb7X3af8KWo0LVyHFq46QM_rj0lDEx8304yZ-cLP6LXnGWNEJoJjiWviqyGUe3shg_ks--aJXlaak0M1cyJu4dodOO23n_r7nFL04gUa3eXHCoDhQRcXcQp-Qg-JTZKwx1KxNoRy_-61YL7YHgQknywZUKAWfDY-VbEOy2eIxU_gllEOIVplEfkewCKIcmadwRt2GSgYIepzpq9WPJrnsuKRhMiASoi2MML7DCZ47uLjk2_9OfqS70yVZ0cKK9fK47XP44l4s40y3F2Y_iLV0TDuHLTyvX8zzxbSjAXmQux6OdqolKLnBrPQHq7cXaq1dIuOoa47oOrY1qT4uD7zqOKKxYz2Lm_Fxm_oA",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "114000.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "800000/月",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2015/06/20",
+    "source_link": "https://ngdc.cncb.ac.cn/databasecommons/database/id/29",
+    "last_update_date": "2025/07/03"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "APT-36K",
+  "intro": {
+    "official_link": "https://github.com/pandorgan/APT-36K?tab=readme-ov-file#introduction",
+    "brief_description": "APT-36K的提供了现实场景中的动物姿态估计和跟踪标注。通过筛选TouTube视频，保留了了2400个有效视频片段，每个片段包含15帧，涵盖动物园、森林、沙漠等不同场景的30种不同动物。 发表于NeurIPS2023。",
+    "detailed_description": "动物姿态估计与追踪（APT）是一项从视频序列中检测并追踪动物关键点的基础任务。现有动物数据集通常仅针对动物追踪或单帧姿态估计，而缺乏两者的结合。为填补这一空白，我们迈出第一步并提出APT-36K——首个大规模动物姿态估计与追踪基准数据集。具体而言，APT-36K包含从30个动物物种中收集筛选的2,400个视频片段，每个视频15帧，总计36,000帧。经过人工标注与双重校验，所有动物实例均提供高质量的关键点及追踪标注。基于APT-36K，我们在三个任务上对代表性模型进行基准测试：(1) 域内与跨域迁移学习下的单帧监督姿态估计，(2) 针对未知物种的跨域泛化测试，(3) 结合动物追踪的姿态估计。实验结果揭示了若干经验性发现，表明APT-36K为动物姿态估计与追踪研究提供了有价值的基准，为未来研究带来新挑战与机遇。标注文件及对应图像可通过以下链接下载：https://1drv.ms/u/s!AimBgYV7JjTlgcZ9zLyl5KnM3dKMgg?e=uaaLz5，独立标注文件下载地址：https://1drv.ms/u/s!AimBgYV7JjTlgTuYdjjtYON3sxEZ?e=5deTDn。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://proceedings.neurips.cc/paper_files/paper/2022/file/6e566c91d381bd7a45647d9a90838817-Supplemental-Datasets_and_Benchmarks.pdf",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "21.6GB",
+    "data_volume_mb": "22118.4",
+    "source_of_data_volume": "https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaW1CZ1lWN0pqVGxnY1o5ekx5bDVLbk0zZEtNZ2c%5FZT11YWFMejU&cid=E534267B85818129&id=E534267B85818129%2125469&parId=E534267B85818129%21186&o=OneUp",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2206.05683",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "335.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2022/09/27",
+    "source_link": "https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaW1CZ1lWN0pqVGxnY1o5ekx5bDVLbk0zZEtNZ2c%5FZT11YWFMejU&cid=E534267B85818129&id=E534267B85818129%2125469&parId=E534267B85818129%21186&o=OneUp",
+    "last_update_date": "2023/05/27"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "Hemibrain Dataset",
+  "intro": {
+    "official_link": "https://www.janelia.org/project-team/flyem/hemibrain",
+    "brief_description": "Hemibrain（半脑）是黑腹果蝇连接组数据集，覆盖了果蝇大脑的显著部分",
+    "detailed_description": "该数据集通过聚焦离子束扫描电镜（FIBSEM）技术采集，分辨率约8×8×8 nm³，覆盖果蝇中枢脑区（包括蘑菇体、触角叶等）。包含约5,902个神经元重建和840,535个突触注释，支持突触定位、神经元形态及连接组分析。数据已与遗传标记（GAL4系）和功能研究（如钙成像）整合，用于神经环路机制研究。"
+  },
+  "openness": {
+    "license_type": "CC BY",
+    "license_source_link": "https://www.janelia.org/project-team/flyem/hemibrain",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "26TB",
+    "data_volume_mb": "27262976.0",
+    "source_of_data_volume": "https://dvid.io/blog/release",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://elifesciences.org/articles/24364",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "184.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2020/01/22",
+    "source_link": "https://www.janelia.org/project-team/flyem/hemibrain",
+    "last_update_date": "2020/12/23"
+  }
+}

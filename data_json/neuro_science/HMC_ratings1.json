@@ -1,0 +1,45 @@
+{
+  "dataset": "HMC",
+  "intro": {
+    "official_link": "https://physionet.org/content/hmc-sleep-staging/1.1/",
+    "brief_description": "五分类睡眠分期脑电数据集",
+    "detailed_description": "数据集简述：HMC、SHHS、Sleep-EDF是五分类睡眠分期脑电数据集\n\n数据集内容：根据美国睡眠医学学会（AASM）的最新指南，睡眠可分为五个阶段： 清醒、N1、N2、N3 和快速动眼期。具体来说，HMC包括151名受试者以256Hz采样的4通道脑电图记录；SHHS提供6441名受试者以125Hz采样的2通道脑电图记录；Sleep-EDF包括78名受试者以100Hz采样的2通道脑电图记录。 根据前人工作，从SHHS中选择了329名健康受试者，并使用从C4-A1通道记录的脑电信号。所有信号都被分割成30秒的时程，并由睡眠专家根据AASM指南进行注释。 经过分割后，HMC为137,243个可用样本，SHHS为324,854 个样本，Sleep-EDF为414,961个样本，所有样本都被分为五个睡眠阶段。\n\n关键元信息：睡眠分期、EEG\n\n重要应用场景：睡眠疾病诊断、家用睡眠监测"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://physionet.org/content/hmc-sleep-staging/1.1/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "15.7GB",
+    "data_volume_mb": "16076.8",
+    "source_of_data_volume": "https://physionet.org/content/hmc-sleep-staging/1.1/",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://doi.org/10.13026/t79q-fr32",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1260.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/07/01",
+    "source_link": "https://physionet.org/content/hmc-sleep-staging/1.1/",
+    "last_update_date": "2022/03/18"
+  }
+}

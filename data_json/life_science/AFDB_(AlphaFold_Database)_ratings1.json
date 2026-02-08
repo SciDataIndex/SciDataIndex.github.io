@@ -1,0 +1,45 @@
+{
+  "dataset": "AFDB (AlphaFold Database)",
+  "intro": {
+    "official_link": "https://alphafold.ebi.ac.uk/",
+    "brief_description": "由 DeepMind 和 EMBL-EBI 维护，提供 AlphaFold2 预测的蛋白质三维结构，覆盖 UniProtKB 中的蛋白质。",
+    "detailed_description": "数据集简述\n由 DeepMind 和 EMBL-EBI 维护，提供 AlphaFold2 预测的蛋白质三维结构，覆盖 UniProtKB 中的蛋白质。\n数据集内容\n超过 2.14 亿个蛋白质结构预测，涵盖多种物种（如人类、模式生物），包括高置信度结构（pLDDT > 70）。\n关键元信息\n序列、物种分类、结构置信度（pLDDT）、PAE（预测对齐误差）、结构坐标\n文件格式：PDB（结构坐标）、mmCIF（分子结构）、FASTA（序列）、JSON（元数据）\n重要应用场景\n药物设计：通过分析蛋白质结构识别结合位点，用于设计靶向药物（如小分子抑制剂）。\n功能注释：结合序列和结构数据，推断蛋白质功能，辅助酶工程。\n分子模拟：使用结构数据进行分子动力学模拟，研究蛋白质稳定性。\n结构建模：为对于蛋白质结构的建模提供大量数据，提升模型表现。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://alphafold.ebi.ac.uk/download#full-dataset-section",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "23TB",
+    "data_volume_mb": "24117248.0",
+    "source_of_data_volume": "https://alphafold.ebi.ac.uk/download#full-dataset-section",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41586-021-03819-2",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "10500.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/07/22",
+    "source_link": "https://ftp.ebi.ac.uk/pub/databases/alphafold/CHANGELOG.txt",
+    "last_update_date": "2025/09/15"
+  }
+}

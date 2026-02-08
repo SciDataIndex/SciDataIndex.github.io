@@ -1,0 +1,45 @@
+{
+  "dataset": "BOLD5000",
+  "intro": {
+    "official_link": "https://bold5000-dataset.github.io/website/",
+    "brief_description": "一个大规模、慢速事件相关的 fMRI 数据集，收集了 4 个受试者，每个受试者在 15 个扫描过程中观察 5,254 个图像。该数据集包含从 SUN、COCO 和 ImageNet 数据集提取的近 5,000 张不同图像，用于慢速事件相关的 fMRI 研究。四名参与者每人进行约 20 小时的 MRI 扫描。",
+    "detailed_description": "视觉科学（尤其是机器视觉）因大规模图像数据集与统计学习方法的引入而发生了革命性变革。然而，受限于实验时间，人类视觉感知的神经影像研究仍仅使用少量图像（约100张）。为应用神经科学领域的统计学习方法，必须大幅增加神经影像研究中的图像数量。为此，我们发布了BOLD5000——一项包含近5,000张真实场景图像的人类功能性磁共振成像（fMRI）研究。相较于既往fMRI研究，BOLD5000不仅显著扩大了图像数据集规模，还通过纳入场景理解数据集（SUN）、上下文常见物体数据集（COCO）和ImageNet数据集中的图像，与标准计算机视觉数据集形成交叉，确保了图像多样性。这些图像数据集的规模与多样性，结合慢事件相关fMRI设计，使研究者能够精细探索各类视觉特征、类别及语义的神经表征。同时，BOLD5000让我们更接近实现Marr的愿景——建立融合生物视觉与计算机视觉的统一视觉科学。"
+  },
+  "openness": {
+    "license_type": "CC0",
+    "license_source_link": "https://kilthub.cmu.edu/articles/dataset/BOLD5000/6459449",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "167.54GB",
+    "data_volume_mb": "171560.96",
+    "source_of_data_volume": "https://kilthub.cmu.edu/articles/dataset/BOLD5000/6459449",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41597-019-0052-3",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "281.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2019/01/09",
+    "source_link": "https://kilthub.cmu.edu/articles/dataset/BOLD5000/6459449",
+    "last_update_date": "2021/03/03"
+  }
+}
