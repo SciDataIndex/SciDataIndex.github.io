@@ -1,1 +1,7 @@
-[]
+[
+  "AFDB_(AlphaFold_Database)_ratings1.json",
+  "InterPro_ratings1.json",
+  "STRING_ratings1.json",
+  "UniProt（Universal_Protein_Resource）_ratings1.json",
+  "spice_ratings1.json"
+]
