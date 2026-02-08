@@ -1,6 +1,11 @@
 [
   "AFDB_(AlphaFold_Database)_ratings1.json",
+  "BFD_(Big_Fantastic_Database)_ratings1.json",
+  "CDD(Conserved_Domain_Database)_ratings1.json",
   "InterPro_ratings1.json",
+  "Pfam_ratings1.json",
+  "RefSeq(NCBI_Reference_Sequence_Database)_ratings1.json",
+  "SILVA_ratings1.json",
   "STRING_ratings1.json",
   "UniProt（Universal_Protein_Resource）_ratings1.json",
   "spice_ratings1.json"
