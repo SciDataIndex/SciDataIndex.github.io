@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Event Horizon Telescope observations",
+  "scores": {
+    "openness": 10,
+    "quality": 0,
+    "scale": 9,
+    "impact": 6,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 6.75
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}
