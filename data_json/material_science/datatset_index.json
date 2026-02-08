@@ -1,7 +1,12 @@
 [
   "Buchwald-Hartwig_couplings_ratings1.json",
   "C-N_cross-coupling_ratings1.json",
+  "Chignolin-VisNet_ratings1.json",
+  "Deoxyfluorination_with_Sulfonyl_Fluoride_ratings1.json",
   "MoleculeNet_ratings1.json",
   "Open-catalyst-project_ratings1.json",
-  "SPICE-2.0.1_ratings1.json"
+  "SPICE-2.0.1_ratings1.json",
+  "Suzuki-Miyaura_coupling_on_nanomole_scal_ratings1.json",
+  "Yield_Curation_of_USPTO_ratings1.json",
+  "edbo_ratings1.json"
 ]

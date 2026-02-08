@@ -1,0 +1,45 @@
+{
+  "dataset": "Chignolin-VisNet",
+  "intro": {
+    "official_link": "https://figshare.com/articles/dataset/_/22786730",
+    "brief_description": "用于训练chignolin的visnet的数据集，分子力场+隐式溶剂化采样，计算结果来自DFT",
+    "detailed_description": "用于训练chignolin的visnet的数据集，分子力场+隐式溶剂化采样，计算结果来自DFT"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/microsoft/AI2BMD",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "12.76GB",
+    "data_volume_mb": "13066.24",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/_/22786730",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41597-023-02465-9",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "162",
+    "models_using_this_dataset": "ViSNet模型（一种等变GNN）对Chignolin势进行学习"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2023/08/22",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

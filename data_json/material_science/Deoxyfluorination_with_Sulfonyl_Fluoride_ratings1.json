@@ -1,0 +1,45 @@
+{
+  "dataset": "Deoxyfluorination with Sulfonyl Fluoride",
+  "intro": {
+    "official_link": "https://pubs.acs.org/doi/10.1021/jacs.8b01523",
+    "brief_description": "通过微调剂剂和碱基，磺酰氟可高效氟化多种醇，机器学习能准确预测新底物的高产率条件。",
+    "detailed_description": "通过对试剂和碱基结构进行微调，磺酰氟可以有效地氟化各种醇类。我们表明，机器学习可以绘制复杂的反应图景，并能够准确预测未经测试的底物的高产率条件。"
+  },
+  "openness": {
+    "license_type": "公开但未指定",
+    "license_source_link": "-",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "10MB",
+    "data_volume_mb": "10.0",
+    "source_of_data_volume": "ja8b01523 1..5",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://pubs.acs.org/doi/10.1021/jacs.8b01523",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1.0",
+    "google_scholar_screenshot": "Deoxyfluorination with Sulfonyl Fluoride.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/03/27",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

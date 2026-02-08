@@ -1,0 +1,45 @@
+{
+  "dataset": "Yield Curation of USPTO",
+  "intro": {
+    "official_link": "nan",
+    "brief_description": "基于USPTO专利数据整理的化学反应产率数据集，用于机器学习辅助化学合成优化研究。",
+    "detailed_description": "1. 数据来源：从美国专利商标局（USPTO）公开的化学专利中提取反应产率信息，涵盖有机合成、药物化学等领域。\n2. 数据特点：\n- 包含反应物、产物、催化剂、溶剂、温度等实验条件与对应产率的关联数据。\n- 经过人工或自动化清洗，去除重复和矛盾条目，标注反应类型（如偶联反应、还原反应等）。\n3. 应用场景：\n- 训练化学反应的产率预测模型（如基于图神经网络或Transformer的模型）。\n- 结合贝叶斯优化（如EDBO算法）设计高产率合成路径。"
+  },
+  "openness": {
+    "license_type": "CC BY 3.0",
+    "license_source_link": "https://github.com/DocMinus/Yield_curation_USPTO",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.39 GB",
+    "data_volume_mb": "1423.36",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1.0",
+    "google_scholar_screenshot": "USPTO Yield Dataset.png",
+    "download_volume_or_user_count": "1星标，0复刻",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2021/04/16",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

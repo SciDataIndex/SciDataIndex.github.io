@@ -1,0 +1,45 @@
+{
+  "dataset": "Suzuki-Miyaura coupling on nanomole scal",
+  "intro": {
+    "official_link": "https://www.science.org/doi/10.1126/science.aap9112",
+    "brief_description": "一种用于自动化纳摩尔级反应筛选和微摩尔级流动合成的平台",
+    "detailed_description": "药物研究中复杂中间体的稀缺性促使人们追求亚毫克级的反应优化方案。我们在此报告了一种自动化的基于流程的合成平台的开发，该平台由市售组件设计而成，将快速纳摩尔级反应筛选和微摩尔级合成集成到一个模块化单元中。通过在高温下探索 Suzuki-Miyaura 偶联中的各种反应变量来验证该系统，以每 24 小时 >1500 次反应的速率生成 5760 个反应的液相色谱-质谱数据点。通过多次注入同一片段，该系统直接产生了微摩尔量级的所需材料。最佳条件也在 50 至 200 毫克规模的传统流动和批量模式下复制，以提供良好至优异的产量。"
+  },
+  "openness": {
+    "license_type": "公开但未指定",
+    "license_source_link": "-",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "29MB",
+    "data_volume_mb": "29.0",
+    "source_of_data_volume": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00815-2?utm_source=chatgpt.com",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.science.org/doi/10.1126/science.aap9112",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "5.0",
+    "google_scholar_screenshot": "Suzuki-Miyaura HTE Dataset.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/01/26",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

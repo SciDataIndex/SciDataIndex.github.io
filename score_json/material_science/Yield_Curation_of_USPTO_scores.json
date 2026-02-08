@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Yield Curation of USPTO",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 3,
+    "impact": 0,
+    "safety": 4,
+    "ai_readiness": 6,
+    "total_score": 2.3
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

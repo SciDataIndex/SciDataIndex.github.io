@@ -1,0 +1,45 @@
+{
+  "dataset": "edbo",
+  "intro": {
+    "official_link": "https://www.semanticscholar.org/paper/Bayesian-reaction-optimization-as-a-tool-for-Shields-Stevens/ba22cfff05cad65204860e34c2bb3cdd5f5e8f22",
+    "brief_description": "基于贝叶斯优化的实验设计数据集，用于高效优化材料、制药等领域的配方与工艺参数。",
+    "detailed_description": "1. 核心功能：\n- 通过贝叶斯优化算法，仅需传统实验量的10%即可逼近最优解。\n- 支持动态寻优、多维参数关联分析及实时可视化决策。\n2. 应用场景：\n- 材料科学：如涂料配方、高分子材料优化（周期从3个月缩短至2周）。\n- 制药研发：催化剂筛选、反应条件优化（实验量减少70-90%）。\n- 化学合成：镍催化反应条件优化（25次实验覆盖3万种组合）。\n3. 数据特点：\n- 包含实验参数（如基底、配体、溶剂、温度、浓度）与响应值（产率、成本）的关联数据。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/b-shields/edbo/blob/master/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "30MB",
+    "data_volume_mb": "30.0",
+    "source_of_data_volume": "https://b-shields.github.io/edbo/bro.html?utm_source=chatgpt.com",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.semanticscholar.org/paper/Bayesian-reaction-optimization-as-a-tool-for-Shields-Stevens/ba22cfff05cad65204860e34c2bb3cdd5f5e8f22",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "72.0",
+    "google_scholar_screenshot": "edbo.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "随机森林等监督回归模型。"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2021/02/01",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}
