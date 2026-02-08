@@ -136,6 +136,16 @@
       align-items: center;
     }
 
+    .board-head div:nth-child(n + 3):not(:last-child),
+    .board-row div:nth-child(n + 3):not(:last-child) {
+      text-align: center;
+    }
+
+    .board-head div:last-child,
+    .board-row div:last-child {
+      text-align: left;
+    }
+
     .board-head {
       background: rgba(12, 22, 56, 0.9);
       font-size: 13px;
@@ -147,6 +157,10 @@
     .board-row {
       border-top: 1px solid rgba(255, 255, 255, 0.06);
       font-size: 15px;
+    }
+
+    .board-row > div:nth-child(2) {
+      min-width: 0;
     }
 
     .rank {
@@ -165,11 +179,16 @@
       margin-top: 6px;
       font-size: 13px;
       color: var(--text-1);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 320px;
     }
 
     .score {
       font-size: 18px;
       font-weight: 700;
+      text-align: left;
     }
 
     .score-bar {
@@ -274,87 +293,15 @@
 
   <script>
     const TOPIC = "生命科学";
-    const DATASETS = [
-      {
-        "name": "AlphaFold Protein Structure Database",
-        "desc": "AlphaFold数据库",
-        "detail": "全球最大的核酸序列存储与共享数据库之一",
-        "rating": {
-          "openness": 8,
-          "quality": 10,
-          "scale": 7,
-          "impact": 6,
-          "safety": 7,
-          "ai_readiness": 6,
-          "total_score": 6.95
-        }
-      },
-      {
-        "name": "STRING — Search Tool for the Retrieval of Interacting Genes/Proteins",
-        "desc": "STRING蛋白交互网络数据库",
-        "detail": "提供高质量的蛋白质序列、功能与结构注释信息",
-        "rating": {
-          "openness": 8,
-          "quality": 9,
-          "scale": 5,
-          "impact": 8,
-          "safety": 7,
-          "ai_readiness": 5,
-          "total_score": 6.55
-        }
-      },
-      {
-        "name": "Universal Protein Resource",
-        "desc": "蛋白质统一资源库",
-        "detail": "通过单细胞测序技术构建人体细胞参考图谱",
-        "rating": {
-          "openness": 8,
-          "quality": 10,
-          "scale": 4,
-          "impact": 8,
-          "safety": 7,
-          "ai_readiness": 6,
-          "total_score": 6.55
-        }
-      },
-      {
-        "name": "InterPro",
-        "desc": "综合蛋白质家族、结构域和功能位点注释数据库",
-        "detail": "通过单细胞测序技术构建人体细胞参考图谱",
-        "rating": {
-          "openness": 0,
-          "quality": 10,
-          "scale": 6,
-          "impact": 6,
-          "safety": 7,
-          "ai_readiness": 8,
-          "total_score": 6.25
-        }
-      },
-      {
-        "name": "SPICE: Substituted, Polar, Intermolecular, Conformational, and Electronic dataset",
-        "desc": "SPICE分子力场机器学习数据集",
-        "detail": "通过单细胞测序技术构建人体细胞参考图谱",
-        "rating": {
-          "openness": 9,
-          "quality": 9,
-          "scale": 4,
-          "impact": 6,
-          "safety": 7,
-          "ai_readiness": 8,
-          "total_score": 6.45
-        }
-      }
-    ];
+    const CATEGORY = "life_science";
+    const DATA_INDEX = `../data_json/${CATEGORY}/datatset_index.json`;
+    const DATA_ROOT = `../data_json/${CATEGORY}/`;
+    const SCORE_ROOT = `../score_json/${CATEGORY}/`;
 
     function formatScore(value) {
       if (!Number.isFinite(value)) return "-";
       const text = value.toFixed(2);
       return text.replace(/\.00$/, ".0").replace(/(\.\d)0$/, "$1");
-    }
-
-    function toFileName(name) {
-      return `${name.replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
     }
 
     function clampPercent(value) {
@@ -363,43 +310,79 @@
     }
 
     const rows = document.getElementById("boardRows");
-    const datasets = [...DATASETS].sort((a, b) => {
-      const scoreA = a.rating?.total_score ?? 0;
-      const scoreB = b.rating?.total_score ?? 0;
-      return scoreB - scoreA;
-    });
 
-    rows.innerHTML = "";
-    datasets.forEach((ds, index) => {
-      const total = ds.rating?.total_score;
-      const openness = ds.rating?.openness;
-      const scale = ds.rating?.scale;
-      const impact = ds.rating?.impact;
-      const safety = ds.rating?.safety;
-      const aiReady = ds.rating?.ai_readiness;
-      const quality = ds.rating?.quality;
-      const row = document.createElement("div");
-      row.className = "board-row";
-      const fileName = toFileName(ds.name);
-      row.innerHTML = `
-        <div class="rank">${String(index + 1).padStart(2, "0")}</div>
-        <div>
-          <a class="dataset-name" href="../dataset_detail.html?name=${encodeURIComponent(ds.name)}&file=${encodeURIComponent(fileName)}&category=life_science">${ds.name}</a>
-          <div class="dataset-desc">${ds.desc}</div>
-        </div>
-        <div>${formatScore(aiReady)}</div>
-        <div>${formatScore(openness)}</div>
-        <div>${formatScore(scale)}</div>
-        <div>${formatScore(impact)}</div>
-        <div>${formatScore(safety)}</div>
-        <div>${formatScore(quality)}</div>
-        <div>
-          <div class="score">${formatScore(total)}</div>
-          <div class="score-bar"><span style="width: ${clampPercent(total)}%;"></span></div>
-        </div>
-      `;
-      rows.appendChild(row);
-    });
+    async function loadIndex() {
+      const res = await fetch(DATA_INDEX);
+      if (!res.ok) throw new Error("index not found");
+      const list = await res.json();
+      return Array.isArray(list) ? list : [];
+    }
+
+    async function loadDataset(fileName) {
+      const dataRes = await fetch(`${DATA_ROOT}${fileName}`);
+      if (!dataRes.ok) return null;
+      const data = await dataRes.json();
+      const scoreFile = fileName.replace("_ratings1.json", "_scores.json");
+      let scores = {};
+      const scoreRes = await fetch(`${SCORE_ROOT}${scoreFile}`);
+      if (scoreRes.ok) {
+        const scoreData = await scoreRes.json();
+        if (scoreData && scoreData.scores) scores = scoreData.scores;
+      }
+      return {
+        name: data.dataset || fileName,
+        desc: data.intro?.brief_description || "",
+        rating: scores,
+        fileName
+      };
+    }
+
+    async function renderTable() {
+      rows.innerHTML = "";
+      try {
+        const list = await loadIndex();
+        const datasets = (await Promise.all(list.map(loadDataset))).filter(Boolean);
+        datasets.sort((a, b) => {
+          const scoreA = a.rating?.total_score ?? 0;
+          const scoreB = b.rating?.total_score ?? 0;
+          return scoreB - scoreA;
+        });
+
+        datasets.forEach((ds, index) => {
+          const total = ds.rating?.total_score;
+          const openness = ds.rating?.openness;
+          const scale = ds.rating?.scale;
+          const impact = ds.rating?.impact;
+          const safety = ds.rating?.safety;
+          const aiReady = ds.rating?.ai_readiness;
+          const quality = ds.rating?.quality;
+          const row = document.createElement("div");
+          row.className = "board-row";
+          row.innerHTML = `
+            <div class="rank">${String(index + 1).padStart(2, "0")}</div>
+            <div>
+              <a class="dataset-name" href="../dataset_detail.html?name=${encodeURIComponent(ds.name)}&file=${encodeURIComponent(ds.fileName)}&category=${CATEGORY}">${ds.name}</a>
+              <div class="dataset-desc">${ds.desc}</div>
+            </div>
+            <div>${formatScore(aiReady)}</div>
+            <div>${formatScore(openness)}</div>
+            <div>${formatScore(scale)}</div>
+            <div>${formatScore(impact)}</div>
+            <div>${formatScore(safety)}</div>
+            <div>${formatScore(quality)}</div>
+            <div>
+              <div class="score">${formatScore(total)}</div>
+              <div class="score-bar"><span style="width: ${clampPercent(total)}%;"></span></div>
+            </div>
+          `;
+          rows.appendChild(row);
+        });
+      } catch (err) {
+        rows.innerHTML = "<div class=\"board-row\">数据列表加载失败</div>";
+      }
+    }
+
+    renderTable();
   </script>
 </body>
 </html>
