@@ -1,0 +1,45 @@
+{
+  "dataset": "BFD (Big Fantastic Database)",
+  "intro": {
+    "official_link": "https://bfd.mmseqs.com",
+    "brief_description": "大规模蛋白质序列数据库，整合 UniProt、Metaclust 等数据，通过聚类减少冗余。",
+    "detailed_description": "数据集简述\n大规模蛋白质序列数据库，整合 UniProt、Metaclust 等数据，通过聚类减少冗余。\n数据集内容\n约 65.98 百万个蛋白质家族，包含 22 亿个序列，提供多序列比对（MSA）和隐马尔可夫模型（HMM）。\n关键元信息\n序列、物种、聚类信息、HMM 模型、序列长度。\nFASTA（序列）、HMM（隐马尔可夫模型）、a3m（MSA 格式）。\n重要应用场景\n结构预测：为 AlphaFold 等模型提供 MSA，增强结构预测精度。\n序列比对：通过 HMM 进行同源性搜索，发现远源蛋白家族。\n功能推断：基于序列相似性，预测未知蛋白的功能。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://bfd.mmseqs.com/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "291.65GB",
+    "data_volume_mb": "298649.6",
+    "source_of_data_volume": "https://bfd.mmseqs.com",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41586-021-03819-2",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "282.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2023/02/01",
+    "source_link": "https://docs.unity.rc.umass.edu/documentation/datasets/bio/alphafold-bfd/",
+    "last_update_date": "2025/08/21"
+  }
+}

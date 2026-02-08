@@ -1,0 +1,45 @@
+{
+  "dataset": "RefSeq(NCBI Reference Sequence Database)",
+  "intro": {
+    "official_link": "https://www.ncbi.nlm.nih.gov/refseq",
+    "brief_description": "基因组、转录本和蛋白质序列参考序列数据库。",
+    "detailed_description": "基因组、转录本和蛋白质序列参考序列数据库。\nNCBI的参考序列 ( RefSeq ) 数据库是分类学上多样、非冗余且注释丰富的序列的集合，代表了自然产生的DNA、RNA和蛋白质分子。其中包括来自质粒、细胞器、病毒、古细菌、细菌和真核生物的序列。每个 RefSeq 都完全由提交给国际核苷酸序列数据库合作组织 (INSDC) 的序列数据构建。与评论文章类似，RefSeq 是在给定时间跨多个来源整合的信息的综合。RefSeq 为将序列数据与遗传和功能信息结合起来奠定了基础。它们的生成是为了为多种用途提供参考标准，从基因组注释到报告医疗记录中序列变异的位置。 RefSeq 集合不受限制，可以通过多种方式检索，例如通过搜索或通过 NCBI 资源中的可用链接，包括PubMed、核苷酸、蛋白质、基因和Map Viewer 、通过BLAST使用序列搜索以及从RefSeq FTP站点下载。"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://ftp.ncbi.nlm.nih.gov/refseq/release/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "163.9GB",
+    "data_volume_mb": "167833.6",
+    "source_of_data_volume": "https://ftp.ncbi.nlm.nih.gov/refseq/release/",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "60200.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2004/09/12",
+    "source_link": "https://www.ncbi.nlm.nih.gov/refseq/",
+    "last_update_date": "2025/09/05"
+  }
+}

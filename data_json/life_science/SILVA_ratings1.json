@@ -1,0 +1,45 @@
+{
+  "dataset": "SILVA",
+  "intro": {
+    "official_link": "https://www.arb-silva.de/",
+    "brief_description": "SILVA 为综合微生物 rRNA 基因数据库，涵盖三域（细菌/古菌/真核）的 SSU（16S/18S）与 LSU（23S/28S）序列，当前版本 v128（2016年更新）",
+    "detailed_description": "SILVA 是一个包含三域微生物（细菌、古菌、真核）rRNA基因序列的综合数据库，其数据库涵盖了原核和真核微生物的小亚基rRNA基因序列（简称SSU，即16S和18SrRNA）和大亚基rRNA基因序列（简称LSU，即23S和28SrRNA）。目前其最新数据库版本为SILVA SSU andLSU databases 128，更新时间为2016年9月29日。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://www.arb-silva.de/silva-license-information",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.1GB",
+    "data_volume_mb": "1126.4",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/SILVA",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/23193283/",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "24800.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2023/11/12",
+    "source_link": "https://www.arb-silva.de/",
+    "last_update_date": "2024/11/07"
+  }
+}
