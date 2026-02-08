@@ -1,0 +1,45 @@
+{
+  "dataset": "Stanford Research Data",
+  "intro": {
+    "official_link": "https://purl.stanford.edu/bq914sc3730",
+    "brief_description": "该数据集包含10名被试的MATLAB格式预处理脑电数据，以2D特征矩阵和3D电极×时间×试验矩阵形式存储。",
+    "detailed_description": "该数据包含 10 个 MATLAB (.mat) 格式的头皮记录脑电数据集。每个 .mat 文件包含来自一名实验对象的脑电数据。数据矩阵已经过预处理，并以 2D 按特征矩阵和 3D 电极按时间试验矩阵的形式呈现。"
+  },
+  "openness": {
+    "license_type": "CC BY",
+    "license_source_link": "https://purl.stanford.edu/bq914sc3730",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2.9GB",
+    "data_volume_mb": "2969.6",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Stanford-Research-Data/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0135697",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "37.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2017/08/23",
+    "source_link": "https://purl.stanford.edu/bq914sc3730",
+    "last_update_date": "2025/07/07"
+  }
+}

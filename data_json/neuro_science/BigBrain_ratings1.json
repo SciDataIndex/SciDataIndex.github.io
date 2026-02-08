@@ -1,0 +1,45 @@
+{
+  "dataset": "BigBrain",
+  "intro": {
+    "official_link": "https://bigbrainproject.org/maps-and-models.html#download",
+    "brief_description": "人脑的超高分辨率三维 (3D) 模型，接近细胞分辨率 20 微米",
+    "detailed_description": "人脑的超高分辨率三维 (3D) 模型，接近细胞分辨率 20 微米"
+  },
+  "openness": {
+    "license_type": "CC BY-NC-SA 4.0",
+    "license_source_link": "https://bigbrain.loris.ca/main.php?test_name=bigbrain",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "112.5GB",
+    "data_volume_mb": "115200.0",
+    "source_of_data_volume": "https://neuroscience.ai/collections/bigbrain/overview",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.science.org/doi/abs/10.1126/science.1235381",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "178.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2013/06/21",
+    "source_link": "https://neuroscience.ai/collections/bigbrain/overview",
+    "last_update_date": "2023/04/17"
+  }
+}

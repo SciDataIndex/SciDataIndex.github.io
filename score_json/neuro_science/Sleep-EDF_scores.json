@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Sleep-EDF",
+  "scores": {
+    "openness": 0,
+    "quality": 7,
+    "scale": 2,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 5,
+    "total_score": 3.65
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

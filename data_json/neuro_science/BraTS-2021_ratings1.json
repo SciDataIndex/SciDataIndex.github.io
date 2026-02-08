@@ -1,0 +1,45 @@
+{
+  "dataset": "BraTS-2021",
+  "intro": {
+    "official_link": "http://www.braintumorsegmentation.org/",
+    "brief_description": "多模态(T1 T1Gd T2 T2-FLAIR)的MR图像，多期，2012-2021年每年都有，总数据量3000+",
+    "detailed_description": "多模态(T1 T1Gd T2 T2-FLAIR)的MR图像，多期，2012-2021年每年都有，总数据量3000+； 发表于Front. Behav. Neurosci. 2021，https://www.pri.kyoto-u.ac.jp/datasets/macaquepose/index.html"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://www.ncbi.nlm.nih.gov/books/NBK597467/figure/ch13.Fig16/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "13.42GB",
+    "data_volume_mb": "13742.08",
+    "source_of_data_volume": "https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2107.02314",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2000.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2021/07/07",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

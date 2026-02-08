@@ -1,7 +1,12 @@
 [
   "APT-36K_ratings1.json",
   "BOLD5000_ratings1.json",
+  "BigBrain_ratings1.json",
+  "BraTS-2021_ratings1.json",
   "HMC_ratings1.json",
   "Hemibrain_Dataset_ratings1.json",
-  "RSNA_Intracranial_Hemorrhage_Detection_ratings1.json"
+  "RSNA_Intracranial_Hemorrhage_Detection_ratings1.json",
+  "Siena_ratings1.json",
+  "Sleep-EDF_ratings1.json",
+  "Stanford_Research_Data_ratings1.json"
 ]

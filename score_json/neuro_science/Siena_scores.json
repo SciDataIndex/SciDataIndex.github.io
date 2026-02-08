@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Siena",
+  "scores": {
+    "openness": 8,
+    "quality": 0,
+    "scale": 4,
+    "impact": 2,
+    "safety": 4,
+    "ai_readiness": 7,
+    "total_score": 4.1
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}
