@@ -8,11 +8,11 @@
     @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
 
     :root {
-      --bg: #f6f8fb;
-      --text-0: #111827;
-      --text-1: #5b6b89;
-      --card: #ffffff;
-      --stroke: #e3e9f2;
+      --bg: #e6eefc;
+      --text-0: #0f1b33;
+      --text-1: #4b5a73;
+      --card: rgba(255, 255, 255, 0.85);
+      --stroke: rgba(15, 23, 42, 0.1);
       --accent: #2c4a8a;
     }
 
@@ -24,16 +24,17 @@
       margin: 0;
       font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
       color: var(--text-0);
-      background: var(--bg);
+      background: linear-gradient(180deg, #eef4ff 0%, #e3ecfb 55%, #d9e6fb 100%);
     }
 
     .nav {
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      padding: 18px 40px;
-      background: #ffffff;
-      border-bottom: 1px solid var(--stroke);
+      padding: 20px 48px;
+      background: rgba(3, 9, 32, 0.7);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
     }
 
     .nav-left {
@@ -53,7 +54,7 @@
       gap: 12px;
       font-weight: 700;
       font-size: 20px;
-      color: var(--accent);
+      color: #6bdcff;
     }
 
     .brand-logo {
@@ -65,7 +66,7 @@
     }
 
     .nav a {
-      color: var(--text-1);
+      color: #b6c7e6;
       text-decoration: none;
       font-size: 14px;
     }
@@ -119,7 +120,7 @@
     }
 
     .section-tag {
-      background: #eef3ff;
+      background: #e6efff;
       color: #2c4a8a;
       border-radius: 999px;
       padding: 5px 10px;
@@ -139,7 +140,7 @@
       color: var(--text-1);
       line-height: 1.7;
       font-size: 13px;
-      background: #f8faff;
+      background: rgba(255, 255, 255, 0.92);
       border: 1px solid var(--stroke);
       border-radius: 12px;
       padding: 14px;
@@ -151,7 +152,7 @@
     }
 
     .metric-panel {
-      background: #f8faff;
+      background: rgba(255, 255, 255, 0.92);
       border: 1px solid var(--stroke);
       border-radius: 12px;
       padding: 14px;
@@ -160,7 +161,7 @@
     .metric-title {
       margin: 0 0 10px;
       font-size: 13px;
-      color: #4b5a73;
+      color: #5a6a84;
       font-weight: 600;
     }
 
@@ -176,7 +177,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 8px 10px;
-      background: #ffffff;
+      background: #f7f9ff;
       border: 1px solid var(--stroke);
       border-radius: 10px;
     }
@@ -196,7 +197,7 @@
     }
 
     .summary-card {
-      background: #f8faff;
+      background: rgba(255, 255, 255, 0.92);
       border: 1px solid var(--stroke);
       border-radius: 14px;
       padding: 16px;
@@ -212,10 +213,10 @@
       font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
       font-size: 13px;
       color: var(--text-0);
-      background: #f1f5ff;
+      background: #f3f6ff;
       border-radius: 10px;
       padding: 12px 14px;
-      border: 1px dashed #d2dcf3;
+      border: 1px dashed rgba(44, 74, 138, 0.35);
     }
 
     .roadmap {
@@ -236,7 +237,7 @@
       display: block;
       border-radius: 16px;
       border: 1px solid var(--stroke);
-      background: #f4f7fd;
+      background: #f7f9ff;
     }
 
     .milestone-list {
@@ -256,7 +257,7 @@
       color: var(--text-1);
       line-height: 1.7;
       padding: 10px 0;
-      border-bottom: 1px dashed #d7deea;
+      border-bottom: 1px dashed rgba(44, 74, 138, 0.15);
     }
 
     .milestone-item:last-child {

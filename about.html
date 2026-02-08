@@ -8,11 +8,11 @@
     @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
 
     :root {
-      --bg: #f6f8fb;
-      --text-0: #111827;
-      --text-1: #5b6b89;
-      --card: #ffffff;
-      --stroke: #e3e9f2;
+      --bg: #e6eefc;
+      --text-0: #0f1b33;
+      --text-1: #4b5a73;
+      --card: rgba(255, 255, 255, 0.85);
+      --stroke: rgba(15, 23, 42, 0.1);
       --accent: #2c4a8a;
     }
 
@@ -24,16 +24,17 @@
       margin: 0;
       font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
       color: var(--text-0);
-      background: var(--bg);
+      background: linear-gradient(180deg, #eef4ff 0%, #e3ecfb 55%, #d9e6fb 100%);
     }
 
     .nav {
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      padding: 18px 40px;
-      background: #ffffff;
-      border-bottom: 1px solid var(--stroke);
+      padding: 20px 48px;
+      background: rgba(3, 9, 32, 0.7);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
     }
 
     .nav-left {
@@ -53,7 +54,7 @@
       gap: 12px;
       font-weight: 700;
       font-size: 20px;
-      color: var(--accent);
+      color: #6bdcff;
     }
 
     .brand-logo {
@@ -65,7 +66,7 @@
     }
 
     .nav a {
-      color: var(--text-1);
+      color: #b6c7e6;
       text-decoration: none;
       font-size: 14px;
     }
@@ -79,11 +80,11 @@
     }
 
     .hero {
-      background: var(--card);
+      background: rgba(255, 255, 255, 0.92);
       border: 1px solid var(--stroke);
       border-radius: 16px;
       padding: 24px;
-      box-shadow: 0 12px 26px rgba(15, 23, 42, 0.06);
+      box-shadow: 0 12px 26px rgba(15, 23, 42, 0.08);
     }
 
     .hero h1 {
@@ -104,7 +105,7 @@
     }
 
     .card {
-      background: var(--card);
+      background: rgba(255, 255, 255, 0.9);
       border: 1px solid var(--stroke);
       border-radius: 14px;
       padding: 18px;
@@ -148,13 +149,13 @@
   <main class="container">
     <section class="hero">
       <h1>关于我们</h1>
-      <p>在此填写平台背景、使命愿景、团队介绍与合作伙伴信息。</p>
+      <p>AI4Science科学数据团队</p>
     </section>
 
     <section class="grid">
       <article class="card">
         <h3>平台愿景</h3>
-        <p>填写平台愿景与长期目标描述。</p>
+        <p>SciDataIndex 致力于构建面向科学智能时代的新一代科学数据基础设施，通过自主智能体持续汇聚全球多领域科学数据线索，建立开放、标准化、可量化的科学数据分类分级与评价体系，提升科学数据的可发现性、可评估性与可复用性。平台旨在打破数据孤岛，推动跨学科数据融合与智能发现，为科研机构、产业界与人工智能模型训练提供高质量数据支撑，促进科学数据资源向知识资产与科研生产力转化，推动开放科学与智能科研生态的持续发展。</p>
       </article>
       <article class="card">
         <h3>核心团队</h3>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -430,58 +430,58 @@
         SciDataIndex
       </div>
       <nav class="nav-links">
-        <a href="data_ranks/earth_science.html">数据榜单</a>
-        <a href="evaluation.html">技术说明</a>
-        <a href="about.html">关于我们</a>
+        <a href="data_ranks/earth_science.html">Rankings</a>
+        <a href="evaluation.html">Methodology</a>
+        <a href="about.html">About</a>
       </nav>
     </div>
-    <a class="nav-action" href="index_en.html">EN</a>
+    <a class="nav-action" href="index.html">中文</a>
   </header>
 
   <main class="hero">
     <!-- <div class="hero-tabs">
-      <span class="active">AI-Agent 数据评价体系</span>
-      <span>自主智能驱动科学发现</span>
+      <span class="active">AI-Agent Data Evaluation System</span>
+      <span>Autonomous Intelligence for Scientific Discovery</span>
     </div> -->
     <h1 class="hero-title">SciDataIndex</h1>
-    <div class="hero-subtitle">面向 AI4Science 的科学数据分类分级与评价平台</div>
+    <div class="hero-subtitle">An AI4Science platform for scientific data classification, grading, and evaluation</div>
 
     <section class="glass-card">
-      <h3>AI4Science 科学数据智能评价体系</h3>
+      <h3>AI4Science Scientific Data Evaluation Framework</h3>
       <p>
-        SciDataIndex 由实验室基于 AI Agent 技术研发，
-        面向 AI4Science 场景，构建覆盖全球的科学数据线索挖掘、
-        分类分级与综合评价体系。
-        平台持续汇聚多源科学数据资源，
-        从开放性、规范性、影响力与可用性等维度进行量化评估，
-        支撑高价值科研数据发现与跨学科创新。
+        SciDataIndex is developed by the lab based on AI Agent technology,
+        targeting AI4Science scenarios and building a global framework for scientific data signal mining,
+        classification, grading, and comprehensive evaluation.
+        The platform continuously aggregates multi-source scientific data resources
+        and performs quantitative assessment across openness, standardization, impact, and usability,
+        supporting the discovery of high-value research data and interdisciplinary innovation.
       </p>
     </section>
 
     <div class="hero-actions">
-      <a class="btn secondary" href="data_ranks/earth_science.html">地球科学</a>
-      <a class="btn secondary" href="data_ranks/neuro_science.html">神经科学</a>
-      <a class="btn secondary" href="data_ranks/life_science.html">生命科学</a>
-      <a class="btn secondary" href="data_ranks/material_science.html">物质科学</a>
+      <a class="btn secondary" href="data_ranks/earth_science.html">Earth Science</a>
+      <a class="btn secondary" href="data_ranks/neuro_science.html">Neuro science</a>
+      <a class="btn secondary" href="data_ranks/life_science.html">Life Science</a>
+      <a class="btn secondary" href="data_ranks/material_science.html">Materials Science</a>
     </div>
     <div class="earth-glow"></div>
   </main>
 
   <section class="rank-section" id="rankSection">
     <div class="rank-inner">
-      <h2 class="rank-title">科学数据综合评价榜</h2>
-      <p class="rank-subtitle">展示三大领域数据集的综合评分排行（Top 5）</p>
+      <h2 class="rank-title">Scientific Data Evaluation Rankings</h2>
+      <p class="rank-subtitle">Top 5 datasets by total score in each domain</p>
       <div class="rank-grid" id="rankGrid"></div>
     </div>
   </section>
 
   <script>
     const DATASETS = {
-      "地球科学": [
+      "Earth Science": [
         {
           "name": "Coupled Model Intercomparison Project",
-          "desc": "耦合气候模型比较项目",
-          "detail": "基于第一性原理计算，提供大规模材料结构与能带性质数据",
+          "desc": "Coupled climate model intercomparison program.",
+          "detail": "Large-scale data supporting climate model evaluation.",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -494,8 +494,8 @@
         },
         {
           "name": "Hubble Space Telescope Data",
-          "desc": "哈勃太空望远镜图像观测数据",
-          "detail": "用于研究催化反应路径、吸附能与反应能垒的高质量数据集",
+          "desc": "Hubble Space Telescope image observations.",
+          "detail": "High-quality astronomy observations for deep space research.",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -508,8 +508,8 @@
         },
         {
           "name": "ECMWF reanalysis",
-          "desc": "欧洲气象中心全球气象再分析资料",
-          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
+          "desc": "ECMWF global atmospheric reanalysis dataset.",
+          "detail": "Global reanalysis fields for climate and weather studies.",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -522,8 +522,8 @@
         },
         {
           "name": "Sloan Digital Sky Survey",
-          "desc": "斯隆数字天空巡天",
-          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
+          "desc": "Sloan Digital Sky Survey observations.",
+          "detail": "Large-scale sky survey data and catalogs.",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -536,8 +536,8 @@
         },
         {
           "name": "Event Horizon Telescope Observations",
-          "desc": "事件视界望远镜观测数据",
-          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
+          "desc": "Event Horizon Telescope observation data.",
+          "detail": "Very-long-baseline interferometry observations of black holes.",
           "rating": {
             "openness": 10,
             "quality": 0,
@@ -549,11 +549,11 @@
           }
         }
       ],
-      "神经科学": [
+      "Neuro science": [
         {
           "name": "Hemibrain Connectome Dataset",
-          "desc": "果蝇半脑连接组图谱",
-          "detail": "高分辨率人类脑结构与功能连接数据",
+          "desc": "Drosophila hemibrain connectome atlas.",
+          "detail": "High-resolution connectomics data for brain circuitry.",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -566,8 +566,8 @@
         },
         {
           "name": "HMC Sleep Staging Dataset",
-          "desc": "五分类睡眠分期脑电数据集",
-          "detail": "提供多尺度脑区基因表达与解剖结构信息",
+          "desc": "Five-class EEG sleep staging dataset.",
+          "detail": "Sleep EEG data for multi-class staging and analysis.",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -580,8 +580,8 @@
         },
         {
           "name": "BOLD5000",
-          "desc": "一个大规模、慢速事件相关的fMRI数据集",
-          "detail": "基于高通道电极的神经元放电记录数据",
+          "desc": "Large-scale, slow event-related fMRI dataset.",
+          "detail": "fMRI responses to natural image stimuli.",
           "rating": {
             "openness": 9,
             "quality": 9,
@@ -594,8 +594,8 @@
         },
         {
           "name": "RSNA Intracranial Hemorrhage Detection",
-          "desc": "RSNA颅内出血检测/分类数据集",
-          "detail": "基于高通道电极的神经元放电记录数据",
+          "desc": "RSNA intracranial hemorrhage detection/classification dataset.",
+          "detail": "CT scans labeled for hemorrhage detection.",
           "rating": {
             "openness": 0,
             "quality": 0,
@@ -608,8 +608,8 @@
         },
         {
           "name": "APT-36K",
-          "desc": "用于动物姿态估计与跟踪的大规模基准数据集",
-          "detail": "基于高通道电极的神经元放电记录数据",
+          "desc": "Large-scale animal pose estimation and tracking dataset.",
+          "detail": "Multi-animal pose annotations and tracking data.",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -621,11 +621,11 @@
           }
         }
       ],
-      "生命科学": [
+      "Life Science": [
         {
           "name": "AlphaFold Protein Structure Database",
-          "desc": "AlphaFold数据库",
-          "detail": "全球最大的核酸序列存储与共享数据库之一",
+          "desc": "AlphaFold protein structure database.",
+          "detail": "Large-scale protein structure predictions.",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -638,8 +638,8 @@
         },
         {
           "name": "STRING",
-          "desc": "STRING蛋白交互网络数据库",
-          "detail": "提供高质量的蛋白质序列、功能与结构注释信息",
+          "desc": "STRING protein interaction network database.",
+          "detail": "Protein-protein interaction evidence and networks.",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -652,8 +652,8 @@
         },
         {
           "name": "Universal Protein Resource",
-          "desc": "蛋白质统一资源库",
-          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "desc": "UniProt protein knowledgebase.",
+          "detail": "Curated protein sequences and functional annotations.",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -666,8 +666,8 @@
         },
         {
           "name": "InterPro",
-          "desc": "综合蛋白质家族、结构域和功能位点注释数据库",
-          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "desc": "Integrated protein families, domains, and sites database.",
+          "detail": "Protein family and domain annotations.",
           "rating": {
             "openness": 0,
             "quality": 10,
@@ -680,8 +680,8 @@
         },
         {
           "name": "SPICE",
-          "desc": "SPICE分子力场机器学习数据集",
-          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "desc": "SPICE molecular force-field machine learning dataset.",
+          "detail": "Molecular energies and forces for ML force fields.",
           "rating": {
             "openness": 9,
             "quality": 9,
@@ -693,10 +693,10 @@
           }
         }
       ],
-      "物质科学": [
+      "Materials Science": [
         {
           "name": "Buchwald-Hartwig couplings",
-          "desc": "以主动学习为核心的钯催化 C–N 偶联反应条件与产率数据集。",
+          "desc": "Palladium-catalyzed C–N coupling conditions and yields.",
           "rating": {
             "openness": 0,
             "quality": 9,
@@ -709,7 +709,7 @@
         },
         {
           "name": "C-N cross-coupling",
-          "desc": "高通量 C–N 偶联反应数据，用于预测催化剂耐受性与机制分析。",
+          "desc": "High-throughput C–N coupling dataset for catalyst analysis.",
           "rating": {
             "openness": 0,
             "quality": 10,
@@ -722,7 +722,7 @@
         },
         {
           "name": "MoleculeNet",
-          "desc": "分子机器学习的大规模基准与模型评测集合。",
+          "desc": "Large-scale benchmark suite for molecular machine learning.",
           "rating": {
             "openness": 0,
             "quality": 0,
@@ -735,7 +735,7 @@
         },
         {
           "name": "Open-catalyst-project",
-          "desc": "Open Catalyst Project 挑战赛结构与能量/力标签数据集。",
+          "desc": "Open Catalyst Project structures with energy/force labels.",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -748,7 +748,7 @@
         },
         {
           "name": "SPICE-2.0.1",
-          "desc": "含 1.1M 分子 DFT 计算能量与受力结果的分子力场数据集。",
+          "desc": "DFT energies and forces for 1.1M molecules.",
           "rating": {
             "openness": 9,
             "quality": 9,
@@ -763,21 +763,21 @@
     };
 
     function toFileName(name) {
-      return `${name.replace(/\\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
+      return `${name.replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
     }
 
     function formatScore(value) {
       if (!Number.isFinite(value)) return "-";
       const text = value.toFixed(2);
-      return text.replace(/\\.00$/, ".0").replace(/(\\.\\d)0$/, "$1");
+      return text.replace(/\.00$/, ".0").replace(/(\.\d)0$/, "$1");
     }
 
     const grid = document.getElementById("rankGrid");
     const SUBJECT_ICONS = {
-      "地球科学": "🌍",
-      "神经科学": "🧠",
-      "生命科学": "🧬",
-      "物质科学": "🧪"
+      "Earth Science": "🌍",
+      "Neuro science": "🧠",
+      "Life Science": "🧬",
+      "Materials Science": "🧪"
     };
 
     Object.entries(DATASETS).forEach(([subject, datasets]) => {
@@ -789,23 +789,23 @@
       const card = document.createElement("div");
       card.className = "rank-card";
       const icon = SUBJECT_ICONS[subject] || "📊";
-      const subjectSlug = subject === "地球科学"
+      const subjectSlug = subject === "Earth Science"
         ? "earth_science"
-        : subject === "神经科学"
+        : subject === "Neuro science"
           ? "neuro_science"
-          : subject === "生命科学"
+          : subject === "Life Science"
             ? "life_science"
-            : subject === "物质科学"
+            : subject === "Materials Science"
               ? "material_science"
               : "";
       card.innerHTML = `
         <div class="rank-card-header">
-          <span>${icon} ${subject}榜单</span>
-          <span>综合分</span>
+          <span>${icon} ${subject} Rankings</span>
+          <span>Total</span>
         </div>
         <div class="rank-list"></div>
         <div class="rank-footer">
-          <a href="data_ranks/${subjectSlug || "earth_science"}.html">查看完整榜单 →</a>
+          <a href="data_ranks/${subjectSlug || "earth_science"}.html">View full ranking →</a>
         </div>
       `;
       const list = card.querySelector(".rank-list");
@@ -816,7 +816,6 @@
         const badgeClass = idx === 0 ? "gold" : idx === 1 ? "silver" : idx === 2 ? "bronze" : "";
         const medalIcon = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : "";
         const categoryParam = subjectSlug;
-        // console.log("index:", categoryParam);
         row.innerHTML = `
           <div class="rank-badge ${badgeClass}">
             ${medalIcon || (idx + 1)}
@@ -824,7 +823,7 @@
           <a class="rank-name" href="dataset_detail.html?name=${encodeURIComponent(item.name)}&file=${encodeURIComponent(fileName)}&category=${encodeURIComponent(categoryParam)}">${item.name}</a>
           <div class="rank-score">
             ${formatScore(item.rating?.total_score)}
-            <small>综合分</small>
+            <small>Total</small>
           </div>
         `;
         list.appendChild(row);
