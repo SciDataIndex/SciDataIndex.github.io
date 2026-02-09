@@ -20,11 +20,16 @@
       box-sizing: border-box;
     }
 
+    html {
+      background: linear-gradient(180deg, #eef4ff 0%, #e3ecfb 55%, #d9e6fb 100%);
+    }
+
     body {
       margin: 0;
       font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
       color: var(--text-0);
       background: linear-gradient(180deg, #eef4ff 0%, #e3ecfb 55%, #d9e6fb 100%);
+      min-height: 100vh;
     }
 
     .nav {
@@ -33,7 +38,7 @@
       justify-content: flex-start;
       padding: 20px 48px;
       background: rgba(3, 9, 32, 0.7);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      border-bottom: none;
       backdrop-filter: blur(8px);
     }
 
@@ -136,7 +141,6 @@
   <header class="nav">
     <div class="nav-left">
       <div class="brand">
-        <span class="brand-logo"></span>
         SciDataIndex
       </div>
       <nav class="nav-links">

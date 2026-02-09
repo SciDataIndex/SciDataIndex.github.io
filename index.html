@@ -29,7 +29,7 @@
       margin: 0;
       font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
       color: var(--text-0);
-      background:
+      background: 
         linear-gradient(180deg, rgba(3, 8, 22, 0.78) 0%, rgba(3, 8, 22, 0.55) 55%, rgba(3, 8, 22, 0.85) 100%),
         url("images/main_background.png") center/cover no-repeat,
         radial-gradient(1200px 500px at 10% 40%, #1d3b9b 0%, transparent 60%),
@@ -138,10 +138,15 @@
       position: relative;
     }
 
+    .hero > * {
+      position: relative;
+      z-index: 1;
+    }
+
     .hero-title {
       font-size: clamp(36px, 6vw, 60px);
       margin: 10px 0;
-      color: var(--accent);
+      color: var(--glow);
       font-weight: 700;
       text-shadow: 0 0 20px rgba(46, 230, 201, 0.4);
     }
@@ -178,9 +183,12 @@
       margin: 0 auto;
       padding: 28px 30px;
       border-radius: 16px;
-      background: var(--card);
-      border: 1px solid var(--stroke);
-      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+      background: #0f214f;
+      background-image: none;
+      background-clip: padding-box;
+      overflow: hidden;
+      border: none;
+      box-shadow: none;
       text-align: left;
       line-height: 1.8;
     }
@@ -195,8 +203,9 @@
     .rank-section {
       margin: 0;
       padding: 70px 0 90px;
-      background: #f5f7fb;
+      background: #ffffff;
       color: #101827;
+      border-top: 1px solid #e3e8f3;
     }
 
     .rank-inner {
@@ -350,6 +359,38 @@
       font-size: 13px;
     }
 
+    .rank-more {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: center;
+      margin-top: 6px;
+    }
+
+    .rank-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      border-radius: 999px;
+      border: 1px dashed #b6c7e6;
+      background: #ffffff;
+      color: #2c4a8a;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 8px 16px rgba(15, 23, 42, 0.08);
+    }
+
+    .rank-toggle span {
+      font-size: 12px;
+      color: #6b7c99;
+      font-weight: 400;
+    }
+
+    .rank-card.hidden {
+      display: none;
+    }
+
     .hero-actions {
       display: flex;
       justify-content: center;
@@ -385,13 +426,14 @@
     .earth-glow {
       position: absolute;
       left: 50%;
-      bottom: -140px;
+      bottom: 0;
       transform: translateX(-50%);
       width: 1200px;
-      height: 320px;
+      height: 220px;
       background: radial-gradient(circle at 50% 20%, rgba(98, 228, 255, 0.6), transparent 70%);
       opacity: 0.65;
       pointer-events: none;
+      z-index: 0;
     }
 
     @media (max-width: 900px) {
@@ -426,7 +468,6 @@
   <header class="nav">
     <div class="nav-left">
       <div class="brand">
-        <span class="brand-logo"></span>
         SciDataIndex
       </div>
       <nav class="nav-links">
@@ -449,7 +490,7 @@
     <section class="glass-card">
       <h3>AI4Science 科学数据智能评价体系</h3>
       <p>
-        SciDataIndex 由实验室基于 AI Agent 技术研发，
+        SciDataIndex 由上海人工智能实验室基于 AI Agent 技术研发，
         面向 AI4Science 场景，构建覆盖全球的科学数据线索挖掘、
         分类分级与综合评价体系。
         平台持续汇聚多源科学数据资源，
@@ -460,20 +501,20 @@
 
     <div class="hero-actions">
       <a class="btn secondary" href="data_ranks/earth_science.html">地球科学</a>
-      <a class="btn secondary" href="data_ranks/neuro_science.html">神经科学</a>
       <a class="btn secondary" href="data_ranks/life_science.html">生命科学</a>
       <a class="btn secondary" href="data_ranks/material_science.html">物质科学</a>
+      <a class="btn secondary" href="data_ranks/neuro_science.html">神经科学</a>
     </div>
     <div class="earth-glow"></div>
   </main>
 
-  <section class="rank-section" id="rankSection">
-    <div class="rank-inner">
-      <h2 class="rank-title">科学数据综合评价榜</h2>
-      <p class="rank-subtitle">展示三大领域数据集的综合评分排行（Top 5）</p>
-      <div class="rank-grid" id="rankGrid"></div>
-    </div>
-  </section>
+    <section class="rank-section" id="rankSection">
+      <div class="rank-inner">
+        <h2 class="rank-title">科学数据综合评价榜</h2>
+        <p class="rank-subtitle">展示三大领域数据集的综合评分排行（Top 5）</p>
+        <div class="rank-grid" id="rankGrid"></div>
+      </div>
+    </section>
 
   <script>
     const DATASETS = {
@@ -780,7 +821,12 @@
       "物质科学": "🧪"
     };
 
-    Object.entries(DATASETS).forEach(([subject, datasets]) => {
+    const subjectOrder = ["地球科学", "生命科学", "物质科学", "神经科学"];
+    let neuroCard = null;
+
+    subjectOrder.forEach(subject => {
+      const datasets = DATASETS[subject];
+      if (!datasets) return;
       const items = [...datasets].sort((a, b) => {
         const scoreA = a.rating?.total_score ?? 0;
         const scoreB = b.rating?.total_score ?? 0;
@@ -829,8 +875,28 @@
         `;
         list.appendChild(row);
       });
+      if (subject === "神经科学") {
+        card.classList.add("hidden");
+        neuroCard = card;
+      }
       grid.appendChild(card);
     });
+
+    if (neuroCard) {
+      const moreWrap = document.createElement("div");
+      moreWrap.className = "rank-more";
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "rank-toggle";
+      toggle.innerHTML = `更多学科榜单...`;
+      toggle.addEventListener("click", () => {
+        const isHidden = neuroCard.classList.contains("hidden");
+        neuroCard.classList.toggle("hidden");
+        toggle.innerHTML = isHidden ? `收起学科榜单...` : `更多学科榜单...`;
+      });
+      moreWrap.appendChild(toggle);
+      grid.appendChild(moreWrap);
+    }
   </script>
 </body>
 </html>
