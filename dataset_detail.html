@@ -447,7 +447,13 @@
       tabBar.innerHTML = "";
       detailList.innerHTML = "";
 
-      const opennessTab = renderTab("openness", "开放性", () => {
+      const aiTab = renderTab("ai", "AI 就绪度", () => {
+        addDetail("标注密度", data?.AI_readiness?.annotation_density);
+        addDetail("预处理程度", data?.AI_readiness?.preprocessing_level);
+        addDetail("格式一致性", data?.AI_readiness?.format_consistency);
+      });
+
+      renderTab("openness", "开放性", () => {
         addDetail("许可证类型", data?.openness?.license_type);
         addDetail("许可证来源链接", data?.openness?.license_source_link);
         addDetail("收费模式", data?.openness?.charging_mode);
@@ -474,12 +480,6 @@
         addDetail("可追溯性", data?.safety?.traceability);
       });
 
-      renderTab("ai", "AI 就绪度", () => {
-        addDetail("标注密度", data?.AI_readiness?.annotation_density);
-        addDetail("预处理程度", data?.AI_readiness?.preprocessing_level);
-        addDetail("格式一致性", data?.AI_readiness?.format_consistency);
-      });
-
       renderTab("quality", "数据质量", () => {
         addDetail("完整性", data?.data_quality?.integrity);
         addDetail("首次发布", data?.data_quality?.first_release_date);
@@ -487,8 +487,8 @@
         addDetail("来源链接", data?.data_quality?.source_link);
       });
 
-      opennessTab.classList.add("active");
-      opennessTab.click();
+      aiTab.classList.add("active");
+      aiTab.click();
     }
 
     async function resolveDatasetName() {
