@@ -1,8 +1,10 @@
 [
   "Buchwald-Hartwig_couplings_ratings1.json",
   "C-N_cross-coupling_ratings1.json",
+  "CPA-catalyzed_thiol_addition_to_N-acylim_ratings1.json",
   "Chignolin-VisNet_ratings1.json",
   "Deoxyfluorination_with_Sulfonyl_Fluoride_ratings1.json",
+  "MPF_ratings1.json",
   "MoleculeNet_ratings1.json",
   "Open-catalyst-project_ratings1.json",
   "SPICE-2.0.1_ratings1.json",

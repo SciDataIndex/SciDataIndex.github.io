@@ -1,0 +1,45 @@
+{
+  "dataset": "MPF",
+  "intro": {
+    "official_link": "nan",
+    "brief_description": "m3gnet 的训练数据，包含结构和能量、受力",
+    "detailed_description": "Materials Project对每个从实验数据库（如无机晶体结构数据库）获取的独特输入晶体，依次执行两次弛豫计算：采用PBE广义梯度近似（GGA）泛函或GGA+U方法。初始数据集包含截至2021年2月8日Materials Project数据库中GGA结构优化或GGA+U结构优化任务类型的计算结果采样，具体提取了第一次弛豫的首个中间离子步骤及第二次弛豫最终步骤的能量、力和应力数据。若某结构的最终原子能量超过50 eV/原子或原子间距小于0.5 Å，则被排除（这类结果通常源于初始输入结构的错误）。\n随后，该数据集按材料（而非数据点）以90%、5%和5%的比例划分为训练集、验证集和测试集，并进行了三次独立的数据划分。"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "nan",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

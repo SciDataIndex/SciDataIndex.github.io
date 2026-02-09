@@ -1,0 +1,45 @@
+{
+  "dataset": "CPA-catalyzed thiol addition to N-acylim",
+  "intro": {
+    "official_link": "nan",
+    "brief_description": "基于嵌入空间与电子信息的知识图模型和分子相互作用模块，精准预测反应产率与立体选择性，具备可解释的外推能力，为合成开发提供指导。",
+    "detailed_description": "准确预测反应性和选择性为合成开发提供了所需的指导。由于分子结构和合成功能之间的高维关系，实现具有所需外推能力和化学可解释性的合成转化预测模型具有挑战性。为了弥补丰富的化学领域知识与先进的分子图模型之间的差距，我们在此报告了一种基于知识的图模型，该模型嵌入了数字化的空间和电子信息。此外，还开发了一个分子相互作用模块，以便学习反应组分的协同影响。在本研究中，我们证明了这种基于知识的图模型可以出色地预测反应产率和立体选择性，其外推能力通过额外的基于支架的数据拆分和使用新催化剂的实验验证得到了证实。由于嵌入了局部环境，该模型允许在原子水平上解释空间和电子对整体合成性能的影响，这为分子工程朝着目标合成功能发展提供了有用的指导。该模型为反应性能预测提供了一种外推和可解释的方法，指出了化学知识约束的反应建模对于合成目的的重要性。"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "nan",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}
