@@ -376,12 +376,12 @@
     }
 
     async function loadDataset(fileName) {
-      const dataRes = await fetch(`${DATA_ROOT}${fileName}`);
+      const dataRes = await fetch(`${DATA_ROOT}${encodeURIComponent(fileName)}`);
       if (!dataRes.ok) return null;
       const data = await dataRes.json();
       const scoreFile = fileName.replace("_ratings1.json", "_scores.json");
       let scores = {};
-      const scoreRes = await fetch(`${SCORE_ROOT}${scoreFile}`);
+      const scoreRes = await fetch(`${SCORE_ROOT}${encodeURIComponent(scoreFile)}`);
       if (scoreRes.ok) {
         const scoreData = await scoreRes.json();
         if (scoreData && scoreData.scores) scores = scoreData.scores;
