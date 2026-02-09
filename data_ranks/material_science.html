@@ -108,6 +108,7 @@
       display: flex;
       gap: 12px;
       flex-wrap: wrap;
+      align-items: center;
     }
 
     .filter-chip {
@@ -117,6 +118,16 @@
       background: rgba(255, 255, 255, 0.06);
       font-size: 13px;
       color: var(--text-1);
+    }
+
+    .sort-select {
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(10, 20, 48, 0.7);
+      color: var(--text-0);
+      font-size: 13px;
+      outline: none;
     }
 
     .board {
@@ -218,6 +229,34 @@
       background: rgba(255, 255, 255, 0.08);
     }
 
+    .pagination {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .page-btn {
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-0);
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .page-btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .page-info {
+      font-size: 13px;
+      color: var(--text-1);
+    }
+
     @media (max-width: 980px) {
       .board-head,
       .board-row {
@@ -268,9 +307,15 @@
         <p>聚焦开放性、规模性、影响力与 AI 就绪度的综合评分排名</p>
       </div>
       <div class="filters">
-        <div class="filter-chip">2025 年度</div>
-        <div class="filter-chip">综合评分</div>
-        <div class="filter-chip">物质科学</div>
+        <select class="sort-select" id="sortSelect">
+          <option value="total_score">按综合评分排序</option>
+          <option value="ai_readiness">按 AI 就绪度排序</option>
+          <option value="openness">按开放性排序</option>
+          <option value="scale">按规模排序</option>
+          <option value="impact">按影响力排序</option>
+          <option value="safety">按安全性排序</option>
+          <option value="quality">按数据质量排序</option>
+        </select>
       </div>
     </div>
 
@@ -288,6 +333,11 @@
       </div>
       <div id="boardRows"></div>
     </section>
+    <div class="pagination">
+      <button class="page-btn" id="prevPage">上一页</button>
+      <span class="page-info" id="pageInfo">第 1 / 1 页</span>
+      <button class="page-btn" id="nextPage">下一页</button>
+    </div>
 
     <a class="back-link" href="../index.html">返回 SciDataIndex 首页</a>
   </main>
@@ -311,6 +361,13 @@
     }
 
     const rows = document.getElementById("boardRows");
+    const prevPageBtn = document.getElementById("prevPage");
+    const nextPageBtn = document.getElementById("nextPage");
+    const pageInfo = document.getElementById("pageInfo");
+    const sortSelect = document.getElementById("sortSelect");
+    const pageSize = 10;
+    let currentPage = 1;
+    let allDatasets = [];
 
     async function loadIndex() {
       const res = await fetch(DATA_INDEX);
@@ -338,50 +395,93 @@
       };
     }
 
+    function getSortValue(ds, key) {
+      return ds.rating?.[key] ?? 0;
+    }
+
+    function sortDatasets() {
+      const key = sortSelect.value;
+      allDatasets.sort((a, b) => {
+        const primary = getSortValue(b, key) - getSortValue(a, key);
+        if (primary !== 0) return primary;
+        return getSortValue(b, "total_score") - getSortValue(a, "total_score");
+      });
+    }
+
+    function renderPage() {
+      sortDatasets();
+      rows.innerHTML = "";
+      const totalPages = Math.max(1, Math.ceil(allDatasets.length / pageSize));
+      currentPage = Math.min(currentPage, totalPages);
+      const start = (currentPage - 1) * pageSize;
+      const items = allDatasets.slice(start, start + pageSize);
+      items.forEach((ds, idx) => {
+        const total = ds.rating?.total_score;
+        const openness = ds.rating?.openness;
+        const scale = ds.rating?.scale;
+        const impact = ds.rating?.impact;
+        const safety = ds.rating?.safety;
+        const aiReady = ds.rating?.ai_readiness;
+        const quality = ds.rating?.quality;
+        const rank = start + idx + 1;
+        const row = document.createElement("div");
+        row.className = "board-row";
+        row.innerHTML = `
+          <div class="rank">${String(rank).padStart(2, "0")}</div>
+          <div>
+            <a class="dataset-name" href="../dataset_detail.html?name=${encodeURIComponent(ds.name)}&file=${encodeURIComponent(ds.fileName)}&category=${CATEGORY}">${ds.name}</a>
+            <div class="dataset-desc">${ds.desc}</div>
+          </div>
+          <div>${formatScore(aiReady)}</div>
+          <div>${formatScore(openness)}</div>
+          <div>${formatScore(scale)}</div>
+          <div>${formatScore(impact)}</div>
+          <div>${formatScore(safety)}</div>
+          <div>${formatScore(quality)}</div>
+          <div>
+            <div class="score">${formatScore(total)}</div>
+            <div class="score-bar"><span style="width: ${clampPercent(total)}%;"></span></div>
+          </div>
+        `;
+        rows.appendChild(row);
+      });
+      prevPageBtn.disabled = currentPage <= 1;
+      nextPageBtn.disabled = currentPage >= totalPages;
+      pageInfo.textContent = `第 ${currentPage} / ${totalPages} 页`;
+    }
+
     async function renderTable() {
       rows.innerHTML = "";
       try {
         const list = await loadIndex();
         const datasets = (await Promise.all(list.map(loadDataset))).filter(Boolean);
-        datasets.sort((a, b) => {
-          const scoreA = a.rating?.total_score ?? 0;
-          const scoreB = b.rating?.total_score ?? 0;
-          return scoreB - scoreA;
-        });
-
-        datasets.forEach((ds, index) => {
-          const total = ds.rating?.total_score;
-          const openness = ds.rating?.openness;
-          const scale = ds.rating?.scale;
-          const impact = ds.rating?.impact;
-          const safety = ds.rating?.safety;
-          const aiReady = ds.rating?.ai_readiness;
-          const quality = ds.rating?.quality;
-          const row = document.createElement("div");
-          row.className = "board-row";
-          row.innerHTML = `
-            <div class="rank">${String(index + 1).padStart(2, "0")}</div>
-            <div>
-              <a class="dataset-name" href="../dataset_detail.html?name=${encodeURIComponent(ds.name)}&file=${encodeURIComponent(ds.fileName)}&category=${CATEGORY}">${ds.name}</a>
-              <div class="dataset-desc">${ds.desc}</div>
-            </div>
-            <div>${formatScore(aiReady)}</div>
-            <div>${formatScore(openness)}</div>
-            <div>${formatScore(scale)}</div>
-            <div>${formatScore(impact)}</div>
-            <div>${formatScore(safety)}</div>
-            <div>${formatScore(quality)}</div>
-            <div>
-              <div class="score">${formatScore(total)}</div>
-              <div class="score-bar"><span style="width: ${clampPercent(total)}%;"></span></div>
-            </div>
-          `;
-          rows.appendChild(row);
-        });
+        allDatasets = datasets;
+        currentPage = 1;
+        renderPage();
       } catch (err) {
         rows.innerHTML = "<div class=\"board-row\">数据列表加载失败</div>";
       }
     }
+
+    prevPageBtn.addEventListener("click", () => {
+      if (currentPage > 1) {
+        currentPage -= 1;
+        renderPage();
+      }
+    });
+
+    nextPageBtn.addEventListener("click", () => {
+      const totalPages = Math.max(1, Math.ceil(allDatasets.length / pageSize));
+      if (currentPage < totalPages) {
+        currentPage += 1;
+        renderPage();
+      }
+    });
+
+    sortSelect.addEventListener("change", () => {
+      currentPage = 1;
+      renderPage();
+    });
 
     renderTable();
   </script>
