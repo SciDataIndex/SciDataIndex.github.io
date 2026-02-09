@@ -1,0 +1,45 @@
+{
+  "dataset": "First M87 EHT Results: Calibrated Data",
+  "intro": {
+    "official_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_FirstM87Results_Apr2019",
+    "brief_description": "该数据集是2017年Event Horizon Telescope对M87黑洞观测的经多管线处理的校准射电干涉数据，公开发布以支持第一批M87事件视界成像结果。",
+    "detailed_description": "该数据集来源于事件视界望远镜（EHT）2017年4月对M87黑洞的观测，涵盖低频和高频波段的多天数据，经三套独立数据处理流程校准和降噪，包含主用的EHT-HOPS管线的延迟匹配、先验和网络校准数据。数据经过时间和频率平均，去除所有偏振信息，并对VLBI常用软件格式进行了适配处理。数据集提供了详细的数据特性、验证方法及系统误差估计，旨在支持第一批M87事件视界的成像与科学分析。"
+  },
+  "openness": {
+    "license_type": "PDDL",
+    "license_source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87pol2017_Nov2023",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "7.7MB",
+    "data_volume_mb": "7.7",
+    "source_of_data_volume": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87-2018_Mar2024",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/1906.11240",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "85500.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/04/05",
+    "source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87-2018_Mar2024",
+    "last_update_date": "2024/04/05"
+  }
+}

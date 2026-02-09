@@ -1,0 +1,45 @@
+{
+  "dataset": "EHT Visibility Amplitude Data of M87* in",
+  "intro": {
+    "official_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87pol2017_Nov2023",
+    "brief_description": "EHT 在 2011、2012 和 2013 年对 M87* 的观测数据",
+    "detailed_description": "该数据集公开了 EHT 在 2011、2012 和 2013 年对 M87* 的观测数据（含时间戳、望远镜代码、u-v 坐标、去偏置后的可见度幅度及不确定度），用于支持 2009–2017 年 M87* 形态演化研究（Wielgus et al. 2020）。"
+  },
+  "openness": {
+    "license_type": "PDDL",
+    "license_source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87pol2017_Nov2023",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "38.1KB",
+    "data_volume_mb": "0.03720703125",
+    "source_of_data_volume": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_MonitoringM87_Sep2020",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://www.mdpi.com/2075-4434/10/6/113",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "85500.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2020/09/22",
+    "source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_MonitoringM87_Sep2020",
+    "last_update_date": "2020/09/22"
+  }
+}

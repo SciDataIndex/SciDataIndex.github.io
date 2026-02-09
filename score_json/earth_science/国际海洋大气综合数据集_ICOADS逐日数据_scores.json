@@ -1,0 +1,13 @@
+{
+  "dataset_name": "国际海洋大气综合数据集 ICOADS逐日数据",
+  "scores": {
+    "openness": 0,
+    "quality": 10,
+    "scale": 4,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 5,
+    "total_score": 4.55
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

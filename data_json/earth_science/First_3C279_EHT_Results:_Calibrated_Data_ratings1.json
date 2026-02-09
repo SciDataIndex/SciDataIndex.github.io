@@ -1,0 +1,45 @@
+{
+  "dataset": "First 3C279 EHT Results: Calibrated Data",
+  "intro": {
+    "official_link": "https://opendatalab.com/OpenDataLab/Firs-3C279-EHT-Results-Calibrated-Data?utm_source=chatgpt.com",
+    "brief_description": "这是事件视界望远镜发布的首个 3C279 类星体高分辨率 VLBI 校准数据集，经过多流程校准和极化简化，可用于复现论文结果和测试 VLBI 成像算法。",
+    "detailed_description": "该数据集发布于 2020 年，是事件视界望远镜（EHT）在 2017 年 4 月对著名类星体 3C279 进行多天观测后，经过严格校准和验证的公开 VLBI 数据。数据涵盖低频和高频两个波段，观测日期为 2017 年 4 月 5 日、6 日、10 日和 11 日，总体基于 EHT 的首次科学发布（Science Release 1，SR1），并同步配套了三条独立的数据处理管线结果。此次发布的是以 EHT-HOPS 管线生成的数据为主，包括了干涉条纹拟合、先验和网络校准以及基于台站灵敏度的独立流量标定，尽可能减少系统误差，提供可靠的可重复性。"
+  },
+  "openness": {
+    "license_type": "PDDL",
+    "license_source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_M87pol2017_Nov2023",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4.9MB",
+    "data_volume_mb": "4.9",
+    "source_of_data_volume": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_First3C279Results_May2020",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://www.aanda.org/articles/aa/pdf/2020/08/aa37493-20.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "85500.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2020/04/16",
+    "source_link": "https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_First3C279Results_May2020",
+    "last_update_date": "2020/04/16"
+  }
+}
