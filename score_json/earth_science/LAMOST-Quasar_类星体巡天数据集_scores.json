@@ -1,0 +1,13 @@
+{
+  "dataset_name": "LAMOST-Quasar 类星体巡天数据集",
+  "scores": {
+    "openness": 0,
+    "quality": 9,
+    "scale": 0,
+    "impact": 0,
+    "safety": 10,
+    "ai_readiness": 4,
+    "total_score": 2.2
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

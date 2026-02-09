@@ -1,0 +1,45 @@
+{
+  "dataset": "Geo-Bench",
+  "intro": {
+    "official_link": "https://github.com/ServiceNow/geo-bench",
+    "brief_description": "GEOBench-VLM 是一个面向遥感领域的多模态基准数据集，用于系统性评估视觉语言模型（VLM）在地理空间任务上的表现。该数据集聚焦遥感图像中的场景理解、目标检测与计数、事件检测、图像描述、语义分割、时序变化分析以及非光学图像分析等任务，旨在补齐通用 VLM 基准在地理空间分析方面的短板。",
+    "detailed_description": "数据集简述：GEOBench-VLM 设计之初就专注于地理空间任务，其目标是评估模型在理解卫星和航空图像中复杂语义和时序关系的能力。数据集覆盖了从城市规划、农业评估到灾害响应等多种应用场景，使得模型在广泛的任务和条件下接受挑战。\n数据集内容：其内容包含 31 个细分类别，归属 8 个主要任务范畴。这些任务不仅涵盖图像分类和物体识别，还包括受灾建筑计数、作物类型识别、灾害类型判断等。每项任务都配有精心设计的多选题（MCQ），结合人工验证和自动生成技术，确保数据质量。\n关键元信息：数据集中含有多模态图像数据，包括光学、多光谱、SAR、红外等遥感数据源。配套信息包括图像注释、边界框、分割掩码及时序图像对，允许对模型在空间定位、目标识别和时序推理方面进行全方位评估。\n重要应用场景：GEOBench-VLM 的应用场景广泛，典型用途包括：城市扩展监测、农田作物分类、森林火灾风险评估、灾害后损毁评估、基础设施识别与变化检测。通过这些任务，VLM 能力得以在高复杂度地理图像中充分暴露和分析。"
+  },
+  "openness": {
+    "license_type": "Apache License 2.0",
+    "license_source_link": "https://github.com/ServiceNow/geo-bench/blob/main/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a0644215d9cff6646fa334dfa5d29c5a-Paper-Datasets_and_Benchmarks.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "548 次下载/月",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "nan",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

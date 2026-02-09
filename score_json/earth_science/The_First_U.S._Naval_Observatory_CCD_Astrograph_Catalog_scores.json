@@ -1,0 +1,13 @@
+{
+  "dataset_name": "The First U.S. Naval Observatory CCD Astrograph Catalog",
+  "scores": {
+    "openness": 0,
+    "quality": 5,
+    "scale": 2,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 7,
+    "total_score": 3.35
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "月面地形标记地图（第二版）",
+  "intro": {
+    "official_link": "https://nadc.china-vo.org/res/r100549/",
+    "brief_description": "《月面地图（第二版）》以4.5亿像素超高清分辨率标注了1268个月面地形，涵盖环形坑、月海、山脉等15类共1268个地标（包括651个主环形坑、43条山脉及13个飞船着陆点等），完整呈现业余天文望远镜可观测的所有重要月表特征。",
+    "detailed_description": "超高清月面地图第二版（Map of the surface of the Moon（the Second Edition）），具有4.5亿像素，有1268个月面地形被标注，包括共有15种不同类型地标，涵盖了业余天文望远镜能看到的几乎所有有观测价值的月面地标，包括：651个主环形坑，348个卫星坑，19个月海，17个月湖，10个月湾，3个月沼，9个海角，93条月溪，8个月谷，43条山脉或山峰，36条山脊，8个峭壁，9个坑链、1个反照率异常点和13个飞船着陆点地标 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100549/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.14GB",
+    "data_volume_mb": "1167.36",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r100549/",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "nan",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2022/05/27",
+    "source_link": "https://nadc.china-vo.org/res/r100549/",
+    "last_update_date": "2022/05/27"
+  }
+}

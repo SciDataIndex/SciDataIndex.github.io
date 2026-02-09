@@ -1,0 +1,45 @@
+{
+  "dataset": "LAMOST DR8 v2.0",
+  "intro": {
+    "official_link": "https://www.lamost.org/dr8/",
+    "brief_description": "LAMOST第八次数据发布的2.0版本，包含1660万条光谱和791万组恒星参数星表，覆盖2011-2020年巡天观测数据",
+    "detailed_description": "1. 数据内容：\n- 低分辨率光谱（1063万条，含恒星、星系、类星体光谱）和中分辨率光谱（非时域146万条，时域451万条）；\n- 恒星参数星表（791万组），新增Gaia变星标记和星系/类星体参数星表；\n- 基于Gaia和PANSTARRS星表构建了以源为单位的LAMOST天体目标星表。\n2. 数据质量：高质量光谱（信噪比>10）占比约80%，中分辨率光谱分辨率达7500-11000。\n3. 数据获取：通过国家天文科学数据中心平台（http://www.lamost.org/dr8）或ESASky平台（https://sky.esa.int）开放下载。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100633?lang=en&utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "34.98 GB",
+    "data_volume_mb": "35819.52",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r100632/?lang=en&utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://www.sciencedirect.com/science/article/pii/S2666675822000200?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "274.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2022/09/30",
+    "source_link": "https://nadc.china-vo.org/res/r100633?lang=en&utm_source=chatgpt.com",
+    "last_update_date": "2022/09/30"
+  }
+}

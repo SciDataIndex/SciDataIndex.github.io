@@ -1,0 +1,45 @@
+{
+  "dataset": "FASHI Data Release 1",
+  "intro": {
+    "official_link": "https://fast.bao.ac.cn/cms/article/271/",
+    "brief_description": "该数据集是由中国科学院国家天文台（NAOC）主导的FAST望远镜发布的首个河外中性氢（HⅠ）巡天目录（FASHI）",
+    "detailed_description": "该数据集由中国科学院国家天文台（NAOC）主导的FAST望远镜发布的首个河外中性氢（HⅠ）巡天目录（FASHI），涵盖北天区7600平方度，探测到41,741个河外HⅠ源，为当前灵敏度最高、覆盖最广的盲巡天成果。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100875/?lang=en",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2.5TB",
+    "data_volume_mb": "2621440.0",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://zcp521.github.io/pub/fashi.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "3810.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "Time frequency Bulletin",
+  "intro": {
+    "official_link": "https://www.nist.gov/publications/nist-time-and-frequency-bulletin?utm_source=chatgpt.com",
+    "brief_description": "时间频率公报（Time frequency Bulletin）主要包括导航卫星全球定位系统（GPS）的时间信号等相对国家授时中心协调世界时系统UTC (NTSC)的时差数据，地方原子时TA(NTSC)与UTC (NTSC)的相位偏差，IERS提供的地球自转参数的最终确定结果，利用我国短波授时系统给出了世界时时号的改正数，以JYD为原点的地极坐标等等时频相关信息。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "时间频率公报（Time frequency Bulletin）主要包括导航卫星全球定位系统（GPS）的时间信号等相对国家授时中心协调世界时系统UTC (NTSC)的时差数据，地方原子时TA(NTSC)与UTC (NTSC)的相位偏差，IERS提供的地球自转参数的最终确定结果，利用我国短波授时系统给出了世界时时号的改正数，以JYD为原点的地极坐标等等时频相关信息。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "-",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8167-01.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

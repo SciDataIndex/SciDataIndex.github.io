@@ -1,0 +1,45 @@
+{
+  "dataset": "CRA5",
+  "intro": {
+    "official_link": "https://github.com/taohan10200/CRA5",
+    "brief_description": "CRA5 是欧洲中期天气预报中心（ECMWF）再分析数据的压缩版本，相比于原始数据，其压缩倍率大约在470X。 该数据集现在包含原始ERA5数据集中常用的多层气压高度变量以及9个地表变量。提供了全球范围内逐小时0.25°分辨率的气象要素。目前数据年份为1979-2023，全面覆盖每小时全球多层次气象状态，可帮助研究人员利用少量的存储和带宽进行气象分析、气候研究、环境建模及可再生能源评估等研究。",
+    "detailed_description": "数据集简述：CRA5 是欧洲中期天气预报中心（ECMWF）再分析数据的压缩版本，相比于原始数据，其压缩倍率大约在470X。 该数据集现在包含原始ERA5数据集中常用的多层气压高度变量以及9个地表变量。提供了全球范围内逐小时0.25°分辨率的气象要素。目前数据年份为1979-2023，全面覆盖每小时全球多层次气象状态，可帮助研究人员利用少量的存储和带宽进行气象分析、气候研究、环境建模及可再生能源评估等研究。\n数据集内容：CRA5 数据中的一个 bin 文件包含逐小时的高空气象变量和地表单层变量。高空变量涵盖从 1 hPa 到 1000 hPa 的 37 个气压层，包括地势高度（z）、相对湿度（r）、比湿（q）、温度（t）、垂直速度（w）以及水平和垂直风速分量（u，v）；地表变量包括 10 米和 100 米风速、近地面温度、云覆盖量、地表气压、降水及海平面气压，对应缩写为 ['v10','u10','v100', 'u100', 't2m','tcc', 'sp','tp', 'msl']，同样为逐小时数据。\n关键元信息：该数据集由 Shanghai AILab 提供，基于 Veolus 算法生成（https://github.com/taohan10200/CRA5），时间分辨率为 1 小时，空间分辨率为 0.25° × 0.25°，覆盖时间为 1979 年至 2023 年，数据格式为 bin。其中，高空气象变量覆盖 1–1000 hPa 的气压层，共计 37 层。\n重要应用场景：少量的存储和带宽进行气象分析、气候研究、环境建模及可再生能源评估等研究。"
+  },
+  "openness": {
+    "license_type": "BSD 3-Clause Clear License",
+    "license_source_link": "https://github.com/taohan10200/CRA5",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "0.7tb",
+    "data_volume_mb": "734003.2",
+    "source_of_data_volume": "https://arxiv.org/pdf/2405.03376",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/pdf/2405.03376",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "4.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "80 星标, 5 复刻",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/07/01",
+    "source_link": "https://github.com/taohan10200/CRA5/commits/main/",
+    "last_update_date": "2024/10/19"
+  }
+}

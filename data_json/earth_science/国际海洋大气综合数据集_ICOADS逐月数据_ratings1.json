@@ -1,0 +1,45 @@
+{
+  "dataset": "国际海洋大气综合数据集 ICOADS逐月数据",
+  "intro": {
+    "official_link": "https://icoads.noaa.gov/",
+    "brief_description": "ICOADS 是时间跨度最长、观测平台最丰富、更新最活跃的全球海面气候观测集成资料库之一，覆盖 1662 年至今，并提供逐月产品，是研究近四个世纪海—气相互作用和气候变率的关键数据源。",
+    "detailed_description": "数据集简介\nICOADS 是时间跨度最长、观测平台最丰富、更新最活跃的全球海面气候观测集成资料库之一，覆盖 1662 年至今，并提供逐月产品，是研究近四个世纪海—气相互作用和气候变率的关键数据源。\n数据集内容\n海表温度 (SST)、海平面气压 (SLP)、近海面气温、露点温度、相对湿度、风速/风向、云量、盐度、波浪和涌浪。\n关键元信息\n时间覆盖 1662-10-15 – 2025-05-31（并持续月度更新） 空间分辨率 点观测；网格统计为 2°×2°（1800-）、1°×1°（1960-) 更新频率 月度（R3.0.2-Monthly）\n重要应用场景\n海表温度与气候趋势分析， 再分析同化与校验， 极端气象事件重建， 海-气热量与动量通量研究， 近实时卫星与模型融合。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://catalog.data.gov/dataset/international-comprehensive-ocean-atmosphere-data-set-icoads-near-real-time-nrt-daily-release-3",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "71322182.758kb",
+    "data_volume_mb": "69650.56909960938",
+    "source_of_data_volume": "https://www.ncei.noaa.gov/data/international-comprehensive-ocean-atmosphere/v3/archive/enhanced-trim/",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00435/full\nhttps://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.1166\nhttps://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.4775",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "4920.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2016/06/18",
+    "source_link": "https://www.ncei.noaa.gov/data/international-comprehensive-ocean-atmosphere/v3/archive/enhanced-trim/",
+    "last_update_date": "2025/08/12"
+  }
+}

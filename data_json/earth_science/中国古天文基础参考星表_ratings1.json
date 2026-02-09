@@ -1,0 +1,45 @@
+{
+  "dataset": "中国古天文基础参考星表",
+  "intro": {
+    "official_link": "https://nadc.china-vo.org/res/r100877/?lang=zh_CN",
+    "brief_description": "中国古天文基础参考星表基于依巴谷星表，整合15537颗亮星数据（J2000.0历元坐标、自行、视向速度），用于回推恒星历史位置及古星表认证。",
+    "detailed_description": "中国古天文基础参考星表（Chinese Ancient Astronomical Fundamental Reference Star Catalog）是一个全天亮星基础数据表，以依巴谷星表为基础，汇集HIP2和XHIP等数据集的恒星参数信息，并归算到J2000.0历元。恒星的选择是亮于7等，合计15537颗恒星。星表包含有J2000.0历元的坐标信息，以及最新的自行、视向速度等数据，可方便用于回推不同历史时期恒星在空间的位置，为古星表的认证以及绘图提供方便。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100877/?lang=zh_CN",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1822.03KB",
+    "data_volume_mb": "1.779326171875",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r100877/?lang=zh_CN",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "nan",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/01/10",
+    "source_link": "https://nadc.china-vo.org/res/r100877/?lang=zh_CN",
+    "last_update_date": "2024/01/10"
+  }
+}

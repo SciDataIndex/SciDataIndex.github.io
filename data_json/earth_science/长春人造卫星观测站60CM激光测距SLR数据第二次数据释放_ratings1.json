@@ -1,0 +1,45 @@
+{
+  "dataset": "长春人造卫星观测站60CM激光测距SLR数据第二次数据释放",
+  "intro": {
+    "official_link": "https://nadc.china-vo.org/res/r100735/",
+    "brief_description": "包含2022年全年的激光卫星观测数据，从2022年1月1日到2022年12月31日。包含4个子数据集",
+    "detailed_description": "包含2022年全年的激光卫星观测数据，从2022年1月1日到2022年12月31日。包含5个子数据集"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100735/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "39.48GB",
+    "data_volume_mb": "40427.52",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r100735/",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2022/12/31",
+    "source_link": "https://nadc.china-vo.org/res/r100735/",
+    "last_update_date": "2022/12/31"
+  }
+}

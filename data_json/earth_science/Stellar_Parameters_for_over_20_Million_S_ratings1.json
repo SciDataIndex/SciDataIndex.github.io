@@ -1,0 +1,45 @@
+{
+  "dataset": "Stellar Parameters for over 20 Million S",
+  "intro": {
+    "official_link": "数据未发布",
+    "brief_description": "该数据集基于SAGES和Gaia数据，提供近2600万颗恒星的精准光学测光参数及金属丰度、温度、年龄等信息，助力银河系研究。",
+    "detailed_description": "该数据集利用SAGES数据释放1期和Gaia早期数据释放3期的恒星颜色，通过优化设计的紫外滤光片，实现对近2600万颗恒星的有效温度、金属丰度、光度分类、距离和年龄的精确光学测光估计。数据涵盖了超过五百万金属贫乏星（[Fe/H] ≤ -1.0）及近百万极端金属贫乏星（[Fe/H] ≤ -2.0），在不同金属丰度范围内具有较高的测量精度。结合Gaia的视差测量，进一步推导恒星的物理属性。该覆盖北半球的庞大样本，与南半球的SkyMapper南方巡天数据互补，将显著促进对银河系结构、形成及演化的深入理解。"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "-",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://iopscience.iop.org/article/10.3847/1538-4357/ace628/pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "EarthSE",
+  "intro": {
+    "official_link": "https://huggingface.co/ai-earth",
+    "brief_description": "EarthSE 是一个综合性的地球科学基准，旨在评估大型语言模型 (LLM) 在地球科学探索方面的能力，涵盖从基础知识到高级科学探索的各项任务 。它包含三个主要数据集：Earth-Iron 和 Earth-Silver，均为问答 (QA) 数据集，用于评估基础能力和专业知识，而 Earth-Gold 则是一个新颖的开放式对话数据集，专门用于评估 LLM 的高级科学探索能力，如方法归纳、局限性分析和概念提出 。该基准构建自 10 万篇地球科学研究论文，涵盖了地球的五大圈层（水圈、生物圈、岩石圈、大气圈、冰冻圈）和 114 个子学科，并定义了 11 种基本研究任务，包括知识问答、事实核查、分析、计算和实验设计等 。实验结果表明，主流 LLM 在地球科学知识深度和真正的科学探索能力方面仍存在显著不足 。",
+    "detailed_description": "数据集简述：EarthSE 是一个综合性的地球科学基准数据集，旨在评估大型语言模型（LLMs）在地球科学领域的探索能力，涵盖从基础知识到高级研究技能的多个层面。\n数据集内容：该基准包含三个主要数据集：Earth-Iron 用于全面评估基础科学探索能力，Earth-Silver 包含更具挑战性的专业问题，而 Earth-Gold 则是一个新颖的开放式对话数据集，用于评估高级科学探索能力，如方法归纳和局限性分析。它基于 10 万篇地球科学论文构建，涵盖地球的五大圈层和 114 个子学科，并定义了 11 种基础研究任务。\n关键元信息：EarthSE 数据集涵盖了地球的五大圈层（水圈、生物圈、岩石圈、大气圈、冰冻圈）和 114 个子学科。它包含了四种问答格式（多项选择、填空、判断对错、自由回答）以及开放式对话格式，并引入了科学探索分数（SES）来衡量开放式对话的质量和多样性。\n重要应用场景：EarthSE 可用于评估 LLM 在地球科学领域的知识掌握、专业能力以及在开放式科学探索中的表现，揭示当前 LLM 在复杂地球科学推理和发散性思维方面的局限性。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://huggingface.co/ai-earth",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4587KB",
+    "data_volume_mb": "4.4794921875",
+    "source_of_data_volume": "https://huggingface.co/ai-earth",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arXiv.org/abs/2505.17139",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "190.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "8524 次/月",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2025/06/01",
+    "source_link": "https://huggingface.co/ai-earth/activity/all",
+    "last_update_date": "2025/09/22"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "WEATHER-5K",
+  "intro": {
+    "official_link": "https://github.com/taohan10200/WEATHER-5K?utm_source=chatgpt.com",
+    "brief_description": "WEATHER-5K是一个开源的大规模时间序列天气预报数据集，涵盖全球20000+个气象站的数据。它提供2000年-2024年、每小时间隔的天气数据，是时间序列预报研究的重要基准数据集，适用于评估和开发天气预报模型。",
+    "detailed_description": "数据集简述：WEATHER-5K是一个开源的大规模时间序列天气预报数据集，涵盖全球20000+个气象站的数据。它提供2000年-2024年、每小时间隔的天气数据，是时间序列预报研究的重要基准数据集，适用于评估和开发天气预报模型。\n数据集内容：包含全球20000个气象站的数据，每年大约有10000个站点， 覆盖25年的小时级记录。包括以下五种关键气象要素，温度，露点温度，风速，风向，海平面气压\n关键元信息：每小时数据，支持短期和长期预报（如输入48小时，预测24、72、120和168小时）。全球分布，支持多地域的气象分析，数据梳理为netcdf格式进行存储，数据以时间戳命名，（例如\"2025-07-17T00:00:00.nc\"）。元数据由NCEI收集。\n重要应用场景：适用于天气预报、以及机器学习模型开发（如Transformer模型）。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/taohan10200/WEATHER-5K?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2406.14399?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "26.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/06/05",
+    "source_link": "https://github.com/taohan10200/WEATHER-5K/commits/main/",
+    "last_update_date": "2024/10/01"
+  }
+}

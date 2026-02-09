@@ -1,0 +1,45 @@
+{
+  "dataset": "The Fourth U.S. Naval Observatory CCD Astrograph Catalog (UCAC4)",
+  "intro": {
+    "official_link": "https://irsa.ipac.caltech.edu/data/USNO/UCAC4/ucac4.html?utm_source=chatgpt.com",
+    "brief_description": "美国海军天文台照相星表第四批数据",
+    "detailed_description": "美国海军天文台第四批照相星表UCAC4于2012年8月发布（双面DVD和CDS数据中心Vizier目录I/322），包含超过1.13亿条目，其中超过1.05亿源有自行测量数据。UCAC4是UCAC3的更新版本，其恒星数量大致相同，也覆盖了所有天空。修正了错误，避免了施密特板测量数据，并为大约一半的恒星添加了精确的五波段测光。FK6、Hipparcos和Tycho-2的数据补充了对明亮恒星的星图观测，编制了一个从最亮恒星到大约R=16星等的UCAC4恒星星表。 1998–2004期间观测的位置是通过USNO照相仪20厘米孔径的“红端透镜”的观测获得的，该透镜配备了4k×4k CCD。平均位置和自行是通过将这些观测结果与140多个地面和天基星表相结合得出的，其中包括Hipparcos/Tycho-2和AC2000.2，以及其他天体观测图像中5000多个天区板块的未发表数据。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://irsa.ipac.caltech.edu/data/UCAC4/ucac4.html?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "8.61 GB",
+    "data_volume_mb": "8816.64",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r102025/?lang=en&utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/1212.6182?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "845.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2012/08/01",
+    "source_link": "https://arxiv.org/abs/1212.6182?utm_source=chatgpt.com",
+    "last_update_date": "2012/08/01"
+  }
+}

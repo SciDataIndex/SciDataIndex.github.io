@@ -1,0 +1,45 @@
+{
+  "dataset": "OpenFWI",
+  "intro": {
+    "official_link": "https://openfwi-lanl.github.io/docs/data.html?utm_source=chatgpt.com",
+    "brief_description": "OpenFWI 是洛斯阿拉莫斯国家实验室牵头构建的开放式全波形反演（FWI）基准数据集集合，专门面向数据驱动 FWI 及相关 AI 研究。数据集共包含 12 个子数据集，总规模约 2.1 TB，既覆盖经典的 2‑D 问题，也提供首个公开的大规模 3‑D FWI benchmark，为多结构、多规模、多工况的研究提供统一测试平台。",
+    "detailed_description": "数据集简述：OpenFWI 是洛斯阿拉莫斯国家实验室牵头构建的开放式全波形反演（FWI）基准数据集集合，专门面向数据驱动 FWI 及相关 AI 研究。数据集共包含 12 个子数据集，总规模约 2.1 TB，既覆盖经典的 2‑D 问题，也提供首个公开的大规模 3‑D FWI benchmark，为多结构、多规模、多工况的研究提供统一测试平台。数据集内容：OpenFWI 的 2‑D 数据集分为四大系列：Vel（分层速度）、Fault（断层）、Style（自然图像迁移生成的复杂地层）和 Kimberlina‑CO2（时间‑序列 CO₂ 储层），其中前三个系列均提供难度分级的 A/B 版；样本量从 2 K 到 60 K 不等，单幅速度模型分辨率约 70 × 70 （10 m 网格），每条地震记录包含 5–9 个震源通道与 70 条检波线、1 s–2.5 s 采样的全波形。3‑D 子集 Kimberlina‑V1 体量达 1.4 TB，含 350 × 400 × 400 的速度体与 25 个震源、40 × 40 检波分布的 5 s 三维波场，为分布式/并行 FWI 研究奠定了数据基础。关键元信息：每条样本都严格配对了 速度模型 c(x,y[,z]) 与 对应观测波场 p(t,x,y[,z])，并附带完整的采集元数据：网格与时间步长、震源位置和 Ricker 波let 参数、接收阵列布局、CO₂ 时间步（对 Kimberlina‑CO2）、以及训练/测试划分（典型比例约 80 % / 20 %）。重要应用场景：OpenFWI 适用于：① 监督/自监督 FWI 网络的训练与客观评测；② 复杂构造（断层、曲层、CO₂ 泄漏等）成像能力检验；③ 3‑D FWI 算法的可扩展性与高性能计算研究；④ 泛化、迁移学习与不确定性评估等前沿议题；⑤ 基于时间‑序列 Kimberlina‑CO2 的储层监测、泄漏检测及时间‑变形像。"
+  },
+  "openness": {
+    "license_type": "CC BY-NC-SA 4.0",
+    "license_source_link": "https://openfwi-lanl.github.io/docs/data.html?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2.1 TB",
+    "data_volume_mb": "2202009.6",
+    "source_of_data_volume": "https://papers.neurips.cc/paper_files/paper/2022/file/27d3ef263c7cb8d542c4f9815a49b69b-Paper-Datasets_and_Benchmarks.pdf?utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://papers.neurips.cc/paper_files/paper/2022/file/27d3ef263c7cb8d542c4f9815a49b69b-Paper-Datasets_and_Benchmarks.pdf?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "159.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "426 次/月",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/11/04",
+    "source_link": "https://openreview.net/forum?id=7w-a8PYPlP&utm_source=chatgpt.com",
+    "last_update_date": "2023/05/23"
+  }
+}

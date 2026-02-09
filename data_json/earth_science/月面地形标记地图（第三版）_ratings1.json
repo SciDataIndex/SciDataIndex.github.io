@@ -1,0 +1,45 @@
+{
+  "dataset": "月面地形标记地图（第三版）",
+  "intro": {
+    "official_link": "https://nadc.china-vo.org/res/r100891/",
+    "brief_description": "该第三版月面地图以4.5亿像素标注1294个地标，新增15处特征并修正历史错误，通过图形标注优化实现月溪/山脉等模糊地形的精准定位，是目前最完备的业余天文观测参考体系。",
+    "detailed_description": "《超高清月面地图（第三版）》以4.5亿像素分辨率标注了1294个月表地名，涵盖15类地标（包括655个环形坑、348个卫星坑、19个月洋、17个月海、10个月湾、3个月沼、9个岬角、103条月溪、8个月谷、43条山脉、37条山脊、8个峭壁、9个坑链、1个反照率特征点及24个着陆点），完整收录业余天文望远镜可观测的所有重要月表特征。相较于第二版，第三版主要改进包括：(1) 新增4个环形坑（阿姆斯特朗坑、科林斯坑、奥尔德林坑、博比列坑）和11条月溪（皮塔图斯溪、阿里斯塔克斯溪等）的标注；(2) 修正3处错误标记（将阿里斯塔克斯溪更正为阿尔济莫维奇溪、调整斯内利乌斯谷位置、校正扬格尔坑坐标）；(3) 对原标注不清晰的地形（如月溪、峭壁、山脉等）增加方框/圆圈/箭头进行精确定位。如有修订建议，请联系东莞科技馆刘晶或国家天文科学数据中心。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100891/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.28GB",
+    "data_volume_mb": "1310.72",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r100891/",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "nan",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "5 星标, 0 复刻",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/02/22",
+    "source_link": "https://nadc.china-vo.org/res/r100891/",
+    "last_update_date": "2024/02/22"
+  }
+}

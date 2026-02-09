@@ -1,0 +1,45 @@
+{
+  "dataset": "weatherQA_sft",
+  "intro": {
+    "official_link": "https://github.com/chengqianma/WeatherQA?utm_source=chatgpt.com",
+    "brief_description": "WeatherQA_SFT 是一个用于多模态语言模型的监督式微调（SFT）数据集，基于 WeatherQA 原始数据集构建，专注于美国本土（CONUS）范围内的极端天气定位与潜在灾害分析任务。其采用 sharegpt 格式组织，旨在提升模型对气象图像与语言信息的联合理解与推理能力。",
+    "detailed_description": "数据集简述：该数据集提供图像与文本对，图像包括雷达反射率、地表观测数据以及环境不稳定参数等多种气象信息，文本部分为格式化后的问答任务，面向监督微调。每个样本为一对图像与两阶段选择题式回答组成。\n数据集内容：首先预测受影响的地理区域（Affected Area Prediction），其次判断是否存在强对流天气风险（Severe Convection Classification）。问题设置模拟实际气象预警流程，注重推理与决策能力的训练。\n关键元信息：文本采用面向多轮问答模型优化的 sharegpt 格式，便于直接用于语言模型的监督微调。\n重要应用场景：该任务为多模态模型在复杂动态气象场景中的推理与泛化能力评估提供了良好的测试基准。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://github.com/chengqianma/WeatherQA/blob/main/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "6MB",
+    "data_volume_mb": "6.0",
+    "source_of_data_volume": "https://github.com/chengqianma/WeatherQA?utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2406.11217?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "24.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/06/13",
+    "source_link": "https://github.com/chengqianma/WeatherQA?utm_source=chatgpt.com",
+    "last_update_date": "2025/06/10"
+  }
+}

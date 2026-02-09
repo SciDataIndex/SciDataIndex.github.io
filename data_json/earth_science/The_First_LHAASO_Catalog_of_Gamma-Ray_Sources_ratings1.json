@@ -1,0 +1,45 @@
+{
+  "dataset": "The First LHAASO Catalog of Gamma-Ray Sources",
+  "intro": {
+    "official_link": "https://english.ihep.cas.cn/lhaaso/pdl/202110/t20211026_286779.html",
+    "brief_description": "LHAASO伽马射线源星表 第一批数据",
+    "detailed_description": "使用2021年3月至2022年9月水切伦科夫探测器阵列（WCDA）收集的508天数据和2020年1月至2022年9月平方公里阵列（KM2A）记录的933天数据，我们展示了高海拔宇宙线观测站（LHAASO）探测到的第一个甚高能和超高能γ射线源目录。该目录代表了赤纬−20◦ 至80◦天空覆盖范围内，对最敏感的E>1TeV伽马射线测量。目录总共包含90个扩展大小小于2◦的源 ，每个源的显著性要求＞5σ。对于每个源，我们提供其位置、扩展和光谱特性。此外，基于我们的源关联标准，本研究提出了32个新的TeV源。此外，本目录包含43个超高能γ射线源，E>100 TeV辐射的显著性水平>4σ。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://english.ihep.cas.cn/lhaaso/pdl/202110/t20211026_286779.html",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1759KB",
+    "data_volume_mb": "1.7177734375",
+    "source_of_data_volume": "https://english.ihep.cas.cn/lhaaso/pdl/202110/t20211026_286779.html",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://iopscience.iop.org/article/10.3847/1538-4365/acfd29",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "92.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/10/18",
+    "source_link": "https://english.ihep.cas.cn/lhaaso/pdl/202110/t20211026_286779.html",
+    "last_update_date": "2024/10/18"
+  }
+}

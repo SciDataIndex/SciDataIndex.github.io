@@ -1,0 +1,45 @@
+{
+  "dataset": "LAMOST-Quasar 类星体巡天数据集",
+  "intro": {
+    "official_link": "https://www.lamost.org/dr8/",
+    "brief_description": "LAMOST望远镜发布的类星体光谱巡天数据集，包含数万个类星体的光谱、红移及黑洞质量估算数据。",
+    "detailed_description": "1. 数据内容：\n- 覆盖2012-2017年观测的43,102个类星体（截至2019年数据），其中24,772个为LAMOST独立发现，17,128个为新发现；\n- 提供光谱、红移（z=0-4.8）、发射线（Hα、Hβ、Mg II、C IV）测量及黑洞质量估算；\n- 包含特殊天体如“变脸”类星体（21个新发现）的光谱变化数据。\n2. 数据获取：通过中国虚拟天文台（China-VO）公开，支持在线查询、可视化及下载。\n3. 应用场景：研究类星体演化、黑洞质量分布、宇宙大尺度结构及多波段交叉证认。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100633?lang=en&utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.sciencedirect.com/science/article/pii/S2666675822000200?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "69.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2022/09/30",
+    "source_link": "https://nadc.china-vo.org/res/r100633?lang=en&utm_source=chatgpt.com",
+    "last_update_date": "2022/09/30"
+  }
+}

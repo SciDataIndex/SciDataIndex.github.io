@@ -1,0 +1,13 @@
+{
+  "dataset_name": "OmniEarth-Bench",
+  "scores": {
+    "openness": 8,
+    "quality": 10,
+    "scale": 4,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 9,
+    "total_score": 5.15
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

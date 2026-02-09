@@ -1,0 +1,45 @@
+{
+  "dataset": "美国变星观测者协会测光全天巡天第十次数据发布（APASS DR10）",
+  "intro": {
+    "official_link": "https://www.aavso.org/download-apass-data",
+    "brief_description": "美国变星观测者协会测光全天巡天第十次数据发布（APASS DR10）（AAVSO Photometric All Sky Survey (APASS) Data Release 10） 12亿颗星等在7＜V＜17范围内的恒星，它们的星等已经在B、V、u'、g'、r'、i'、z'波段进行了校准。APASS旨在为天空中的任何地方和几乎所有的CCD图像提供校准的测光。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "美国变星观测者协会测光全天巡天第十次数据发布（APASS DR10）达到了一个新的里程碑。这个版本的数据有12亿颗星等在7＜V＜17范围内的恒星，它们的星等已经在B、V、u'、g'、r'、i'、z'波段进行了校准。APASS旨在为天空中的任何地方和几乎所有的CCD图像提供校准的测光。与UCAC或GAIA等天体测量星表非常相似，APASS提供了对数据进行测光定标的能力，而无需使用全天空测光。使用DR10，天空覆盖率约为99%。仍然有一些缺失的区域，主要在赤纬20度以上的北方天空。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://www.aavso.org/apass?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "5.45 GB",
+    "data_volume_mb": "5580.8",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r102030/",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://ui.adsabs.harvard.edu/abs/2019JAVSO..47..130H",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "93.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2023/12/22",
+    "source_link": "https://nadc.china-vo.org/res/r102030/",
+    "last_update_date": "2023/12/22"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "The Third US Naval Observatory CCD Astrograph Catalog (UCAC3)",
+  "scores": {
+    "openness": 0,
+    "quality": 6,
+    "scale": 3,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 4,
+    "total_score": 3.15
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

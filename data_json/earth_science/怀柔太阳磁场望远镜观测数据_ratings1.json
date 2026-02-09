@@ -1,0 +1,45 @@
+{
+  "dataset": "怀柔太阳磁场望远镜观测数据",
+  "intro": {
+    "official_link": "https://nadc.china-vo.org/res/r100040/?lang=zh_CN",
+    "brief_description": "能获得FeI 5324Å波段的光球矢量磁场和视向速度场数据，还可获得Hβ 4861Å波段的色球视向磁场和视向速度场数据。此数据为1987年至今的观测数据。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "怀柔太阳磁场望远镜观测数据，太阳磁场望远镜位于怀柔太阳观测站，能获得FeI 5324Å波段的光球矢量磁场和视向速度场数据，还可获得Hβ 4861Å波段的色球视向磁场和视向速度场数据。此数据为1987年至今的观测数据。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://nadc.china-vo.org/res/r100040/?lang=zh_CN",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "12.76 GB",
+    "data_volume_mb": "13066.24",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r100040/?lang=zh_CN",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/1902.00338?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2016/06/30",
+    "source_link": "https://nadc.china-vo.org/res/r100040/?lang=zh_CN",
+    "last_update_date": "2016/06/30"
+  }
+}

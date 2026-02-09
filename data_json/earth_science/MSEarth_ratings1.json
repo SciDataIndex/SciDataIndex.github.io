@@ -1,0 +1,45 @@
+{
+  "dataset": "MSEarth",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/MSEarth/MSEarth_Captioning",
+    "brief_description": "MSEarth，一个从高质量、开放获取的科学出版物中整理出来的多模态大模型地球科学评测基准。其涵盖地球科学的五大领域：大气、冰冻圈、水圈、岩石圈和生物圈，拥有超过7K的图片以及对应的注释。MSEarth支持多种任务，包括图片注释生成、多项选择题和开放式问答挑战。通过弥合研究生水平基准的差距，MSEarth提供了一个可扩展和高保真的资源，以加强科学推理中多模态大模型的开发和评估。",
+    "detailed_description": "数据集简述：MSEarth，一个从高质量、开放获取的科学出版物中整理出来的多模态大模型地球科学评测基准。\n数据集内容：MSEarth包含地球科学的5个领域，8个一级学科和66个二级学科，包含超过7K的图片以及对应的注释。基准测试包括科图片注释生成、多项选择题和开放式问答等任务，提供了一个跨学科的多模态大模型评估框架。\n关键元信息：题目学科类别，题目类型（选择，问答，注释生成），图片，问题\n重要应用场景：多模态大模型在地球科学领域的能力。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://huggingface.co/MSEarth",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2.45GB",
+    "data_volume_mb": "2508.8",
+    "source_of_data_volume": "https://huggingface.co/datasets/MSEarth/MSEarth_Captioning",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/pdf/2505.20740",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "9.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "4 星标, 0 复刻",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2025/05/12",
+    "source_link": "https://huggingface.co/datasets/MSEarth/MSEarth_Captioning/commits/refs%2Fconvert%2Fparquet",
+    "last_update_date": "2025/05/12"
+  }
+}

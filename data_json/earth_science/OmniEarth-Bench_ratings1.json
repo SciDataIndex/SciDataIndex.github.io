@@ -1,0 +1,45 @@
+{
+  "dataset": "OmniEarth-Bench",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/initiacms/OmniEarth-Bench",
+    "brief_description": "OmniEarth-Bench是针对观测数据的涵盖地球科学六大领域（大气圈、岩石圈、海洋圈、冰冻圈、生物圈和人类活动圈）及跨领域的综合性多模态基准，拥有一百个由专家精心挑选的评估维度。OmniEarth-Bench 利用卫星传感器和现场测量的观测数据，整合了四个层级的 29,779 条注释：感知推理、一般推理、科学知识推理和思路链 (CoT) 推理。其主要贡献如下：",
+    "detailed_description": "数据集简述：OmniEarth-Bench搜集大量地球科学领域观测数据，形成包含7个类别（大气圈、岩石圈、海洋圈、冰冻圈、生物圈、人类活动圈和跨领域）的100个子维度多模态任务。\n数据集内容：根据六大圈层和跨圈层的观测数据，OmniEarth-Bench建立了四项任务：基本感知任务、一般推理任务、专业科学推理任务和专业科学CoT推理任务。\n关键元信息：使用原始观测数据构建面向六大圈层的全面多模态评估指标，并首次涵盖跨圈层观测数据评估。\n重要应用场景：系统评估MLLM对于地球科学观测数据的理解推理能力，并评测MLLM在跨圈层联动上的潜力。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://arxiv.org/pdf/2505.23522",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "36.5GB",
+    "data_volume_mb": "37376.0",
+    "source_of_data_volume": "https://arxiv.org/pdf/2505.23522",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2505.23522",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "6.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "367 星标",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2025/05/29",
+    "source_link": "https://arxiv.org/abs/2505.23522?utm_source=chatgpt.com",
+    "last_update_date": "2025/05/29"
+  }
+}

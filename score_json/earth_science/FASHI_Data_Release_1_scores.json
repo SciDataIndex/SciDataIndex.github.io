@@ -1,0 +1,13 @@
+{
+  "dataset_name": "FASHI Data Release 1",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 6,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 8,
+    "total_score": 4.75
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

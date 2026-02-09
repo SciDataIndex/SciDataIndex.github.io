@@ -1,0 +1,45 @@
+{
+  "dataset": "Astro-QA",
+  "intro": {
+    "official_link": "https://github.com/ACMISLab/Astro-QA",
+    "brief_description": "Astro-QA 是由 ACMIS Labs 构建的面向天文学领域的大语言模型评估基准，旨在系统评估中文语言模型在专业学科知识下的问答能力。该数据集聚焦于模型的知识准确性与生成质量，涵盖天文学中五大核心领域，通过高质量问题集合与细致的评分体系，提供了一个权威而全面的评估框架，具有较强的研究价值与应用推广潜力。",
+    "detailed_description": "数据集简述：Astro-QA 数据集面向天文学领域，围绕五个核心主题设计了共 2709 个问题，涵盖天体物理、天体力学、天文学通识、天文学史，以及天文观测技术与方法。问题类型多样，包括名词解释、简答题与选择题，具有极强的覆盖性与代表性。尤其注重专业术语、历史知识与技术原理的准确表述，以真实模拟学术性提问场景。\n数据集内容：在数据结构方面，数据集每条记录包含一个唯一 ID、问题文本以及选项（如为客观题）。其中非计算类题目提供了标准化参考答案，并基于多维度标准进行人工打分；选择题则结合“答案正确性”和“题目难度系数”进行自动化评分。这种评分体系既保证了科学性，又利于模型性能的细化分析。\n关键元信息：数据集设计强调了领域专业性和多维评价能力，其元信息构成清晰，包括问题类别、题型、评分维度及参考答案来源等。虽然你提供的结构仅列出 ID、Question 和 Options 字段，但从描述可推测，内部测试系统结合了扩展字段以支持自动评估和对比实验。\n重要应用场景：Astro-QA 的应用场景非常广泛，不仅可作为中文大模型在天文领域的评估基准，还可用于垂类问答系统、学术助手系统的训练与测试，亦能作为专业教育问答材料用于辅助教学和自动出题等任务。此外，其评分体系本身也可推广到其他科学领域作为评估模板使用。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://github.com/ACMISLab/Astro-QA/tree/main",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1647KB",
+    "data_volume_mb": "1.6083984375",
+    "source_of_data_volume": "https://github.com/ACMISLab/Astro-QA/tree/main",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41597-025-04613-9?utm_source=xmol&utm_medium=affiliate&utm_content=meta&utm_campaign=DDCN_1_GL01_metadata#Sec13",
+    "paper_citations_raw": "2.0",
+    "paper_citations": "2",
+    "google_scholar_related_papers": "2.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/06/04",
+    "source_link": "https://github.com/ACMISLab/Astro-QA/commits?before=2b87acb98a466c758a14b580abe27de2998eb692+35",
+    "last_update_date": "2025/03/09"
+  }
+}

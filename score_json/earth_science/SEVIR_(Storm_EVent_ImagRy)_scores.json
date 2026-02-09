@@ -1,0 +1,13 @@
+{
+  "dataset_name": "SEVIR (Storm EVent ImagRy)",
+  "scores": {
+    "openness": 0,
+    "quality": 9,
+    "scale": 6,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 4.75
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

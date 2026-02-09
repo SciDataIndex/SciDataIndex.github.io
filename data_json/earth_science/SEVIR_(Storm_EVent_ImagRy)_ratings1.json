@@ -1,0 +1,45 @@
+{
+  "dataset": "SEVIR (Storm EVent ImagRy)",
+  "intro": {
+    "official_link": "https://registry.opendata.aws/sevir/?utm_source=chatgpt.com",
+    "brief_description": "SEVIR 是一个包含10,000+时空对齐天气事件的图像数据集（384km²/4小时），整合五种卫星与雷达数据，并关联NOAA风暴事件信息。",
+    "detailed_description": "SEVIR 是一个经过注释、策划和时空对齐的数据集，包含 10,000 多个天气事件，每个事件由 384 公里 x 384 公里的图像序列组成，时间跨度为 4 小时。 SEVIR 中的图像经过五种不同数据类型的采样和对齐：来自 GOES-16 高级基线成像仪的三个通道（C02、C09、C13）、NEXRAD 垂直集成液体马赛克和 GOES-16 地球静止闪电测绘仪（GLM）闪光。选择 SEVIR 中的许多事件并将其与 NOAA 风暴事件数据库匹配，以便将风暴影响和风暴描述等其他描述性信息链接到传感器提供的丰富图像。"
+  },
+  "openness": {
+    "license_type": "无任何使用限制",
+    "license_source_link": "https://registry.opendata.aws/sevir/?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1tb",
+    "data_volume_mb": "1048576.0",
+    "source_of_data_volume": "https://github.com/MIT-AI-Accelerator/neurips-2020-sevir?utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://proceedings.neurips.cc/paper/2020/file/fa78a16157fed00d7a80515818432169-Paper.pdf?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "192.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "136 星标, 9 复刻",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2020/06/05",
+    "source_link": "https://github.com/MIT-AI-Accelerator/neurips-2020-sevir/commits/master/",
+    "last_update_date": "2020/10/22"
+  }
+}

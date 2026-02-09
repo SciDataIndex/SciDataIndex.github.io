@@ -1,0 +1,45 @@
+{
+  "dataset": "GoFA-(Golang-standards-Of-Fundamental-As",
+  "intro": {
+    "official_link": "https://pkg.go.dev/github.com/hebl/gofa",
+    "brief_description": "基本天文学标准（SOFA）库的纯Golang实现，提供天文学计算功能。",
+    "detailed_description": "GoFA基于SOFA第19版（2023-10-11），包含55个向量/矩阵库例程和192个天文学库例程，涵盖时间尺度、地球自转、恒星时、岁差、章动、极移、天体测量学以及多种参考系间的转换。其设计目标是为天文学研究提供高效、准确的算法支持，适用于需要高精度天文计算的场景。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://pkg.go.dev/github.com/hebl/gofa#section-readme",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}
