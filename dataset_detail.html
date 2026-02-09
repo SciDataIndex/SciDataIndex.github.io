@@ -376,10 +376,18 @@
     function drawRadar(scores) {
       const canvas = document.getElementById("radarCanvas");
       const ctx = canvas.getContext("2d");
+      const dpr = Math.max(1, window.devicePixelRatio || 1);
+      const cssWidth = canvas.getAttribute("width") ? Number(canvas.getAttribute("width")) : canvas.width;
+      const cssHeight = canvas.getAttribute("height") ? Number(canvas.getAttribute("height")) : canvas.height;
+      canvas.style.width = `${cssWidth}px`;
+      canvas.style.height = `${cssHeight}px`;
+      canvas.width = Math.round(cssWidth * dpr);
+      canvas.height = Math.round(cssHeight * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       const labels = ["开放性", "规模", "影响力", "安全性", "AI就绪度", "数据质量"];
       const maxValue = 10;
-      const centerX = canvas.width / 2;
-      const centerY = canvas.height / 2 + 10;
+      const centerX = cssWidth / 2;
+      const centerY = cssHeight / 2 + 10;
       const radius = 140;
       const levels = 5;
 
@@ -402,7 +410,7 @@
       }
 
       ctx.fillStyle = "#b6c7e6";
-      ctx.font = "12px Sora, sans-serif";
+      ctx.font = "13px Sora, sans-serif";
       labels.forEach((label, i) => {
         const angle = (Math.PI * 2 / labels.length) * i - Math.PI / 2;
         const x = centerX + (radius + 18) * Math.cos(angle);
