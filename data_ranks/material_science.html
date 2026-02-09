@@ -120,16 +120,6 @@
       color: var(--text-1);
     }
 
-    .sort-select {
-      padding: 8px 14px;
-      border-radius: 999px;
-      border: 1px solid var(--stroke);
-      background: rgba(10, 20, 48, 0.7);
-      color: var(--text-0);
-      font-size: 13px;
-      outline: none;
-    }
-
     .board {
       border: 1px solid var(--stroke);
       border-radius: 18px;
@@ -163,6 +153,34 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       color: #8ea5d7;
+    }
+
+    .sort-header {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: transparent;
+      border: none;
+      color: inherit;
+      font: inherit;
+      letter-spacing: inherit;
+      text-transform: inherit;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    .sort-arrow {
+      font-size: 12px;
+      opacity: 0.6;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .sort-header.active {
+      color: #ffffff;
+    }
+
+    .sort-header.active .sort-arrow {
+      opacity: 1;
     }
 
     .board-row {
@@ -306,30 +324,34 @@
         <h1>物质科学数据榜单</h1>
         <p>聚焦开放性、规模性、影响力与 AI 就绪度的综合评分排名</p>
       </div>
-      <div class="filters">
-        <select class="sort-select" id="sortSelect">
-          <option value="total_score">按综合评分排序</option>
-          <option value="ai_readiness">按 AI 就绪度排序</option>
-          <option value="openness">按开放性排序</option>
-          <option value="scale">按规模排序</option>
-          <option value="impact">按影响力排序</option>
-          <option value="safety">按安全性排序</option>
-          <option value="quality">按数据质量排序</option>
-        </select>
-      </div>
+      <div class="filters"></div>
     </div>
 
     <section class="board">
       <div class="board-head">
         <div>排名</div>
         <div>数据集</div>
-        <div>AI 就绪度</div>
-        <div>开放性</div>
-        <div>规模</div>
-        <div>影响力</div>
-        <div>安全性</div>
-        <div>数据质量</div>
-        <div>综合评分</div>
+        <div>
+          <button class="sort-header" data-key="ai_readiness">AI 就绪度<span class="sort-arrow">▼</span></button>
+        </div>
+        <div>
+          <button class="sort-header" data-key="openness">开放性<span class="sort-arrow">▼</span></button>
+        </div>
+        <div>
+          <button class="sort-header" data-key="scale">规模<span class="sort-arrow">▼</span></button>
+        </div>
+        <div>
+          <button class="sort-header" data-key="impact">影响力<span class="sort-arrow">▼</span></button>
+        </div>
+        <div>
+          <button class="sort-header" data-key="safety">安全性<span class="sort-arrow">▼</span></button>
+        </div>
+        <div>
+          <button class="sort-header" data-key="quality">数据质量<span class="sort-arrow">▼</span></button>
+        </div>
+        <div>
+          <button class="sort-header" data-key="total_score">综合评分<span class="sort-arrow">▼</span></button>
+        </div>
       </div>
       <div id="boardRows"></div>
     </section>
@@ -364,10 +386,12 @@
     const prevPageBtn = document.getElementById("prevPage");
     const nextPageBtn = document.getElementById("nextPage");
     const pageInfo = document.getElementById("pageInfo");
-    const sortSelect = document.getElementById("sortSelect");
+    const sortHeaders = Array.from(document.querySelectorAll(".sort-header"));
     const pageSize = 10;
     let currentPage = 1;
     let allDatasets = [];
+    let sortKey = "total_score";
+    let sortDir = "desc";
 
     async function loadIndex() {
       const res = await fetch(DATA_INDEX);
@@ -400,11 +424,28 @@
     }
 
     function sortDatasets() {
-      const key = sortSelect.value;
+      const direction = sortDir === "asc" ? 1 : -1;
       allDatasets.sort((a, b) => {
-        const primary = getSortValue(b, key) - getSortValue(a, key);
+        const primary = (getSortValue(a, sortKey) - getSortValue(b, sortKey)) * direction;
         if (primary !== 0) return primary;
         return getSortValue(b, "total_score") - getSortValue(a, "total_score");
+      });
+    }
+
+    function updateSortUI() {
+      sortHeaders.forEach(btn => {
+        const key = btn.dataset.key;
+        const isActive = key === sortKey;
+        btn.classList.toggle("active", isActive);
+        const arrow = btn.querySelector(".sort-arrow");
+        if (!arrow) return;
+        if (isActive) {
+          arrow.textContent = sortDir === "asc" ? "▲" : "▼";
+          arrow.style.opacity = "1";
+        } else {
+          arrow.textContent = "▼";
+          arrow.style.opacity = "0.4";
+        }
       });
     }
 
@@ -478,11 +519,22 @@
       }
     });
 
-    sortSelect.addEventListener("change", () => {
-      currentPage = 1;
-      renderPage();
+    sortHeaders.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const key = btn.dataset.key;
+        if (key === sortKey) {
+          sortDir = sortDir === "asc" ? "desc" : "asc";
+        } else {
+          sortKey = key;
+          sortDir = "desc";
+        }
+        currentPage = 1;
+        updateSortUI();
+        renderPage();
+      });
     });
 
+    updateSortUI();
     renderTable();
   </script>
 </body>
