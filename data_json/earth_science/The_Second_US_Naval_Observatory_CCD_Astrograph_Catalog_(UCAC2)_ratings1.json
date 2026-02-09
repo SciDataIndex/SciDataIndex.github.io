@@ -1,0 +1,45 @@
+{
+  "dataset": "The Second US Naval Observatory CCD Astrograph Catalog (UCAC2)",
+  "intro": {
+    "official_link": "https://nadc.china-vo.org/res/r102023/?lang=en&utm_source=chatgpt.com",
+    "brief_description": "美国海军天文台照相星表第二批数据",
+    "detailed_description": "美国海军天文台（USNO）CCD照相星表第二批数据，即UCAC2于2003年7月发布。UCAC2包含，48330571个源（主要是恒星）的位置和自行，并为这其中99.6%的源提供了两微米全天巡天（2MASS）的测光数据。该星表的天区范围涵盖了赤经从-90°到+40°，在某些地区上升到+52°；这完全取代了2001年发布的UCAC1。当前历元位置是从USNO 8英寸（0.2米）、配备4K CCD摄像机的双照相仪的观测数据中获得的。位置的精度为15–70毫角秒（mas），具体取决于源的星等亮暗情况，估计位置的系统误差为10mas或更低。自行数据的获得综合使用了140多个基于地面和空间的星表，包括喜帕恰斯（Hipparcos）/第谷（Tycho）和AC 2000.2，以及尚未公布的AGK2天区和来自NPM和SPM天区的扫描数据。对于12星等的恒星，自行运动误差约为1–3毫角秒每年（mas/yr），对于16等的较暗恒星，自行的误差大约在4-7mas/yr。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://irsa.ipac.caltech.edu/data/UCAC4/ucac4.html?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "9.39GB",
+    "data_volume_mb": "9615.36",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r102023/?lang=en&utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://aa.usno.navy.mil/downloads/reports/Zachariasetal2004.pdf?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "845.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2003/07/01",
+    "source_link": "https://aa.usno.navy.mil/downloads/reports/Zachariasetal2004.pdf?utm_source=chatgpt.com",
+    "last_update_date": "2003/07/01"
+  }
+}

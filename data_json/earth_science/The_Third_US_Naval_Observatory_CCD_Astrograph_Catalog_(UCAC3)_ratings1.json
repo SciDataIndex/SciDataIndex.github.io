@@ -1,0 +1,45 @@
+{
+  "dataset": "The Third US Naval Observatory CCD Astrograph Catalog (UCAC3)",
+  "intro": {
+    "official_link": "https://irsa.ipac.caltech.edu/data/USNO/UCAC3/ucac3.html?utm_source=chatgpt.com",
+    "brief_description": "美国海军天文台照相星表第三批数据",
+    "detailed_description": "美国海军天文台照相星表第三批数据，即UCAC3于2009年8月10日在IAU大会上发布。这是该系列中的第一次全天空释放，包含1亿多个物体，其中约9500万个具有自行测量数据，覆盖范围约为R=8至16等。当前的历元位置是通过20厘米孔径USNO天文仪的“红端透镜”的观测获得的，该透镜配备了4k×4k CCD。通过将这些观测结果与140多个地面和天基星表相结合，包括喜帕恰斯/第谷和AC2000.2，以及其他天体图像中5000多个天区的未发表测量值，可以测量出自行。对于南半球的大多数微弱恒星来说，SPM计划中的耶鲁/圣胡安第一个历元天区（也称作YSJ1）构成了自行测量的基础。除了这些数据，自行测量的过程中还使用了SuperCOSMOS项目获得的全天空施密特天区巡天的天体测量和光度测量数据和2MASS近红外数据。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://irsa.ipac.caltech.edu/data/UCAC4/ucac4.html?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "7.89GB",
+    "data_volume_mb": "8079.36",
+    "source_of_data_volume": "https://nadc.china-vo.org/res/r102024/?lang=en&utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://aa.usno.navy.mil/downloads/reports/Zachariasetal2010.pdf?utm_source=chatgpt.com",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "845.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2009/08/10",
+    "source_link": "https://nadc.china-vo.org/res/r102024/?lang=en&utm_source=chatgpt.com",
+    "last_update_date": "2009/08/10"
+  }
+}
