@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SciDataIndex · 数据列表</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
+
+    :root {
+      --bg-0: #02061a;
+      --bg-1: #061338;
+      --bg-2: #0a1f4f;
+      --accent: #2ee6c9;
+      --glow: #6bdcff;
+      --text-0: #e9f2ff;
+      --text-1: #b6c7e6;
+      --card: rgba(12, 27, 69, 0.7);
+      --stroke: rgba(255, 255, 255, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
+      color: var(--text-0);
+      background: radial-gradient(900px 450px at 20% 20%, #183ea4 0%, transparent 60%),
+        radial-gradient(900px 520px at 80% 20%, #0c1a45 0%, transparent 70%),
+        linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 50%, var(--bg-0) 100%);
+      min-height: 100vh;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 48px;
+      background: rgba(3, 9, 32, 0.7);
+      backdrop-filter: blur(8px);
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      color: var(--text-1);
+      font-size: 14px;
+    }
+
+    .nav-links a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--glow);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .title-block h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 40px);
+    }
+
+    .title-block p {
+      margin: 0;
+      color: var(--text-1);
+      font-size: 15px;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 8px 14px;
+      border-radius: 999px;
+      min-width: 260px;
+    }
+
+    .search-bar input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text-0);
+      width: 100%;
+      font-size: 13px;
+    }
+
+    .search-bar input::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .board {
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      overflow: hidden;
+      background: var(--card);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .board-head,
+    .board-row {
+      display: grid;
+      grid-template-columns: 80px 1.6fr 220px;
+      gap: 12px;
+      padding: 16px 20px;
+      align-items: center;
+    }
+
+    .board-head {
+      background: rgba(12, 22, 56, 0.9);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #8ea5d7;
+    }
+
+    .board-row {
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 15px;
+    }
+
+    .board-row:first-child {
+      border-top: none;
+    }
+
+    .rank {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .dataset-name {
+      font-weight: 600;
+      color: var(--text-0);
+      text-decoration: none;
+    }
+
+    .category-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: var(--text-0);
+      font-size: 12px;
+      justify-self: start;
+    }
+
+    .pagination {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .page-btn {
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-0);
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .page-btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .page-info {
+      font-size: 13px;
+      color: var(--text-1);
+    }
+
+    @media (max-width: 980px) {
+      .board-head,
+      .board-row {
+        grid-template-columns: 60px 1fr;
+      }
+
+      .board-head div:last-child,
+      .board-row div:last-child {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <div class="brand">SciDataIndex</div>
+      <nav class="nav-links">
+        <a href="index.html">首页</a>
+        <a href="data_ranks/earth_science.html">数据榜单</a>
+        <a href="evaluation.html">技术说明</a>
+        <a href="about.html">关于我们</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="header">
+      <div class="title-block">
+        <h1>数据列表</h1>
+        <p>按学科汇总所有数据集，仅显示名称与学科分类</p>
+      </div>
+      <label class="search-bar">
+        <span>🔍</span>
+        <input id="searchInput" type="search" placeholder="搜索数据集名称..." />
+      </label>
+    </div>
+
+    <section class="board">
+      <div class="board-head">
+        <div>序号</div>
+        <div>数据集</div>
+        <div>学科分类</div>
+      </div>
+      <div id="boardRows"></div>
+    </section>
+    <div class="pagination">
+      <button class="page-btn" id="prevPage">上一页</button>
+      <span class="page-info" id="pageInfo">第 1 / 1 页</span>
+      <button class="page-btn" id="nextPage">下一页</button>
+    </div>
+  </main>
+
+  <script>
+    const SUBJECTS = [
+      { label: "地球科学", key: "earth_science" },
+      { label: "生命科学", key: "life_science" },
+      { label: "物质科学", key: "material_science" },
+      { label: "神经科学", key: "neuro_science" }
+    ];
+
+    const rows = document.getElementById("boardRows");
+    const searchInput = document.getElementById("searchInput");
+    const prevPageBtn = document.getElementById("prevPage");
+    const nextPageBtn = document.getElementById("nextPage");
+    const pageInfo = document.getElementById("pageInfo");
+    const pageSize = 15;
+    let currentPage = 1;
+    let allRows = [];
+    let filteredRows = [];
+
+    async function tryFetchJson(url) {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) return null;
+        return await res.json();
+      } catch (err) {
+        return null;
+      }
+    }
+
+    async function fetchJsonWithFallback(base, fileName) {
+      const raw = await tryFetchJson(`${base}${fileName}`);
+      if (raw) return raw;
+      return await tryFetchJson(`${base}${encodeURIComponent(fileName)}`);
+    }
+
+    async function loadIndex(category) {
+      const res = await fetch(`data_json/${category}/datatset_index.json`);
+      if (!res.ok) return [];
+      const list = await res.json();
+      return Array.isArray(list) ? list : [];
+    }
+
+    async function loadDataset(category, fileName) {
+      const data = await fetchJsonWithFallback(`data_json/${category}/`, fileName);
+      if (!data) return null;
+      return data.dataset || fileName;
+    }
+
+    function renderPage() {
+      rows.innerHTML = "";
+      const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+      currentPage = Math.min(currentPage, totalPages);
+      const start = (currentPage - 1) * pageSize;
+      const items = filteredRows.slice(start, start + pageSize);
+      items.forEach((item, idx) => {
+        const row = document.createElement("div");
+        row.className = "board-row";
+        row.innerHTML = `
+          <div class="rank">${String(start + idx + 1).padStart(2, "0")}</div>
+          <div>
+            <span class="dataset-name">${item.name}</span>
+          </div>
+          <div class="category-tag">${item.categoryLabel}</div>
+        `;
+        rows.appendChild(row);
+      });
+      prevPageBtn.disabled = currentPage <= 1;
+      nextPageBtn.disabled = currentPage >= totalPages;
+      pageInfo.textContent = `第 ${currentPage} / ${totalPages} 页`;
+    }
+
+    function applySearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      filteredRows = query
+        ? allRows.filter(item => item.name.toLowerCase().includes(query))
+        : [...allRows];
+      currentPage = 1;
+      renderPage();
+    }
+
+    async function renderList() {
+      rows.innerHTML = "";
+      let index = 1;
+      allRows = [];
+      for (const subject of SUBJECTS) {
+        const files = await loadIndex(subject.key);
+        const names = (await Promise.all(files.map(file => loadDataset(subject.key, file)))).filter(Boolean);
+        for (const name of names) {
+          const fileName = `${name.replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
+          allRows.push({
+            name,
+            fileName,
+            categoryKey: subject.key,
+            categoryLabel: subject.label,
+            index
+          });
+          index += 1;
+        }
+      }
+      filteredRows = [...allRows];
+      renderPage();
+    }
+
+    searchInput.addEventListener("input", applySearch);
+
+    prevPageBtn.addEventListener("click", () => {
+      if (currentPage > 1) {
+        currentPage -= 1;
+        renderPage();
+      }
+    });
+
+    nextPageBtn.addEventListener("click", () => {
+      const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+      if (currentPage < totalPages) {
+        currentPage += 1;
+        renderPage();
+      }
+    });
+
+    renderList();
+  </script>
+</body>
+</html>
