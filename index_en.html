@@ -29,7 +29,7 @@
       margin: 0;
       font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
       color: var(--text-0);
-      background:
+      background: 
         linear-gradient(180deg, rgba(3, 8, 22, 0.78) 0%, rgba(3, 8, 22, 0.55) 55%, rgba(3, 8, 22, 0.85) 100%),
         url("images/main_background.png") center/cover no-repeat,
         radial-gradient(1200px 500px at 10% 40%, #1d3b9b 0%, transparent 60%),
@@ -138,10 +138,15 @@
       position: relative;
     }
 
+    .hero > * {
+      position: relative;
+      z-index: 1;
+    }
+
     .hero-title {
       font-size: clamp(36px, 6vw, 60px);
       margin: 10px 0;
-      color: var(--accent);
+      color: var(--glow);
       font-weight: 700;
       text-shadow: 0 0 20px rgba(46, 230, 201, 0.4);
     }
@@ -178,9 +183,12 @@
       margin: 0 auto;
       padding: 28px 30px;
       border-radius: 16px;
-      background: var(--card);
-      border: 1px solid var(--stroke);
-      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+      background: #0f214f;
+      background-image: none;
+      background-clip: padding-box;
+      overflow: hidden;
+      border: none;
+      box-shadow: none;
       text-align: left;
       line-height: 1.8;
     }
@@ -195,8 +203,9 @@
     .rank-section {
       margin: 0;
       padding: 70px 0 90px;
-      background: #f5f7fb;
+      background: #ffffff;
       color: #101827;
+      border-top: 1px solid #e3e8f3;
     }
 
     .rank-inner {
@@ -350,6 +359,38 @@
       font-size: 13px;
     }
 
+    .rank-more {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: center;
+      margin-top: 6px;
+    }
+
+    .rank-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      border-radius: 999px;
+      border: 1px dashed #b6c7e6;
+      background: #ffffff;
+      color: #2c4a8a;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 8px 16px rgba(15, 23, 42, 0.08);
+    }
+
+    .rank-toggle span {
+      font-size: 12px;
+      color: #6b7c99;
+      font-weight: 400;
+    }
+
+    .rank-card.hidden {
+      display: none;
+    }
+
     .hero-actions {
       display: flex;
       justify-content: center;
@@ -385,13 +426,14 @@
     .earth-glow {
       position: absolute;
       left: 50%;
-      bottom: -140px;
+      bottom: 0;
       transform: translateX(-50%);
       width: 1200px;
-      height: 320px;
+      height: 220px;
       background: radial-gradient(circle at 50% 20%, rgba(98, 228, 255, 0.6), transparent 70%);
       opacity: 0.65;
       pointer-events: none;
+      z-index: 0;
     }
 
     @media (max-width: 900px) {
@@ -439,8 +481,8 @@
 
   <main class="hero">
     <!-- <div class="hero-tabs">
-      <span class="active">AI-Agent Data Evaluation System</span>
-      <span>Autonomous Intelligence for Scientific Discovery</span>
+      <span class="active">AI-Agent 数据评价体系</span>
+      <span>自主智能驱动科学发现</span>
     </div> -->
     <h1 class="hero-title">SciDataIndex</h1>
     <div class="hero-subtitle">An AI4Science platform for scientific data classification, grading, and evaluation</div>
@@ -448,33 +490,34 @@
     <section class="glass-card">
       <h3>AI4Science Scientific Data Evaluation Framework</h3>
       <p>
-        SciDataIndex is developed by the lab based on AI Agent technology,
-        targeting AI4Science scenarios and building a global framework for scientific data signal mining,
+        SciDataIndex is developed by the Shanghai AI Lab based on AI Agent technology.
+        It targets AI4Science scenarios and builds a global framework for scientific data signal mining,
         classification, grading, and comprehensive evaluation.
         The platform continuously aggregates multi-source scientific data resources
         and performs quantitative assessment across openness, standardization, impact, and usability,
-        supporting the discovery of high-value research data and interdisciplinary innovation.
+        supporting discovery of high-value research data and interdisciplinary innovation.
       </p>
     </section>
 
     <div class="hero-actions">
       <a class="btn secondary" href="data_ranks/earth_science.html">Earth Science</a>
-      <a class="btn secondary" href="data_ranks/neuro_science.html">Neuro science</a>
       <a class="btn secondary" href="data_ranks/life_science.html">Life Science</a>
       <a class="btn secondary" href="data_ranks/material_science.html">Materials Science</a>
+      <a class="btn secondary" href="data_ranks/neuro_science.html">Neuroscience</a>
     </div>
     <div class="earth-glow"></div>
   </main>
 
-  <section class="rank-section" id="rankSection">
-    <div class="rank-inner">
-      <h2 class="rank-title">Scientific Data Evaluation Rankings</h2>
-      <p class="rank-subtitle">Top 5 datasets by total score in each domain</p>
-      <div class="rank-grid" id="rankGrid"></div>
-    </div>
-  </section>
+    <section class="rank-section" id="rankSection">
+      <div class="rank-inner">
+        <h2 class="rank-title">Scientific Data Evaluation Rankings</h2>
+        <p class="rank-subtitle">Top 5 datasets by total score in each domain</p>
+        <div class="rank-grid" id="rankGrid"></div>
+      </div>
+    </section>
 
   <script>
+    
     const DATASETS = {
       "Earth Science": [
         {
@@ -545,78 +588,6 @@
             "safety": 7,
             "ai_readiness": 6,
             "total_score": 6.75
-          }
-        }
-      ],
-      "Neuro science": [
-        {
-          "name": "Hemibrain Connectome Dataset",
-          "desc": "Drosophila hemibrain connectome atlas.",
-          "detail": "High-resolution connectomics data for brain circuitry.",
-          "rating": {
-            "openness": 8,
-            "quality": 9,
-            "scale": 7,
-            "impact": 2,
-            "safety": 7,
-            "ai_readiness": 6,
-            "total_score": 5.85
-          }
-        },
-        {
-          "name": "HMC Sleep Staging Dataset",
-          "desc": "Five-class EEG sleep staging dataset.",
-          "detail": "Sleep EEG data for multi-class staging and analysis.",
-          "rating": {
-            "openness": 8,
-            "quality": 9,
-            "scale": 4,
-            "impact": 4,
-            "safety": 7,
-            "ai_readiness": 6,
-            "total_score": 5.45
-          }
-        },
-        {
-          "name": "BOLD5000",
-          "desc": "Large-scale, slow event-related fMRI dataset.",
-          "detail": "fMRI responses to natural image stimuli.",
-          "rating": {
-            "openness": 9,
-            "quality": 9,
-            "scale": 5,
-            "impact": 2,
-            "safety": 7,
-            "ai_readiness": 6,
-            "total_score": 5.35
-          }
-        },
-        {
-          "name": "RSNA Intracranial Hemorrhage Detection",
-          "desc": "RSNA intracranial hemorrhage detection/classification dataset.",
-          "detail": "CT scans labeled for hemorrhage detection.",
-          "rating": {
-            "openness": 0,
-            "quality": 0,
-            "scale": 5,
-            "impact": 6,
-            "safety": 10,
-            "ai_readiness": 4,
-            "total_score": 4.3
-          }
-        },
-        {
-          "name": "APT-36K",
-          "desc": "Large-scale animal pose estimation and tracking dataset.",
-          "detail": "Multi-animal pose annotations and tracking data.",
-          "rating": {
-            "openness": 8,
-            "quality": 9,
-            "scale": 4,
-            "impact": 2,
-            "safety": 7,
-            "ai_readiness": 9,
-            "total_score": 5.55
           }
         }
       ],
@@ -758,28 +729,105 @@
             "total_score": 5.65
           }
         }
+      ],
+      "Neuroscience": [
+        {
+          "name": "Hemibrain Connectome Dataset",
+          "desc": "Drosophila hemibrain connectome atlas.",
+          "detail": "High-resolution connectomics data for brain circuitry.",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 7,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.85
+          }
+        },
+        {
+          "name": "HMC Sleep Staging Dataset",
+          "desc": "Five-class EEG sleep staging dataset.",
+          "detail": "Sleep EEG data for multi-class staging and analysis.",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 4,
+            "impact": 4,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.45
+          }
+        },
+        {
+          "name": "BOLD5000",
+          "desc": "Large-scale, slow event-related fMRI dataset.",
+          "detail": "fMRI responses to natural image stimuli.",
+          "rating": {
+            "openness": 9,
+            "quality": 9,
+            "scale": 5,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.35
+          }
+        },
+        {
+          "name": "RSNA Intracranial Hemorrhage Detection",
+          "desc": "RSNA intracranial hemorrhage detection/classification dataset.",
+          "detail": "CT scans labeled for hemorrhage detection.",
+          "rating": {
+            "openness": 0,
+            "quality": 0,
+            "scale": 5,
+            "impact": 6,
+            "safety": 10,
+            "ai_readiness": 4,
+            "total_score": 4.3
+          }
+        },
+        {
+          "name": "APT-36K",
+          "desc": "Large-scale animal pose estimation and tracking dataset.",
+          "detail": "Multi-animal pose annotations and tracking data.",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 4,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 9,
+            "total_score": 5.55
+          }
+        }
       ]
     };
 
     function toFileName(name) {
-      return `${name.replace(/\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
+      return `${name.replace(/\\s+/g, "_").replace(/[\\/]/g, "_")}_ratings1.json`;
     }
 
     function formatScore(value) {
       if (!Number.isFinite(value)) return "-";
       const text = value.toFixed(2);
-      return text.replace(/\.00$/, ".0").replace(/(\.\d)0$/, "$1");
+      return text.replace(/\\.00$/, ".0").replace(/(\\.\\d)0$/, "$1");
     }
 
     const grid = document.getElementById("rankGrid");
     const SUBJECT_ICONS = {
       "Earth Science": "🌍",
-      "Neuro science": "🧠",
       "Life Science": "🧬",
-      "Materials Science": "🧪"
+      "Materials Science": "🧪",
+      "Neuroscience": "🧠"
     };
 
-    Object.entries(DATASETS).forEach(([subject, datasets]) => {
+    const subjectOrder = ["Earth Science", "Life Science", "Materials Science", "Neuroscience"];
+    let neuroCard = null;
+
+    subjectOrder.forEach(subject => {
+      const datasets = DATASETS[subject];
+      if (!datasets) return;
       const items = [...datasets].sort((a, b) => {
         const scoreA = a.rating?.total_score ?? 0;
         const scoreB = b.rating?.total_score ?? 0;
@@ -790,7 +838,7 @@
       const icon = SUBJECT_ICONS[subject] || "📊";
       const subjectSlug = subject === "Earth Science"
         ? "earth_science"
-        : subject === "Neuro science"
+        : subject === "Neuroscience"
           ? "neuro_science"
           : subject === "Life Science"
             ? "life_science"
@@ -815,6 +863,7 @@
         const badgeClass = idx === 0 ? "gold" : idx === 1 ? "silver" : idx === 2 ? "bronze" : "";
         const medalIcon = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : "";
         const categoryParam = subjectSlug;
+        // console.log("index:", categoryParam);
         row.innerHTML = `
           <div class="rank-badge ${badgeClass}">
             ${medalIcon || (idx + 1)}
@@ -827,8 +876,28 @@
         `;
         list.appendChild(row);
       });
+      if (subject === "Neuroscience") {
+        card.classList.add("hidden");
+        neuroCard = card;
+      }
       grid.appendChild(card);
     });
+
+    if (neuroCard) {
+      const moreWrap = document.createElement("div");
+      moreWrap.className = "rank-more";
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "rank-toggle";
+      toggle.innerHTML = `More disciplines...`;
+      toggle.addEventListener("click", () => {
+        const isHidden = neuroCard.classList.contains("hidden");
+        neuroCard.classList.toggle("hidden");
+        toggle.innerHTML = isHidden ? `Collapse disciplines...` : `More disciplines...`;
+      });
+      moreWrap.appendChild(toggle);
+      grid.appendChild(moreWrap);
+    }
   </script>
 </body>
 </html>
