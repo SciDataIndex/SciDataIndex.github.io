@@ -347,12 +347,20 @@
     const tagCategory = document.getElementById("tagCategory");
     const tabBar = document.getElementById("tabBar");
 
+    function normalizeDetailValue(content) {
+      if (content === null || content === undefined || content === "") return "待填写";
+      if (typeof content === "number" && Number.isNaN(content)) return "-";
+      if (typeof content === "string" && content.trim().toLowerCase() === "nan") return "-";
+      return content;
+    }
+
     function addDetail(title, content, link) {
+      const safeContent = normalizeDetailValue(content);
       const item = document.createElement("div");
       item.className = "detail-item";
       item.innerHTML = `
         <strong>${title}</strong>
-        <span>${content || "待填写"}</span>
+        <span>${safeContent}</span>
         ${link ? `<span><a href="${link}" target="_blank" rel="noreferrer">${link}</a></span>` : ""}
       `;
       detailList.appendChild(item);
