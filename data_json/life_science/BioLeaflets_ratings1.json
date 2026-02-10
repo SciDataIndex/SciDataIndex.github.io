@@ -1,0 +1,45 @@
+{
+  "dataset": "BioLeaflets",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/avsolatorio/BioLeaflets",
+    "brief_description": "BioLeaflets 是药品说明书文本数据集，包含 1,336 份英文说明书。",
+    "detailed_description": "BioLeaflets 在 Hugging Face 发布，包含 1,336 条药品说明书（JSON 格式），附带 Apache‑2.0 许可，可用于药品信息抽取与文本生成。"
+  },
+  "openness": {
+    "license_type": "Apache-2.0",
+    "license_source_link": "https://huggingface.co/datasets/avsolatorio/BioLeaflets",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "134",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/avsolatorio/BioLeaflets",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2021.09",
+    "source_link": "https://huggingface.co/datasets/avsolatorio/BioLeaflets",
+    "last_update_date": ""
+  }
+}

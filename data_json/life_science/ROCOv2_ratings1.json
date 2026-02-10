@@ -1,0 +1,45 @@
+{
+  "dataset": "ROCOv2",
+  "intro": {
+    "official_link": "https://www.nature.com/articles/s41597-024-03496-6",
+    "brief_description": "ROCOv2 是 ROCO 的更新版医学影像‑图注数据集。",
+    "detailed_description": "ROCOv2 从 PMC OA 中筛选 CC BY/CC BY‑NC 图像，包含 79,789 张放射影像及图注与 UMLS 概念，用于图像标注与多任务学习。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "80080",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41597-024-03496-6",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.11",
+    "source_link": "https://www.nature.com/articles/s41597-024-03496-6",
+    "last_update_date": ""
+  }
+}

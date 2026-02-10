@@ -1,0 +1,45 @@
+{
+  "dataset": "OphVL",
+  "intro": {
+    "official_link": "https://github.com/hustvl/OphVL",
+    "brief_description": "OphVL 是面向眼科影像的视觉‑语言模型与数据资源。",
+    "detailed_description": "OphVL 提供眼科图像‑文本配对数据与模型基线，用于眼科 VLM 预训练与评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "375198",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2311.10369",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.11",
+    "source_link": "https://github.com/hustvl/OphVL",
+    "last_update_date": ""
+  }
+}

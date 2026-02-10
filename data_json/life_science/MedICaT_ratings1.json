@@ -1,0 +1,45 @@
+{
+  "dataset": "MedICaT",
+  "intro": {
+    "official_link": "https://github.com/allenai/medicat",
+    "brief_description": "MedICaT 汇集医学论文中的图像、图注与引用文本。",
+    "detailed_description": "MedICaT 从开放获取论文中抽取图像与图注，并提供子图‑子图注对齐与图文引用信息，用于医学图文检索与理解。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "217060",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/papers/2010.06000",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2020.1",
+    "source_link": "https://github.com/allenai/medicat",
+    "last_update_date": ""
+  }
+}

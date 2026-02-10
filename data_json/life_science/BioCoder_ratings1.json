@@ -1,0 +1,45 @@
+{
+  "dataset": "BioCoder",
+  "intro": {
+    "official_link": "https://biocoder.github.io/",
+    "brief_description": "BioCoder 是生物信息学代码生成基准，评测 LLM 编写可执行分析代码的能力。",
+    "detailed_description": "BioCoder 包含 1,026 个带 docstring 的 Python 函数与单元测试，用于训练和评估生物信息学代码生成；论文分析了 LLM 在生物领域代码任务上的表现。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2522",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/38458444/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.08",
+    "source_link": "https://biocoder.github.io/",
+    "last_update_date": ""
+  }
+}

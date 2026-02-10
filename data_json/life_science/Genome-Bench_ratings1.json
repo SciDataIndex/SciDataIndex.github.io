@@ -1,0 +1,45 @@
+{
+  "dataset": "Genome-Bench",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/Mingyin0312/Genome-Bench",
+    "brief_description": "Genome‑Bench 是基于真实科研讨论构建的基因组学推理基准。",
+    "detailed_description": "该基准将多年论坛讨论转化为多项选择题，覆盖基础生物学、实验故障排查与工具使用等主题，提供 3,000+ 高质量问答用于评测模型推理能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3332",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://sciety.org/articles/activity/10.1101/2025.06.02.657538",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.06",
+    "source_link": "https://huggingface.co/datasets/Mingyin0312/Genome-Bench",
+    "last_update_date": ""
+  }
+}

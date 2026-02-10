@@ -1,0 +1,45 @@
+{
+  "dataset": "BixBench",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/biobix/bixbench",
+    "brief_description": "面向Multi-omics领域，Text QA类型数据集，数据模态包含Genomics transcriptomics text",
+    "detailed_description": "领域：Multi-omics；模态：Genomics transcriptomics text；级别：Expert；类型：Text QA；发布时间：2025.03；语言：EN；来源：Academic and research resources；标注流程：Semi-automated；人工标注者：Data generation and review；人工任务：53；自动标注工具：Claude 3.5 Sonnet；规模：296；评测类型：Open-ended, MCQ；评测指标：Acc"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "296",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/biobix/bixbench",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.03",
+    "source_link": "https://huggingface.co/datasets/biobix/bixbench",
+    "last_update_date": ""
+  }
+}

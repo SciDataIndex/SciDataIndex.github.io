@@ -1,0 +1,45 @@
+{
+  "dataset": "LAB-Bench",
+  "intro": {
+    "official_link": "https://github.com/Future-House/LAB-Bench",
+    "brief_description": "LAB‑Bench 是面向生物学科研能力的语言代理评测基准。",
+    "detailed_description": "LAB‑Bench 覆盖文献检索、数据库检索、图表推理、实验流程与序列操作等 30 个子任务，并提供公开子集与私有测试集用于评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2457",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/Future-House/LAB-Bench",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.07",
+    "source_link": "https://github.com/Future-House/LAB-Bench",
+    "last_update_date": ""
+  }
+}

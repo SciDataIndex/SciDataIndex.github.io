@@ -1,0 +1,45 @@
+{
+  "dataset": "CRAFT-BioQA",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/BI55/CRAFT-BioQA",
+    "brief_description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含Biomedical QA",
+    "detailed_description": "领域：Healthcare and Medical Sciences；模态：Biomedical QA；类型：Text QA；发布时间：2024.09；语言：EN；来源：Academic and research resources；标注流程：Automated；评测类型：MCQ；评测指标：Acc"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/BI55/CRAFT-BioQA",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.09",
+    "source_link": "https://huggingface.co/datasets/BI55/CRAFT-BioQA",
+    "last_update_date": ""
+  }
+}

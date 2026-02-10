@@ -1,0 +1,45 @@
+{
+  "dataset": "RNA-QA",
+  "intro": {
+    "official_link": "https://rna-gpt.github.io/",
+    "brief_description": "RNA‑QA 是由 RNAcentral 与文献摘要构建的 RNA 序列‑文本问答数据集。",
+    "detailed_description": "RNA‑QA 由 RNA‑GPT 项目构建，使用 RNAcentral 的序列与相关论文摘要生成 40 万级序列‑文本对，并衍生指令式 QA 用于对齐训练。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "121 K",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://rna-gpt.github.io/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.05",
+    "source_link": "https://rna-gpt.github.io/",
+    "last_update_date": ""
+  }
+}

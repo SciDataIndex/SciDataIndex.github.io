@@ -1,0 +1,45 @@
+{
+  "dataset": "SpeciesClassification",
+  "intro": {
+    "official_link": "https://github.com/ualberta-vision/SpeciesClassification",
+    "brief_description": "SpeciesClassification 提供野生动物相机陷阱图像的物种分类基准。",
+    "detailed_description": "该数据集汇集多地区相机陷阱图像并提供物种标签，用于动物识别与生态监测研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "5 species genomes",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/ualberta-vision/SpeciesClassification",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.06",
+    "source_link": "https://github.com/ualberta-vision/SpeciesClassification",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "MedMD",
+  "intro": {
+    "official_link": "https://huggingface.co/papers/2308.02463",
+    "brief_description": "MedMD 是用于放射学基础模型训练的多模态医学影像大规模数据集。",
+    "detailed_description": "MedMD 在 RadFM 工作中被构建，包含约 16M 张 2D/3D 医学扫描，用于视觉条件生成式预训练与放射学任务评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "16000000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2308.02463",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.11",
+    "source_link": "https://huggingface.co/papers/2308.02463",
+    "last_update_date": ""
+  }
+}

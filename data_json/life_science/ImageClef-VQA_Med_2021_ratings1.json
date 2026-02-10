@@ -1,0 +1,45 @@
+{
+  "dataset": "ImageClef-VQA Med 2021",
+  "intro": {
+    "official_link": "https://www.imageclef.org/2021/medical/vqa",
+    "brief_description": "ImageCLEF VQA‑Med 2021 持续提供医学 VQA/VQG 竞赛数据。",
+    "detailed_description": "2021 版包含视觉问答与问题生成两项任务，并延续历年医学放射图像问答基准。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4500",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.imageclef.org/2021/medical/vqa",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2021.09",
+    "source_link": "https://www.imageclef.org/2021/medical/vqa",
+    "last_update_date": ""
+  }
+}

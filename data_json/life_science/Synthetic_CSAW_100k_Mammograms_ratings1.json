@@ -1,0 +1,45 @@
+{
+  "dataset": "Synthetic CSAW 100k Mammograms",
+  "intro": {
+    "official_link": "https://aimi.stanford.edu/center-advancing-diagnostics/csaw",
+    "brief_description": "Synthetic CSAW 100k Mammograms 是基于 CSAW 的合成乳腺 X 光数据集。",
+    "detailed_description": "该数据集由 Stanford AIMI 发布，使用生成模型合成 10 万张乳腺 X 光影像，用于隐私友好训练与评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "100K",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://aimi.stanford.edu/center-advancing-diagnostics/csaw",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.07",
+    "source_link": "https://aimi.stanford.edu/center-advancing-diagnostics/csaw",
+    "last_update_date": ""
+  }
+}

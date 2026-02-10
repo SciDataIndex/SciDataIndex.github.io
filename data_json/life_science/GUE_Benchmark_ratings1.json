@@ -1,0 +1,45 @@
+{
+  "dataset": "GUE Benchmark",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/leannmlindsey/GUE",
+    "brief_description": "GUE（Genome Understanding Evaluation）是基因组序列理解的任务集合基准。",
+    "detailed_description": "GUE 汇集多种序列分类任务，用于评估基因组基础模型的表示与预测能力，并在 Hugging Face 提供可直接加载的任务分割。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "80648",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/leannmlindsey/GUE",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.06",
+    "source_link": "https://huggingface.co/datasets/leannmlindsey/GUE",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "Zheng68k",
+  "intro": {
+    "official_link": "https://github.com/zhengyug/zheng68k",
+    "brief_description": "Zheng68k 是医学对话与问答数据集。",
+    "detailed_description": "该数据集提供约 6.8 万条医学相关对话样本，用于医学对话与问答系统训练。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "68450",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/zhengyug/zheng68k",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2016.07",
+    "source_link": "https://github.com/zhengyug/zheng68k",
+    "last_update_date": ""
+  }
+}

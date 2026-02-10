@@ -1,0 +1,45 @@
+{
+  "dataset": "NSD",
+  "intro": {
+    "official_link": "https://naturalscenesdataset.org/",
+    "brief_description": "NSD 是自然场景 fMRI 数据集，包含大规模刺激图像与多次重复实验。",
+    "detailed_description": "NSD 收录 8 名受试者在多次扫描中的 fMRI 数据以及对应的自然场景图像，支持视觉表征与编码模型研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "70566",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://naturalscenesdataset.org/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2021.09",
+    "source_link": "https://naturalscenesdataset.org/",
+    "last_update_date": ""
+  }
+}

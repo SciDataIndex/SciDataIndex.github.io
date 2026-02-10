@@ -1,0 +1,45 @@
+{
+  "dataset": "BEACON",
+  "intro": {
+    "official_link": "https://beaconintelligence.org/news/new-beacon-dataset-for-immune-tolerance/",
+    "brief_description": "BEACON 数据集汇集免疫耐受相关药物与临床试验信息，用于生物医学研究。",
+    "detailed_description": "Beacon Intelligence 发布的 BEACON 数据集聚合免疫耐受相关药物、临床试验与作用机制信息，可用于免疫治疗与药物研发分析。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "96283",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://beaconintelligence.org/news/new-beacon-dataset-for-immune-tolerance/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.06",
+    "source_link": "https://beaconintelligence.org/news/new-beacon-dataset-for-immune-tolerance/",
+    "last_update_date": ""
+  }
+}

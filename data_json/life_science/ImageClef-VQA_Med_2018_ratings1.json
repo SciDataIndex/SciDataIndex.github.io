@@ -1,0 +1,45 @@
+{
+  "dataset": "ImageClef-VQA Med 2018",
+  "intro": {
+    "official_link": "https://www.imageclef.org/2018/VQA-Med",
+    "brief_description": "ImageCLEF VQA‑Med 2018 是医学视觉问答竞赛首届数据集。",
+    "detailed_description": "该任务提供训练/验证/测试的医学图像问答对，基于 PubMed Central 图像构建，用于评测模型的医学影像理解与问答能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "6413",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.imageclef.org/2018/VQA-Med",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2018.06",
+    "source_link": "https://www.imageclef.org/2018/VQA-Med",
+    "last_update_date": ""
+  }
+}

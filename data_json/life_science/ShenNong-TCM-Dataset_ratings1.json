@@ -1,0 +1,45 @@
+{
+  "dataset": "ShenNong-TCM-Dataset",
+  "intro": {
+    "official_link": "https://github.com/SCIR-HI/ShenNong",
+    "brief_description": "神农中医数据集包含中医知识图谱与问答数据，用于中医知识推理。",
+    "detailed_description": "ShenNong 公开中医知识图谱与问答样本，覆盖中药、方剂、症状与证候等知识，用于中医问答与知识推理模型训练。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "113000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/SCIR-HI/ShenNong",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.06",
+    "source_link": "https://github.com/SCIR-HI/ShenNong",
+    "last_update_date": ""
+  }
+}

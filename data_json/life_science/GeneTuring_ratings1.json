@@ -1,0 +1,45 @@
+{
+  "dataset": "GeneTuring",
+  "intro": {
+    "official_link": "https://github.com/Winnie09/GeneTuring",
+    "brief_description": "GeneTuring 是评测基因组知识与推理能力的问答基准。",
+    "detailed_description": "GeneTuring 包含 16 个模块、约 1600 个问答对，覆盖命名、定位、功能与序列比对等任务；其数据与脚本在 GitHub 公开。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "600",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/bib/article/26/5/bbaf492/8261762",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.03",
+    "source_link": "https://github.com/Winnie09/GeneTuring",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "CheXpertPlus",
+  "intro": {
+    "official_link": "https://stanfordaimi.azurewebsites.net/datasets/chexpert-plus/",
+    "brief_description": "面向Healthcare and Medical Sciences领域，Image-text类型数据集，主要用于Pre-training，数据模态包含X-ray",
+    "detailed_description": "领域：Healthcare and Medical Sciences；模态：X-ray；用途：Pre-training；类型：Image-text；发布时间：2024.06；语言：EN；来源：Scientific databases；标注流程：Semi-automated；人工标注者：10；人工任务：Data generation and review；自动标注工具：CheXbert, Radgraph；规模：223228"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "223228",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://stanfordaimi.azurewebsites.net/datasets/chexpert-plus/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.06",
+    "source_link": "https://stanfordaimi.azurewebsites.net/datasets/chexpert-plus/",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "BioGPT",
+  "intro": {
+    "official_link": "https://www.microsoft.com/en-us/research/publication/biogpt-generative-pre-trained-transformer-for-biomedical-text-generation-and-mining/",
+    "brief_description": "BioGPT 是面向生物医学文本的 GPT 模型与资源，用于生成与文本挖掘。",
+    "detailed_description": "BioGPT 以大规模 PubMed 语料训练，目标是提升生物医学文本生成与信息抽取能力；相关论文与模型卡公开用于生物医学 NLP 研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "15M",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/35593299/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.08",
+    "source_link": "https://www.microsoft.com/en-us/research/publication/biogpt-generative-pre-trained-transformer-for-biomedical-text-generation-and-mining/",
+    "last_update_date": ""
+  }
+}

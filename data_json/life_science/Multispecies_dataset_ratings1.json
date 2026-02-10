@@ -1,0 +1,45 @@
+{
+  "dataset": "Multispecies dataset",
+  "intro": {
+    "official_link": "https://mp.weixin.qq.com/s/9qVwQ2z5sCfsnQnkf-1b3A",
+    "brief_description": "MultiSpecies 数据集用于药物‑靶点相互作用预测，涵盖多物种蛋白。",
+    "detailed_description": "该数据集整理自多个物种的药物‑蛋白相互作用信息，用于跨物种的药物发现建模；相关工作发表于 Briefings in Bioinformatics。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "174B (nucleotides)",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9105567/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.1",
+    "source_link": "https://mp.weixin.qq.com/s/9qVwQ2z5sCfsnQnkf-1b3A",
+    "last_update_date": ""
+  }
+}

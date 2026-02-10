@@ -1,0 +1,45 @@
+{
+  "dataset": "TCPA",
+  "intro": {
+    "official_link": "https://tcpaportal.org/",
+    "brief_description": "TCPA 是癌症蛋白组学数据分析平台，提供 RPPA 蛋白表达数据。",
+    "detailed_description": "TCPA 汇集多癌种 RPPA 蛋白表达与临床信息，用于癌症分子机制研究与生物标志物发现。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4379",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.cell.com/cell/fulltext/S0092-8674(19)30663-3",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2013.09",
+    "source_link": "https://tcpaportal.org/",
+    "last_update_date": ""
+  }
+}

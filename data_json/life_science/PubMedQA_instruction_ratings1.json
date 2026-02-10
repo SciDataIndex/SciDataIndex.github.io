@@ -1,0 +1,45 @@
+{
+  "dataset": "PubMedQA instruction",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/fedml/PubMedQA_instruction",
+    "brief_description": "PubMedQA_instruction 是将 PubMedQA 转为指令微调格式的数据集。",
+    "detailed_description": "该数据集基于 PubMedQA（EMNLP 2019）转换为指令‑回答格式，便于医学 QA 任务的指令微调训练。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "273k",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://pubmedqa.github.io/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2019.09",
+    "source_link": "https://huggingface.co/datasets/fedml/PubMedQA_instruction",
+    "last_update_date": ""
+  }
+}

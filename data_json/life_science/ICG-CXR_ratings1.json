@@ -1,0 +1,45 @@
+{
+  "dataset": "ICG-CXR",
+  "intro": {
+    "official_link": "https://progemu.github.io/",
+    "brief_description": "ICG‑CXR 是用于可解释反事实生成的纵向胸片数据集，包含前后影像、进展提示与解释文本。",
+    "detailed_description": "该数据集为“可解释反事实生成（ICG）”任务构建，配对同一患者的不同时间胸片，并提供疾病进展提示与对应解释文本，用于学习图像‑文本一致的反事实生成。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "11439",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://progemu.github.io/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.03",
+    "source_link": "https://progemu.github.io/",
+    "last_update_date": ""
+  }
+}

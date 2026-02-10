@@ -1,0 +1,45 @@
+{
+  "dataset": "TUEV",
+  "intro": {
+    "official_link": "https://physionet.org/content/tuev/1.0.0/",
+    "brief_description": "TUEV 是癫痫发作相关 EEG 事件检测数据集。",
+    "detailed_description": "TUEV 提供多种癫痫相关事件标注，适合事件检测与发作类型分类研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "112237",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://physionet.org/content/tuev/1.0.0/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2015.12",
+    "source_link": "https://physionet.org/content/tuev/1.0.0/",
+    "last_update_date": ""
+  }
+}

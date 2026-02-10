@@ -1,0 +1,45 @@
+{
+  "dataset": "PubChemSTM",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/chao1224/MoleculeSTM",
+    "brief_description": "PubChemSTM 是分子结构‑文本对齐数据集，用于分子检索与文本编辑任务。",
+    "detailed_description": "MoleculeSTM 构建 PubChemSTM（>280k 结构‑文本对），用于分子结构‑文本对比学习与检索/编辑；部分文本受许可限制需按脚本预处理。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "281000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s42256-023-00759-6",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.01",
+    "source_link": "https://huggingface.co/datasets/chao1224/MoleculeSTM",
+    "last_update_date": ""
+  }
+}

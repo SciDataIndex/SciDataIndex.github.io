@@ -1,0 +1,45 @@
+{
+  "dataset": "BioASQ",
+  "intro": {
+    "official_link": "https://participants-area.bioasq.org/",
+    "brief_description": "BioASQ 提供面向生物医学的问答与语义索引竞赛数据集。",
+    "detailed_description": "BioASQ 竞赛发布带有金标准答案与文献证据的问题集合，用于评测生物医学 QA、信息检索与概念标注能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4721",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://participants-area.bioasq.org/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.12",
+    "source_link": "https://participants-area.bioasq.org/",
+    "last_update_date": ""
+  }
+}

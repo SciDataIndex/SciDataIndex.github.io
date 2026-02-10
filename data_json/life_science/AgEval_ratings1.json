@@ -1,0 +1,45 @@
+{
+  "dataset": "AgEval",
+  "intro": {
+    "official_link": "https://ageval.org/",
+    "brief_description": "AgEval 是农业植物胁迫表型基准，用于评估视觉‑语言模型的农业理解能力。",
+    "detailed_description": "AgEval 提供 12 个植物胁迫相关任务，采用少样本/零样本评测，对 VLM 的识别与描述能力进行系统评估。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1200",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://ageval.org/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.01",
+    "source_link": "https://ageval.org/",
+    "last_update_date": ""
+  }
+}

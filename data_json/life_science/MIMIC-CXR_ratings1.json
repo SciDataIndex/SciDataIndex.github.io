@@ -1,0 +1,45 @@
+{
+  "dataset": "MIMIC-CXR",
+  "intro": {
+    "official_link": "https://physionet.org/content/mimic-cxr/",
+    "brief_description": "MIMIC‑CXR 是大规模胸部 X 光影像与放射报告数据库。",
+    "detailed_description": "数据集包含 DICOM 影像与自由文本报告，需完成 PhysioNet 受限访问流程，广泛用于影像理解与报告生成研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "227835",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://physionet.org/content/mimic-cxr/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2019.08",
+    "source_link": "https://physionet.org/content/mimic-cxr/",
+    "last_update_date": ""
+  }
+}

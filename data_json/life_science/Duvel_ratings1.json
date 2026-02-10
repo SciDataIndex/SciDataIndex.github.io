@@ -1,0 +1,45 @@
+{
+  "dataset": "Duvel",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/cnachteg/duvel",
+    "brief_description": "DUVEL 是面向基因‑变异组合关系抽取的生物医学语料，采用主动学习与人工标注构建。",
+    "detailed_description": "DUVEL 通过主动学习筛选文献片段并进行人工标注，聚焦包含两基因‑两变异的复杂关系表达。数据规模为 8,442 个文本片段，覆盖多数被标注文献，适合用于生物医学关系抽取与模型微调。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "6553",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/database/article/doi/10.1093/database/baae039/7683721",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.05",
+    "source_link": "https://academic.oup.com/database/article/doi/10.1093/database/baae039/7683721",
+    "last_update_date": ""
+  }
+}

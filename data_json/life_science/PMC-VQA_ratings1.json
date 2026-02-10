@@ -1,0 +1,45 @@
+{
+  "dataset": "PMC-VQA",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/xmcmic/PMC-VQA",
+    "brief_description": "PMC‑VQA 是从 PMC 论文图表构建的临床图像视觉问答数据集。",
+    "detailed_description": "PMC‑VQA 基于 PubMed Central 文章的临床图表与配文构建多选问答，提供 train/test 元数据与图像包，面向医学 VQA 与多模态推理任务。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "226946",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://zenodo.org/records/14286358",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.05",
+    "source_link": "https://huggingface.co/datasets/xmcmic/PMC-VQA",
+    "last_update_date": ""
+  }
+}

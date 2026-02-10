@@ -1,0 +1,45 @@
+{
+  "dataset": "Pima",
+  "intro": {
+    "official_link": "https://search.r-project.org/CRAN/refmans/mlbench/html/PimaIndiansDiabetes.html",
+    "brief_description": "Pima Indians Diabetes 是经典糖尿病预测数据集，含 768 条记录与 8 项医学特征。",
+    "detailed_description": "该数据集源自 NIDDK 的糖尿病研究，包含孕次、血糖、血压、BMI 等特征与二分类标签，常用于疾病风险预测基线实验。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "77",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://search.r-project.org/CRAN/refmans/mlbench/html/PimaIndiansDiabetes.html",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "1988.11",
+    "source_link": "https://search.r-project.org/CRAN/refmans/mlbench/html/PimaIndiansDiabetes.html",
+    "last_update_date": ""
+  }
+}

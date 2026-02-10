@@ -1,0 +1,45 @@
+{
+  "dataset": "DISC-Med-SFT",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/Flmc/DISC-Med-SFT",
+    "brief_description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，主要用于SFT，数据模态包含Clinical dialogue",
+    "detailed_description": "领域：Healthcare and Medical Sciences；模态：Clinical dialogue；用途：SFT；类型：Text QA；发布时间：2023.08；语言：ZH；来源：Integration of existing datasets；标注流程：Semi-automated；人工任务：Data review；自动标注工具：GPT-3.5, GPT-4；规模：470000"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "470000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/Flmc/DISC-Med-SFT",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.08",
+    "source_link": "https://huggingface.co/datasets/Flmc/DISC-Med-SFT",
+    "last_update_date": ""
+  }
+}

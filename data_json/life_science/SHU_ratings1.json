@@ -1,0 +1,45 @@
+{
+  "dataset": "SHU",
+  "intro": {
+    "official_link": "https://dataverse.scholarsportal.info/dataverse/SHU/",
+    "brief_description": "SHU 是精神健康数据集仓库，包含多项心理与精神健康研究数据。",
+    "detailed_description": "Scholars Portal Dataverse 的 SHU 仓库收录精神健康相关数据集，可用于心理健康与精神疾病研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "11988",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://dataverse.scholarsportal.info/dataverse/SHU/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.08",
+    "source_link": "https://dataverse.scholarsportal.info/dataverse/SHU/",
+    "last_update_date": ""
+  }
+}

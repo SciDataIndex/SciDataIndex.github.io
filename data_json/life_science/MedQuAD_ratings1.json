@@ -1,0 +1,45 @@
+{
+  "dataset": "MedQuAD",
+  "intro": {
+    "official_link": "https://github.com/abachaa/MedQuAD",
+    "brief_description": "MedQuAD 是从 NIH 网站构建的医疗问答数据集。",
+    "detailed_description": "MedQuAD 包含 47,457 组 QA，来自 12 个 NIH 网站，覆盖治疗、诊断、副作用等 37 类问题类型。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "47457",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/abachaa/MedQuAD",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2019.11",
+    "source_link": "https://github.com/abachaa/MedQuAD",
+    "last_update_date": ""
+  }
+}

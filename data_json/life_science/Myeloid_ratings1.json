@@ -1,0 +1,45 @@
+{
+  "dataset": "Myeloid",
+  "intro": {
+    "official_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161918",
+    "brief_description": "Myeloid 数据集提供人类髓系细胞的单细胞转录组数据。",
+    "detailed_description": "该数据集收录多样本髓系细胞单细胞 RNA‑seq 数据，可用于免疫细胞类型鉴定与功能分析。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3430",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161918",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2021.02",
+    "source_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161918",
+    "last_update_date": ""
+  }
+}

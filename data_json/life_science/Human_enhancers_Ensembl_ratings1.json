@@ -1,0 +1,45 @@
+{
+  "dataset": "Human enhancers Ensembl",
+  "intro": {
+    "official_link": "https://link.springer.com/article/10.1186/s12863-023-01123-8",
+    "brief_description": "该数据集来自 Genomic Benchmarks，基于 Ensembl/FANTOM5 等来源构建的人类增强子序列分类任务。",
+    "detailed_description": "Genomic Benchmarks 提供多个基因组序列分类基准，其中 human_enhancers_ensembl 由 Ensembl/FANTOM5 等来源整理并构造正负样本，用于增强子识别与序列分类评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "154842",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://link.springer.com/article/10.1186/s12863-023-01123-8",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2021.01",
+    "source_link": "https://link.springer.com/article/10.1186/s12863-023-01123-8",
+    "last_update_date": ""
+  }
+}

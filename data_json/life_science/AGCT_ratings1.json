@@ -1,0 +1,45 @@
+{
+  "dataset": "AGCT",
+  "intro": {
+    "official_link": "https://pubmed.ncbi.nlm.nih.gov/31974905/",
+    "brief_description": "AGCT 是面向时间序列基因表达的几何聚类与可视化工具，用于发现基因表达模式。",
+    "detailed_description": "AGCT（A Geometric Clustering Tool）用于分析时间序列基因表达数据，结合小波分解与流形学习实现降维与聚类，可用于探索酵母代谢/细胞周期等数据的表达轨迹并进行可视化和交互式分析。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "421216",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/31974905/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.07",
+    "source_link": "",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "ProCoT",
+  "intro": {
+    "official_link": "https://github.com/MingyuJ666/ProLLM",
+    "brief_description": "ProCoT（Protein Chain‑of‑Thought）将蛋白相互作用推理表述为链式思维提示，用于蛋白推理模型训练。",
+    "detailed_description": "ProLLM 提出 ProCoT 方法，将信号通路视为蛋白推理链，并在 PPI 数据上进行指令微调，以提升蛋白相互作用预测与解释能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4967723",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://tiuxuxsh76075.github.io/prollm.github.io/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.05",
+    "source_link": "https://github.com/MingyuJ666/ProLLM",
+    "last_update_date": ""
+  }
+}

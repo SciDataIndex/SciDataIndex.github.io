@@ -1,0 +1,45 @@
+{
+  "dataset": "BioinfoBench",
+  "intro": {
+    "official_link": "https://sciety.org/articles/activity/10.1101/2024.05.29.596379",
+    "brief_description": "Bioinfo‑Bench 面向生物信息学工作流的 LLM 评测基准。",
+    "detailed_description": "Bioinfo‑Bench 通过知识获取、序列验证与数据分析等任务评估 LLM 的生物信息学能力，并提出用于评测的综合框架与测试集。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "200",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://sciety.org/articles/activity/10.1101/2024.05.29.596379",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.1",
+    "source_link": "https://sciety.org/articles/activity/10.1101/2024.05.29.596379",
+    "last_update_date": ""
+  }
+}

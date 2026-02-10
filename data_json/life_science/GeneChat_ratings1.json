@@ -1,0 +1,45 @@
+{
+  "dataset": "GeneChat",
+  "intro": {
+    "official_link": "https://www.biorxiv.org/content/10.1101/2025.06.05.658031v1",
+    "brief_description": "GeneChat 是面向基因功能预测的多模态大模型与数据方案。",
+    "detailed_description": "GeneChat 以基因序列与文本提示为输入，生成自然语言的基因功能描述，强调将序列表示与语言模型对齐以实现可读的功能解释。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2973",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.biorxiv.org/content/10.1101/2025.06.05.658031v1",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.06",
+    "source_link": "https://www.biorxiv.org/content/10.1101/2025.06.05.658031v1",
+    "last_update_date": ""
+  }
+}

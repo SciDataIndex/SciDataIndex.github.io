@@ -1,0 +1,45 @@
+{
+  "dataset": "IMCS-V2",
+  "intro": {
+    "official_link": "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-024-02481-8/tables/1",
+    "brief_description": "IMCS‑V2 是中文在线医患对话数据集，覆盖 10 种儿科疾病并带多层标注。",
+    "detailed_description": "IMCS‑V2 收录 4,116 组医生‑患者对话（约 16.5 万句），包含疾病、对话行为、实体等多层标注，常用于医患对话理解与摘要生成。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4116",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-024-02481-8/tables/1",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.01",
+    "source_link": "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-024-02481-8/tables/1",
+    "last_update_date": ""
+  }
+}

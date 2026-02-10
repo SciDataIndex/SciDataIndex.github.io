@@ -1,0 +1,45 @@
+{
+  "dataset": "LLaVA-Med",
+  "intro": {
+    "official_link": "https://github.com/microsoft/LLaVA-Med",
+    "brief_description": "LLaVA‑Med 是面向生物医学图文对话的多模态指令数据与模型资源。",
+    "detailed_description": "该项目提供医学图像‑文本指令微调数据与模型代码，基于 LLaVA 进行领域适配，数据按 CC BY‑NC 4.0 供研究使用。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "630000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/microsoft/LLaVA-Med",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.06",
+    "source_link": "https://github.com/microsoft/LLaVA-Med",
+    "last_update_date": ""
+  }
+}

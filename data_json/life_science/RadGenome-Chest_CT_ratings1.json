@@ -1,0 +1,45 @@
+{
+  "dataset": "RadGenome-Chest CT",
+  "intro": {
+    "official_link": "https://www.nature.com/articles/s41597-025-05922-9",
+    "brief_description": "RadGenome‑Chest CT 是区域指导的 3D 胸部 CT 解读数据集。",
+    "detailed_description": "该数据集基于 CT‑RATE，包含 25,692 例胸部 CT、197 类器官分割掩膜、665K 区域对齐报告与 1.2M VQA 对，用于多模态基础模型训练。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1965000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41597-025-05922-9",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.04",
+    "source_link": "https://www.nature.com/articles/s41597-025-05922-9",
+    "last_update_date": ""
+  }
+}

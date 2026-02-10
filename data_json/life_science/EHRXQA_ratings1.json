@@ -1,0 +1,45 @@
+{
+  "dataset": "EHRXQA",
+  "intro": {
+    "official_link": "https://physionet.org/content/ehrxqa/",
+    "brief_description": "EHRXQA 是将结构化 EHR 与胸部 X 光结合的多模态问答数据集。",
+    "detailed_description": "EHRXQA 由 PhysioNet 发布，融合表格化 EHR 与胸片图像，构造多模态问答以考察跨模态推理。数据包含 46,152 个样本，覆盖图像相关、表格相关及联合推理三类问题，并提供训练/验证/测试划分。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "46152",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://physionet.org/content/ehrxqa/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.07",
+    "source_link": "https://physionet.org/content/ehrxqa/",
+    "last_update_date": ""
+  }
+}

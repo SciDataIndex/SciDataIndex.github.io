@@ -1,0 +1,45 @@
+{
+  "dataset": "AMOS-MM",
+  "intro": {
+    "official_link": "https://zenodo.org/records/10917545",
+    "brief_description": "AMOS‑MM 是腹部 CT 多模态数据集，包含影像、报告与问答，用于多模态医学任务。",
+    "detailed_description": "AMOS‑MM（Abdominal Multi‑Organ Multi‑modal）在 Zenodo 发布，包含 2,300 例腹部 CT 扫描及对应影像报告（中英双语）和 VQA 标注，可用于分割、检索与视觉问答等多模态任务。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://zenodo.org/records/10917545",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2300",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://miccai2024.org/en/MICCAI2024/accepted_paper/accepted_paper_665/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.04",
+    "source_link": "https://zenodo.org/records/10917545",
+    "last_update_date": ""
+  }
+}

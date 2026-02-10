@@ -1,0 +1,45 @@
+{
+  "dataset": "Open-PMC-18M",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/axiong/pmc-oa",
+    "brief_description": "Open‑PMC‑18M 汇集 PubMed Central 开放获取全文语料。",
+    "detailed_description": "该语料由 PMC‑OA 论文全文整理，规模达 1,800 万篇，用于生物医学文本预训练与信息抽取。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "25000000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/axiong/pmc-oa",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.06",
+    "source_link": "https://huggingface.co/datasets/axiong/pmc-oa",
+    "last_update_date": ""
+  }
+}

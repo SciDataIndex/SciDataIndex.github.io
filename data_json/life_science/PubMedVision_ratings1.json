@@ -1,0 +1,45 @@
+{
+  "dataset": "PubMedVision",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/FreedomIntelligence/PubMedVision",
+    "brief_description": "PubMedVision 是大规模医学 VQA 数据集，从 PubMed 图文对构建。",
+    "detailed_description": "PubMedVision 包含约 1.3M 医学 VQA（对齐与指令两部分），基于 PubMed 图像‑文本对并由 GPT‑4V 生成问题与答案。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1294092",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/FreedomIntelligence/PubMedVision/blob/main/README.md",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.06",
+    "source_link": "https://huggingface.co/datasets/FreedomIntelligence/PubMedVision",
+    "last_update_date": ""
+  }
+}

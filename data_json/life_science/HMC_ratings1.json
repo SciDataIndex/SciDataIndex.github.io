@@ -1,0 +1,45 @@
+{
+  "dataset": "HMC",
+  "intro": {
+    "official_link": "https://physionet.org/content/hmc-sleep-staging/1.1/",
+    "brief_description": "HMC 睡眠分期数据集包含整夜 PSG 记录与人工分期标注。",
+    "detailed_description": "该数据集由荷兰 HMC 睡眠中心采集，包含 EEG/EOG/EMG/ECG 等多通道信号与睡眠分期标注，适用于睡眠分期与生理信号分析。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "154",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://physionet.org/content/hmc-sleep-staging/1.1/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.03",
+    "source_link": "https://physionet.org/content/hmc-sleep-staging/1.1/",
+    "last_update_date": ""
+  }
+}

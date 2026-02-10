@@ -1,0 +1,45 @@
+{
+  "dataset": "AeroPath",
+  "intro": {
+    "official_link": "https://github.com/andrpeter/AeroPath",
+    "brief_description": "AeroPath 提供气道病理学相关的 3D CT 数据，用于自动化分析与分割研究。",
+    "detailed_description": "AeroPath 数据集由 27 个胸部 CT 体数据及其病理标注构成，发布在 Zenodo/Hugging Face，并配套代码用于气道病理的处理与研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "27 (CT scans)",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://zenodo.org/records/10897734",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.11",
+    "source_link": "https://zenodo.org/records/10897734",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "GVD",
+  "intro": {
+    "official_link": "https://www.ivirus.us/data",
+    "brief_description": "GVD（Gut Virome Database）提供人类肠道病毒组的参考序列与条目。",
+    "detailed_description": "GVD 在 CyVerse/iVirus 平台提供肠道病毒组数据文件，可用于病毒识别、分类与下游建模研究，并被多项病毒组方法作为公共数据源。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "13,203B",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11229495/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2019.07",
+    "source_link": "https://www.ivirus.us/data",
+    "last_update_date": ""
+  }
+}

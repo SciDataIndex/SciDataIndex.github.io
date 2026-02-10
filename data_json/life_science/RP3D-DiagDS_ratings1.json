@@ -1,0 +1,45 @@
+{
+  "dataset": "RP3D-DiagDS",
+  "intro": {
+    "official_link": "https://www.nature.com/articles/s41467-024-54424-6",
+    "brief_description": "RP3D‑DiagDS 是大规模长尾放射学诊断数据集，涵盖多模态与多解剖区域。",
+    "detailed_description": "RP3D‑DiagDS 包含约 40,936 个病例与 195,010 扫描，覆盖 9 种影像模态与 7 个解剖区域，并标注 5,568 种疾病（930 ICD‑10‑CM 代码）。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "40936",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41467-024-54424-6",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.12",
+    "source_link": "https://www.nature.com/articles/s41467-024-54424-6",
+    "last_update_date": ""
+  }
+}

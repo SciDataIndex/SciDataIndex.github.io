@@ -1,0 +1,45 @@
+{
+  "dataset": "Multiple Sclerosis",
+  "intro": {
+    "official_link": "https://figshare.com/articles/dataset/Multiple_Sclerosis_Dataset/20392674",
+    "brief_description": "Multiple Sclerosis Dataset 提供多发性硬化 MRI 影像与标注。",
+    "detailed_description": "该数据集在 Figshare 发布，包含多发性硬化患者 MRI 与标注掩膜，用于病灶分割与诊断研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "13468",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://figshare.com/articles/dataset/Multiple_Sclerosis_Dataset/20392674",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2019.07",
+    "source_link": "https://figshare.com/articles/dataset/Multiple_Sclerosis_Dataset/20392674",
+    "last_update_date": ""
+  }
+}

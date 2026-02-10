@@ -1,0 +1,45 @@
+{
+  "dataset": "GPT-4 BiasBenchmark",
+  "intro": {
+    "official_link": "https://biasbench.ai/",
+    "brief_description": "BiasBench 提供大模型偏见评测与排行榜，包含 GPT‑4 等模型表现。",
+    "detailed_description": "BiasBench 汇总多维度偏见评测结果并展示模型排名，可用于分析与比较不同大模型在社会、文化与政治等维度的偏见表现。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "213",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://biasbench.ai/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.07",
+    "source_link": "https://biasbench.ai/",
+    "last_update_date": ""
+  }
+}

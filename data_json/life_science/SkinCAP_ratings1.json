@@ -1,0 +1,45 @@
+{
+  "dataset": "SkinCAP",
+  "intro": {
+    "official_link": "https://github.com/greentfrapp/skin-conditions",
+    "brief_description": "SkinCAP 是皮肤病图像字幕数据集，用于图像描述与皮肤病识别。",
+    "detailed_description": "该数据集包含皮肤病图像及对应描述文本，支持皮肤病图像描述生成与分类任务。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/greentfrapp/skin-conditions",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.05",
+    "source_link": "https://github.com/greentfrapp/skin-conditions",
+    "last_update_date": ""
+  }
+}

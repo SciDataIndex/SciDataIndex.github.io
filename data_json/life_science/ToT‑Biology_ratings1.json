@@ -1,0 +1,45 @@
+{
+  "dataset": "ToT‑Biology",
+  "intro": {
+    "official_link": "https://github.com/etoyoda/ToT-Biology",
+    "brief_description": "ToT‑Biology 是生物学教学任务树数据集，面向复杂推理与课程生成。",
+    "detailed_description": "该数据集以教学任务树组织生物学知识，提供任务分解与问题链，适用于模型的多步推理与教学规划。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "23000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://github.com/etoyoda/ToT-Biology",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.01",
+    "source_link": "https://github.com/etoyoda/ToT-Biology",
+    "last_update_date": ""
+  }
+}

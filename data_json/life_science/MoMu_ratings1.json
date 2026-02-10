@@ -1,0 +1,45 @@
+{
+  "dataset": "MoMu",
+  "intro": {
+    "official_link": "https://github.com/DDigimon/MoMu",
+    "brief_description": "MoMu 是面向分子图‑文本多模态学习的基准与数据集合。",
+    "detailed_description": "MoMu 提供分子结构与文本描述的配对数据，并设计多模态预训练与下游评测任务，用于分子性质预测与检索等研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "15613",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2107.02739",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.12",
+    "source_link": "https://github.com/DDigimon/MoMu",
+    "last_update_date": ""
+  }
+}

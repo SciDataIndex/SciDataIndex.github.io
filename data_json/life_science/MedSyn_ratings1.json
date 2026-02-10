@@ -1,0 +1,45 @@
+{
+  "dataset": "MedSyn",
+  "intro": {
+    "official_link": "https://www.emergentmind.com/papers/2408.02056",
+    "brief_description": "MedSyn 是结合医学知识图谱的合成临床文本生成框架。",
+    "detailed_description": "MedSyn 利用知识图谱采样医学先验并结合 LLM 生成合成临床文本，发布大规模俄语合成病历数据用于研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "41200",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2408.02056",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.08",
+    "source_link": "https://www.emergentmind.com/papers/2408.02056",
+    "last_update_date": ""
+  }
+}

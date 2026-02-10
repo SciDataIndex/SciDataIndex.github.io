@@ -1,0 +1,45 @@
+{
+  "dataset": "OPI",
+  "intro": {
+    "official_link": "https://omnipathdb.org/",
+    "brief_description": "OmniPath 提供细胞信号传导与分子相互作用知识库。",
+    "detailed_description": "OmniPath 整合多来源信号通路与蛋白相互作用网络，提供统一访问接口，广泛用于系统生物学研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1640000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/30953046/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.03",
+    "source_link": "https://omnipathdb.org/",
+    "last_update_date": ""
+  }
+}

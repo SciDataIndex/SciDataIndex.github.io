@@ -1,0 +1,45 @@
+{
+  "dataset": "MedGPT-5k-ko",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/mncai/MedGPT-5k-ko",
+    "brief_description": "MedGPT‑5k‑ko 是韩语医疗指令问答数据集。",
+    "detailed_description": "该数据集包含约 5.3k 条韩语医疗指令‑回复样本，适用于韩语医疗对话与指令微调。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "149141",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/mncai/MedGPT-5k-ko",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2021.06",
+    "source_link": "https://huggingface.co/datasets/mncai/MedGPT-5k-ko",
+    "last_update_date": ""
+  }
+}

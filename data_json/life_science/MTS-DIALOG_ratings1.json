@@ -1,0 +1,45 @@
+{
+  "dataset": "MTS-Dialog",
+  "intro": {
+    "official_link": "https://github.com/abachaa/MTS-Dialog",
+    "brief_description": "MTS‑Dialog 是医患对话摘要数据集，包含对话与结构化摘要。",
+    "detailed_description": "MTS‑Dialog 收集约 1.7k 医患对话及对应摘要（含章节标题与内容），提供训练/验证/测试划分，用于对话理解与临床摘要生成。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1701",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://aclanthology.org/2023.eacl-main.1681/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.11",
+    "source_link": "https://github.com/abachaa/MTS-Dialog",
+    "last_update_date": ""
+  }
+}

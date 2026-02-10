@@ -1,0 +1,45 @@
+{
+  "dataset": "Medical Cord19",
+  "intro": {
+    "official_link": "https://allenai.org/data/cord-19",
+    "brief_description": "CORD‑19 是面向 COVID‑19 的开放科研文献集合。",
+    "detailed_description": "CORD‑19 由 Allen Institute 整理，汇集与 COVID‑19 相关的学术论文与元数据，广泛用于文献挖掘与信息检索。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "250000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://allenai.org/data/cord-19",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.07",
+    "source_link": "https://allenai.org/data/cord-19",
+    "last_update_date": ""
+  }
+}
