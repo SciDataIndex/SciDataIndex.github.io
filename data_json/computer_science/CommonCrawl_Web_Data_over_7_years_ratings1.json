@@ -1,0 +1,45 @@
+{
+  "dataset": "CommonCrawl Web Data over 7 years",
+  "intro": {
+    "official_link": "http://commoncrawl.org/the-data/get-started/",
+    "brief_description": "Common Crawl 是开放网络爬取语料库，提供大规模网页存档数据。",
+    "detailed_description": "Common Crawl 提供持续更新的开放网页语料，数据以 WARC 形式存储并在 AWS 公共数据计划中免费访问，规模达数百亿网页。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://commoncrawl.org/get-started",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "http://commoncrawl.org/the-data/get-started/",
+    "last_update_date": ""
+  }
+}

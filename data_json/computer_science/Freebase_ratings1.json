@@ -1,0 +1,45 @@
+{
+  "dataset": "Freebase",
+  "intro": {
+    "official_link": "https://developers.google.com/freebase/",
+    "brief_description": "Freebase 是历史知识图谱数据集（已停止更新）。",
+    "detailed_description": "Freebase 提供结构化知识数据转储，常用于知识图谱研究与实体链接。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问/历史数据",
+    "application_difficulty": "需申请/注册"
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://developers.google.com/freebase/",
+    "last_update_date": ""
+  }
+}

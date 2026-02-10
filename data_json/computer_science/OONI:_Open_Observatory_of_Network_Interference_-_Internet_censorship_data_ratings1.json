@@ -1,0 +1,45 @@
+{
+  "dataset": "OONI: Open Observatory of Network Interference - Internet censorship data",
+  "intro": {
+    "official_link": "https://ooni.torproject.org/data/",
+    "brief_description": "OONI 数据集记录全球网络审查与干扰测量，是开放的互联网审查观测数据。",
+    "detailed_description": "OONI 汇集来自 200+ 国家/地区的网络测量数据，用于分析网站封锁、网络干扰与性能问题；数据以开放许可在 AWS 上提供。"
+  },
+  "openness": {
+    "license_type": "CC BY-NC-SA 4.0",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://registry.opendata.aws/ooni/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://ooni.torproject.org/data/",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "CAIDA Internet Datasets",
+  "intro": {
+    "official_link": "http://www.caida.org/data/overview/",
+    "brief_description": "CAIDA 互联网数据集汇总了拓扑、地理位置与流量等多类网络测量数据。",
+    "detailed_description": "CAIDA 提供覆盖互联网拓扑、地理位置与被动流量等多类数据集，并按访问策略对外开放，广泛用于网络结构与安全研究。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "部分免费",
+    "access_restrictions": "部分数据需申请",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.caida.org/catalog/datasets/overview/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "http://www.caida.org/data/overview/",
+    "last_update_date": ""
+  }
+}

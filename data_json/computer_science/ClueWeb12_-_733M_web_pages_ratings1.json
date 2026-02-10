@@ -1,0 +1,45 @@
+{
+  "dataset": "ClueWeb12 - 733M web pages",
+  "intro": {
+    "official_link": "http://lemurproject.org/clueweb12/",
+    "brief_description": "ClueWeb12 是 ClueWeb 系列的后继网页语料，含约 7.33 亿英文网页。",
+    "detailed_description": "ClueWeb12 收集于 2012 年，包含约 7.33 亿英文网页，用于信息检索与语言技术研究；需签署许可并通过 CMU 获取。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "付费获取",
+    "access_restrictions": "需签署许可/付费",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.lemurproject.org/clueweb12.php",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "http://lemurproject.org/clueweb12/",
+    "last_update_date": ""
+  }
+}

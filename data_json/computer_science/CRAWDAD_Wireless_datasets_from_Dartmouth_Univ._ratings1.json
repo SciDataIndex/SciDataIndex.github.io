@@ -1,0 +1,45 @@
+{
+  "dataset": "CRAWDAD Wireless datasets from Dartmouth Univ.",
+  "intro": {
+    "official_link": "https://crawdad.cs.dartmouth.edu/",
+    "brief_description": "CRAWDAD 是无线与移动计算领域的测量数据存档，现迁移至 IEEE DataPort。",
+    "detailed_description": "CRAWDAD 收集并共享真实无线网络与移动用户数据，包含多种 Wi‑Fi/移动测量轨迹；现作为 IEEE DataPort 的 CRAWDAD Collection 提供开放访问。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "需注册账户",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.crawdad.org/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://crawdad.cs.dartmouth.edu/",
+    "last_update_date": ""
+  }
+}

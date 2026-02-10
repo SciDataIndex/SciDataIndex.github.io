@@ -1,0 +1,45 @@
+{
+  "dataset": "Fashion-MNIST",
+  "intro": {
+    "official_link": "https://research.zalando.com/project/fashion_mnist/fashion_mnist/",
+    "brief_description": "Fashion‑MNIST 是 10 类服饰图像数据集，用于替代 MNIST。",
+    "detailed_description": "Fashion‑MNIST 包含 60k 训练与 10k 测试的 28×28 灰度服饰图像，结构与 MNIST 一致。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://research.zalando.com/project/fashion_mnist/fashion_mnist/",
+    "last_update_date": ""
+  }
+}

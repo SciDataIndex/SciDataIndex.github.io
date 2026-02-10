@@ -1,0 +1,45 @@
+{
+  "dataset": "UCSD Network Telescope, IPv4 /8 net",
+  "intro": {
+    "official_link": "http://www.caida.org/projects/network_telescope/",
+    "brief_description": "UCSD Network Telescope 监测暗网段被动流量，用于研究背景辐射与安全事件。",
+    "detailed_description": "UCSD 网络望远镜对全球路由的暗地址空间进行被动监测，收集异常扫描、蠕虫传播与 DDoS 反弹等背景流量，为网络安全研究提供数据。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "研究用途申请",
+    "access_restrictions": "需申请",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.caida.org/projects/network_telescope/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "http://www.caida.org/projects/network_telescope/",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "Cityscapes",
+  "intro": {
+    "official_link": "https://www.cityscapes-dataset.com/",
+    "brief_description": "Cityscapes 是城市街景语义/实例分割数据集。",
+    "detailed_description": "Cityscapes 提供 5,000 张精标注与 20,000 张粗标注街景图像，需注册后下载，用于自动驾驶场景理解。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "需注册",
+    "application_difficulty": "需申请/注册"
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://www.cityscapes-dataset.com/",
+    "last_update_date": ""
+  }
+}

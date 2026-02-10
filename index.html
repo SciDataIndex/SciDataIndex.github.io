@@ -364,6 +364,26 @@
       font-size: 13px;
     }
 
+    .disclaimer {
+      margin-top: 28px;
+      padding: 16px 20px;
+      border-radius: 14px;
+      border: 1px solid #e3e8f3;
+      background: #ffffff;
+      color: #5b6b89;
+      font-size: 12px;
+      line-height: 1.7;
+      text-align: left;
+    }
+
+    .disclaimer p {
+      margin: 0 0 6px;
+    }
+
+    .disclaimer p:last-child {
+      margin-bottom: 0;
+    }
+
     .rank-more {
       grid-column: 1 / -1;
       display: flex;
@@ -514,11 +534,16 @@
     <div class="earth-glow"></div>
   </main>
 
-    <section class="rank-section" id="rankSection">
+  <section class="rank-section" id="rankSection">
       <div class="rank-inner">
         <h2 class="rank-title">科学数据综合评价榜</h2>
-        <p class="rank-subtitle">展示三大领域数据集的综合评分排行(Top 5)</p>
+        <p class="rank-subtitle">展示三大领域数据集的综合评分排行（Top 5）</p>
         <div class="rank-grid" id="rankGrid"></div>
+        <div class="disclaimer">
+          <p>本榜单引用的科学数据信息均基于互联网智能搜索技术挖掘，我们无法保证数据信息的绝对准确性。</p>
+          <p>本榜单评分规则由上海人工智能实验室AI4Scicence中心组织制定，评分结论仅供参考。</p>
+          <p>我们将持续迭代数据范围与榜单版本，敬请关注后续更新。</p>
+        </div>
       </div>
     </section>
 

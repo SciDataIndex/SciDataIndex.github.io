@@ -1,0 +1,45 @@
+{
+  "dataset": "CIFAR-10",
+  "intro": {
+    "official_link": "https://www.cs.toronto.edu/~kriz/cifar.html",
+    "brief_description": "CIFAR‑10 是 10 类 32×32 彩色图像分类数据集。",
+    "detailed_description": "CIFAR‑10 含 60,000 张彩色图像（50k 训练、10k 测试），常用于小规模图像分类基准。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://www.cs.toronto.edu/~kriz/cifar.html",
+    "last_update_date": ""
+  }
+}

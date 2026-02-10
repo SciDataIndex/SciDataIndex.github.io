@@ -1,0 +1,45 @@
+{
+  "dataset": "ClueWeb09 - 1B web pages",
+  "intro": {
+    "official_link": "http://lemurproject.org/clueweb09/",
+    "brief_description": "ClueWeb09 是面向信息检索的大规模网页语料，包含约 10 亿网页（多语言）。",
+    "detailed_description": "ClueWeb09 由 CMU LTI 采集，覆盖 10 种语言约 10 亿网页，用于 TREC 等信息检索研究；数据以 WARC 形式分发并需许可。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "许可免费或付费获取",
+    "access_restrictions": "需签署许可",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.lemurproject.org/clueweb09.php",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "http://lemurproject.org/clueweb09/",
+    "last_update_date": ""
+  }
+}

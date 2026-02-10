@@ -1,0 +1,45 @@
+{
+  "dataset": "Rapid7 Sonar Internet Scans",
+  "intro": {
+    "official_link": "https://sonar.labs.rapid7.com/",
+    "brief_description": "Rapid7 Sonar 提供互联网级扫描数据，用于评估暴露面与安全风险。",
+    "detailed_description": "Rapid7 Open Data 汇集 Project Sonar 的 DNS/TCP/UDP 扫描结果，数据规模达数十 TB，用于资产发现与安全研究；访问需申请。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "商业/研究申请",
+    "access_restrictions": "需申请",
+    "application_difficulty": ""
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://opendata.rapid7.com/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://sonar.labs.rapid7.com/",
+    "last_update_date": ""
+  }
+}

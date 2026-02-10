@@ -1,0 +1,45 @@
+{
+  "dataset": "Wikidata",
+  "intro": {
+    "official_link": "https://www.wikidata.org/wiki/Wikidata:Database_download",
+    "brief_description": "Wikidata 是社区维护的开放知识图谱，提供定期数据快照。",
+    "detailed_description": "Wikidata 提供 JSON/RDF 数据转储，包含多语种实体与关系，广泛用于知识图谱与语义检索。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://www.wikidata.org/wiki/Wikidata:Database_download",
+    "last_update_date": ""
+  }
+}

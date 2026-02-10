@@ -1,0 +1,45 @@
+{
+  "dataset": "WikiText-103",
+  "intro": {
+    "official_link": "https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/",
+    "brief_description": "WikiText‑103 是长文本语言建模数据集。",
+    "detailed_description": "WikiText‑103 包含 103M 词的高质量维基百科文章，用于评测长程依赖建模能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "",
+    "source_link": "https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/",
+    "last_update_date": ""
+  }
+}
