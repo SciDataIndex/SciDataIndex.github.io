@@ -32,9 +32,9 @@
     "traceability": ""
   },
   "AI_readiness": {
-    "annotation_density": "",
-    "preprocessing_level": "",
-    "format_consistency": ""
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
   },
   "data_quality": {
     "integrity": "",
