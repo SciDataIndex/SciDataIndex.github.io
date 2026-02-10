@@ -1,0 +1,45 @@
+{
+  "dataset": "VRSBench",
+  "intro": {
+    "official_link": "https://vrsbench.github.io/",
+    "brief_description": "VRSBench 是遥感视觉语言基准，覆盖图像描述、视觉定位与问答等任务。",
+    "detailed_description": "VRSBench 提供 29,614 张遥感图像、人工核验的详细描述、对象引用与 VQA 问答对，用于多任务视觉语言评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "142390",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2406.12384",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.06",
+    "source_link": "https://vrsbench.github.io/",
+    "last_update_date": ""
+  }
+}

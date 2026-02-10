@@ -1,0 +1,45 @@
+{
+  "dataset": "TEOChatlas",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/jirvin16/TEOChatlas",
+    "brief_description": "TEOChatlas 是时序地球观测任务的指令微调数据集，规模超过 50 万条指令样本。",
+    "detailed_description": "TEOChatlas 汇集 fMoW、xBD、S2Looking、QFabric 等时序遥感示例，并加入 GeoChat_instruct 的单幅图像指令样本，用于时序遥感模型的指令跟随训练。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "554K",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2410.06234",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.01",
+    "source_link": "https://huggingface.co/datasets/jirvin16/TEOChatlas",
+    "last_update_date": ""
+  }
+}

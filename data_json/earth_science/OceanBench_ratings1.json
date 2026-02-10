@@ -1,0 +1,45 @@
+{
+  "dataset": "OceanBench",
+  "intro": {
+    "official_link": "https://oceanbench.readthedocs.io/",
+    "brief_description": "OceanBench 是用于评估海洋预报系统的基准工具与评价集。",
+    "detailed_description": "OceanBench 提供针对海洋预报系统的评估方法，比较模型与参考再分析/观测数据（如 GLORYS、GLO12），用于海洋预测系统的标准化评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "13000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://oceanbench.readthedocs.io/",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.09",
+    "source_link": "https://oceanbench.readthedocs.io/",
+    "last_update_date": ""
+  }
+}

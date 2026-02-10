@@ -1,0 +1,45 @@
+{
+  "dataset": "MME-RealWorld-RS",
+  "intro": {
+    "official_link": "https://mme-realworld.github.io/home_page.html",
+    "brief_description": "MME‑RealWorld‑RS 是 MME‑RealWorld 中的遥感分域评测子集。",
+    "detailed_description": "MME‑RealWorld 提供多领域真实世界评测，其中 RS 领域聚焦遥感场景的计数与识别等任务，强调超高分辨率与小目标感知。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3738",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://mme-realworld.github.io/home_page.html",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.08",
+    "source_link": "https://mme-realworld.github.io/home_page.html",
+    "last_update_date": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "RSVP",
+  "intro": {
+    "official_link": "https://rsvqa.sylvainlobry.com/",
+    "brief_description": "RSVQA（此处与 RSVP 同名处理）是遥感视觉问答数据集，基于 OSM 构建问题‑答案对。",
+    "detailed_description": "RSVQA 通过 OpenStreetMap 生成低分辨率与高分辨率图像的问答对，用于遥感影像的自然语言交互与关系推理评测。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3.65M",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://doi.org/10.1109/TGRS.2020.2988782",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.1",
+    "source_link": "https://rsvqa.sylvainlobry.com/",
+    "last_update_date": ""
+  }
+}

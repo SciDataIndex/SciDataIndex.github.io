@@ -1,0 +1,45 @@
+{
+  "dataset": "EVAttrs-95k",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/liarzone/EVAttrs-95K",
+    "brief_description": "EVAttrs‑95K 是遥感对象级属性理解数据集，包含 9.5 万对象的细粒度属性描述。",
+    "detailed_description": "EVAttrs‑95K 汇集来自 ShipRSImageNet、MAR20、FAIR1M 的对象属性描述，用于遥感对象属性理解与多模态对齐。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "95.1K",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2503.23330",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.03",
+    "source_link": "https://huggingface.co/datasets/liarzone/EVAttrs-95K",
+    "last_update_date": ""
+  }
+}

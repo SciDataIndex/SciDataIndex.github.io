@@ -1,0 +1,45 @@
+{
+  "dataset": "ChatEarthNet",
+  "intro": {
+    "official_link": "https://doi.org/10.5281/zenodo.11003436",
+    "brief_description": "ChatEarthNet 是全球尺度的卫星图像‑文本描述数据集，基于 Sentinel‑2 与 WorldCover 构建。",
+    "detailed_description": "ChatEarthNet 利用 WorldCover 地表覆盖信息设计提示并生成描述，随后进行人工核验，包含 163,488 条 ChatGPT‑3.5 描述与 10,000 条 GPT‑4V 描述，支持地球观测视觉‑语言模型训练。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "173488",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://doi.org/10.5194/essd-17-1245-2025",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.02",
+    "source_link": "https://doi.org/10.5281/zenodo.11003436",
+    "last_update_date": ""
+  }
+}
