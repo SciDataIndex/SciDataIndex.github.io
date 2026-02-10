@@ -1,0 +1,45 @@
+{
+  "dataset": "AstroBERT",
+  "intro": {
+    "official_link": "https://ar5iv.org/pdf/2112.00590",
+    "brief_description": "astroBERT 是基于 NASA ADS 天文论文语料训练的领域语言模型，目标是提升语义检索与实体识别等任务。",
+    "detailed_description": "astroBERT 以 NASA ADS 收录的天文学与天体物理学论文语料为基础训练，构建面向天文领域的语言表示。研究重点在于改善 ADS 的语义检索能力，并支持天文命名实体识别等下游任务。它为天文文献理解与知识发现提供了领域模型与语料基础。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3.8B (tokens)",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://ar5iv.org/pdf/2112.00590",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.11",
+    "source_link": "https://ar5iv.org/pdf/2112.00590",
+    "last_update_date": ""
+  }
+}

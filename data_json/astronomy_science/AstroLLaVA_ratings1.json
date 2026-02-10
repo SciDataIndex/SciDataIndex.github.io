@@ -1,0 +1,45 @@
+{
+  "dataset": "AstroLLaVA",
+  "intro": {
+    "official_link": "https://github.com/UniverseTBD/AstroLLaVA",
+    "brief_description": "AstroLLaVA 是面向天文图像与文本交互的视觉‑语言模型，使用天文图像、描述与问答数据进行微调。",
+    "detailed_description": "AstroLLaVA 在 LLaVA 基础上，以约 3 万张天文图像的标题与问答数据进行两阶段微调，实现图像描述与视觉问答。数据来源包含 NASA APOD、ESO 与 Hubble 等公开天文图像资源。研究公开模型、代码与训练集，支持天文图像的开放式对话与检索应用。"
+  },
+  "openness": {
+    "license_type": "Apache-2.0",
+    "license_source_link": "https://github.com/UniverseTBD/AstroLLaVA",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "29783",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/papers/2504.08583",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.04",
+    "source_link": "https://github.com/UniverseTBD/AstroLLaVA",
+    "last_update_date": ""
+  }
+}

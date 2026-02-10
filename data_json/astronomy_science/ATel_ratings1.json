@@ -1,0 +1,45 @@
+{
+  "dataset": "ATel",
+  "intro": {
+    "official_link": "http://www.astronomerstelegram.org",
+    "brief_description": "ATel 是面向暂现源观测的快速通报服务，聚合并发布天文电报，可按波段和目标类型检索与订阅。",
+    "detailed_description": "The Astronomer's Telegram（ATel）用于报告与评论新的暂现源观测，电报由作者提交后即时发布并收录在索引中。平台支持按主题筛选、每日摘要与即时邮件通知，便于跟踪短时标事件与观测机会。ATel 电报可被引用并在 NASA ADS 中检索，适合作为天文暂现事件的文本数据来源。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "234",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.05",
+    "source_link": "http://www.astronomerstelegram.org",
+    "last_update_date": ""
+  }
+}

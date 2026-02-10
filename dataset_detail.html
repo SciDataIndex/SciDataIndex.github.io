@@ -129,6 +129,25 @@
       color: var(--text-1);
     }
 
+    .status-badge {
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .status-pending {
+      background: rgba(255, 193, 7, 0.18);
+      color: #b7791f;
+      border: 1px solid rgba(255, 193, 7, 0.4);
+    }
+
+    .status-verified {
+      background: rgba(46, 230, 201, 0.18);
+      color: #1c7f6b;
+      border: 1px solid rgba(46, 230, 201, 0.4);
+    }
+
     .btn {
       padding: 8px 18px;
       border-radius: 999px;
@@ -302,6 +321,7 @@
       <p id="datasetBrief">这里展示数据集简介。</p>
       <div class="hero-actions">
         <span class="meta-badge" id="tagCategory">所属类别</span>
+        <span class="status-badge status-pending" id="tagStatus">挖掘中...</span>
       </div>
     </div>
   </section>
@@ -344,6 +364,7 @@
     const titleEl = document.getElementById("datasetTitle");
     const briefEl = document.getElementById("datasetBrief");
     const tagCategory = document.getElementById("tagCategory");
+    const tagStatus = document.getElementById("tagStatus");
     const tabBar = document.getElementById("tabBar");
 
     function normalizeDetailValue(content) {
@@ -616,7 +637,10 @@
           } else if (loadedPath.includes("/chemistry_science/")) {
             tagCategory.textContent = "化学科学";
             categoryFromPath = "chemistry_science";
-          } 
+          } else if (loadedPath.includes("/astronomy_science/")) {
+            tagCategory.textContent = "天文科学";
+            categoryFromPath = "astronomy_science";
+          }
            else {
             tagCategory.textContent = "所属类别未知";
           }
@@ -628,6 +652,15 @@
 
         const scoreData = await loadScores(mappedName, datasetName, categoryFromPath);
         console.log("加载的评分数据对象:", scoreData);
+        if (scoreData) {
+          tagStatus.textContent = "已验证";
+          tagStatus.classList.remove("status-pending");
+          tagStatus.classList.add("status-verified");
+        } else {
+          tagStatus.textContent = "挖掘中...";
+          tagStatus.classList.remove("status-verified");
+          tagStatus.classList.add("status-pending");
+        }
         const scoreSource = scoreData || data;
         const scores = [
           getScore(scoreSource, "openness"),

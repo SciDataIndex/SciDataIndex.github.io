@@ -1,0 +1,45 @@
+{
+  "dataset": "PhyE2Es",
+  "intro": {
+    "official_link": "https://github.com/Jie0618/PhysicsRegression",
+    "brief_description": "PhyE2Es 基于神经符号方法进行空间物理回归与公式发现，配套代码与数据用于符号回归任务。",
+    "detailed_description": "PhysicsRegression 项目提出面向空间物理的神经符号模型，并提供训练与评测所需的数据与代码。仓库说明包含合成公式数据与真实物理应用数据的下载方式，可用于符号回归与公式发现。该资源服务于空间物理中的预测与机制解释任务，例如太阳活动与等离子体相关问题。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "8000",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.03",
+    "source_link": "https://github.com/Jie0618/PhysicsRegression",
+    "last_update_date": ""
+  }
+}

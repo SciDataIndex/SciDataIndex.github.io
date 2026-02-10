@@ -1,0 +1,45 @@
+{
+  "dataset": "AstroPT",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/msiudek/astroPT_euclid_dataset",
+    "brief_description": "AstroPT 是面向天文观测数据的自回归预训练模型，基于大规模星系图像切片进行训练。",
+    "detailed_description": "AstroPT 在 DESI Legacy Survey DR8 的 8.6 百万个 512×512 星系观测切片上进行预训练，构建面向观测科学的基础模型。作者训练了从百万到 21 亿参数的多尺度模型，分析其随规模增长的性能规律。该工作旨在为天文图像下游任务提供可迁移的表征能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "8.6 M",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.05",
+    "source_link": "https://huggingface.co/datasets/msiudek/astroPT_euclid_dataset",
+    "last_update_date": ""
+  }
+}

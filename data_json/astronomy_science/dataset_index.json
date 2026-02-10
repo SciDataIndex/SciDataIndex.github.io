@@ -1,0 +1,19 @@
+[
+  "ATel_ratings1.json",
+  "Astro-NER_ratings1.json",
+  "Astro-QA_ratings1.json",
+  "AstroBERT_ratings1.json",
+  "AstroLLaMA-chat_ratings1.json",
+  "AstroLLaMA_ratings1.json",
+  "AstroLLaVA_ratings1.json",
+  "AstroMLab_1_ratings1.json",
+  "AstroMLab_2_ratings1.json",
+  "AstroMLab_3_ratings1.json",
+  "AstroMLab_4_ratings1.json",
+  "AstroPT_ratings1.json",
+  "Astrovisbench_ratings1.json",
+  "PAPERCLIP_ratings1.json",
+  "Pathfinder_Dataset_ratings1.json",
+  "PhyE2Es_ratings1.json",
+  "Starwhisper-pilsar_ratings1.json"
+]

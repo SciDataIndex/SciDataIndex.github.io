@@ -1,0 +1,45 @@
+{
+  "dataset": "PAPERCLIP",
+  "intro": {
+    "official_link": "https://www.catalyzex.com/paper/paperclip-associating-astronomical",
+    "brief_description": "PAPERCLIP 将望远镜观测与自然语言对齐，通过微调 CLIP 以实现图像‑文本联合检索与描述。",
+    "detailed_description": "PAPERCLIP 使用成功观测提案摘要与对应观测数据微调 CLIP，实现天文观测与自然语言的对齐。作者以哈勃望远镜观测为例，展示了图像检索与描述检索等任务的有效性。该研究表明通用多模态基础模型可作为天文数据交互的文本接口。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "31859",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://www.catalyzex.com/paper/paperclip-associating-astronomical",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.03",
+    "source_link": "https://www.catalyzex.com/paper/paperclip-associating-astronomical",
+    "last_update_date": ""
+  }
+}

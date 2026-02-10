@@ -1,0 +1,45 @@
+{
+  "dataset": "AstroMLab 3",
+  "intro": {
+    "official_link": "https://astromlab.org/",
+    "brief_description": "AstroMLab 3 是 AstroMLab 系列的天文领域数据发布，用于支撑天文 LLM 的训练与评测。",
+    "detailed_description": "AstroMLab 团队致力于构建天文领域专用 LLM 与基准数据集，并公开相关资源。AstroMLab 3 作为系列数据之一，面向天文知识问答与推理任务，服务于领域模型的训练与评测。其定位与 AstroMLab 的开放科研与可复现评测目标相一致。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3.3B (tokens)",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "yes",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.04",
+    "source_link": "https://astromlab.org/",
+    "last_update_date": ""
+  }
+}
