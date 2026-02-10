@@ -1,0 +1,45 @@
+{
+  "dataset": "CURIE",
+  "intro": {
+    "official_link": "https://github.com/CURIE-LLM/CURIE",
+    "brief_description": "CURIE 是化学推理与反应预测基准，包含分子与反应相关任务。",
+    "detailed_description": "CURIE 提供化学反应、分子性质与机制推理任务，用于评测模型在化学领域的推理能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "580",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2409.16730",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.04",
+    "source_link": "https://github.com/CURIE-LLM/CURIE",
+    "last_update_date": ""
+  }
+}

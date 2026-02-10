@@ -1,0 +1,45 @@
+{
+  "dataset": "SciArena",
+  "intro": {
+    "official_link": "https://sciarena.github.io/",
+    "brief_description": "SciArena 是科学领域模型对齐与偏好评测基准。",
+    "detailed_description": "SciArena 通过偏好对比评测模型在科学问答与推理上的表现，为科学模型对齐提供评价依据。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "13K+",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2404.07787",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.7",
+    "source_link": "https://sciarena.github.io/",
+    "last_update_date": ""
+  }
+}

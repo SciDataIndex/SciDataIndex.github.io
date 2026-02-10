@@ -1,0 +1,45 @@
+{
+  "dataset": "SciBERT",
+  "intro": {
+    "official_link": "https://github.com/allenai/scibert",
+    "brief_description": "SciBERT 是基于科学论文语料训练的 BERT 模型与数据资源。",
+    "detailed_description": "SciBERT 使用 1.14M 篇科学论文训练，覆盖生物医学与计算机科学领域，用于科学文本理解任务。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3.3B (tokens)",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/1903.10676",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2019.09",
+    "source_link": "https://github.com/allenai/scibert",
+    "last_update_date": ""
+  }
+}

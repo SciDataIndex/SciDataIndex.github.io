@@ -1,0 +1,45 @@
+{
+  "dataset": "ArXivCap",
+  "intro": {
+    "official_link": "https://github.com/arXivCap/arXivCap",
+    "brief_description": "ArXivCap 是论文图表自动描述数据集，基于 arXiv 论文图像与图注构建。",
+    "detailed_description": "ArXivCap 采集 arXiv 论文中的图像与对应 caption，形成用于图表描述与跨模态检索的科学多模态数据集。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "6.4M",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2405.19713",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2024.05",
+    "source_link": "https://github.com/arXivCap/arXivCap",
+    "last_update_date": ""
+  }
+}

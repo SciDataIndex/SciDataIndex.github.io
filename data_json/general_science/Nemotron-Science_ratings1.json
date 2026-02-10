@@ -1,0 +1,45 @@
+{
+  "dataset": "Nemotron-Science",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/nvidia/Nemotron-Science",
+    "brief_description": "Nemotron‑Science 是 NVIDIA 发布的科学领域指令与对话数据集。",
+    "detailed_description": "Nemotron‑Science 在 Hugging Face 提供，包含科学问答与指令数据，用于科学领域模型的微调与对齐。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2.7M",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://huggingface.co/datasets/nvidia/Nemotron-Science",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.05",
+    "source_link": "https://huggingface.co/datasets/nvidia/Nemotron-Science",
+    "last_update_date": ""
+  }
+}

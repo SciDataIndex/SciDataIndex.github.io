@@ -1,0 +1,45 @@
+{
+  "dataset": "Galactica",
+  "intro": {
+    "official_link": "https://galactica.org/",
+    "brief_description": "Galactica 是面向科学知识的语言模型与数据资源。",
+    "detailed_description": "Galactica 模型基于大规模科学语料训练，涵盖论文、教材与数据库记录，旨在提升科学文本生成与检索能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "106B tokens",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2211.09085",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2022.11",
+    "source_link": "https://galactica.org/",
+    "last_update_date": ""
+  }
+}

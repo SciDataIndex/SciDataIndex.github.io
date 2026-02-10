@@ -1,0 +1,45 @@
+{
+  "dataset": "MMMU",
+  "intro": {
+    "official_link": "https://mmmu-benchmark.github.io/",
+    "brief_description": "MMMU 是多学科多模态评测基准，覆盖 STEM 与人文学科。",
+    "detailed_description": "MMMU 包含 30 个学科的多模态问题（图表、图像与文本），用于评测多模态大模型的综合学术能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "11550",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2311.16502",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2023.11",
+    "source_link": "https://mmmu-benchmark.github.io/",
+    "last_update_date": ""
+  }
+}

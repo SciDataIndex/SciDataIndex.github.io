@@ -1,0 +1,45 @@
+{
+  "dataset": "BMMR",
+  "intro": {
+    "official_link": "https://github.com/THUDM/BMMR",
+    "brief_description": "BMMR 是多模态推理基准，覆盖表格、图像与文本的组合推理。",
+    "detailed_description": "BMMR 提供多模态推理题型与评测集，用于评估模型跨模态信息融合与推理能力。"
+  },
+  "openness": {
+    "license_type": "",
+    "license_source_link": "",
+    "charging_mode": "完全免费",
+    "access_restrictions": "公开访问",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "109449",
+    "data_volume_mb": "",
+    "source_of_data_volume": "",
+    "estimated_manually": ""
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2407.18471",
+    "paper_citations_raw": "",
+    "paper_citations": "",
+    "google_scholar_related_papers": "",
+    "google_scholar_screenshot": "",
+    "download_volume_or_user_count": "",
+    "models_using_this_dataset": ""
+  },
+  "safety": {
+    "control_level": "",
+    "traceability": ""
+  },
+  "AI_readiness": {
+    "annotation_density": "",
+    "preprocessing_level": "",
+    "format_consistency": ""
+  },
+  "data_quality": {
+    "integrity": "",
+    "first_release_date": "2025.07",
+    "source_link": "https://github.com/THUDM/BMMR",
+    "last_update_date": ""
+  }
+}
