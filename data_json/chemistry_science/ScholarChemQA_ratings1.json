@@ -1,0 +1,45 @@
+{
+  "dataset": "ScholarChemQA",
+  "intro": {
+    "official_link": "https://arxiv.org/abs/2407.16931",
+    "brief_description": "ScholarChemQA 是一个专门为学术化学领域构建的大规模问答数据集，旨在推动化学研究中的自然语言处理应用。该数据集基于真实的化学研究论文构建，题目以问号结尾的问题从标题中提取，答案则来自于对应的论文摘要。问题采用多选格式，候选答案为“yes”“no”“maybe”三类，用以衡量语言模型在学术领域推理与理解复杂文本的能力。",
+    "detailed_description": "数据集简述：ScholarChemQA 的核心在于来源真实化学文献而非人工构造，使其涵盖更广泛的研究主题与更真实的语言表达，极具实际应用价值。研究者通过多个学术平台（如Elsevier、Springer等）爬取了数百万条化学文献标题与摘要，筛选出带有问号标题的问题，再根据其摘要推理出答案标签。\n数据集内容：该数据集包含丰富的内容类型，包括化学反应机制、理论验证、物质属性等多类问题，题目内容贴合当前科研热点，并常要求具备较深的化学背景知识才能理解上下文与推理得出正确答案。数据中 71.5% 的问题需要化学专业知识进行回答，28.5% 涉及语义推理，显示出较高的任务复杂性。\n关键元信息：元信息方面，数据涵盖的主题广泛，如理论化学、生物化学、催化与材料化学，并标注了提问类型（交互、理论、属性）及所需推理方式。该标注由具有博士背景的化学专家完成，保证数据质量。此外还引入自动标注方法增强数据规模。\n重要应用场景：此数据集的实际应用场景包括但不限于：提升领域语言模型的专业理解能力、支持化学教育中的智能答题工具开发、辅助文献检索与信息抽取、促进学术领域的自动知识发现等。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "120 MB",
+    "data_volume_mb": "120.0",
+    "source_of_data_volume": "ScholarChemQA: Unveiling the Power of Language Models in Chemical Research Question Answering",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2407.16931",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "15.0",
+    "google_scholar_screenshot": "ScholarChemQA.png",
+    "download_volume_or_user_count": "Stars: 12  Forks: 3",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/12/16",
+    "source_link": "https://pubmed.ncbi.nlm.nih.gov/39757259/",
+    "last_update_date": "2025/01/01"
+  }
+}

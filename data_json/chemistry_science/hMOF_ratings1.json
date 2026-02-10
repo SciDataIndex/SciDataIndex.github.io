@@ -1,0 +1,45 @@
+{
+  "dataset": "hMOF",
+  "intro": {
+    "official_link": "https://mof.tech.northwestern.edu/",
+    "brief_description": "MOF结构与性质数据集",
+    "detailed_description": "包括13k个金属有机物框架 (MOF) 的计算化学数据库。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/Andrew-S-Rosen/QMOF",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "5GB",
+    "data_volume_mb": "5120.0",
+    "source_of_data_volume": "GitHub - snurr-group/Reduced-hMOF-database: 51,163 unique hypothetical MOFs with genetic information (i.e. building block information) attached to them",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://pubs.acs.org/doi/10.1021/acs.jced.2c00583",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "5.0",
+    "google_scholar_screenshot": "Hypothetical Metal-Organic Frameworks database.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2012/01/01",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

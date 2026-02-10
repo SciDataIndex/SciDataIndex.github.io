@@ -1,0 +1,13 @@
+{
+  "dataset_name": "ScholarChemQA",
+  "scores": {
+    "openness": 0,
+    "quality": 10,
+    "scale": 2,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 9,
+    "total_score": 3.75
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

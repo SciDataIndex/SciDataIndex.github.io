@@ -1,0 +1,45 @@
+{
+  "dataset": "Cantor HEA",
+  "intro": {
+    "official_link": "https://docs.google.com/spreadsheets/d/1hLiqmlysSKK7Ubv362v8fasoh8-W17V7zqNzRfSoilw/edit?usp=sharing",
+    "brief_description": "材料结构与性质数据集",
+    "detailed_description": "由84k个合金结构构成的数据集，包括形成能、volume per atom、engery per atom等性质。可以用来训练合金组成到性质的预测模型，也可以用来训练生成模型。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://data.mendeley.com/datasets/7fhwrgfh2s/3",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "142.8MB",
+    "data_volume_mb": "142.8",
+    "source_of_data_volume": "https://archive.materialscloud.org/records/2daf9-7pk21",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://linkinghub.elsevier.com/retrieve/pii/S235234091831504X",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "244.0",
+    "google_scholar_screenshot": "Cantor HEA.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "图神经网络（如CGCNN）等，用于合金性质预测"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/11/22",
+    "source_link": "https://www.researchgate.net/publication/385980825_The_thermodynamics_of_multicomponent_high-entropy_materials",
+    "last_update_date": "2025/01/01"
+  }
+}

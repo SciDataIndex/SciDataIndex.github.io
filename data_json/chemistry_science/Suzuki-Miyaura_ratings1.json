@@ -1,0 +1,45 @@
+{
+  "dataset": "Suzuki-Miyaura",
+  "intro": {
+    "official_link": "https://www.science.org/doi/10.1126/science.aap9112",
+    "brief_description": "一种用于自动化纳摩尔级反应筛选和微摩尔级流动合成的平台",
+    "detailed_description": "用于学习、建模、优化碳-碳偶联反应的结构化实验记录"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "29MB",
+    "data_volume_mb": "29.0",
+    "source_of_data_volume": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00815-2?utm_source=chatgpt.com",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "nan",
+    "google_scholar_screenshot": "nan",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

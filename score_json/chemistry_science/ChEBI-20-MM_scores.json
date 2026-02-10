@@ -1,0 +1,13 @@
+{
+  "dataset_name": "ChEBI-20-MM",
+  "scores": {
+    "openness": 8,
+    "quality": 9,
+    "scale": 1,
+    "impact": 0,
+    "safety": 4,
+    "ai_readiness": 6,
+    "total_score": 3.4
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

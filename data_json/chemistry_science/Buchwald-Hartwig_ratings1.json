@@ -1,0 +1,45 @@
+{
+  "dataset": "Buchwald-Hartwig",
+  "intro": {
+    "official_link": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc04074f",
+    "brief_description": "化学反应数据集",
+    "detailed_description": "C-N键构建反应，用于训练机器学习模型，预测反应产率（yield）或是否反应成功，比较不同催化体系（配体、金属、碱等）对产率的影响，构建模型预测最优温度、溶剂、配体组合"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://docs.open-reaction-database.org/en/latest/overview.html",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "5GB",
+    "data_volume_mb": "5120.0",
+    "source_of_data_volume": "chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64c2b96b658ec5f7e5489081/original/the-challenge-of-balancing-model-sensitivity-and-robustness-in-predicting-yields-a-benchmarking-study-of-amide-coupling-reactions.pdf?utm_source=chatgpt.com",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "23000.0",
+    "google_scholar_screenshot": "Buchwald-Hartwig.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "随机森林等机器学习方法"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2018/02/15",
+    "source_link": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc04074f",
+    "last_update_date": "2020/11/02"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "MMChemBench",
+  "intro": {
+    "official_link": "https://arxiv.org/html/2408.07246v1",
+    "brief_description": "MMChemBench是ChemBench的多模态扩展版本，\n在不同粒度上考察模型对于分子描述、分子性质预测\n分子名称转换、温度预测、试剂选择、逆合成分析\n产率预测等七个任务的能力。",
+    "detailed_description": "数据集简述：MMChemBench是ChemBench的多模态扩\n展版本，\n在不同粒度上考察模型。\n数据集内容：包括7个任务，从分子理解到反应过程分析\n，涵盖多任务\n关键元信息：大模型化学多模态基准，多任务评测\n重要应用场景：大模型化学多模态能力评测指标"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "14.9MB",
+    "data_volume_mb": "14.9",
+    "source_of_data_volume": "https://huggingface.co/datasets/Duke-de-Artois/ChemVLM_test_data",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/html/2408.07246v1",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "3.0",
+    "google_scholar_screenshot": "MMChemBench.png",
+    "download_volume_or_user_count": "1689",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/08/14",
+    "source_link": "https://arxiv.org/html/2408.07246v5",
+    "last_update_date": "2025/08/01"
+  }
+}

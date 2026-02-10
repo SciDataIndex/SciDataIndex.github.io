@@ -1,0 +1,45 @@
+{
+  "dataset": "ChemBench",
+  "intro": {
+    "official_link": "https://www.chembench.org/",
+    "brief_description": "ChemBench 是一个专门面向化学领域大型语言模型（LLMs）能力评估的系统性基准数据集，由耶拿大学等机构牵头构建。数据集包含超过 2700 条高质量问答样本，涵盖从本科到研究生课程中的多个核心化学主题。ChemBench 旨在为化学知识、推理、直觉等多维能力提供细粒度评估，支持模型、专家和工具增强系统的全面对比分析。项目还提供小规模代表性子集 ChemBench-Mini，适合快速评估。",
+    "detailed_description": "数据集简述\nChemBench 构建目标是填补现有语言模型基准中缺乏化学专用评估工具的空白。其内容不仅聚焦于事实回忆，还强调推理、计算和化学直觉能力。与 MoleculeNet、MatBench 等仅聚焦单一属性预测的传统数据集不同，ChemBench 提供综合性、教育性和专家审校的问题集合，更贴近真实科研与教育场景。\n数据集内容\nChemBench 主数据集包含 2788 条问答样本，按来源分为：\n1039 条人工编写问题\n1749 条半自动生成问题\n\n题型包括 多项选择题（2544 条） 和 开放式问答（244 条），主题覆盖广泛，如：\n有机、无机、分析、物理化学\n材料科学、技术化学、毒理与安全\n问题按需掌握的技能分为四类：知识、推理、计算、直觉，并带有难度标注（基础/高级），每题均经多轮人工审阅。模型回答采用标准标注格式（如 [START_SMILES]...），支持化学结构和单位的特殊处理。\n关键元信息\nChemBench 在数据构建和评估中具备以下关键设计：\n结构清晰的数据格式：每道题均带有语义注释（如分子结构、单位、化学方程式等），便于模型对化学实体进行区分处理。\n严格质量控制流程：所有问题通过 GitHub pull request 提交，必须经过模板转换、自动检查、人工审校三轮流程。\n多样问题来源：题目来自教材、考试题库、国际化学奥林匹克（IChO）、PubChem、ZINC 等权威数据库。\n工具增强兼容性：数据适配支持 SMILES、反应式（RXNSMILES）、GHS 分类等结构输入，适合代码执行器、搜索增强等多模态系统。\n可复现与可扩展：代码与数据完全开源，提供完整评估 pipeline 和 Web 界面（用于人类专家实验）。\n\n重要应用场景\nChemBench 的典型应用包括：\n化学领域语言模型基准评估：如 GPT-4、Claude、LLaMA 等模型的系统能力对比。\n科学教育评估辅助：覆盖真实课程问题，适合用作教学评估工具。\n模型推理与安全性分析：检测模型在危险化学知识、安全类问题中的可信度与误导风险。\n智能化学助理系统开发：支持构建具备知识检索、反应预测与化学直觉能力的自动化系统。\n人类专家对比分析：通过 ChemBench-Mini，衡量人类化学家的平均表现与模型的对比，推动教育模式优化。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/lamalab-org/chembench/blob/main/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "525KB",
+    "data_volume_mb": "0.5126953125",
+    "source_of_data_volume": "https://huggingface.co/datasets/jablonkagroup/ChemBench",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2404.01475",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "348.0",
+    "google_scholar_screenshot": "ChemBench.png",
+    "download_volume_or_user_count": "Stars: 120  Forks: 14",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2025/01/18",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "ChEBI-20-MM",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/liupf/ChEBI-20-MM",
+    "brief_description": "ChEBI-20-MM 是一个多模态分子科学基准数据集，基于原始的 ChEBI-20 数据集构建而成。该数据集通过引入结构式图像、化学名称、结构编码等多种表示形式，为评估分子建模与推理任务中的人工智能系统提供了多角度、多任务的测试平台。它覆盖了从结构生成到图像识别、化学命名、描述生成及信息检索等多个子领域，是分子机器学习与图神经网络研究的重要资源。",
+    "detailed_description": "数据集简述：ChEBI-20-MM 构建于 ChEBI（Chemical Entities of Biological Interest）数据库的子集 ChEBI-20 上，聚焦于多模态表示的融合与任务适应性，旨在推动更强大、泛化性更好的分子模型的研究与评估。相比原始版本，它增加了分子图像信息和文本表示之间的关联性，使其适用于图文联合建模和交叉模态学习。\n数据集内容：InChI（国际化学标识符）、IUPAC 名称（系统命名法）、SELFIES（分子编码字符串）、SMILES、以及分子的 2D 图像。这些模态被用于构建多种下游任务，如图像到文字转换、化学命名生成、结构图像识别、结构式生成、描述生成等，形成完整的评估体系。\n关键元信息：化学分子 ID、InChI 字符串、IUPAC 名称、SELFIES 表达、图像路径或编码，以及任务标签（如所属任务类型、模态对应关系等）。这些元数据对于任务选择、数据过滤和模型训练提供了基础。\n重要应用场景：分子生成模型评估、跨模态检索系统测试、多模态表示学习，以及化学语言建模任务中，尤其适合用于图文匹配、图像识别和化学命名等多模态挑战任务的标准基准测试。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://www.ebi.ac.uk/chembl/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "31.7MB",
+    "data_volume_mb": "31.7",
+    "source_of_data_volume": "https://huggingface.co/datasets/liupf/ChEBI-20-MM",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "10.0",
+    "google_scholar_screenshot": "ChEBI-20-MM.png",
+    "download_volume_or_user_count": "283/月",
+    "models_using_this_dataset": "多模态大型语言模型（如ChemVLM）用于多模态任务（图像-文本）"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2015/01/01",
+    "source_link": "https://www.ebi.ac.uk/chembl/",
+    "last_update_date": "2023/01/01"
+  }
+}

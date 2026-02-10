@@ -1,0 +1,45 @@
+{
+  "dataset": "RGD1-CHNO",
+  "intro": {
+    "official_link": "https://github.com/zhaoqy1996/RGD1",
+    "brief_description": "化学反应数据集",
+    "detailed_description": "RGD1-CNHO 是基于 DFT 计算的化学反应数据集，用于反应动力学和机理研究。其扩展版本 RGD1-xTB 包含 95 万化学反应，被用于预训练 React-OT 等模型以提升过渡态预测能力"
+  },
+  "openness": {
+    "license_type": "GPL-3",
+    "license_source_link": "https://github.com/zhaoqy1996/RGD1",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.77 GB",
+    "data_volume_mb": "1812.48",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/model_reaction_database/21066901",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1.0",
+    "google_scholar_screenshot": "RGD1-CHNO.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2023/03/16",
+    "source_link": "https://figshare.com/articles/dataset/model_reaction_database/21066901",
+    "last_update_date": "2023/04/24"
+  }
+}

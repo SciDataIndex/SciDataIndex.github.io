@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Buchwald-Hartwig",
+  "scores": {
+    "openness": 0,
+    "quality": 9,
+    "scale": 3,
+    "impact": 6,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 4.85
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

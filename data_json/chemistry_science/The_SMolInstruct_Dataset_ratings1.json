@@ -1,0 +1,45 @@
+{
+  "dataset": "The SMolInstruct Dataset",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/osunlp/SMolInstruct",
+    "brief_description": "SMolInstruct 是一个面向化学领域，尤其是小分子任务的大规模、全面且高质量的指令微调数据集。该数据集涵盖了分子命名、性质预测、化学反应、分子描述与生成等多个核心任务，任务设计贴合真实科研与药物发现流程，具有极高的实用性和研究价值。数据总量超过 330 万条样本，且支持 SMILES 与 SELFIES 两种分子表示格式，能够满足不同模型输入需求，是训练和评估大型语言模型在化学领域理解与生成能力的理想资源。",
+    "detailed_description": "数据集简述：\nSMolInstruct 是俄亥俄州立大学自然语言处理团队发布的大规模小分子领域指令微调数据集，专为推动化学相关的大语言模型（LLMs）研究设计。数据集共覆盖 14 个核心任务，总计样本数超过 334 万条，涵盖从基本结构转换到药物性质预测、分子生成与化学反应建模等多个层面。数据集中每个样本均以“查询-响应”的形式构建，支持两种主流分子表达方式（SMILES 与 SELFIES），并提供精细化的训练/验证/测试划分。作为目前最全面的化学指令微调数据集之一，SMolInstruct 为构建具备化学推理与生成能力的多任务语言模型提供了统一评测平台。\n数据集内容：\nSMolInstruct 覆盖的任务分为四大类：（1）名称转换类任务包含 IUPAC、SMILES 与分子式三者间的互转，数据来源于 PubChem，总体样本数超 120 万；（2）分子性质预测类任务包含 ESOL 溶解度、Lipo 分配系数、毒性、血脑屏障通透性（BBBP）、HIV 抑制等 6 项，数据取自 MoleculeNet，总量近 8 万；（3）分子描述类任务包括文本生成（Captioning）与结构生成（MG），样本来自 Mol-Instructions 与 ChEBI-20，合计超过 12 万条；（4）化学反应类任务支持正向合成与逆合成路径预测，数据来自 USPTO-full，数据量达 190 万，为当前数据规模最大的一类任务。不同任务平均查询长度介于 43–98 字符之间，响应长度差异较大，分子生成任务最长，超过 100 字符。\n关键元信息：\nSMolInstruct 中所有样本均采用标准 XML 标签标注（如 <SMILES>、<IUPAC> 等），从 v1.3.0 版本起引入唯一 sample_id，支持对核心分子信息打标签（通过 insert_core_tags 控制）。数据集支持通过 use_selfies=True 切换到 SELFIES 格式，并可指定加载方式（如 use_first 限定每任务样本数，use_test_subset=True 仅加载轻量测试集）。各任务数据均提供严格的训练、验证和测试划分，平均划分比例约为 98%/0.5%/1%。任务平均查询长度为 83，平均响应长度为 55，部分复杂任务如反应预测与分子生成显著更长。\n重要应用场景：\nSMolInstruct 可广泛用于以下研究方向：（1）训练与评估具备化学知识推理能力的指令微调语言模型；（2）提升模型在药物研发流程中的结构解析、性质筛选与合成路线规划能力；（3）验证多任务模型在结构转换、属性预测与分子生成等任务间的协同学习与迁移能力；（4）构建面向自动药物设计、反应路径规划的端到端 AI 系统；（5）作为化学方向大模型 benchmark 数据集，支持 zero-shot、few-shot 与 finetune 场景下的统一评测。结合 SMILES 与 SELFIES 的双模态表示，还可进一步支持多模态模型的跨表示泛化能力研究。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://huggingface.co/datasets/osunlp/SMolInstruct",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "692MB",
+    "data_volume_mb": "692.0",
+    "source_of_data_volume": "https://huggingface.co/datasets/osunlp/SMolInstruct",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "9.0",
+    "google_scholar_screenshot": "The SMolInstruct Dataset.png",
+    "download_volume_or_user_count": "2659",
+    "models_using_this_dataset": "LlaSMol系列模型"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/02/13",
+    "source_link": "https://huggingface.co/datasets/osunlp/SMolInstruct",
+    "last_update_date": "2024/09/17"
+  }
+}
