@@ -476,6 +476,7 @@
         SciDataIndex
       </div>
       <nav class="nav-links">
+        <a href="dataset_list.html">Dataset List</a>
         <a href="data_ranks/earth_science.html">Rankings</a>
         <a href="evaluation.html">Methodology</a>
         <a href="about.html">About</a>
@@ -516,19 +517,18 @@
     <section class="rank-section" id="rankSection">
       <div class="rank-inner">
         <h2 class="rank-title">Scientific Data Evaluation Rankings</h2>
-        <p class="rank-subtitle">Top 5 datasets by total score in each domain</p>
+        <p class="rank-subtitle">展示三大领域数据集的综合评分排行(Top 5)</p>
         <div class="rank-grid" id="rankGrid"></div>
       </div>
     </section>
 
   <script>
-    
     const DATASETS = {
       "Earth Science": [
         {
           "name": "Coupled Model Intercomparison Project",
-          "desc": "Coupled climate model intercomparison program.",
-          "detail": "Large-scale data supporting climate model evaluation.",
+          "desc": "耦合气候模型比较项目",
+          "detail": "基于第一性原理计算，提供大规模材料结构与能带性质数据",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -541,8 +541,8 @@
         },
         {
           "name": "Hubble Space Telescope Data",
-          "desc": "Hubble Space Telescope image observations.",
-          "detail": "High-quality astronomy observations for deep space research.",
+          "desc": "哈勃太空望远镜图像观测数据",
+          "detail": "用于研究催化反应路径、吸附能与反应能垒的高质量数据集",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -555,8 +555,8 @@
         },
         {
           "name": "ECMWF reanalysis",
-          "desc": "ECMWF global atmospheric reanalysis dataset.",
-          "detail": "Global reanalysis fields for climate and weather studies.",
+          "desc": "欧洲气象中心全球气象再分析资料",
+          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
           "rating": {
             "openness": 8,
             "quality": 10,
@@ -569,8 +569,8 @@
         },
         {
           "name": "Sloan Digital Sky Survey",
-          "desc": "Sloan Digital Sky Survey observations.",
-          "detail": "Large-scale sky survey data and catalogs.",
+          "desc": "斯隆数字天空巡天",
+          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -583,8 +583,8 @@
         },
         {
           "name": "Event Horizon Telescope Observations",
-          "desc": "Event Horizon Telescope observation data.",
-          "detail": "Very-long-baseline interferometry observations of black holes.",
+          "desc": "事件视界望远镜观测数据",
+          "detail": "包含 13 万余种小分子的量子化学性质计算结果",
           "rating": {
             "openness": 10,
             "quality": 0,
@@ -596,150 +596,11 @@
           }
         }
       ],
-      "Life Science": [
-        {
-          "name": "AlphaFold Protein Structure Database",
-          "desc": "AlphaFold protein structure database.",
-          "detail": "Large-scale protein structure predictions.",
-          "rating": {
-            "openness": 8,
-            "quality": 10,
-            "scale": 7,
-            "impact": 6,
-            "safety": 7,
-            "ai_readiness": 6,
-            "total_score": 6.95
-          }
-        },
-        {
-          "name": "STRING",
-          "desc": "STRING protein interaction network database.",
-          "detail": "Protein-protein interaction evidence and networks.",
-          "rating": {
-            "openness": 8,
-            "quality": 9,
-            "scale": 5,
-            "impact": 8,
-            "safety": 7,
-            "ai_readiness": 5,
-            "total_score": 6.55
-          }
-        },
-        {
-          "name": "Universal Protein Resource",
-          "desc": "UniProt protein knowledgebase.",
-          "detail": "Curated protein sequences and functional annotations.",
-          "rating": {
-            "openness": 8,
-            "quality": 10,
-            "scale": 4,
-            "impact": 8,
-            "safety": 7,
-            "ai_readiness": 6,
-            "total_score": 6.55
-          }
-        },
-        {
-          "name": "InterPro",
-          "desc": "Integrated protein families, domains, and sites database.",
-          "detail": "Protein family and domain annotations.",
-          "rating": {
-            "openness": 0,
-            "quality": 10,
-            "scale": 6,
-            "impact": 6,
-            "safety": 7,
-            "ai_readiness": 8,
-            "total_score": 6.25
-          }
-        },
-        {
-          "name": "SPICE",
-          "desc": "SPICE molecular force-field machine learning dataset.",
-          "detail": "Molecular energies and forces for ML force fields.",
-          "rating": {
-            "openness": 9,
-            "quality": 9,
-            "scale": 4,
-            "impact": 6,
-            "safety": 7,
-            "ai_readiness": 8,
-            "total_score": 6.45
-          }
-        }
-      ],
-      "Materials Science": [
-        {
-          "name": "Buchwald-Hartwig couplings",
-          "desc": "Palladium-catalyzed C–N coupling conditions and yields.",
-          "rating": {
-            "openness": 0,
-            "quality": 9,
-            "scale": 2,
-            "impact": 2,
-            "safety": 7,
-            "ai_readiness": 8,
-            "total_score": 3.95
-          }
-        },
-        {
-          "name": "C-N cross-coupling",
-          "desc": "High-throughput C–N coupling dataset for catalyst analysis.",
-          "rating": {
-            "openness": 0,
-            "quality": 10,
-            "scale": 2,
-            "impact": 2,
-            "safety": 7,
-            "ai_readiness": 10,
-            "total_score": 4.45
-          }
-        },
-        {
-          "name": "MoleculeNet",
-          "desc": "Large-scale benchmark suite for molecular machine learning.",
-          "rating": {
-            "openness": 0,
-            "quality": 0,
-            "scale": 3,
-            "impact": 4,
-            "safety": 7,
-            "ai_readiness": 3,
-            "total_score": 2.85
-          }
-        },
-        {
-          "name": "Open-catalyst-project",
-          "desc": "Open Catalyst Project structures with energy/force labels.",
-          "rating": {
-            "openness": 8,
-            "quality": 9,
-            "scale": 6,
-            "impact": 2,
-            "safety": 7,
-            "ai_readiness": 6,
-            "total_score": 5.55
-          }
-        },
-        {
-          "name": "SPICE-2.0.1",
-          "desc": "DFT energies and forces for 1.1M molecules.",
-          "rating": {
-            "openness": 9,
-            "quality": 9,
-            "scale": 7,
-            "impact": 0,
-            "safety": 7,
-            "ai_readiness": 7,
-            "total_score": 5.65
-          }
-        }
-      ],
       "Neuroscience": [
         {
           "name": "Hemibrain Connectome Dataset",
-          "desc": "Drosophila hemibrain connectome atlas.",
-          "detail": "High-resolution connectomics data for brain circuitry.",
+          "desc": "果蝇半脑连接组图谱",
+          "detail": "高分辨率人类脑结构与功能连接数据",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -752,8 +613,8 @@
         },
         {
           "name": "HMC Sleep Staging Dataset",
-          "desc": "Five-class EEG sleep staging dataset.",
-          "detail": "Sleep EEG data for multi-class staging and analysis.",
+          "desc": "五分类睡眠分期脑电数据集",
+          "detail": "提供多尺度脑区基因表达与解剖结构信息",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -766,8 +627,8 @@
         },
         {
           "name": "BOLD5000",
-          "desc": "Large-scale, slow event-related fMRI dataset.",
-          "detail": "fMRI responses to natural image stimuli.",
+          "desc": "一个大规模、慢速事件相关的fMRI数据集",
+          "detail": "基于高通道电极的神经元放电记录数据",
           "rating": {
             "openness": 9,
             "quality": 9,
@@ -780,8 +641,8 @@
         },
         {
           "name": "RSNA Intracranial Hemorrhage Detection",
-          "desc": "RSNA intracranial hemorrhage detection/classification dataset.",
-          "detail": "CT scans labeled for hemorrhage detection.",
+          "desc": "RSNA颅内出血检测/分类数据集",
+          "detail": "基于高通道电极的神经元放电记录数据",
           "rating": {
             "openness": 0,
             "quality": 0,
@@ -794,8 +655,8 @@
         },
         {
           "name": "APT-36K",
-          "desc": "Large-scale animal pose estimation and tracking dataset.",
-          "detail": "Multi-animal pose annotations and tracking data.",
+          "desc": "用于动物姿态估计与跟踪的大规模基准数据集",
+          "detail": "基于高通道电极的神经元放电记录数据",
           "rating": {
             "openness": 8,
             "quality": 9,
@@ -804,6 +665,145 @@
             "safety": 7,
             "ai_readiness": 9,
             "total_score": 5.55
+          }
+        }
+      ],
+      "Life Science": [
+        {
+          "name": "AlphaFold Protein Structure Database",
+          "desc": "AlphaFold数据库",
+          "detail": "全球最大的核酸序列存储与共享数据库之一",
+          "rating": {
+            "openness": 8,
+            "quality": 10,
+            "scale": 7,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 6.95
+          }
+        },
+        {
+          "name": "STRING",
+          "desc": "STRING蛋白交互网络数据库",
+          "detail": "提供高质量的蛋白质序列、功能与结构注释信息",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 5,
+            "impact": 8,
+            "safety": 7,
+            "ai_readiness": 5,
+            "total_score": 6.55
+          }
+        },
+        {
+          "name": "Universal Protein Resource",
+          "desc": "蛋白质统一资源库",
+          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "rating": {
+            "openness": 8,
+            "quality": 10,
+            "scale": 4,
+            "impact": 8,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 6.55
+          }
+        },
+        {
+          "name": "InterPro",
+          "desc": "综合蛋白质家族、结构域和功能位点注释数据库",
+          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "rating": {
+            "openness": 0,
+            "quality": 10,
+            "scale": 6,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 8,
+            "total_score": 6.25
+          }
+        },
+        {
+          "name": "SPICE",
+          "desc": "SPICE分子力场机器学习数据集",
+          "detail": "通过单细胞测序技术构建人体细胞参考图谱",
+          "rating": {
+            "openness": 9,
+            "quality": 9,
+            "scale": 4,
+            "impact": 6,
+            "safety": 7,
+            "ai_readiness": 8,
+            "total_score": 6.45
+          }
+        }
+      ],
+      "Physical Science": [
+        {
+          "name": "Buchwald-Hartwig couplings",
+          "desc": "以主动学习为核心的钯催化 C–N 偶联反应条件与产率数据集。",
+          "rating": {
+            "openness": 0,
+            "quality": 9,
+            "scale": 2,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 8,
+            "total_score": 3.95
+          }
+        },
+        {
+          "name": "C-N cross-coupling",
+          "desc": "高通量 C–N 偶联反应数据，用于预测催化剂耐受性与机制分析。",
+          "rating": {
+            "openness": 0,
+            "quality": 10,
+            "scale": 2,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 10,
+            "total_score": 4.45
+          }
+        },
+        {
+          "name": "MoleculeNet",
+          "desc": "分子机器学习的大规模基准与模型评测集合。",
+          "rating": {
+            "openness": 0,
+            "quality": 0,
+            "scale": 3,
+            "impact": 4,
+            "safety": 7,
+            "ai_readiness": 3,
+            "total_score": 2.85
+          }
+        },
+        {
+          "name": "Open-catalyst-project",
+          "desc": "Open Catalyst Project 挑战赛结构与能量/力标签数据集。",
+          "rating": {
+            "openness": 8,
+            "quality": 9,
+            "scale": 6,
+            "impact": 2,
+            "safety": 7,
+            "ai_readiness": 6,
+            "total_score": 5.55
+          }
+        },
+        {
+          "name": "SPICE-2.0.1",
+          "desc": "含 1.1M 分子 DFT 计算能量与受力结果的分子力场数据集。",
+          "rating": {
+            "openness": 9,
+            "quality": 9,
+            "scale": 7,
+            "impact": 0,
+            "safety": 7,
+            "ai_readiness": 7,
+            "total_score": 5.65
           }
         }
       ]
@@ -823,11 +823,11 @@
     const SUBJECT_ICONS = {
       "Earth Science": "🌍",
       "Life Science": "🧬",
-      "Materials Science": "🧪",
+      "Physical Science": "🧪",
       "Neuroscience": "🧠"
     };
 
-    const subjectOrder = ["Earth Science", "Life Science", "Materials Science", "Neuroscience"];
+    const subjectOrder = ["Earth Science", "Life Science", "Physical Science", "Neuroscience"];
     let neuroCard = null;
 
     subjectOrder.forEach(subject => {
@@ -894,11 +894,11 @@
       const toggle = document.createElement("button");
       toggle.type = "button";
       toggle.className = "rank-toggle";
-      toggle.innerHTML = `More disciplines...`;
+      toggle.innerHTML = `更多学科榜单...`;
       toggle.addEventListener("click", () => {
         const isHidden = neuroCard.classList.contains("hidden");
         neuroCard.classList.toggle("hidden");
-        toggle.innerHTML = isHidden ? `Collapse disciplines...` : `More disciplines...`;
+        toggle.innerHTML = isHidden ? `收起学科榜单...` : `更多学科榜单...`;
       });
       moreWrap.appendChild(toggle);
       grid.appendChild(moreWrap);
