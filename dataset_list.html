@@ -295,7 +295,7 @@
     }
 
     async function loadIndex(category) {
-      const res = await fetch(`data_json/${category}/datatset_index.json`);
+      const res = await fetch(`data_json/${category}/dataset_index.json`);
       if (!res.ok) return [];
       const list = await res.json();
       return Array.isArray(list) ? list : [];
