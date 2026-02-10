@@ -1,0 +1,45 @@
+{
+  "dataset": "SlideBench",
+  "intro": {
+    "official_link": "https://uni-medical.github.io/SlideChat.github.io/",
+    "brief_description": "病理切片多模态测评数据集",
+    "detailed_description": "SlideBench主要包含三个子集：（1）SlideBench-Caption：734个来自TCGA的WSI及其总结描述（2）SlideBench-VQA (TCGA)：包含了来自13个类别的7,827个WSI-VQA对（3）SlideBench-VQA (BCNB)：来自BCNB数据集的1,058名患者数据，我们把图像-标签转化成VQA形式，包含7,247条数据，作为外部测试子集。"
+  },
+  "openness": {
+    "license_type": "CC BY-SA 4.0",
+    "license_source_link": "https://uni-medical.github.io/SlideChat.github.io/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "7.65GB",
+    "data_volume_mb": "7833.6",
+    "source_of_data_volume": "https://huggingface.co/datasets/General-Medical-AI/SlideChat/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_SlideChat_A_Large_Vision-Language_Assistant_for_Whole-Slide_Pathology_Image_Understanding_CVPR_2025_paper.html",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "6.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/11/07",
+    "source_link": "https://huggingface.co/datasets/General-Medical-AI/SlideChat/commits/main",
+    "last_update_date": "2025/08/04"
+  }
+}

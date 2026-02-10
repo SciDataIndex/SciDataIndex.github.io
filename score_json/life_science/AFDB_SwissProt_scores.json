@@ -1,0 +1,13 @@
+{
+  "dataset_name": "AFDB SwissProt",
+  "scores": {
+    "openness": 8,
+    "quality": 10,
+    "scale": 4,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 4.55
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

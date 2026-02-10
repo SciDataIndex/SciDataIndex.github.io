@@ -1,0 +1,45 @@
+{
+  "dataset": "NONCODE",
+  "intro": {
+    "official_link": "http://www.noncode.org",
+    "brief_description": "NONCODE 提供了广泛的非编码RNA序列，涵盖了多种生物体，包括模式生物和非模式生物。同时包含了非编码RNA序列的详细注释，包括它们的生成、生物学功能、结构和进化保守性等信息。",
+    "detailed_description": "NONCODE 提供了广泛的非编码RNA序列，涵盖了多种生物体，包括模式生物和非模式生物。同时包含了非编码RNA序列的详细注释，包括它们的生成、生物学功能、结构和进化保守性等信息。\nNONCODE (http://www.noncode.org/) 是一个全面的数据库，用于收集和注释非编码 RNA，尤其是动物的长链非编码 RNA（lncRNA）。NONCODEV6 致力于提供植物和动物的全部 lncRNA。自 2017 年上次更新以来，NONCODEV6 中的 lncRNA 数量已从 548 640 个增加到 644 510 个。人类 lncRNA 的数量已从 172 216 个增加到 173 112 个。小鼠 lncRNA 的数量从 131 697 个增加到 131 974 个。植物 lncRNA 的数量为 94 697 个。通过转录组测序谱更新了人类和癌症中 lncRNA 之间的关系。NONCODEV6 还引入了三个重要的新功能：（i）更新了人类 lncRNA 与疾病的关系，尤其是癌症； (ii) lncRNA 注释及其在五种常见植物中的组织表达谱和预测功能；iii) 23 种植物转录本水平上的 lncRNA 保守性注释。NONCODEV6 可通过 http://www.noncode.org/ 访问。"
+  },
+  "openness": {
+    "license_type": "CC BY",
+    "license_source_link": "https://www.re3data.org/repository/r3d100012169",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "659MB",
+    "data_volume_mb": "659.0",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/NONCODE/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/33196801/",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2510.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://pubmed.ncbi.nlm.nih.gov/33196801/",
+    "last_update_date": "2021/01/08"
+  }
+}

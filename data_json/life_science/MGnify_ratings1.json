@@ -1,0 +1,45 @@
+{
+  "dataset": "MGnify",
+  "intro": {
+    "official_link": "https://www.ebi.ac.uk/metagenomics/",
+    "brief_description": "EMBL-EBI 的元基因组蛋白序列数据库，专注于微生物群落的环境功能分析",
+    "detailed_description": "数据集简述\nEMBL-EBI 的元基因组蛋白序列数据库，专注于微生物群落的环境功能分析。\n数据集内容\n从元基因组组装中预测的非冗余蛋白序列，结合环境数据，支持 AlphaFold 结构预测。\n关键元信息\n序列、环境来源（海洋、土壤等）、功能注释、序列比对。\n文件格式：FASTA（序列）、TSV（功能注释）。\n重要应用场景\n环境生物学：研究微生物群在不同环境（如海洋、肠道）中的代谢功能。\n蛋白质挖掘：发现新酶或代谢途径，用于生物技术应用。\n结构预测：结合 AlphaFold，预测环境蛋白的结构，探索功能。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/nar/article/51/D1/D753/6880769",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1610.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "475,000",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "MultiRM",
+  "intro": {
+    "official_link": "https://github.com/Tsedao/MultiRM",
+    "brief_description": "该数据集整合了20个表观转录组图谱，涵盖15种单碱基分辨率技术和12类RNA修饰类型，并提供严格筛选的阴性对照，为开发高精度RNA修饰位点预测模型提供了迄今最全面的训练资源。",
+    "detailed_description": "RNA修饰位点预测模型的开发通常需要全转录组范围、单碱基分辨率的分析数据用于训练和测试。我们筛选数据集时优先选择来自多项研究且采用不同技术生成的数据，排除了有技术缺陷的数据（如普通RNA亚硫酸氢盐测序）或方法不可靠的数据（如普通MeRIP-seq结合基序搜索）。\n最终，我们获得了20个表观转录组图谱，涵盖15种不同的单碱基分辨率检测技术和12类RNA修饰类型（m6A、m1A、m5C、m5U、m6Am、m7G、Ψ、I、Am、Cm、Gm和Um），详见表5。据我们所知，这些数据覆盖了目前所有能在全转录组范围进行单碱基分辨率分析的常见RNA修饰类型。我们特别注重构建最可靠的阴性对照数据（未修饰核苷酸），阴性位点均从含有阳性位点的同一转录本的未修饰碱基中随机选取。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/Tsedao/MultiRM?tab=readme-ov-file",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "37.2MB",
+    "data_volume_mb": "37.2",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/MultiRM",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41467-021-24313-3",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "67.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "GitHub Stars 31",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://zenodo.org/records/4851898",
+    "last_update_date": "2021/05/29"
+  }
+}

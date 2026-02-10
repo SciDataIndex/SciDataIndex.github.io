@@ -1,0 +1,13 @@
+{
+  "dataset_name": "WHO-TB-Database",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 0,
+    "impact": 6,
+    "safety": 7,
+    "ai_readiness": 5,
+    "total_score": 2.85
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

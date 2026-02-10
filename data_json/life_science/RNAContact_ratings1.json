@@ -1,0 +1,45 @@
+{
+  "dataset": "RNAContact",
+  "intro": {
+    "official_link": "https://yanglab.qd.sdu.edu.cn/RNAcontact/",
+    "brief_description": "RNA接触图结构数据",
+    "detailed_description": "RNAcontact 是一种用于 RNA 核苷酸间接触预测的新算法。 RNAcontact 是基于深度残差神经网络构建的。来自多个序列比对的协方差和预测的二级结构被用作输入特征。实验表明，RNAcontact 在独立测试集上的顶级 L/10 和 L（L 是 RNA 的长度）预测分别达到了 0.8 和 0.6 的精度，显着高于其他进化耦合方法。分析表明，大约1/3的正确预测接触不是二级结构的碱基配对，而二级结构对决定RNA结构的形状至关重要。此外，我们证明预测的接触可以用作距离限制来指导 RNA 结构折叠。与不使用约束相比，使用预测的接触可以建立更加准确的模型。‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://yanglab.qd.sdu.edu.cn/RNAcontact/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "7.7MB",
+    "data_volume_mb": "7.7",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/RNAContact/tree/main/raw/contact_map",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/bioinformatics/article/37/8/1093/5948987",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "510.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/03/08",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "SlideInstruct",
+  "intro": {
+    "official_link": "https://uni-medical.github.io/SlideChat.github.io/",
+    "brief_description": "病理切片指令微调数据集",
+    "detailed_description": "为了支持面向病理全切片图像理解的MLLM（SlideChat）训练，构建了一个大规模的训练集SlideInstruction，主要包括两个部分：（1）WSI-Caption：我们通过设计Prompt进一步用GPT-4提取报告的总结，提取关键的病理发现比如诊断结果、肿瘤特征、切缘状态和淋巴结受累情况等；（2）WSI Instruction-Following：为了增强模型的指令跟随能力和病理图像的理解，我们利用GPT-4为每个WSI生成问答对。将问题划分为三个“广义”类别（显微镜检查、诊断和临床），代表了病理工作流中的关键阶段，并进一步细化为十三个“狭义”类别。SlideInstruction共180K个WSI-VQA对。"
+  },
+  "openness": {
+    "license_type": "CC BY-SA 4.0",
+    "license_source_link": "https://uni-medical.github.io/SlideChat.github.io/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "7.65GB",
+    "data_volume_mb": "7833.6",
+    "source_of_data_volume": "https://huggingface.co/datasets/General-Medical-AI/SlideChat/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2410.11761",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "15.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/11/07",
+    "source_link": "https://huggingface.co/datasets/General-Medical-AI/SlideChat/commits/main",
+    "last_update_date": "2025/08/04"
+  }
+}

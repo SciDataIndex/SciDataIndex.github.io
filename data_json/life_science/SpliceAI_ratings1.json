@@ -1,0 +1,45 @@
+{
+  "dataset": "SpliceAI",
+  "intro": {
+    "official_link": "https://github.com/Illumina/SpliceAI",
+    "brief_description": "RNA剪切位点数据库",
+    "detailed_description": "前体 mRNA 剪接成成熟转录本的过程非常精确，但细胞机制实现这种特异性的机制尚不完全清楚。本文，我们描述了一个深度神经网络，它可以准确预测任意前体 mRNA 转录本序列的剪接点，从而能够精确预测导致隐性剪接的非编码遗传变异。具有预测的剪接改变后果的同义突变和内含子突变在 RNA 测序上的验证率很高，并且对人类群体具有强烈的危害性。与健康对照相比，具有预测的剪接改变后果的新生突变在自闭症和智力障碍患者中显著丰富，并且在 28 名患者中有 21 名通过 RNA 测序验证。我们估计，罕见遗传病患者中 9%–11% 的致病突变是由这种以前被低估的疾病变异引起的。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://github.com/Illumina/SpliceAI",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "34.5MB",
+    "data_volume_mb": "34.5",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/SpliceAI",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/30661751/",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "3150.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2019/01/24",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

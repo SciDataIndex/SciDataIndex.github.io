@@ -1,0 +1,13 @@
+{
+  "dataset_name": "DHD",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 0,
+    "impact": 4,
+    "safety": 10,
+    "ai_readiness": 4,
+    "total_score": 2.3
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

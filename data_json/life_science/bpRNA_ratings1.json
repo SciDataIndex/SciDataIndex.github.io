@@ -1,0 +1,45 @@
+{
+  "dataset": "bpRNA",
+  "intro": {
+    "official_link": "https://bprna.cgrb.oregonstate.edu/",
+    "brief_description": "基于比较建模标注的大规模 RNA 二级结构数据集，涵盖多种 RNA 家族的结构信息。",
+    "detailed_description": "1. 数据组成：\n- bpRNA-1m：包含 102,318 个 RNA 序列，覆盖 2,588 个家族，是当前最全面的 RNA 结构数据集之一。\n- bpRNA-new：源自 Rfam 14.2，包含 1,500 个新 RNA 家族的序列，与 bpRNA-1m 无重叠，专用于跨家族泛化能力评估。\n2. 数据来源与标注：\n- 通过比较建模（如 Rfam 比对）生成二级结构标签，包含规范/非规范碱基对、假结等结构信息。\n- 部分数据整合自 PDB 数据库的高分辨率（<3.5 Å）RNA 晶体结构。\n3. 应用场景：\n- 训练和评估 RNA 二级结构预测模型（如 SPOT-RNA2、RNADiffFold）。\n- 支持迁移学习：先用 bpRNA 预训练模型，再用小规模实验结构微调，避免过拟合。"
+  },
+  "openness": {
+    "license_type": "AGPL-3.0",
+    "license_source_link": "https://huggingface.co/datasets/multimolecule/bprna-90",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "50.3GB",
+    "data_volume_mb": "51507.2",
+    "source_of_data_volume": "https://bprna.cgrb.oregonstate.edu/download.php#bpRNA",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "454.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2018/03/25",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

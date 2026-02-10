@@ -1,0 +1,13 @@
+{
+  "dataset_name": "DISEASES",
+  "scores": {
+    "openness": 5,
+    "quality": 7,
+    "scale": 0,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 3.75
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "OpenVaccine",
+  "intro": {
+    "official_link": "https://www.kaggle.com/competitions/stanford-covid-vaccine/data",
+    "brief_description": "疫苗降解率预测数据集‌",
+    "detailed_description": "疫苗降解率预测数据集‌"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://www.kaggle.com/competitions/stanford-covid-vaccine/data",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2.68GB",
+    "data_volume_mb": "2744.32",
+    "source_of_data_volume": "https://www.kaggle.com/competitions/stanford-covid-vaccine/data",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "61.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2020/09/11",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

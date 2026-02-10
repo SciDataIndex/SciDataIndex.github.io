@@ -1,0 +1,45 @@
+{
+  "dataset": "VAERS",
+  "intro": {
+    "official_link": "https://vaers.hhs.gov/data.html",
+    "brief_description": "疫苗不良事件报告系统",
+    "detailed_description": "疫苗不良事件报告系统 (VAERS) 成立于 1990 年，是一个国家级预警系统，旨在发现美国许可疫苗中可能存在的安全问题。VAERS 由美国疾病控制与预防中心 (CDC) 和美国食品药品监督管理局 (FDA) 共同管理。VAERS 负责接收并分析接种疫苗后出现的不良事件（可能出现的副作用）报告。任何人都可以向 VAERS 报告不良事件。医疗保健专业人员必须报告某些不良事件，而疫苗制造商则必须报告所有他们注意到的不良事件。"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://vaers.hhs.gov/data.html",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "545.09MB",
+    "data_volume_mb": "545.09",
+    "source_of_data_volume": "https://vaers.hhs.gov/eSubDownload/index.jsp?fn=AllVAERSDataCSVS.zip",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1850.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://vaers.hhs.gov/data.html",
+    "last_update_date": "2025/05/08"
+  }
+}

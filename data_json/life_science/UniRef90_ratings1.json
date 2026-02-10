@@ -1,0 +1,45 @@
+{
+  "dataset": "UniRef90",
+  "intro": {
+    "official_link": "https://www.uniprot.org/uniref",
+    "brief_description": "UniPort SeqID90 聚类中心",
+    "detailed_description": "数据集简述\nUniProt 聚类数据库，按 90% 序列同一性聚类，减少冗余。\n数据集内容\n截至 2025 年，208,005,650 个聚类，覆盖 UniProtKB 和部分 UniParc 序列。\n关键元信息\n代表序列、聚类成员、物种、功能注释、80% 重叠阈值\n文件格式：FASTA（序列）\n重要应用场景\n序列比对：高效比对高相似序列，研究蛋白质功能保守性\n功能预测：基于高相似性聚类，推断未知蛋白功能\n进化分析：研究蛋白质序列的微小变异与进化"
+  },
+  "openness": {
+    "license_type": "CC BY-ND",
+    "license_source_link": "https://www.uniprot.org/help/downloads",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "42.9GB",
+    "data_volume_mb": "43929.6",
+    "source_of_data_volume": "https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "4300.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.release_note",
+    "last_update_date": "2025/10/08"
+  }
+}

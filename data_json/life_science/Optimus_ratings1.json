@@ -1,0 +1,45 @@
+{
+  "dataset": "Optimus",
+  "intro": {
+    "official_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002",
+    "brief_description": "RNA核糖体负载数据库‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "RNA核糖体负载数据库‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "https://arxiv.org/pdf/2406.10391",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "192.37GB",
+    "data_volume_mb": "196986.88",
+    "source_of_data_volume": "https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA454863&o=acc_s%3Aa",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41587-019-0164-5",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "5760.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/05/03",
+    "source_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002",
+    "last_update_date": "2024/07/01"
+  }
+}

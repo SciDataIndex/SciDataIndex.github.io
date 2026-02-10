@@ -1,0 +1,13 @@
+{
+  "dataset_name": "RNAContact-Distance",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 1,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 1.85
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

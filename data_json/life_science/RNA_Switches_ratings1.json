@@ -1,0 +1,45 @@
+{
+  "dataset": "RNA Switches",
+  "intro": {
+    "official_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149225",
+    "brief_description": "RNA可编程开关数据库‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "RNA可编程开关数据库‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://arxiv.org/pdf/2406.10391",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "42.84GB",
+    "data_volume_mb": "43868.16",
+    "source_of_data_volume": "https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA627694&o=acc_s%3Aa",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41467-020-18677-1",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "996.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2020/08/13",
+    "source_link": "https://www.nature.com/articles/s41467-020-18677-1",
+    "last_update_date": "2020/10/07"
+  }
+}

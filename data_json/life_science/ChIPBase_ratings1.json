@@ -1,0 +1,45 @@
+{
+  "dataset": "ChIPBase",
+  "intro": {
+    "official_link": "https://rnasysu.com/chipbase3/",
+    "brief_description": "ChIPBase 整合了大量公开的 ChIP-Seq 数据（包括转录因子和组蛋白修饰），覆盖多种生物体和细胞类型，并提供详细的注释信息，如结合位点、靶基因和调控网络。",
+    "detailed_description": "ChIPBase 集成了大量公开的ChIP-Seq数据，包括来自转录因子和组蛋白修饰的实验数据。数据集覆盖了多种生物体和细胞类型，并对ChIP-Seq数据进行了详细的注释，包括结合位点（binding sites）、结合基因（target genes）和调控网络等信息。"
+  },
+  "openness": {
+    "license_type": "GUN",
+    "license_source_link": "https://pdfs.semanticscholar.org/be3e/00fe5ded6c7df9a53414b95d0e6459db831b.pdf",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "10.2GB",
+    "data_volume_mb": "10444.8",
+    "source_of_data_volume": "https://rnasysu.com/chipbase3/batch_download.php",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/nar/article/51/D1/D46/6833235",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "865.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2016/09/01",
+    "source_link": "https://rnasysu.com/chipbase3/index.php",
+    "last_update_date": "2022/09/01"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "OpenProteinSet",
+  "intro": {
+    "official_link": "https://registry.opendata.aws/openfold/",
+    "brief_description": "开源数据集，提供 AlphaFold 2 训练所需的 MSA 和模板数据。",
+    "detailed_description": "数据集简述\n开源数据集，提供 AlphaFold 2 训练所需的 MSA 和模板数据。\n数据集内容\n140,000 个 PDB 链的 MSA，1600 万个 UniClust30 聚类，模板来自 PDB70。\n关键元信息\n序列、结构模板、MSA 数据、物种、聚类信息\n文件格式：a3m（MSA）、hhr（模板）\n重要应用场景\n模型训练：为 AlphaFold 等模型提供 MSA 和模板，优化结构预测。\n结构生物学：研究蛋白质折叠机制，验证预测模型。\n机器学习：开发新算法，预测蛋白质结构或交互。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://registry.opendata.aws/openfold/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/pdf/2308.05326",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "45.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2023/08/10",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

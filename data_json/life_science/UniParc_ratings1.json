@@ -1,0 +1,45 @@
+{
+  "dataset": "UniParc",
+  "intro": {
+    "official_link": "https://www.uniprot.org/help/uniparc",
+    "brief_description": "UniProt 的非冗余序列数据库，归档所有公开蛋白序列。",
+    "detailed_description": "数据集简介\nUniProt 的非冗余序列数据库，归档所有公开蛋白序列。\n数据集内容\n整合 UniProtKB、PDB 等来源序列，记录历史版本，覆盖所有物种。\n关键元信息\n序列、来源数据库、版本历史、物种、交叉引用\n文件格式：FASTA（序列）\n重要应用场景\n序列追踪：跟踪序列跨数据库的版本变化，确保数据一致性\n数据整合：为生物信息学工具提供统一序列资源\n历史分析：研究序列注释的演变，验证数据可靠性"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://www.uniprot.org/uniparc",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "200GB",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/fasta/active/",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1130.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

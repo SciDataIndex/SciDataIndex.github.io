@@ -1,0 +1,45 @@
+{
+  "dataset": "Pig-PIC",
+  "intro": {
+    "official_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3337471/",
+    "brief_description": "猪SNP序列数据集",
+    "detailed_description": "猪SNP序列数据集"
+  },
+  "openness": {
+    "license_type": "CC BY 3.0",
+    "license_source_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3337471/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "1.7GB",
+    "data_volume_mb": "1740.8",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Pig-PIC/explore/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/g3journal/article/2/4/429/6026060?login=false",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "10.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2012/04/01",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

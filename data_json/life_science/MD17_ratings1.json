@@ -1,0 +1,45 @@
+{
+  "dataset": "MD17",
+  "intro": {
+    "official_link": "http://quantum-machine.org/datasets/#md-datasets",
+    "brief_description": "专注多种小分子",
+    "detailed_description": "小分子的能量和受力数据集"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.9GB",
+    "data_volume_mb": "1945.6",
+    "source_of_data_volume": "http://www.sgdml.org/#datasets",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.science.org/doi/epdf/10.1126/sciadv.1603015",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "971.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2017/05/05",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

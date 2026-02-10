@@ -1,0 +1,45 @@
+{
+  "dataset": "BRENDA",
+  "intro": {
+    "official_link": "https://www.brenda-enzymes.org/",
+    "brief_description": "BRENDA是德国布伦瑞克工业大学开发的全球最全面的酶功能数据库，提供酶分类、反应特性、动力学参数等标准化数据，支撑生物化学与生物医学研究",
+    "detailed_description": "BRENDA酶数据库，起源于德国不伦瑞克在1987年建立的国家生物技术研究中心(GBF)，目前由德国科隆大学生物化学研究所负责运营。BRENDA可以提供酶的分类、命名法、生化反应、专一性、结构、细胞定位、提取方法、文献、应用与改造及相关疾病的数据。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://www.brenda-enzymes.org/download.php",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "119.8MB",
+    "data_volume_mb": "119.8",
+    "source_of_data_volume": "https://www.brenda-enzymes.org/download.php",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "839.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://www.brenda-enzymes.org",
+    "last_update_date": "2025/05/30"
+  }
+}

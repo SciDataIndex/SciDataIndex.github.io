@@ -1,0 +1,13 @@
+{
+  "dataset_name": "UMIN-CTR",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 1,
+    "impact": 4,
+    "safety": 10,
+    "ai_readiness": 5,
+    "total_score": 2.8
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

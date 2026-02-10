@@ -1,0 +1,45 @@
+{
+  "dataset": "SwissProt",
+  "intro": {
+    "official_link": "https://www.uniprot.org/help/downloads",
+    "brief_description": "人类标注蛋白质注释数据",
+    "detailed_description": "背景描述\nUniProtKB 子数据库，提供高质量、手动注释的蛋白质序列。\n数据说明\n截至 2025 年，573,661 个非冗余序列，含详细功能和结构注释。\n数据来源\n序列、功能注释、物种、结构域、交互信息、交叉引用\n文件格式：FASTA（序列）、XML（注释）、DAT（原始数据）、TXT（注释）\n问题描述\n功能研究：基于高质量注释，分析蛋白质功能和调控机制\n序列比对：进行同源性搜索，研究蛋白质进化\n生物信息学：开发功能预测工具，整合多源数据"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "88.8MB",
+    "data_volume_mb": "88.8",
+    "source_of_data_volume": "https://www.uniprot.org/help/downloads",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "42700.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

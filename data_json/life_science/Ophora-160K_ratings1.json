@@ -1,0 +1,45 @@
+{
+  "dataset": "Ophora-160K",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K",
+    "brief_description": "医学眼科手术视频-文本对数据集",
+    "detailed_description": "Ophora-160K 包含 162,185 对视频片段与生成指令，这些数据提取自 9,819 个眼科手术叙述视频。所有视频片段的平均时长为 5.54 秒。\n所有眼科叙述视频均采集自 YouTube 平台。文件 ophora161k.csv 包含所有视频片段的 ID 及其对应的生成指令；文件 ophora28k.csv 则是经过筛选后去除字幕、水印等敏感信息的内容。"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "413GB",
+    "data_volume_mb": "422912.0",
+    "source_of_data_volume": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K/tree/main",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2505.07449",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2025/07/14",
+    "source_link": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K/commits/main",
+    "last_update_date": "2025/07/16"
+  }
+}

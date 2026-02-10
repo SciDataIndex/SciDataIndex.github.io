@@ -1,0 +1,13 @@
+{
+  "dataset_name": "SWISS-2DPAGE",
+  "scores": {
+    "openness": 9,
+    "quality": 7,
+    "scale": 1,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 4.45
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

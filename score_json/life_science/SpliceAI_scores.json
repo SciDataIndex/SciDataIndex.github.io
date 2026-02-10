@@ -1,0 +1,13 @@
+{
+  "dataset_name": "SpliceAI",
+  "scores": {
+    "openness": 8,
+    "quality": 0,
+    "scale": 1,
+    "impact": 4,
+    "safety": 4,
+    "ai_readiness": 4,
+    "total_score": 3.1
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

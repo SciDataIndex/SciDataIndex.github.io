@@ -1,0 +1,45 @@
+{
+  "dataset": "AFDB SwissProt",
+  "intro": {
+    "official_link": "https://alphafold.ebi.ac.uk",
+    "brief_description": "AFDB 中由 SwissProt 中的序列预测得到的结构，通常代表质量更好的 AFDB 部分。",
+    "detailed_description": "AFDB 中由 SwissProt 中的序列预测得到的结构，通常代表质量更好的 AFDB 部分。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://alphafold.ebi.ac.uk",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "37GB",
+    "data_volume_mb": "37888.0",
+    "source_of_data_volume": "https://ftp.ebi.ac.uk/pub/databases/alphafold/latest/",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41586-021-03819-2",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "22.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/12/09",
+    "source_link": "https://ftp.ebi.ac.uk/pub/databases/alphafold/latest/",
+    "last_update_date": "2025/08/24"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "IMed-361M",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/General-Medical-AI/IMed-361M",
+    "brief_description": "医学图像交互式分割基准数据集",
+    "detailed_description": "IMed-361M 数据集是目前最大的公开多模态交互式医学图像分割基准数据集，包含640 万张图像、2.734 亿个掩模（每张图像 56 个掩模）、14 种成像模态和204 个分割目标。该数据集确保了六大解剖学组的多样性、细粒度的标注（大多数掩模覆盖图像面积不到 2%），以及广泛的适用性（83% 的图像分辨率在 256×256 到 1024×1024 之间）。"
+  },
+  "openness": {
+    "license_type": "Apache License 2.0",
+    "license_source_link": "https://huggingface.co/datasets/General-Medical-AI/IMed-361M/tree/main",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "313.1GB",
+    "data_volume_mb": "320614.4",
+    "source_of_data_volume": "https://opendatalab.com/GMAI/IMed-361M/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/html/2411.12814v1",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "10.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/11/20",
+    "source_link": "https://huggingface.co/papers/2411.12814",
+    "last_update_date": "2025/01/22"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "FluNet",
+  "intro": {
+    "official_link": "https://www.who.int/tools/flunet",
+    "brief_description": "WHO全球流感病毒学数据共享平台",
+    "detailed_description": "包含全球 131 个国家/区域的流感阴性与阳性样本数量，包括病毒亚型分类（如 A(H1N1)pdm09、A(H3N2)、B(Victoria)、B(Yamagata)）"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://www.who.int/about/policies/publishing/data-policy",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "28.6MB",
+    "data_volume_mb": "28.6",
+    "source_of_data_volume": "https://www.who.int/tools/flunet",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "681.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

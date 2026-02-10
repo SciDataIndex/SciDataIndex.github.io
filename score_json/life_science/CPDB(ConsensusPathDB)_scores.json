@@ -1,0 +1,13 @@
+{
+  "dataset_name": "CPDB(ConsensusPathDB)",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 1,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 4,
+    "total_score": 2.45
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

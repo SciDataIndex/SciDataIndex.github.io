@@ -1,0 +1,45 @@
+{
+  "dataset": "UMIN-CTR",
+  "intro": {
+    "official_link": "https://www.umin.ac.jp/ctr/",
+    "brief_description": "UMIN-CTR是日本的临床试验注册系统",
+    "detailed_description": "包含 UMIN-CTR 注册的所有临床试验信息，如 UMIN ID、试验标题、适应症/条件、赞助者、招募状态、注册登记日期、国家和联系信息等字段"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://www.umin.ac.jp/ctr/UMIN-CTR_e_FAQ.htm",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "40MB",
+    "data_volume_mb": "40.0",
+    "source_of_data_volume": "https://www.umin.ac.jp/ctr/csvdata.html",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2620.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

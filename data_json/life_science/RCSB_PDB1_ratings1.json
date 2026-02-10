@@ -1,0 +1,45 @@
+{
+  "dataset": "RCSB_PDB1",
+  "intro": {
+    "official_link": "nan",
+    "brief_description": "RCSB_PDB 中结构的 生物组装（BioAssembly）文件",
+    "detailed_description": "数据集简述\nRCSB_PDB 中结构的 生物组装（BioAssembly）文件\n文件格式\nPDB1（结构）"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

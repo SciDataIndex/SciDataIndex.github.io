@@ -1,0 +1,45 @@
+{
+  "dataset": "RSCB_PDB_Seq",
+  "intro": {
+    "official_link": "https://www.rcsb.org/downloads/fasta",
+    "brief_description": "RCSB_PDB 中结构对应的序列信息",
+    "detailed_description": "数据集简述\nRCSB_PDB 中结构对应的序列信息\n文件格式\nTXT（序列）"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://www.rcsb.org/docs/programmatic-access/file-download-services#sequence-data",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "57.1MB",
+    "data_volume_mb": "57.1",
+    "source_of_data_volume": "https://www.rcsb.org/downloads/fasta",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://www.rcsb.org/docs/programmatic-access/file-download-services#sequence-data",
+    "last_update_date": "2025/09/03"
+  }
+}

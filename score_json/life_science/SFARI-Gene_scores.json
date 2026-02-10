@@ -1,0 +1,13 @@
+{
+  "dataset_name": "SFARI-Gene",
+  "scores": {
+    "openness": 0,
+    "quality": 10,
+    "scale": 0,
+    "impact": 4,
+    "safety": 10,
+    "ai_readiness": 6,
+    "total_score": 3.7
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

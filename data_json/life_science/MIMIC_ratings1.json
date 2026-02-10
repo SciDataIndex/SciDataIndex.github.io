@@ -1,0 +1,45 @@
+{
+  "dataset": "MIMIC",
+  "intro": {
+    "official_link": "https://mimic.mit.edu/docs/about/",
+    "brief_description": "包括 2001–2008 年间数万 ICU 患者的高分辨率波形数据",
+    "detailed_description": "包括 2001–2008 年间数万 ICU 患者的高分辨率波形数据"
+  },
+  "openness": {
+    "license_type": "ODC-By",
+    "license_source_link": "https://physionet.org/content/mimicdb/1.0.0/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "23.5GB",
+    "data_volume_mb": "24064.0",
+    "source_of_data_volume": "https://physionet.org/content/mimicdb/1.0.0/",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://physionet.org/physiobank/database/mimicdb/mimic-cic96/index.html",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "3360.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2000/03/15",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "UniParc",
+  "scores": {
+    "openness": 8,
+    "quality": 0,
+    "scale": 0,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 8,
+    "total_score": 3.75
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "AIMD-Chig",
+  "intro": {
+    "official_link": "https://www.nature.com/articles/s41597-023-02465-9",
+    "brief_description": "用于训练chignolin的visnet的数据集，AIMD+隐式溶剂化采样，计算结果来自DFT",
+    "detailed_description": "分子动力学（MD）模拟彻底改变了生物分子构象的建模方式，为分子相互作用研究提供了前所未有的洞察。由于大分子生物体系从头算模拟存在难以承受的计算开销，蛋白质动态建模通常受限于分子力学力场方法，这种方法不仅精度有限，还忽略了电子效应。为此，我们构建了AIMD-Chig数据集——该MD数据集包含166个原子的蛋白质Chignolin在密度泛函理论（DFT）层面采样的200万构象，累计消耗7,763,146 CPU小时。初始化的10,000个构象覆盖了Chignolin完整的构象空间，包括折叠态、未折叠态和亚稳态。从头算模拟采用M06-2X/6-31G*方法和340K的Berendsen恒温器进行驱动，并完整记录了每个构象的坐标、能量和受力数据。AIMD-Chig首次将DFT级别的构象空间探索从小分子有机物拓展至真实蛋白质体系，既可为开发蛋白质机器学习势函数提供基准，也能推动具有从头算精度的蛋白质动态过程研究。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://figshare.com/articles/dataset/_strong_AIMD-Chig_exploring_the_conformational_space_of_166-atom_protein_strong_em_strong_Chignolin_strong_em_strong_with_strong_em_strong_ab_initio_strong_em_strong_molecular_dynamics_strong_/22786730",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "12.76GB",
+    "data_volume_mb": "13066.24",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/_strong_AIMD-Chig_exploring_the_conformational_space_of_166-atom_protein_strong_em_strong_Chignolin_strong_em_strong_with_strong_em_strong_ab_initio_strong_em_strong_molecular_dynamics_strong_/22786730",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41597-023-02465-9",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "23.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2023/05/17",
+    "source_link": "https://figshare.com/articles/dataset/_strong_AIMD-Chig_exploring_the_conformational_space_of_166-atom_protein_strong_em_strong_Chignolin_strong_em_strong_with_strong_em_strong_ab_initio_strong_em_strong_molecular_dynamics_strong_/22786730",
+    "last_update_date": "2023/08/16"
+  }
+}

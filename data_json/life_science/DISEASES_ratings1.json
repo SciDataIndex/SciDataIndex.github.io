@@ -1,0 +1,45 @@
+{
+  "dataset": "DISEASES",
+  "intro": {
+    "official_link": "https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/",
+    "brief_description": "DISEASES提供基因-疾病关联信息",
+    "detailed_description": "疾病–基因关联，通过文本挖掘、手动整理（实验/知识库）与 GWAS/cancer mutation 数据综合而成，按来源分类赋予置信评分和星级评价"
+  },
+  "openness": {
+    "license_type": "CC BY-NC",
+    "license_source_link": "https://www.kaggle.com/datasets/soniaghar/ncbi-disease-corpus",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.3MB",
+    "data_volume_mb": "1.3",
+    "source_of_data_volume": "https://www.kaggle.com/datasets/soniaghar/ncbi-disease-corpus",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.sciencedirect.com/science/article/pii/S1532046413001974",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1330.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/",
+    "last_update_date": "2013/08/24"
+  }
+}

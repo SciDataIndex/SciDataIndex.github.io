@@ -1,0 +1,13 @@
+{
+  "dataset_name": "GMAI-MMBench",
+  "scores": {
+    "openness": 0,
+    "quality": 9,
+    "scale": 4,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 4,
+    "total_score": 3.25
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

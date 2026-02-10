@@ -1,0 +1,45 @@
+{
+  "dataset": "IEDB",
+  "intro": {
+    "official_link": "https://www.iedb.org",
+    "brief_description": "IEDB是一个免疫表位数据库",
+    "detailed_description": "共有超过 220 万条 epitope 条目，涵盖感染、过敏、自身免疫、器官移植等领域 tools.iedb.org+15国家过敏与传染病研究所+15help.iedb.org+15。数据类型包括： B/T 细胞表位（线性、多肽、非肽类）、实验测定的 MHC 结合数据、免疫实验（如 ELISPOT、ELISA 等）、TCR/BCR 免疫受体序列与结构信息 help.iedb.org+4"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://help.iedb.org/hc/en-us/articles/19458668574491-IEDB-CoreTrustSeal-Approved-Application",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "533.0MB",
+    "data_volume_mb": "533.0",
+    "source_of_data_volume": "https://discovery.intern-ai.org.cn/org/ailab/dataset/687f403bc6be14a9cd3804e3/nas-directory",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/nar/article/53/D1/D436/7903371",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "6700.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2009/12/03",
+    "source_link": "https://discovery.intern-ai.org.cn/org/ailab/dataset/687f403bc6be14a9cd3804e3/nas-directory",
+    "last_update_date": "2025/10/12"
+  }
+}

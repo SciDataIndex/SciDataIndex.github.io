@@ -1,0 +1,45 @@
+{
+  "dataset": "APARENT",
+  "intro": {
+    "official_link": "https://github.com/johli/aparent",
+    "brief_description": "该数据库系统整合了RNase P的序列、结构及进化信息，为研究这一关键核酸酶的分子特征与进化关系提供基础资源。",
+    "detailed_description": "核糖核酸酶P序列数据库（Ribonuclease P Sequence database）是一个整合了RNase P序列、序列比对、二级结构、三维模型及相关辅助信息的资源库。其初始版本包含细菌和古菌的RNase P RNA数据，以及细菌的RNase P蛋白质数据。所有序列按系统发育关系排序并完成比对。数据库还收录了细菌与古菌RNA的二级结构，包括特别标注的大肠杆菌和枯草芽孢杆菌RNase P RNA的\"参考\"二级结构、最小系统发育共识结构，以及三维结构模型的坐标数据。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/johli/aparent",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "48.2MB",
+    "data_volume_mb": "48.2",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/APARENT",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.cell.com/cell/fulltext/S0092-8674(19)30498-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867419304982%3Fshowall%3Dtrue",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1490.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "GitHub Stars 39",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2019/06/27",
+    "source_link": "https://drive.google.com/drive/folders/10FS2AQh3RzLccdH9uWX1CwuDHrRRLqli",
+    "last_update_date": "2021/10/01"
+  }
+}

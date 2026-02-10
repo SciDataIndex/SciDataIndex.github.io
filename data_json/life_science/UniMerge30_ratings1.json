@@ -1,0 +1,45 @@
+{
+  "dataset": "UniMerge30",
+  "intro": {
+    "official_link": "nan",
+    "brief_description": "UniParc、UniProtKB、MGnify、JGI 聚类数据库，按 30% 序列同一性聚类",
+    "detailed_description": "数据集简述\nUniParc、UniProtKB、MGnify、JGI 聚类数据库，按 30% 序列同一性聚类。\n数据集内容\n309,991,964 个聚类，覆盖 UniParc、UniProtKB、MGnify、JGI 序列。\n关键元信息\n代表序列、聚类成员、物种、功能注释、80% 重叠阈值\nFASTA（序列）、MMseqs Database\n重要应用场景\n模型训练：提供比 UniRef50 多样性更高、数量更多的数据，用于蛋白质序列建模"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

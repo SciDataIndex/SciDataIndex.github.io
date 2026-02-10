@@ -1,0 +1,45 @@
+{
+  "dataset": "DeepCRISPR-Off",
+  "intro": {
+    "official_link": "http://www.deepcrispr.net/",
+    "brief_description": "RNA基因编辑数据库‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+    "detailed_description": "RNA基因编辑数据库‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "1.0MB",
+    "data_volume_mb": "1.0",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/DeepCRISPR-Off/explore/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1459-4",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

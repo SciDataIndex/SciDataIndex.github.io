@@ -1,0 +1,13 @@
+{
+  "dataset_name": "NONCODE",
+  "scores": {
+    "openness": 8,
+    "quality": 9,
+    "scale": 2,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 7,
+    "total_score": 5.05
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

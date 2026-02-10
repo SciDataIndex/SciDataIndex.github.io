@@ -1,0 +1,13 @@
+{
+  "dataset_name": "INFORM",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 1,
+    "impact": 10,
+    "safety": 0,
+    "ai_readiness": 8,
+    "total_score": 4.4
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

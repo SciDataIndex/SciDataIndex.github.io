@@ -1,0 +1,45 @@
+{
+  "dataset": "DHD",
+  "intro": {
+    "official_link": "nan",
+    "brief_description": "该数据库提供加拿大批准药品信息",
+    "detailed_description": "截至目前约 47,000 条药品记录，包括：人用制剂（药物、生物制剂、放射性制剂）兽用制剂、消毒剂等产品类型"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "6940.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

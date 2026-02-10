@@ -1,0 +1,13 @@
+{
+  "dataset_name": "IMed-361M",
+  "scores": {
+    "openness": 0,
+    "quality": 10,
+    "scale": 5,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 8,
+    "total_score": 4.45
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

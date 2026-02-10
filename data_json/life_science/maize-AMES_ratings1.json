@@ -1,0 +1,45 @@
+{
+  "dataset": "maize-AMES",
+  "intro": {
+    "official_link": "https://www.maizegdb.org",
+    "brief_description": "包含全球玉米种质资源的遗传多样性数据集，用于玉米性状遗传研究与育种改良。",
+    "detailed_description": "1. 组成：涵盖 518 份玉米自交系、33 份野生大刍草（玉米祖先）及 841 份驯化玉米×大刍草回交群体（MxT）。\n2. 表型数据：\n- 籽粒蛋白质含量（大刍草达 30%，自交系均值 11.5%）；\n- 雄穗形态特征（紧凑度、长度、宽度）；\n- 地上部组织氮含量及氨基酸组成。\n3. 技术方法：结合基因组学（GWAS、QTL 定位）、三维激光雷达点云分割（LiDAR）及机器学习表型分析。\n4. 应用：定位调控高蛋白（如基因 THP9）、氮利用效率及雄穗性状的关键位点，支撑高产抗逆育种。"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2.3GB",
+    "data_volume_mb": "2355.2",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/maize-AMES",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-6-r55",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "13.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2013/06/11",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "OAS (Observed Antibody Space)",
+  "intro": {
+    "official_link": "https://opig.stats.ox.ac.uk/webapps/oas",
+    "brief_description": "抗体序列数据",
+    "detailed_description": "数据集简述\n抗体序列数据库，记录人类和其他物种的抗体序列多样性。\n数据集内容\n从免疫测序中提取的抗体重链和轻链序列，覆盖健康和疾病状态。\n关键元信息\n序列、物种、免疫状态、链类型（重链/轻链）、V/D/J 基因\n文件格式：FASTA（序列）\n重要应用场景\n抗体药物设计：分析抗体序列多样性，优化治疗性抗体的亲和力。\n疫苗开发：研究免疫反应，设计针对特定病原体的疫苗。\n免疫学研究：探索抗体多样性与疾病（如癌症、病毒感染）的关系。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://opig.stats.ox.ac.uk/webapps/oas",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "http://www.ncbi.nlm.nih.gov/pubmed/34655133",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "29700.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2018/10/08",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

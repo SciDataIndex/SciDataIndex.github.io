@@ -1,0 +1,13 @@
+{
+  "dataset_name": "ClinVar",
+  "scores": {
+    "openness": 0,
+    "quality": 10,
+    "scale": 2,
+    "impact": 6,
+    "safety": 7,
+    "ai_readiness": 8,
+    "total_score": 5.05
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

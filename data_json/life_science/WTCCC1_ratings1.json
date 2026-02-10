@@ -1,0 +1,45 @@
+{
+  "dataset": "WTCCC1",
+  "intro": {
+    "official_link": "https://www.wtccc.org.uk/ccc1/",
+    "brief_description": "大规模全基因组关联研究（GWAS）数据集，涵盖1型和2型糖尿病的遗传变异与疾病关联分析，支持异质性研究。",
+    "detailed_description": "1. 数据组成：\n- T1D数据：1,985例1型糖尿病患者 vs. 3,000例英国健康对照（来自1958年英国出生队列和英国血液服务对照组）；\n- T2D数据：1,924例2型糖尿病患者 vs. 2,938例对照（初始阶段），后续扩展至3,757例病例和5,346例对照；\n- 基因分型技术：Affymetrix 500K芯片（T1D/T2D病例）和Illumina 1.2M芯片（对照组）\n2. 关键发现：\n- T1D：确认HLA-II类基因（如DRB1 * 03/04）为主效易感位点，贡献42%遗传风险；发现胰岛素基因区（IDDM2）等次效位点；\n- T2D：鉴定CDKAL1、CDKN2A/B、IGF2BP2等新易感基因，揭示胰腺β细胞功能缺陷的核心作用；\n3. 异质性分析：\n- 通过多队列整合（如DGI、FUSION）验证跨人群遗传效应差异；\n- 对比LADA（成人隐匿性自身免疫糖尿病）与T1D的MHC区域遗传差异；"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "申请简单"
+  },
+  "data_scale": {
+    "data_volume": "3.2GB",
+    "data_volume_mb": "3276.8",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/WTCCC1",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/nature05911",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "170.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2005/09/28",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "CPDB(ConsensusPathDB)",
+  "intro": {
+    "official_link": "http://cpdb.molgen.mpg.de/",
+    "brief_description": "人类功能作用网络数据库 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "人类功能作用网络数据库 ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "http://cpdb.molgen.mpg.de/YCPDB",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "67.4MB",
+    "data_volume_mb": "67.4",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/ConsensusPathDB/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://doi.org/10.1093/nar/gkn698",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "3260.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/10/19",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

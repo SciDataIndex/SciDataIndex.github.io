@@ -1,0 +1,45 @@
+{
+  "dataset": "RCSB PDB",
+  "intro": {
+    "official_link": "https://www.rcsb.org",
+    "brief_description": "全球生物大分子结构数据库，存储实验测定的蛋白质、核酸结构",
+    "detailed_description": "数据集简述\n全球生物大分子结构数据库，存储实验测定的蛋白质、核酸结构\n数据集内容\n截至 2025 年，195,852 个结构(可下载)，覆盖蛋白质、核酸及复合物\n关键元信息\n结构坐标、实验方法（X 射线、NMR、Cryo-EM）、配体、序列\nPDB（结构）\n重要应用场景\n结构生物学 ：使用实验结构验证预测模型，分析蛋白质构象。\n药物设计：识别蛋白结合位点，设计靶向药物。\n分子模拟：进行分子动力学模拟，研究蛋白质-配体相互作用。"
+  },
+  "openness": {
+    "license_type": "CC0",
+    "license_source_link": "https://www.kaggle.com/datasets/samiraalipour/rcsb-pdb-macromolecular-structure-dataset",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "41.8MB",
+    "data_volume_mb": "41.8",
+    "source_of_data_volume": "https://www.kaggle.com/datasets/samiraalipour/rcsb-pdb-macromolecular-structure-dataset",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "16800.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://files.rcsb.org/pub/pdb/",
+    "last_update_date": "2024/04/02"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "COVID-19-Data-Hub",
+  "intro": {
+    "official_link": "https://covid19datahub.io/",
+    "brief_description": "COVID-19 Data Hub整合多个来源的新冠疫情数据",
+    "detailed_description": "全球国家级疫情数据，涵盖病例、疫苗、住院、政策、移动性等关键变量。"
+  },
+  "openness": {
+    "license_type": "GPL-3",
+    "license_source_link": "https://joss.theoj.org/papers/10.21105/joss.02376",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "250MB",
+    "data_volume_mb": "250.0",
+    "source_of_data_volume": "https://covid19datahub.io/articles/data.html",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://joss.theoj.org/papers/10.21105/joss.02376",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "440.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2020/04/14",
+    "source_link": "https://covid19datahub.io/articles/data.html",
+    "last_update_date": "2024/10/18"
+  }
+}

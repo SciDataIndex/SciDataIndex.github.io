@@ -1,0 +1,45 @@
+{
+  "dataset": "INFORM",
+  "intro": {
+    "official_link": "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Results-and-data",
+    "brief_description": "全球风险指数",
+    "detailed_description": "全球 200 多个国家/地区，数据结构包括国家级 risk score（0–10）及其在三级维度中的分值：\nHazards & Exposure（危害与暴露） Vulnerability（脆弱性） Lack of Coping Capacity（应对能力不足）"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "21MB",
+    "data_volume_mb": "21.0",
+    "source_of_data_volume": "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Results-and-data",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1970000.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

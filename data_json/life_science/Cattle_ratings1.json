@@ -1,0 +1,45 @@
+{
+  "dataset": "Cattle",
+  "intro": {
+    "official_link": "https://academic.oup.com/g3journal/article/5/4/615/6025251#supplementary-data",
+    "brief_description": "奶牛SNP序列数据集",
+    "detailed_description": "奶牛SNP序列数据集"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "2.9GB",
+    "data_volume_mb": "2969.6",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Cattle",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/g3journal/article/5/4/615/6025251?versioned=true",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "493000.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "2015/04/01",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

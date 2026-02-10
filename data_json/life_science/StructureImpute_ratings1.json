@@ -1,0 +1,45 @@
+{
+  "dataset": "StructureImpute",
+  "intro": {
+    "official_link": "https://github.com/Tsinghua-gongjing/StructureImpute",
+    "brief_description": "RNA二级结构补全数据",
+    "detailed_description": "RNA二级结构补全数据"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/Tsinghua-gongjing/StructureImpute/blob/master/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "9.85GB",
+    "data_volume_mb": "10086.4",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/A_deep_learning_method_for_recovering_missing_signals_in_transcriptome-wide_RNA_structure_profiles_from_probing_experiments/16606850",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s42256-021-00412-0",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "6.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/09/11",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

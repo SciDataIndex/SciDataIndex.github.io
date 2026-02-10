@@ -1,0 +1,45 @@
+{
+  "dataset": "GMAI-Reasoning10K",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/General-Medical-AI/GMAI-Reasoning10K",
+    "brief_description": "医学多模态推理数据集",
+    "detailed_description": "GMAI-Reasoning10K 是一个高质量的医疗图像推理数据集，包含 10,000 个精心筛选的样本，旨在支持多模态医学视觉问答与推理任务。\n📌 核心特性： 来源广泛：数据采集自 95 个公开医疗数据集，包括 Kaggle、GrandChallenge、Open-Release 等。 多模态支持：涵盖 12 种医学成像模态，如 X 光、CT、MRI、OCT、眼底照相、皮肤镜图像等。 数据格式：  图像路径（image 字段）、 对话式多轮问答（conversations 字段） 多选题结构（带有单一正确答案）"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://huggingface.co/datasets/General-Medical-AI/GMAI-Reasoning10K/tree/main",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "6.54GB",
+    "data_volume_mb": "6696.96",
+    "source_of_data_volume": "https://huggingface.co/datasets/General-Medical-AI/GMAI-Reasoning10K/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/html/2504.01886v1",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2025/07/21",
+    "source_link": "https://huggingface.co/datasets/General-Medical-AI/GMAI-Reasoning10K/commits/main",
+    "last_update_date": "2025/04/06"
+  }
+}

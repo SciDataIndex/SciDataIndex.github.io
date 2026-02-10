@@ -1,0 +1,45 @@
+{
+  "dataset": "ImmGen-ULI-Deep-RNA-seq-data",
+  "intro": {
+    "official_link": "https://rstats.immgen.org/DataPage/",
+    "brief_description": "ImmGen提供小鼠免疫细胞的基因表达数据",
+    "detailed_description": "使用 ImmGen 的 Ultra‑Low‑Input (ULI) RNA‑seq 流程，对来自小鼠的 5 类纯化免疫细胞（splenic NK、Follicular B 细胞、Naïve CD4⁺ αβT、γδT 细胞和腹腔巨噬细胞）进行 深度 RNA‑seq，每类细胞采集约 16 个生物学重复，共计 83 个样本"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "59.56GB",
+    "data_volume_mb": "60989.44",
+    "source_of_data_volume": "https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA505693&o=acc_s%3Aa",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "64.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

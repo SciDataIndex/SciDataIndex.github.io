@@ -1,0 +1,45 @@
+{
+  "dataset": "TrEMBL",
+  "intro": {
+    "official_link": "https://www.uniprot.org/help/2000-10-30-full",
+    "brief_description": "UniProtKB 子数据库，存储计算机自动注释的蛋白质序列。",
+    "detailed_description": "数据集简述\nUniProtKB 子数据库，存储计算机自动注释的蛋白质序列。\n数据集内容\n截至 2025 年，253,061,696 个未审校序列，来自基因组翻译和 PDB。\n关键元信息\n序列、自动注释、物种、数据库交叉引用\n文件格式：FASTA（序列）、XML（注释）、DAT（原始数据）\n重要应用场景\n基因组分析：快速注释新测序的基因组，初步推断蛋白功能\n序列搜索：大规模同源性分析，寻找潜在功能基因\n数据整合：与 SwissProt 结合，提供全面序列资源"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "59.2GB",
+    "data_volume_mb": "60620.8",
+    "source_of_data_volume": "https://www.uniprot.org/help/downloads",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://academic.oup.com/nar/article/31/1/365/2401437",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "15900.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

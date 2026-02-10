@@ -1,0 +1,45 @@
+{
+  "dataset": "GMAI-MMBench",
+  "intro": {
+    "official_link": "https://uni-medical.github.io/GMAI-MMBench.github.io/",
+    "brief_description": "医学多模态测评数据集",
+    "detailed_description": "GMAI-MMBench 是一个全面的多模态医疗基准测试数据集，专为评估大型视觉语言模型（LVLMs）在医疗领域的表现而设计。该数据集由 284 个子数据集 构成，涵盖了 38 种医疗影像模态、18 个临床任务、18 个医学科室 和 4 种感知粒度，具有高质量标签和全球多样化的数据来源（包括公开数据和医院数据）。"
+  },
+  "openness": {
+    "license_type": "Apache License 2.0",
+    "license_source_link": "https://uni-medical.github.io/GMAI-MMBench.github.io/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "52.2GB",
+    "data_volume_mb": "53452.8",
+    "source_of_data_volume": "https://huggingface.co/datasets/OpenGVLab/GMAI-MMBench/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2408.03361",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "74.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "https://arxiv.org/abs/2408.03361",
+    "last_update_date": "2024/10/21"
+  }
+}

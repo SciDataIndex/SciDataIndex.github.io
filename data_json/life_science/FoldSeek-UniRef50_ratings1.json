@@ -1,0 +1,45 @@
+{
+  "dataset": "FoldSeek-UniRef50",
+  "intro": {
+    "official_link": "nan",
+    "brief_description": "基于 FoldSeek 算法对 UniRef50 数据库进行结构聚类的扩展数据集，结合 AlphaFold 结构预测",
+    "detailed_description": "数据集简述\n基于 FoldSeek 算法对 UniRef50 数据库进行结构聚类的扩展数据集，结合 AlphaFold 结构预测。\n数据集内容\n约 5360 万个 UniRef50 序列，生成约 230 万个结构簇，包含序列和结构信息。\n关键元信息\n序列、结构相似性（TM 分数）、功能注释、聚类 ID、物种。\n文件格式：FoldSeek Database。\n重要应用场景\n结构搜索：用 FoldSeek 快速比较蛋白结构，识别结构相似的蛋白。\n新家族发现：通过结构聚类发现新的蛋白质家族，辅助进化研究。\n功能推断：结合结构和序列，预测蛋白功能，用于蛋白质工程。"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "nan",
+    "preprocessing_level": "nan",
+    "format_consistency": "nan"
+  },
+  "data_quality": {
+    "integrity": "nan",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

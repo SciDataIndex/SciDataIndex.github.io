@@ -1,0 +1,13 @@
+{
+  "dataset_name": "OAS (Observed Antibody Space)",
+  "scores": {
+    "openness": 8,
+    "quality": 0,
+    "scale": 0,
+    "impact": 6,
+    "safety": 7,
+    "ai_readiness": 10,
+    "total_score": 4.65
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

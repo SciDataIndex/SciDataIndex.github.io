@@ -1,0 +1,13 @@
+{
+  "dataset_name": "nRC",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 2,
+    "impact": 8,
+    "safety": 7,
+    "ai_readiness": 7,
+    "total_score": 4.35
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

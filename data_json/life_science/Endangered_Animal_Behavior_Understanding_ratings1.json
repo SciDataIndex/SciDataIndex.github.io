@@ -1,0 +1,45 @@
+{
+  "dataset": "Endangered Animal Behavior Understanding",
+  "intro": {
+    "official_link": "https://lote-animal.github.io/",
+    "brief_description": "基于红外陷阱相机拍摄的12年跨度的濒危动物行为理解数据集，包含11种濒危物种的视频、图像及多任务标注。",
+    "detailed_description": "1. 数据内容：\n- 视频数据：10,000+视频序列（动作识别任务），覆盖不同生态季节、天气、视角和栖息地场景；\n- 图像数据：28,000+图像（目标检测、实例分割、姿态估计任务），含边界框、分割掩码、骨架关键点标注；\n- 补充数据：7,000+同物种网络图像（域适应任务）。\n2. 数据来源：四川卧龙和马边国家级自然保护区的200+红外陷阱相机，连续12年（2011-2023）监测，最小化人为干扰。\n3. 物种覆盖：大熊猫、小熊猫、川金丝猴、藏酋猴、岩羊、中华鬣羚等11种濒危动物。\n4. 应用场景：濒危动物行为分析、跨领域模型泛化、生态预测模型开发。"
+  },
+  "openness": {
+    "license_type": "CC BY-SA 4.0",
+    "license_source_link": "https://lote-animal.github.io/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "85.74GB",
+    "data_volume_mb": "87797.76",
+    "source_of_data_volume": "https://lote-animal.github.io/",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_LoTE-Animal_A_Long_Time-span_Dataset_for_Endangered_Animal_Behavior_Understanding_ICCV_2023_paper.html",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "33.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "GitHub Stars 251",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2023/10/27",
+    "source_link": "https://drive.google.com/file/d/1jedfvdtfzQ9NHFULkISooAqTvCpTO-0s/view",
+    "last_update_date": "2023/10/27"
+  }
+}

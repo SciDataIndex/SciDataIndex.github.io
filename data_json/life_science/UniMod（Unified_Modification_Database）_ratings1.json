@@ -1,0 +1,45 @@
+{
+  "dataset": "UniMod（Unified Modification Database）",
+  "intro": {
+    "official_link": "https://www.unimod.org/unimod_help.html",
+    "brief_description": "面向质谱蛋白质组学的标准化修饰数据库，提供蛋白质翻译后修饰（PTMs）的化学结构与质量变化信息。",
+    "detailed_description": "1. 数据组成：\n- 收录已知蛋白质修饰的标准化名称、化学式、单同位素/平均质量变化值；\n- 涵盖磷酸化、糖基化、乙酰化等常见修饰类型，支持用户自定义修饰；\n2. 功能特点：\n- 为质谱数据分析软件（如Mascot、MaxQuant）提供修饰参数模板，辅助谱图匹配；\n- 通过唯一标识符（UNIMOD ID）实现跨平台数据交换；\n3. 应用场景：\n- 注释质谱数据中的修饰位点（如磷酸化位点定位）；\n- 校准质谱仪质量偏移（如氧化修饰导致的+15.9949 Da。"
+  },
+  "openness": {
+    "license_type": "Copyleft",
+    "license_source_link": "https://www.unimod.org/unimod_help.html",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "3.2MB",
+    "data_volume_mb": "3.2",
+    "source_of_data_volume": "https://www.unimod.org/downloads.html",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/15174123",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1230.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "PhosphoSitePlus v6.7.4",
+  "scores": {
+    "openness": 4,
+    "quality": 0,
+    "scale": 2,
+    "impact": 4,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 3.55
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "RCSB PDB",
+  "scores": {
+    "openness": 9,
+    "quality": 9,
+    "scale": 1,
+    "impact": 6,
+    "safety": 7,
+    "ai_readiness": 8,
+    "total_score": 5.55
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}
