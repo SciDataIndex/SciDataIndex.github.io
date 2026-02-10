@@ -1,0 +1,45 @@
+{
+  "dataset": "MacaquePose",
+  "intro": {
+    "official_link": "https://www.pri.kyoto-u.ac.jp/datasets/macaquepose/index.html",
+    "brief_description": "MacaquePose是标注了自然场景中猕猴的身体部位位置（关键点）的数据集，它由超过 13,000 张图像组成，每张图片中每只猴子的 17 个关键点（鼻子、左右耳、眼睛、肩膀、肘部、手腕、臀部、膝盖和脚踝）。",
+    "detailed_description": "基于视频的无标记运动捕捉技术能以高时空分辨率在自然场景下量化动物的姿态与运动，是解析动物行为与脑功能关联的强大工具。猕猴作为优秀的非人灵长类模型，在神经科学研究中具有特殊价值。然而，由于缺乏可用于训练自然场景下猕猴无标记运动捕捉深度神经网络的数据集，该技术在猕猴研究中的应用一直面临挑战。本研究创建了MacaquePose——一个包含13,000余张自然场景猕猴图像且带有手动标注身体部位关键点的新型开源数据集。我们通过训练和评估人工神经网络验证了该数据集的应用效果，结果表明训练后的网络关键点估计性能接近人类水平。该数据集将显著促进猕猴无标记运动捕捉神经网络的训练/测试及算法开发，为神经科学、医学等以猕猴为模式生物的领域建立创新的行为分析平台提供关键支撑。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "20GB",
+    "data_volume_mb": "20480.0",
+    "source_of_data_volume": "https://www.pri.kyoto-u.ac.jp/datasets/macaquepose/index.html",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2020.581154/full",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "125.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2021/01/18",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

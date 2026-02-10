@@ -1,0 +1,13 @@
+{
+  "dataset_name": "MammalNet|动物识别数据集|行为分析数据集",
+  "scores": {
+    "openness": 8,
+    "quality": 0,
+    "scale": 4,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 5,
+    "total_score": 3.35
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

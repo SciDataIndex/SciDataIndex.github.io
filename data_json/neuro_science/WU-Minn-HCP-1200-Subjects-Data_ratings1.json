@@ -1,0 +1,45 @@
+{
+  "dataset": "WU-Minn-HCP-1200-Subjects-Data",
+  "intro": {
+    "official_link": "https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release",
+    "brief_description": "包含1200名健康年轻成年人的多模态脑成像、行为及遗传数据，用于研究人脑宏观连接组。",
+    "detailed_description": "1. 数据组成：\n- 影像数据：高分辨率3T MRI（结构像T1w/T2w、静息态/任务态fMRI、扩散成像dMRI）、7T MRI（184名被试）、MEG（95名被试）。\n- 行为数据：NIH工具箱认知测试（注意力、执行功能等）、非工具箱行为测量（如ASR焦虑/抑郁评分等）。\n- 遗传数据：全基因组基因型数据（双胞胎及非双胞胎兄弟姐妹）。\n2. 数据特点：\n- 开放数据：大部分影像和行为数据可公开获取，需注册并同意使用条款。\n- 受限数据：涉及隐私的信息（如双胞胎配对）需单独申请。\n3. 预处理：采用HCP专用流程，最小化图像畸变和时间伪影，支持皮层/皮层下结构的自然几何表示。"
+  },
+  "openness": {
+    "license_type": "HCP Data Use Terms",
+    "license_source_link": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "61.2GB",
+    "data_volume_mb": "62668.8",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/WU-Minn-HCP-1200-Subjects-Data/tree/main/raw",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.humanconnectome.org/storage/app/media/documentation/s1200/HCP_S1200_Release_Reference_Manual.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "93.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2017/03/01",
+    "source_link": "https://www.humanconnectome.org/storage/app/media/documentation/s1200/HCP_S1200_Release_Reference_Manual.pdf",
+    "last_update_date": "2018/04/10"
+  }
+}

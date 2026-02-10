@@ -1,0 +1,13 @@
+{
+  "dataset_name": "FIB-25",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 5,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 5,
+    "total_score": 3.35
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

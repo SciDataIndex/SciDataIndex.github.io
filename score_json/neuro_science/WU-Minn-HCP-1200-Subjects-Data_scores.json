@@ -1,0 +1,13 @@
+{
+  "dataset_name": "WU-Minn-HCP-1200-Subjects-Data",
+  "scores": {
+    "openness": 0,
+    "quality": 8,
+    "scale": 4,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 3.55
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

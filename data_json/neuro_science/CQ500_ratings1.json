@@ -1,0 +1,45 @@
+{
+  "dataset": "CQ500",
+  "intro": {
+    "official_link": "https://headctstudy.qure.ai/dataset",
+    "brief_description": "头部CT扫描数据集，可以用来训练识别脑部出血，骨折等病情，一共491个数据",
+    "detailed_description": "头部CT扫描数据集，可以用来训练识别脑部出血，骨折等病情，一共491个数据；发表于2018；我们回顾性地收集了一个数据集，其中包含来自各个中心的313,318个头部ct扫描及其临床报告。该数据集的一部分 (Qure25k数据集) 用于验证，其余用于开发算法。此外，从不同的中心收集了两个批次B1和B2的数据集 (CQ500数据集)，以临床验证算法。"
+  },
+  "openness": {
+    "license_type": "CC BY-NC-SA 4.0",
+    "license_source_link": "https://academictorrents.com/details/47e9d8aab761e75fd0a81982fa62bddf3a173831",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "28.66GB",
+    "data_volume_mb": "29347.84",
+    "source_of_data_volume": "https://academictorrents.com/details/47e9d8aab761e75fd0a81982fa62bddf3a173831/tech&filelist=1",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/pdf/1803.05854.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "449.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/06/05",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

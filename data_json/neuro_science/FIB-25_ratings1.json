@@ -1,0 +1,45 @@
+{
+  "dataset": "FIB-25",
+  "intro": {
+    "official_link": "https://www.janelia.org/tools-and-data-release",
+    "brief_description": "果蝇7-column medulla 的FIB-SEM重建数据",
+    "detailed_description": "FIB25来源于FlyEM项目，FlyEM项目旨在绘制黑腹果蝇的中枢神经系统连接组图谱，其中FIB-25是用于 7 髓柱 FIB-SEM 重建的原始 EM 数据，包含8090张slices（约32μm* 32μm* 64μm） ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "100GB",
+    "data_volume_mb": "102400.0",
+    "source_of_data_volume": "https://www.janelia.org/tools-and-data-release",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.pnas.org/doi/10.1073/pnas.1509820112",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "159.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2015/10/19",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "MacaquePose",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 4,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 3,
+    "total_score": 2.65
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

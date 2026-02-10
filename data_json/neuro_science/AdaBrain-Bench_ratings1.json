@@ -1,0 +1,45 @@
+{
+  "dataset": "AdaBrain-Bench",
+  "intro": {
+    "official_link": "https://github.com/Jamine-W/AdaBrain-Bench?tab=readme-ov-file#dataset-preparation",
+    "brief_description": "AdaBrain-Bench是一个专门用于评估脑电信号基础模型的标准化测评数据集，该数据集涵盖了7类关键的非侵入式脑机接口任务，涉及认知状态评估、人类增强和临床监测等多种应用场景，全面评估模型在各种脑机接口场景下的下游任务泛化能力。",
+    "detailed_description": "数据集简述：AdaBrain-Bench是一个专门用于评估脑电信号基础模型的标准化测评数据集。该数据集涵盖了7类关键任务，共计13个子数据集。\n\n数据集内容：AdaBrain-Bench数据集的7类关键任务是情绪识别、认知负荷分类、警觉模拟、运动想象分类、视觉解码、临床异常检测和睡眠分期。情绪识别子数据集是SEED、SEED-IV；认知负荷分类子数据集是EEGMAT；警觉模拟子数据集是SEED-VIG；运动想象分类子数据集是BCI-IV-2A、SHU；视觉解码子数据集是Things-EEG；临床异常检测子数据集是TUEV、TUAB、Siena；睡眠分期子数据集是HMC、SHHS和Sleep-EDF。\n\n关键元信息：非侵入式脑机接口任务、多任务的标准化脑电评测管线、多种脑机接口泛化场景评测、癫痫检测、情绪识别、运动想象\n\n重要应用场景：脑机接口、神经解码、脑电基础模型评估、脑电解码、临床辅助诊断、认知计算"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/Jamine-W/AdaBrain-Bench?tab=readme-ov-file#dataset-preparation",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "nan",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2507.09882",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2025/07/14",
+    "source_link": "https://arxiv.org/abs/2507.09882",
+    "last_update_date": "2025/08/05"
+  }
+}

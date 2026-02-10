@@ -1,0 +1,45 @@
+{
+  "dataset": "Things-EEG2",
+  "intro": {
+    "official_link": "https://things-initiative.org",
+    "brief_description": "Things-EEG2是视觉解码脑电数据集",
+    "detailed_description": "数据集简述：Things-EEG2是视觉解码脑电数据集\n\n数据集内容：Things-EEG2包括10名受试者在快速连续视觉呈现（RSVP）范式下执行视觉任务时的EEG记录，该范式专门设计用于正交目标检测，以确保对视觉刺激的注意力。 EEG数据使用63个通道以1000Hz的频率收集。每个受试者的实验设计如下：训练时，16,540个不同图像各重复4 次；测试时，200个不同图像重复80次，共进行82,160 次图像试验。从每次试验中提取[0, 1]秒的EEG片段，得到 821 600 个可用样本。\n\n关键元信息：视觉解码、EEG\n\n重要应用场景：认知科学、意念物体选择"
+  },
+  "openness": {
+    "license_type": "Attribution 4.0 International",
+    "license_source_link": "https://osf.io/3jk45/",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "50GB",
+    "data_volume_mb": "51200.0",
+    "source_of_data_volume": "https://osf.io/3jk45/overview",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.sciencedirect.com/science/article/pii/S1053811922008758",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "37.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2021/06/24",
+    "source_link": "https://osf.io/3jk45/overview",
+    "last_update_date": "2025/07/25"
+  }
+}

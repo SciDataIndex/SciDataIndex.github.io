@@ -1,0 +1,45 @@
+{
+  "dataset": "Animal-Kingdom",
+  "intro": {
+    "official_link": "https://sutdcv.github.io/Animal-Kingdom.",
+    "brief_description": "Animal Kingdom是首个涵盖850种动物、多环境条件与多任务标注（行为定位/动作识别/姿态估计）的大规模动物行为数据集，其提出的CARe模型为跨物种行为分析提供新范式。",
+    "detailed_description": "现有动物行为数据集存在多方面的局限性，包括动物类别数量有限、数据样本和任务类型不足，以及环境条件与观察视角的多样性欠缺。为解决这些问题，我们创建了一个大规模多样化数据集——Animal Kingdom（动物王国），通过提供多任务标注以实现对自然动物行为更全面的理解。数据集采用的野生动物影像记录了不同时段、广阔环境中的动物活动，涵盖背景、视角、光照及天气条件的多维变化。具体而言，该数据集包含：50小时标注视频（用于长视频中动物行为片段的时序定位任务）、3万条细粒度多标签动作识别视频序列，以及3.3万帧姿态估计图像，涉及6大类850种动物。这一兼具挑战性与全面性的数据集将推动动物行为分析领域各类先进方法的开发、适配与评估。此外，我们提出协同动作识别模型（CARe），通过提取通用与特异性特征实现对未知新物种的动作识别，实验表明该方法具有优异性能。"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://docs.google.com/forms/d/e/1FAIpQLSccqs92uqbaf1jfHrWB7lMejCDp8galelSRhp4u9DpX5-x3YQ/viewform?pli=1",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "80GB",
+    "data_volume_mb": "81920.0",
+    "source_of_data_volume": "https://sutdcv.github.io/Animal-Kingdom/Animal_Kingdom/",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://openaccess.thecvf.com/content/CVPR2022/html/Ng_Animal_Kingdom_A_Large_and_Diverse_Dataset_for_Animal_Behavior_CVPR_2022_paper.html",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "65.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2022/04/18",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

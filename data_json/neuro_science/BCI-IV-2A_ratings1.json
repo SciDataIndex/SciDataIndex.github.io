@@ -1,0 +1,45 @@
+{
+  "dataset": "BCI-IV-2A",
+  "intro": {
+    "official_link": "https://www.bbci.de/competition/iv/",
+    "brief_description": "该数据集由9名受试者的EEG数据组成，受试者在实验过程中需要进行四种不同的运动想象任务，即左手（1类）、右手（2类）、双脚（3类）和舌头（4类）运动想象。",
+    "detailed_description": "数据集简述：BCI-IV-2A是四分类运动想象分类脑电数据集\n\n数据集内容：BCI-IV-2a包括9名受试者在完成四项运动想象任务时的脑电图记录：想象左手、右手、双脚和舌头的运动。EEG记录是在不同的两个时段采集的，使用22个通道，频率为250Hz。 每个阶段包括288次脑电图试验，每类72次。按照范式，从每次试验中提取[2, 6]秒的片段，从而得到5,184个可用样本。\n\n关键元信息：运动想象分类、EEG\n\n重要应用场景：神经康复、脑控设备"
+  },
+  "openness": {
+    "license_type": "CC BY-ND",
+    "license_source_link": "https://bnci-horizon-2020.eu/database/data-sets",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "420MB",
+    "data_volume_mb": "420.0",
+    "source_of_data_volume": "https://www.bbci.de/competition/iv/download/index.html?agree=yes&submit=Submit",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.bbci.de/competition/iv/desc_2a.pdf",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "399.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2008/05/26",
+    "source_link": "https://ieee-dataport.org/documents/bci-competition-2008-graz-data-set",
+    "last_update_date": "2024/01/17"
+  }
+}

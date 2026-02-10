@@ -1,0 +1,45 @@
+{
+  "dataset": "ImageNet-EEG",
+  "intro": {
+    "official_link": "https://dl.acm.org/doi/10.1145/3123266.3127907",
+    "brief_description": "记录受试者（N=6）观看40人ImageNet图像时的脑电信号（EEG）。",
+    "detailed_description": "128导联脑电记录，采样率≥500Hz，覆盖40类ImageNet图像刺激下的脑活动。可以支持做视觉解码（分类、注意力检测等）相关研究。注意该数据集采用block-design设计，存在缺陷。"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "10.2GB",
+    "data_volume_mb": "10444.8",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/ImageNet-EEG/tree/main/raw/eeg_cvpr_2017/data",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://dl.acm.org/doi/10.1145/3123266.3127907",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "41.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2017/10/23",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "MammalNet|动物识别数据集|行为分析数据集",
+  "intro": {
+    "official_link": "https://mammal-net.github.io/",
+    "brief_description": "MammalNet视频数据集围绕涵盖 17 个目、69 个科和 173 个哺乳动物类别的生物哺乳动物分类学构建，并包括 12 种常见的高级哺乳动物行为（例如狩猎、梳理行为）。 MammalNet 能够单独或联合研究动物和行为识别。它还有助于研究具有挑战性的构图场景，测试模型的零样本和低样本迁移能力。",
+    "detailed_description": "MammalNet——一个用于识别哺乳动物及其行为的大规模视频基准数据集。该数据集基于涵盖17目、69科、173种哺乳动物的生物分类体系构建，包含12种常见高级哺乳动物行为（如狩猎、理毛）。\nMammalNet支持对动物识别和行为识别的独立及联合研究，并为测试模型在零样本和少样本迁移能力方面的挑战性组合场景提供研究基础。此外，该数据集还包含对未剪辑视频中行为发生时间点的定位检测。作为首个以生态学为基础实现大规模动物行为分析的数据集，MammalNet为计算机视觉社区提出了多重挑战，包括细粒度类别的不平衡层次分布识别，以及对未见或罕见场景的泛化能力测试。"
+  },
+  "openness": {
+    "license_type": "CC BY",
+    "license_source_link": "https://mammal-net.github.io/#main-section",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "93.7GB",
+    "data_volume_mb": "95948.8",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/MammalNet",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_MammalNet_A_Large-Scale_Video_Benchmark_for_Mammal_Recognition_and_Behavior_CVPR_2023_paper.html",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "95.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2023/06/01",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

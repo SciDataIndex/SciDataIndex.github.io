@@ -1,0 +1,13 @@
+{
+  "dataset_name": "MindBigData2023-MNIST-8B",
+  "scores": {
+    "openness": 6,
+    "quality": 0,
+    "scale": 4,
+    "impact": 0,
+    "safety": 10,
+    "ai_readiness": 3,
+    "total_score": 2.9
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

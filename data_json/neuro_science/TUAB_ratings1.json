@@ -1,0 +1,45 @@
+{
+  "dataset": "TUAB",
+  "intro": {
+    "official_link": "https://isip.piconepress.com/projects/nedc/html/tuh_eeg/",
+    "brief_description": "二分类临床异常检测脑电数据集",
+    "detailed_description": "数据集简述：TUAB是二分类临床异常检测脑电数据集\n\n数据集内容：TUAB包含2,383名受试者的EEG记录，这些记录被分为临床正常或异常活动。EEG使用23个通道采集，大部分记录频率为256Hz，还有一部分记录频率为250Hz或512Hz。 所有信号被分割成 409,455个10 秒可用样本。\n\n关键元信息：临床异常检测、EEG\n\n重要应用场景：异常脑电检测、癫痫药物疗效评估"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "-",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "申请简单"
+  },
+  "data_scale": {
+    "data_volume": "-",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "290.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

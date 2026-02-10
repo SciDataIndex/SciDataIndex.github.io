@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Thoughtviz dataset",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 2,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 4,
+    "total_score": 2.25
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

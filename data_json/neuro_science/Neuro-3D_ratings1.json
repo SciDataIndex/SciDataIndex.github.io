@@ -1,0 +1,45 @@
+{
+  "dataset": "Neuro-3D",
+  "intro": {
+    "official_link": "https://github.com/gzq17/neuro-3D",
+    "brief_description": "是首个基于脑电（EEG）信号解码重建 3D 视觉感知的多模态神经影像数据集。",
+    "detailed_description": "背景描述\nNeuro-3D 是首个面向 3D 视觉解码 的 EEG 多模态数据集，通过记录 12 名受试者在观看 72 类 3D 物体（共 720 个样本）时的脑电信号，并结合高分辨率的视觉数据与标注，为研究大脑 3D 感知机制提供关键数据支持。\n数据集内容\nNeuro-3D 数据集采集了 12 名健康成年受试者（5 名男性，7 名女性，平均年龄 21.08 岁）的脑电信号，每名受试者在实验过程中依次观看 3D 物体的 0.5 秒静态图像和 6 秒 360° 旋转视频，同时通过 64 通道 EEG 设备以 1000Hz 采样率记录其神经活动。数据集包含多模态数据：脑电信号涵盖静息态、静态刺激（单帧图像）和动态刺激（旋转视频）三类；视觉数据包括每物体 180 帧的高清旋转视频（1024×1024 分辨率）、静态首帧图像以及带颜色标注的 3D 点云（每物体 8192 个点）；文本标签提供物体语义类别（72 类）、主颜色类型（6 类）及描述性文本。原始 EEG 经 250 Hz 降采样、0.1–100 Hz 带通滤波与噪声归一化预处理；训练集每物体重复 2 次，测试集重复 4 次，形成约 5.5 小时/人的神经影像资源。\n关键元信息\n首次提供 EEG 与彩色 3D 物体的配对数据，填补了基于 EEG 信号进行 3D 视觉解码领域的空白。\n重要应用场景\n评估 EEG 信号对 3D 物体的解码能力；探索人脑对于 3D 视觉信息的处理机制。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "14.5GB",
+    "data_volume_mb": "14848.0",
+    "source_of_data_volume": "https://huggingface.co/datasets/guozq21/neuro-3D/tree/main",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2411.12248",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "96.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2025/03/09",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

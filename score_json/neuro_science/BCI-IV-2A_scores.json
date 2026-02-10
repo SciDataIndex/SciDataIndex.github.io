@@ -1,0 +1,13 @@
+{
+  "dataset_name": "BCI-IV-2A",
+  "scores": {
+    "openness": 3,
+    "quality": 9,
+    "scale": 2,
+    "impact": 2,
+    "safety": 7,
+    "ai_readiness": 4,
+    "total_score": 3.45
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

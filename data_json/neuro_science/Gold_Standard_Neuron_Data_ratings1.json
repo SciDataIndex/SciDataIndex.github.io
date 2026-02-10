@@ -1,0 +1,45 @@
+{
+  "dataset": "Gold Standard Neuron Data",
+  "intro": {
+    "official_link": "https://github.com/BigNeuron/Data/releases",
+    "brief_description": "跨物种的、广泛多样的三维神经元图像数据集及基准测试，迄今最大的神经元重建基准测试数据集。",
+    "detailed_description": "研究团队收集了大约3万个跨物种的、广泛多样的三维神经元图像数据集，并将它们用于自动追踪算法的基准测试，生成了140万个追踪结果，得到了迄今最大的神经元重建基准测试数据集。从中选取了166个神经元图像，并通过专家手动标注得到了其“金标准”重建形态，称为Gold166数据集，用于自动追踪算法的后验基准测试。"
+  },
+  "openness": {
+    "license_type": "机构/领域特定协议（开放型）",
+    "license_source_link": "https://github.com/BigNeuron/Data/releases",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "12.4GB",
+    "data_volume_mb": "12697.6",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Gold166-v1",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://www.cell.com/neuron/fulltext/S0896-6273(15)00599-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627315005991%3Fshowall%3Dtrue",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "26.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2016/11/03",
+    "source_link": "https://github.com/BigNeuron/Data/releases",
+    "last_update_date": "2016/11/03"
+  }
+}

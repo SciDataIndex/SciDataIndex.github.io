@@ -1,0 +1,45 @@
+{
+  "dataset": "CREMI",
+  "intro": {
+    "official_link": "https://cremi.org/",
+    "brief_description": "该数据集包含成年黑腹果蝇大脑的电子显微镜切片图像及其神经元分割和突触连接注释，用于评估自动神经回路重建算法在神经元分割、突触检测与配对识别方面的准确性与通用性。",
+    "detailed_description": "这一挑战的目标是评估从串行切片电子显微镜数据中自动重建神经元和神经元连接的算法。不仅通过评估神经元分割的质量，还通过评估检测突触和识别突触伙伴的准确性来进行比较。该挑战是在来自成年黑腹果蝇大脑组织的三个大型且多样化的数据集上进行的，包括神经元分割基础事实和突触连接的注释。一个成功的解决方案将证明其效率和普遍性，并具有巨大的潜力，可以减少在电子显微镜体积中手动重建神经回路所花费的时间。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "nan",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1GB",
+    "data_volume_mb": "1024.0",
+    "source_of_data_volume": "https://cremi.org/data/",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "344.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2016/05/01",
+    "source_link": "https://cremi.org",
+    "last_update_date": "2017/04/18"
+  }
+}

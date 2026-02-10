@@ -1,0 +1,13 @@
+{
+  "dataset_name": "ImageNet-EEG",
+  "scores": {
+    "openness": 0,
+    "quality": 0,
+    "scale": 4,
+    "impact": 0,
+    "safety": 4,
+    "ai_readiness": 4,
+    "total_score": 2.2
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

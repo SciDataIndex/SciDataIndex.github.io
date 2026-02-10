@@ -1,0 +1,45 @@
+{
+  "dataset": "小鼠海马体单神经数据集",
+  "intro": {
+    "official_link": "https://www.braindatacenter.cn/datacenter/web/index.html#/dataSet/details?id=1755143583550119938",
+    "brief_description": "Single-neuron datasets for mouse hippocampus（小鼠海马体单神经数据集），包含超过1万海马体单神经数据集。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+    "detailed_description": "Single-neuron datasets for mouse hippocampus（小鼠海马体单神经数据集），包含超过1万海马体单神经数据集。 ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://cstr.cn/33145.11.BSDC.1667284058.1585980235450376194",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "4.41GB",
+    "data_volume_mb": "4515.84",
+    "source_of_data_volume": "https://www.braindatacenter.cn/datacenter/web/index.html#/dataSet/details?id=1755143583550119938",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "0.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/02/07",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "zebra-finch",
+  "intro": {
+    "official_link": "https://elifesciences.org/articles/24364",
+    "brief_description": "斑胸草雀行为、神经活动及生态学数据集，涵盖鸣唱学习、配偶识别、温度适应等研究领域。",
+    "detailed_description": "1. 数据内容：\n- 鸣唱行为数据：记录求偶歌曲的神经机制（丘脑驱动HVC神经元活动）及多巴胺神经元编码表现误差的神经信号；\n- 行为实验数据：包括配偶面部识别实验（通过图像选择测试配偶识别能力）\n、高温适应性实验（26℃以上“热歌”对后代发育的影响）；\n- 生态数据：极端温度对精子质量的影响、群体社会行为（如单配偶制维持机制）。\n2. 数据来源：野外观察与实验室控制实验结合，涉及红外相机、神经电生理记录、基因分析等技术。\n3. 应用场景：神经科学（学习与记忆）、进化生物学（适应性行为）、生态学（气候变化响应）。"
+  },
+  "openness": {
+    "license_type": "nan",
+    "license_source_link": "nan",
+    "charging_mode": "nan",
+    "access_restrictions": "nan",
+    "application_difficulty": "nan"
+  },
+  "data_scale": {
+    "data_volume": "-",
+    "data_volume_mb": "nan",
+    "source_of_data_volume": "nan",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://doi.org/10.7554/eLife.24364.002",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "15300.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "nan",
+    "traceability": "nan"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2017/03/27",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

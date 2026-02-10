@@ -1,0 +1,45 @@
+{
+  "dataset": "Thoughtviz dataset",
+  "intro": {
+    "official_link": "https://link.springer.com/article/10.1007/s00779-017-1083-4",
+    "brief_description": "收集了23名受试者观看图片时的脑电数据。视觉刺激是10 个不同 的ImageNet 类别图像，每类 100 张，总共 1,000 张图像",
+    "detailed_description": "收集了23名受试者观看图片时的脑电数据。视觉刺激是10 个不同 的ImageNet 类别图像，每类 100 张，总共 1,000 张图像"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://huggingface.co/datasets/luigi-s/EEG_Image_TVIZ_ALL_subj",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "602.7MB",
+    "data_volume_mb": "602.7",
+    "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Thoughtviz-dataset",
+    "estimated_manually": "nan"
+  },
+  "impact": {
+    "paper_link": "https://link.springer.com/article/10.1007/s00779-017-1083-4",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "122.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "nan",
+    "models_using_this_dataset": "nan"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "无元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2017/09/30",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}
