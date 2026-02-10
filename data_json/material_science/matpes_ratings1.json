@@ -1,0 +1,45 @@
+{
+  "dataset": "matpes",
+  "intro": {
+    "official_link": "https://matpes.ai/",
+    "brief_description": "约40万结构",
+    "detailed_description": "从MPtraj数据库种采样cell大于10A的构型，使用通用势获取轨迹，分层聚类采样然后使用vasp，使用r2scan和pbe两种泛函分别计算能量和受力"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://www.researchgate.net/publication/381703968_MatText_Do_Language_Models_Need_More_than_Text_Scale_for_Materials_Modeling",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "782MB",
+    "data_volume_mb": "782.0",
+    "source_of_data_volume": "https://matpes.ai/",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2503.04070",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "50.0",
+    "google_scholar_screenshot": "MATPES.png",
+    "download_volume_or_user_count": "59/月",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2025/03/01",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

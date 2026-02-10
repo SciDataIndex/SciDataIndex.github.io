@@ -1,0 +1,45 @@
+{
+  "dataset": "MatText",
+  "intro": {
+    "official_link": "https://huggingface.co/datasets/n0w0f/MatText",
+    "brief_description": "MatText 是一个为材料科学领域中基于文本的语言模型设计的基准测试工具和数据集套件。它提供了多种将晶体结构转化为文本的表示方法，并配备标准化的训练与测试划分、评估探针和分析工具，以系统性地评估语言模型在材料建模中的表现和局限性。",
+    "detailed_description": "数据集简述：MatText 数据集源于开源材料结构数据库（如 NOMAD），结合现有工具如 MatBench，针对不同任务和尺度构建标准化文本表示。它致力于研究不同表示方法及数据规模对材料属性预测的影响。\n数据集内容：数据集主要包含九种不同的材料文本表示方式，包括四种已有表示和五种首次提出的新型表示。这些表示方式引入了诸如局域性、几何性、对称性等不同的归纳偏置，以探讨这些结构信息对语言模型性能的影响。\n关键元信息：每种表示方法都转换自晶体结构数据，并保留或删减部分原始几何信息。代表性内容包括 Composition、CIF P1、Z-Matrix、SLICES、Atom Sequence、Local-Env 等，涵盖从简单成分到复杂局部环境信息的全谱。\n重要应用场景：这些数据与表示的关键应用场景包括材料性质预测（如体模量、剪切模量、带隙、形成能等）、对语言模型归纳偏置的分析、文本表示信息含量研究，以及在材料生成与建模方面的应用探索。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/lamalab-org/MatText/blob/main/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "69.7mb",
+    "data_volume_mb": "69.7",
+    "source_of_data_volume": "https://huggingface.co/datasets/n0w0f/MatText/tree/main/data",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "105.0",
+    "google_scholar_screenshot": "MatText.png",
+    "download_volume_or_user_count": "1846次/月",
+    "models_using_this_dataset": "各种基于Transformer架构的语言模型"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2024/06/01",
+    "source_link": "https://github.com/lamalab-org/MatText",
+    "last_update_date": "2024/11/01"
+  }
+}

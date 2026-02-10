@@ -1,0 +1,17 @@
+[
+  "CURIE_ratings1.json",
+  "CheMatAgent：化学与材料工具调用benchmark_ratings1.json",
+  "GNOME_ratings1.json",
+  "GuacaMol_ratings1.json",
+  "JARVIS-QETB_ratings1.json",
+  "Jarvis-DFT_ratings1.json",
+  "LLM4Mat-Bench_ratings1.json",
+  "MatText_ratings1.json",
+  "Materials_Project_ratings1.json",
+  "NLP4MatSci_ratings1.json",
+  "OMDB_ratings1.json",
+  "OQMD_ratings1.json",
+  "QMOF_ratings1.json",
+  "SciCode_ratings1.json",
+  "matpes_ratings1.json"
+]

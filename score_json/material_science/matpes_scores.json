@@ -1,0 +1,13 @@
+{
+  "dataset_name": "matpes",
+  "scores": {
+    "openness": 8,
+    "quality": 0,
+    "scale": 2,
+    "impact": 0,
+    "safety": 7,
+    "ai_readiness": 6,
+    "total_score": 2.95
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

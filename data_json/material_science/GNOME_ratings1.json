@@ -1,0 +1,45 @@
+{
+  "dataset": "GNOME",
+  "intro": {
+    "official_link": "https://www.nature.com/articles/s41586-023-06735-9",
+    "brief_description": "材料结构与性质数据集",
+    "detailed_description": "用图神经网络和DFT发现的数据集，包含381k稳定化合物。通过主动学习和图网络联合训练，展示大规模训练的图网络可以达到前所未有的泛化水平，从而将材料发现的效率提高了一个数量级。除结构式外，还包含结构CIF文件与对应的描述。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://next-gen.materialsproject.org/about/terms",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "2 GB",
+    "data_volume_mb": "2048.0",
+    "source_of_data_volume": "GitHub - google-deepmind/materials_discovery",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://www.nature.com/articles/s41586-023-06735-9",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "97.0",
+    "google_scholar_screenshot": "GNOME.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "GNoME模型本身, Nequip , LLM4Mat-Bench"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2023/11/01",
+    "source_link": "https://github.com/google-deepmind/materials_discovery",
+    "last_update_date": "2024/08/01"
+  }
+}

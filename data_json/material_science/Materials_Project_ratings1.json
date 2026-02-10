@@ -1,0 +1,45 @@
+{
+  "dataset": "Materials Project",
+  "intro": {
+    "official_link": "Materials Project",
+    "brief_description": "Materials Project提供大量计算得出的材料属性，加速新材料的发现。项目于2011年启动，由Kristin Persson博士领导，开源。数据库涵盖多种材料，包括无机化合物和分子。提供的主要属性包括：形成焓：指示材料稳定性。晶体结构 (CIF)：描述原子排列。带隙：固体材料中价带（Valence Band）顶部与导带（Conduction Band）底部之间的能量差。Materials Project的数据通过计算方法生成，主要使用密度泛函理论（DFT），通过与实验数据对比确保高精度。自2011年启动以来，数据库显著增长。截至2025年中，估计包含超过18万个材料，基于2021年超过13万无机化合物和3.5万分子的数据，新增了数万条目。材料项目广泛用于识别新材料、预测其属性和分析趋势，支持可持续技术的进步。",
+    "detailed_description": "基本性质: 化学式、密度、晶体结构（包括晶格参数）等；热力学性质: 生成能，用于评估材料的稳定性；电子结构: 能带结构和态密度 (DOS)；力学性质: 弹性张量、压电张量等；其他专门数据集: 数据库还包括用于电池研究的嵌入电极和转化电极数据、纳米多孔材料、分子以及通过文献挖掘提取的合成路线等"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://fairsharing.org/2501?utm_source=chatgpt.com",
+    "charging_mode": "完全免费",
+    "access_restrictions": "分批下载",
+    "application_difficulty": "申请简单"
+  },
+  "data_scale": {
+    "data_volume": "100TB",
+    "data_volume_mb": "104857600.0",
+    "source_of_data_volume": "Updating...",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://pubs.aip.org/aip/apm/article/1/1/011002/119685",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "33900.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "650000",
+    "models_using_this_dataset": "图神经网络（如CGCNN、SchNet、MEGNet、ALIGNN等）基于Transformer的模型（如Matformer）等，也有基于物理描述符的随机森林等传统机器学习方法。"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2011/01/01",
+    "source_link": "https://docs.materialsproject.org/changes/database-versions",
+    "last_update_date": "2025/06/09"
+  }
+}

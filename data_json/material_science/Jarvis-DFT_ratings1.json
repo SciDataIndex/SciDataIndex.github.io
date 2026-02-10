@@ -1,0 +1,45 @@
+{
+  "dataset": "Jarvis-DFT",
+  "intro": {
+    "official_link": "https://jarvis.nist.gov/login?next=/jarvisdft/",
+    "brief_description": "材料结构与性质数据集",
+    "detailed_description": "由NIST的研究者们收集的DFT计算数据集，包括形成能、能带等多项材料性质。可以用来训练结构成到性质的预测模型，也可以用来训练生成模型。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://catalog.data.gov/dataset/jarvis-joint-automated-repository-for-various-integrated-simulations-5fba2",
+    "charging_mode": "完全免费",
+    "access_restrictions": "分批下载",
+    "application_difficulty": "申请简单"
+  },
+  "data_scale": {
+    "data_volume": "1.37GB",
+    "data_volume_mb": "1402.88",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/jdft_3d-7-7-2018_json/6815699",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "5.0",
+    "google_scholar_screenshot": "JARVIS-QETB.png",
+    "download_volume_or_user_count": "150000",
+    "models_using_this_dataset": "ALIGNN, AtomGPT , LLM4Mat-Bench"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "无缺失值",
+    "first_release_date": "2017/01/01",
+    "source_link": "https://jarvis.nist.gov/",
+    "last_update_date": "2025/10/20"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "CURIE",
+  "intro": {
+    "official_link": "https://figshare.com/articles/dataset/A_Dataset_of_Curie_and_Neel_Temperatures_auto-generated_with_ChemDataExtractor_and_the_Snowball_Algorithm/29559686",
+    "brief_description": "CURIE 是一个专为科学领域设计的大型语言模型（LLM）评估基准，用于测试模型在长上下文理解、多任务推理和信息提取方面的能力。数据集聚焦于模拟科学家在真实工作流程中的任务场景，涵盖从概念提取、聚合分析、符号推导到代码生成等各类高复杂度问题，特别强调从完整科研论文中提取关键信息的能力。",
+    "detailed_description": "数据集简述：CURIE 数据集以其覆盖面广和任务难度高而显著。数据集共包含来自六个不同科学学科的任务：材料科学、凝聚态物理、量子计算、地理空间分析、生物多样性和蛋白质结构分析，内容包含实验和理论类研究。每项任务均由该领域的博士级专家设计，确保其科学性和现实性。问题和解答配对形式来自于真实科研文献，任务所需信息均存在于提供的全文上下文中。\n数据集内容：数据集涵盖了十类代表性科学任务，如材料属性提取（MPV）、密度泛函理论输入解析（DFT-S/P/C）、哈特里-福克推导（HFD）、蛋白质序列重建（PDB）等，涵盖了概念追踪、跨领域综合、符号推理、代码生成与图像理解等能力。这些任务旨在模拟实际科研工作中模型可能替代或辅助人类科学家完成的关键步骤。\n关键元信息：每项任务都要求模型具备从论文中提取分散信息的能力，部分任务还包含多模态输入（如地图图像与说明）。标注信息包括难度评估和结构化或自由文本格式的参考解答，具备丰富的知识密度和语言表达多样性。为评估模型表现，研究引入了自动化指标如 ROUGE-L、BERTScore、IoU 和 IDr，并结合专家人工评分验证模型表现。\n重要应用场景：全CURIE 数据集在科研、AI 模型评估、语言模型能力分析等多个场景下具备极高应用价值。它不仅可以用于测试模型对复杂科学语境的适应性，还能促进模型在科学工作流自动化方面的研发进程，同时对未来研究型语言模型的能力提升提供清晰方向"
+  },
+  "openness": {
+    "license_type": "Apache License 2.0",
+    "license_source_link": "https://github.com/Just-Curieous/Curie",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "40.87MB",
+    "data_volume_mb": "40.87",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/A_Dataset_of_Curie_and_Neel_Temperatures_auto-generated_with_ChemDataExtractor_and_the_Snowball_Algorithm/29559686",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "22.0",
+    "google_scholar_screenshot": "CURIE dataset.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/06/15",
+    "source_link": "https://figshare.com/articles/dataset/A_Dataset_of_Curie_and_Neel_Temperatures_auto-generated_with_ChemDataExtractor_and_the_Snowball_Algorithm/29559686",
+    "last_update_date": "2025/10/03"
+  }
+}

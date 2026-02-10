@@ -1,0 +1,45 @@
+{
+  "dataset": "LLM4Mat-Bench",
+  "intro": {
+    "official_link": "https://github.com/vertaix/LLM4Mat-Bench",
+    "brief_description": "LLM4Mat-Bench 是目前规模最大、最全面的基准数据集之一，旨在评估大语言模型（LLMs）在晶体材料性质预测任务中的表现。该数据集聚合了来自10个公开数据库的约190万晶体结构，涵盖45种材料性质。",
+    "detailed_description": "数据集简述：LLM4Mat-Bench 的构建目标是为材料科学领域提供一个标准化的评估平台，用于测试和比较大语言模型（LLMs）在材料性质预测任务中的表现。该数据集聚焦于原子晶体与金属有机框架（MOFs），涵盖它们的多种物理与化学性质预测任务。其最大特点在于同时支持三种输入模态——材料的化学组成（composition）、晶体结构文件（CIF）、以及基于CIF生成的自然语言结构描述（description），并围绕这些模态设计了适用于LLMs的zero-shot和few-shot提示格式，能够系统性地评估不同模型的泛化与迁移能力。\n数据集内容：在数据内容方面，LLM4Mat-Bench 总计包含约 2,697,779 个晶体结构文件。经过预处理与筛选，其中 1,978,985 个形成了完整的样本对，涵盖化学组成、晶体结构和结构描述三种模态。数据文本规模上，composition 模态包含约 470 万个 token，CIF 模态约 6.15 亿个 token，而 description 模态最为丰富，总计约 31 亿个 token。这些数据为模型提供了从稀疏表征到详细结构的完整输入，有助于探索 LLMs 在多模态条件下的性能表现。\n关键元信息：数据来源广泛，涵盖10个主流公开数据库，包括 Materials Project、OQMD、JARVIS-DFT、OMDB、QMOF、hMOF、GNoME、Cantor HEA、JARVIS-QETB 和 SNUMAT，确保样本的代表性与多样性。在任务设计上，数据集共包含45种不同的材料性质，如带隙（bandgap）、形成能（formation energy）、弹性模量（elastic moduli）等，对应60个回归任务和5个分类任务。为满足文本输入的需要，所有结构描述均由 Robocrystallographer 自动从 CIF 文件生成，确保了描述的规范性、一致性，并避免与模型预训练语料重合，防止数据泄漏。\n重要应用场景：LLM4Mat-Bench 的潜在应用场景广泛，尤其适用于材料科学中依赖精确性质预测的任务，例如辅助新材料设计与筛选。此外，该数据集适合多模态表示学习研究，可用于训练和验证模型如何融合结构与文本信息。同时，它为指令微调、上下文学习等大模型训练范式提供了丰富实验基础，是开发面向科研应用的专用LLMs的重要资源工具。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://openreview.net/pdf?id=TSAeQSv9RI",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "15GB",
+    "data_volume_mb": "15360.0",
+    "source_of_data_volume": "https://github.com/vertaix/LLM4Mat-Bench",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2411.00177v1",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "29.0",
+    "google_scholar_screenshot": "LLM4Mat-Bench.png",
+    "download_volume_or_user_count": "Stars: 21",
+    "models_using_this_dataset": "LLM-Prop, MatBERT, Llama, Gemma, Mistral等"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过降噪处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/09/26",
+    "source_link": "https://github.com/vertaix/LLM4Mat-Bench/commits/main/",
+    "last_update_date": "2024/09/26"
+  }
+}

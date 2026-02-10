@@ -1,0 +1,45 @@
+{
+  "dataset": "CheMatAgent：化学与材料工具调用benchmark",
+  "intro": {
+    "official_link": "物质科学化学科学化学物质结构特征,物理与化学特征归档数据文本数据文本.json,.parquethttps://arxiv.org/abs/2404.01475348ChemBench.pngStars: 120 Forks: 14",
+    "brief_description": "ChemToolBench是一个面向化学和材料领域的工具调用学习的大规模数据集，专注于支持基于大语言模型的化学材料智能体（ChemMatAgent）在单工具和多工具场景下的调用、推理与交互。该数据集通过标准化的参数命名、工具文档与示例输入，实现了化学工具调用学习与评估的一体化资源。",
+    "detailed_description": "数据集简述：ChemToolBench是面向化学材料领域工具调用学习的大规模数据集，该数据集标准化了来自五大化学工具包（ChemCrow、CACTUS、chemlib、pymatgen、Chemistry Tools）共 137 个接口的调用示例，覆盖单工具与多工具调用场景，旨在提升模型对化学工具理解、调用链推理与执行的能力。\n数据集内容：包括137个工具以及化学材料数据集，化学数据集共计12464条，材料数据集共计17365条。\n关键元信息：工具接口元数据、输入参数规范、输出格式、数据拆分详情、生成与校验方式、维护信息。\n重要应用场景：大模型工具调用能力研究、化学材料大模型评测。"
+  },
+  "openness": {
+    "license_type": "Apache License 2.0",
+    "license_source_link": "https://huggingface.co/api/resolve-cache/datasets/RadiCat/ChemToolBench/b3665cc9d322cf171311fc7ddd1f46b794b417a0/README.md?download=true&etag=%22b728f230e982c387d578794a9dc2e7b20a36f256%22",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "39MB",
+    "data_volume_mb": "39.0",
+    "source_of_data_volume": "https://github.com/AI4Chem/ChemistryAgent",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/html/2506.07551v2#S1",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1.0",
+    "google_scholar_screenshot": "CheMatAgent.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "模型包括大型预训练语言模型（如 GPT-4 等 Transformer）与增强的蒙特卡洛树搜索算法（HE-MCTS）相结合的混合模型"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "nan",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "nan",
+    "source_link": "nan",
+    "last_update_date": "nan"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "OQMD",
+  "intro": {
+    "official_link": "https://oqmd.org/",
+    "brief_description": "材料结构与性质数据集",
+    "detailed_description": "数据集描述：OQMD 是一个高通量数据库，目前包含来自无机晶体结构数据库 (ICSD) 的近96万 个密度泛函理论 (DFT) 化合物总能量计算数据以及常见晶体结构的修饰数据。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://scispace.com/pdf/the-open-quantum-materials-database-oqmd-assessing-the-5duio4d19e.pdf",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "19.2GB",
+    "data_volume_mb": "19660.8",
+    "source_of_data_volume": "OQMD | Download",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "(PDF) The Open Quantum Materials Database (OQMD): assessing the accuracy of DFT formation energies (2015) | Scott Kirklin | 1874 Citations",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "3390.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "常用模型包括 CGCNN、SchNet、MEGNet、ALIGNN 等图神经网络"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2013/11/01",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

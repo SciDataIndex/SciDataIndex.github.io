@@ -1,0 +1,45 @@
+{
+  "dataset": "GuacaMol",
+  "intro": {
+    "official_link": "https://figshare.com/articles/dataset/GuacaMol_All_SMILES/7322252?file=13612745",
+    "brief_description": "该数据集由 ChEMBL 24 数据库派生而来，经过系统清洗与筛选，用于训练与评估分子生成模型，尤其面向“de novo 分子设计”的任务。它代表了一组真实合成过并测试过生物活性的化合物，提供了用于分布学习和目标导向优化的标准训练基础。",
+    "detailed_description": "数据集简述：数据集是从 ChEMBL 24 数据库中筛选得到的子集。ChEMBL 本身包含了大量已合成且具有生物活性数据的药物样分子，因此该子集具备良好的代表性。选择该数据库作为训练来源可以确保所生成的分子更贴近真实的、可合成的药物样分子。\n数据集内容：经过预处理后，数据集排除了盐类化合物、电荷不平衡的结构，以及 SMILES 字符串长度超过 100 的分子。同时，仅保留包含常见元素（如 H、C、N、O、F、P、S、Cl、Br 等）的分子，并去除了与目标任务中测试分子高度相似的化合物，以支持模型泛化能力的评估。\n关键元信息：数据集的每个分子都用 SMILES 表示，且具备规范化的结构（canonical SMILES）。此外，配套工具包可用于提取如 logP、TPSA、分子量、芳香环数等理化属性，进一步用于建模或评估。分子间的结构相似度主要使用 ECFP4 指纹和 Tanimoto 系数进行衡量。\n\n重要应用场景：其一是用于训练生成模型模仿真实分子分布（分布学习任务）；其二是用于在已知目标性质下优化分子结构（目标导向任务）。此外，它支持药物发现中的结构优化、活性分子搜索、以及生成式模型的性能基准测试等多种研究。"
+  },
+  "openness": {
+    "license_type": "MIT",
+    "license_source_link": "https://github.com/BenevolentAI/guacamol/blob/master/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "73.71 MB",
+    "data_volume_mb": "73.71",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/GuacaMol_All_SMILES/7322252?file=13612745",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/1811.09621",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "1120.0",
+    "google_scholar_screenshot": "GuacaMol.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "SMILES LSTM, Graph MCTS, AAE, ORGAN, VAE等多种生成模型"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已预经过处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2018/11/01",
+    "source_link": "https://github.com/BenevolentAI/guacamol",
+    "last_update_date": "2021/12/20"
+  }
+}

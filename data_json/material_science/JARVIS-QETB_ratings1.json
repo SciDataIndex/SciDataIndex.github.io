@@ -1,0 +1,45 @@
+{
+  "dataset": "JARVIS-QETB",
+  "intro": {
+    "official_link": "https://jarvis.nist.gov/login?next=/jarvisqetb/",
+    "brief_description": "材料结构与性质数据集",
+    "detailed_description": "包含六十万种具有紧束缚参数的材料，涵盖 65 种元素。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "申请简单"
+  },
+  "data_scale": {
+    "data_volume": "4.2gb",
+    "data_volume_mb": "4300.8",
+    "source_of_data_volume": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qe_tb_final_energy/",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "-",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "5.0",
+    "google_scholar_screenshot": "JARVIS-QETB.png",
+    "download_volume_or_user_count": "150000",
+    "models_using_this_dataset": "紧束缚模拟代码 (如TB3Py) , LLM4Mat-Bench"
+  },
+  "safety": {
+    "control_level": "部分管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2023/01/01",
+    "source_link": "-",
+    "last_update_date": "nan"
+  }
+}

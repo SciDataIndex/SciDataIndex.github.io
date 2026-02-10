@@ -1,0 +1,45 @@
+{
+  "dataset": "NLP4MatSci",
+  "intro": {
+    "official_link": "https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23",
+    "brief_description": "MatSci-NLP 是一个面向材料科学领域的自然语言处理（NLP）评估基准，旨在系统地衡量语言模型在处理材料科学文本中的能力。该数据集源于公开的材料科学文献，涵盖多个任务类型，构成了一个多样化、多任务的评估平台。该项目的核心贡献是提供标准化评测，推动专用科学 NLP 模型的发展，尤其是在数据资源稀缺的科学领域。",
+    "detailed_description": "数据集简述：MatSci-NLP 针对材料科学文本设定了七种 NLP 任务，涵盖传统任务如命名实体识别（NER）、关系分类（Relation Classification），以及材料科学特有任务，如材料合成动作提取（Synthesis Action Retrieval）。这些任务反映了从科学论文中提取结构化信息的需求，例如材料名称、属性、实验步骤等。\n数据集内容：每个任务中的数据经过手工标注或基于规则的结构化抽取，包含具有材料科学语境的术语、实验过程描述、属性表达等内容。数据以统一的输入输出格式组织，使得多任务学习成为可能。文本被转化为 schema 化结构，从而支持以问答建模范式进行学习与推理，显著提升了多任务统一建模的效率。\n关键元信息：元信息部分包含实体标签类别（如化学材料、设备、操作）、关系类型（如“用于”、“由……制成”），以及动作序列标注与属性映射等关键字段，均与材料科学语义紧密对应。标注工作由具有专业背景的研究人员完成，保证了术语的一致性和数据的准确性。\n重要应用场景：该数据集的重要应用场景包括评估材料科学语言理解、开发专用科学语言模型、挖掘文献中的材料实验流程、构建知识图谱等。MatSci-NLP 不仅能评估模型在特定任务中的表现，还可以评估其在多任务、统一架构下的通用性。"
+  },
+  "openness": {
+    "license_type": "没有指定统一的许可证(开放访问)",
+    "license_source_link": "https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "100MB",
+    "data_volume_mb": "100.0",
+    "source_of_data_volume": "https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23",
+    "estimated_manually": "是"
+  },
+  "impact": {
+    "paper_link": "https://arxiv.org/abs/2305.08264",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "2.0",
+    "google_scholar_screenshot": "NLP4MatSci.png",
+    "download_volume_or_user_count": "Stars: 16",
+    "models_using_this_dataset": "BERT, MatBERT, SciBERT, 以及项目提出的HoneyBee LLM"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式不统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2023/05/01",
+    "source_link": "http://www-labs.iro.umontreal.ca/~liubang/project-nlp4matsci.html",
+    "last_update_date": "2025/10/20"
+  }
+}

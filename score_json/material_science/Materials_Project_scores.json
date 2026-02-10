@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Materials Project",
+  "scores": {
+    "openness": 8,
+    "quality": 10,
+    "scale": 8,
+    "impact": 6,
+    "safety": 10,
+    "ai_readiness": 8,
+    "total_score": 7.8
+  },
+  "updated_at": "2026-01-05 17:17:24"
+}

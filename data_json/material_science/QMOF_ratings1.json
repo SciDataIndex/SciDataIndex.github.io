@@ -1,0 +1,45 @@
+{
+  "dataset": "QMOF",
+  "intro": {
+    "official_link": "https://github.com/Andrew-S-Rosen/QMOF",
+    "brief_description": "Quantum MOF (QMOF) 数据库是一个公开可用的材料科学数据集，包含了超过 20,000 个金属有机框架（MOFs）和配位聚合物的量子化学性质。该数据集基于高通量周期性密度泛函理论（DFT）计算生成，专注于金属有机材料的电子结构属性，为材料设计与预测提供重要基础。",
+    "detailed_description": "数据集简述：QMOF 数据集以结构明确的 MOF 和配位聚合物为基础，通过标准化的 DFT 计算流程获得其电子、结构和热力学性质。数据的高一致性和量化标准，使其在材料建模中具有高度可重复性和可信度。\n数据集内容：数据内容涵盖晶体结构、形成能、带隙、原子坐标、电荷密度、电荷分布、自旋极化状态等信息，所有数据都基于周期性体系下的第一性原理计算结果。\n关键元信息：CIF 文件、空间群、组成元素、基态能量、HOMO-LUMO 值、静电势、电荷密度等，可用于深入的机器学习建模、筛选或理论分析。\n重要应用场景：发现新型 MOF 材料、催化剂设计、气体分离与储存、电子材料筛选等。特别适合开发基于机器学习的结构-性质预测模型。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://github.com/Andrew-S-Rosen/QMOF",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "352.97 MB",
+    "data_volume_mb": "352.97",
+    "source_of_data_volume": "https://figshare.com/articles/dataset/QMOF_Database/13147324",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "8.0",
+    "google_scholar_screenshot": "image.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "-"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "无标注",
+    "preprocessing_level": "已经过标准化处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2020/01/01",
+    "source_link": "https://www.osti.gov/biblio/1460724",
+    "last_update_date": "2021/01/20"
+  }
+}

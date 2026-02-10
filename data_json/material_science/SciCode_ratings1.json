@@ -1,0 +1,45 @@
+{
+  "dataset": "SciCode",
+  "intro": {
+    "official_link": "https://scicode-bench.github.io/",
+    "brief_description": "SciCode 是一个专为自然科学领域研究问题设计的代码生成评估数据集，旨在更真实地评估大语言模型（LLMs）在科研编码任务中的表现。该数据集由来自数学、物理、化学、生物学和材料科学等 16 个子领域的科学家和 AI 研究者共同构建，覆盖科学研究中常见的实际问题，具有高度挑战性、科学性与现实性。",
+    "detailed_description": "数据集简述：SciCode 的设计初衷是弥补当前评估基准与实际科研任务之间的差距。数据集中的问题源自科学家在日常科研工作中使用的代码脚本，这些问题具备强科学背景知识需求和真实应用场景。相较于现有的合成或简化任务，SciCode 更能反映 LLM 在科研场景下的真实能力。\n数据集内容：该数据集包含 80 个主问题，每个主问题进一步被分解为多个子问题，总共 338 个子问题。这些子问题通常要求模型进行科学知识回忆、推理分析和 Python 代码合成，最终集成为完整解。每道题配有详细 docstring 说明、金标准解决方案和多个测试用例，以支持精确、自动化评估。\n关键元信息：SciCode 的每个问题都提供明确的输入输出格式说明，必要时还提供科学背景资料。所有数据均由两名以上相关领域博士生级别的研究人员审校，确保内容的科学性和正确性。同时数据集中无公开数据重叠，以避免预训练模型污染，保证评估的客观性。\n重要应用场景：用于评估 LLM 是否具备科研代码能力；开发更能服务科学家的 AI 助手；检验模型在多子任务串联、知识推理、函数集成等方面的能力。此外，它也可以用于提升 LLM 对科学文献内容的理解和编程转化能力。"
+  },
+  "openness": {
+    "license_type": "CC BY 4.0",
+    "license_source_link": "https://github.com/scicode-bench/SciCode/blob/main/LICENSE",
+    "charging_mode": "完全免费",
+    "access_restrictions": "全量下载",
+    "application_difficulty": "无需申请"
+  },
+  "data_scale": {
+    "data_volume": "1.21 MB",
+    "data_volume_mb": "1.21",
+    "source_of_data_volume": "https://huggingface.co/datasets/SciCode1/SciCode",
+    "estimated_manually": "否"
+  },
+  "impact": {
+    "paper_link": "nan",
+    "paper_citations_raw": "nan",
+    "paper_citations": "-",
+    "google_scholar_related_papers": "139.0",
+    "google_scholar_screenshot": "SciCode.png",
+    "download_volume_or_user_count": "-",
+    "models_using_this_dataset": "Claude 3.5 Sonnet, GPT-4, DeepSeek系列等主流LLM"
+  },
+  "safety": {
+    "control_level": "不受管控",
+    "traceability": "有元数据"
+  },
+  "AI_readiness": {
+    "annotation_density": "有标注",
+    "preprocessing_level": "未经过预处理",
+    "format_consistency": "格式统一"
+  },
+  "data_quality": {
+    "integrity": "部分缺失",
+    "first_release_date": "2024/08/22",
+    "source_link": "https://github.com/scicode-bench/SciCode",
+    "last_update_date": "2025/02/17"
+  }
+}
