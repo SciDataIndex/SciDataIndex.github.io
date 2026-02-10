@@ -321,7 +321,7 @@
       <p id="datasetBrief">这里展示数据集简介。</p>
       <div class="hero-actions">
         <span class="meta-badge" id="tagCategory">所属类别</span>
-        <span class="status-badge status-pending" id="tagStatus">挖掘中...</span>
+        <span class="status-badge status-pending" id="tagStatus" style="display: none;">挖掘中...</span>
       </div>
     </div>
   </section>
@@ -661,6 +661,7 @@
           tagStatus.classList.remove("status-verified");
           tagStatus.classList.add("status-pending");
         }
+        tagStatus.style.display = "inline-flex";
         const scoreSource = scoreData || data;
         const scores = [
           getScore(scoreSource, "openness"),
