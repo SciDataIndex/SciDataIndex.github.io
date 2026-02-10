@@ -1,9 +1,9 @@
 {
-  "dataset": "AstroLLaMA",
+  "dataset": "SMolInstruct",
   "intro": {
-    "official_link": "https://huggingface.co/UniverseTBD/astrollama",
-    "brief_description": "AstroLLaMA 是基于 LLaMA 的天文学语言模型，主要利用大规模 astro‑ph 文献语料进行领域化训练。",
-    "detailed_description": "AstroLLaMA 的训练语料来自 arXiv astro‑ph 的大量论文摘要等文本（模型卡标注约 30 万篇）。该模型定位为天文与天体物理文本生成与表示的基础模型，可用于文献理解、检索与下游微调。"
+    "official_link": "https://huggingface.co/datasets/ai4chem/SMolInstruct",
+    "brief_description": "SMolInstruct 是小分子领域的指令微调数据集。",
+    "detailed_description": "该数据集整合分子性质预测、合成与反应等任务为指令样本，用于化学领域 LLM 微调。"
   },
   "openness": {
     "license_type": "",
@@ -13,13 +13,13 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "9.5 M",
+    "data_volume": "3.3M",
     "data_volume_mb": "",
     "source_of_data_volume": "",
     "estimated_manually": ""
   },
   "impact": {
-    "paper_link": "",
+    "paper_link": "https://arxiv.org/abs/2408.09421",
     "paper_citations_raw": "",
     "paper_citations": "",
     "google_scholar_related_papers": "",
@@ -38,8 +38,8 @@
   },
   "data_quality": {
     "integrity": "",
-    "first_release_date": "2023.09",
-    "source_link": "https://huggingface.co/UniverseTBD/astrollama",
+    "first_release_date": "2024.08",
+    "source_link": "https://huggingface.co/datasets/ai4chem/SMolInstruct",
     "last_update_date": ""
   }
 }
