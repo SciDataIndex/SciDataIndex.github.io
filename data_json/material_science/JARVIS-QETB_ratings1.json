@@ -13,7 +13,7 @@
     "application_difficulty": "申请简单"
   },
   "data_scale": {
-    "data_volume": "4.2gb",
+    "data_volume": "4.2 GB",
     "data_volume_mb": "4300.8",
     "source_of_data_volume": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qe_tb_final_energy/",
     "estimated_manually": "是"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "1tb",
+    "data_volume": "1 TB",
     "data_volume_mb": "1048576.0",
     "source_of_data_volume": "https://github.com/MIT-AI-Accelerator/neurips-2020-sevir?utm_source=chatgpt.com",
     "estimated_manually": "否"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "71322182.758kb",
+    "data_volume": "71322182.758 KB",
     "data_volume_mb": "69650.56909960938",
     "source_of_data_volume": "https://www.ncei.noaa.gov/data/international-comprehensive-ocean-atmosphere/v3/archive/enhanced-trim/",
     "estimated_manually": "否"

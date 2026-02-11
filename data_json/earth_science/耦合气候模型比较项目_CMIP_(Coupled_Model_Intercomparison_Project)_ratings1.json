@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "27.936PB",
+    "data_volume": "27.936 PB",
     "data_volume_mb": "29996051595.264",
     "source_of_data_volume": "https://www.wcrp-climate.org/images/modelling/WGCM/WGCM25/Day2_10_Durack_CMIP6_Update.pdf",
     "estimated_manually": "nan"

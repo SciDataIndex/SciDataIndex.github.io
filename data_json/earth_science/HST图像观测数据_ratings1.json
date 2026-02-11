@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "161tb",
+    "data_volume": "161 TB",
     "data_volume_mb": "168820736.0",
     "source_of_data_volume": "https://hst-docs.stsci.edu/hsp/the-hubble-space-telescope-primer-for-cycle-33/hst-primer-data-processing-and-the-hst-data-archive?utm_source=chatgpt.com",
     "estimated_manually": "否"
