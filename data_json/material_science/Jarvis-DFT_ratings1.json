@@ -13,7 +13,7 @@
     "application_difficulty": "申请简单"
   },
   "data_scale": {
-    "data_volume": "1.37GB",
+    "data_volume": "1.37 GB",
     "data_volume_mb": "1402.88",
     "source_of_data_volume": "https://figshare.com/articles/dataset/jdft_3d-7-7-2018_json/6815699",
     "estimated_manually": "否"

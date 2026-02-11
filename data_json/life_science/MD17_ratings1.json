@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "1.9GB",
+    "data_volume": "1.9 GB",
     "data_volume_mb": "1945.6",
     "source_of_data_volume": "http://www.sgdml.org/#datasets",
     "estimated_manually": "nan"

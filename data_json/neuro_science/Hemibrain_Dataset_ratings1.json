@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "26TB",
+    "data_volume": "26 TB",
     "data_volume_mb": "27262976.0",
     "source_of_data_volume": "https://dvid.io/blog/release",
     "estimated_manually": "是"

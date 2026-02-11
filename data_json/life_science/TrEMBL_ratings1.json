@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "59.2GB",
+    "data_volume": "59.2 GB",
     "data_volume_mb": "60620.8",
     "source_of_data_volume": "https://www.uniprot.org/help/downloads",
     "estimated_manually": "nan"

@@ -13,7 +13,7 @@
     "application_difficulty": "申请简单"
   },
   "data_scale": {
-    "data_volume": "3.2GB",
+    "data_volume": "3.2 GB",
     "data_volume_mb": "3276.8",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/WTCCC1",
     "estimated_manually": "nan"

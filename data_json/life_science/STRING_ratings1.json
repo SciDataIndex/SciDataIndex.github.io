@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "557.5GB",
+    "data_volume": "557.5 GB",
     "data_volume_mb": "570880.0",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/STRING/tree/main/raw",
     "estimated_manually": "nan"

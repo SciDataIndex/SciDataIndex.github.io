@@ -13,7 +13,7 @@
     "application_difficulty": "nan"
   },
   "data_scale": {
-    "data_volume": "21MB",
+    "data_volume": "21 MB",
     "data_volume_mb": "21.0",
     "source_of_data_volume": "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Results-and-data",
     "estimated_manually": "nan"

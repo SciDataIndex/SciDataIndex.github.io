@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "6.54GB",
+    "data_volume": "6.54 GB",
     "data_volume_mb": "6696.96",
     "source_of_data_volume": "https://huggingface.co/datasets/General-Medical-AI/GMAI-Reasoning10K/tree/main",
     "estimated_manually": "nan"

@@ -13,7 +13,7 @@
     "application_difficulty": "nan"
   },
   "data_scale": {
-    "data_volume": "2.9GB",
+    "data_volume": "2.9 GB",
     "data_volume_mb": "2969.6",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Cattle",
     "estimated_manually": "nan"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "5GB",
+    "data_volume": "5 GB",
     "data_volume_mb": "5120.0",
     "source_of_data_volume": "chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64c2b96b658ec5f7e5489081/original/the-challenge-of-balancing-model-sensitivity-and-robustness-in-predicting-yields-a-benchmarking-study-of-amide-coupling-reactions.pdf?utm_source=chatgpt.com",
     "estimated_manually": "是"

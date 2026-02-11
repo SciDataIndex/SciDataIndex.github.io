@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "566808GB",
+    "data_volume": "566808 GB",
     "data_volume_mb": "580411392.0",
     "source_of_data_volume": "采样日单变量全部压力层大小为1.13GB，共16个变量，时间从1940-2025年10月，共31350天。考虑部分变量之间数据量大小可能存在差异，实际值应比估计值小，但不会偏差很大。",
     "estimated_manually": "是"

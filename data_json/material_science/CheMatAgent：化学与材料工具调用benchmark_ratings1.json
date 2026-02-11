@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "39MB",
+    "data_volume": "39 MB",
     "data_volume_mb": "39.0",
     "source_of_data_volume": "https://github.com/AI4Chem/ChemistryAgent",
     "estimated_manually": "是"

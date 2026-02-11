@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "413GB",
+    "data_volume": "413 GB",
     "data_volume_mb": "422912.0",
     "source_of_data_volume": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K/tree/main",
     "estimated_manually": "是"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "1.3MB",
+    "data_volume": "1.3 MB",
     "data_volume_mb": "1.3",
     "source_of_data_volume": "https://www.kaggle.com/datasets/soniaghar/ncbi-disease-corpus",
     "estimated_manually": "nan"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "23TB",
+    "data_volume": "23 TB",
     "data_volume_mb": "24117248.0",
     "source_of_data_volume": "https://alphafold.ebi.ac.uk/download#full-dataset-section",
     "estimated_manually": "nan"

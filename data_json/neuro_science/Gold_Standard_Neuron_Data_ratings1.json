@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "12.4GB",
+    "data_volume": "12.4 GB",
     "data_volume_mb": "12697.6",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Gold166-v1",
     "estimated_manually": "nan"

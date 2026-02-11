@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "1.1GB",
+    "data_volume": "1.1 GB",
     "data_volume_mb": "1126.4",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/SILVA",
     "estimated_manually": "nan"

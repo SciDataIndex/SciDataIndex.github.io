@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "10.7GB",
+    "data_volume": "10.7 GB",
     "data_volume_mb": "10956.8",
     "source_of_data_volume": "https://huggingface.co/datasets/foreverbeliever/OmniMedVQA/tree/main",
     "estimated_manually": "nan"

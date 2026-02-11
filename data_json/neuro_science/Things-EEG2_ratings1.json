@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "50GB",
+    "data_volume": "50 GB",
     "data_volume_mb": "51200.0",
     "source_of_data_volume": "https://osf.io/3jk45/overview",
     "estimated_manually": "是"

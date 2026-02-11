@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "458.97GB",
+    "data_volume": "458.97 GB",
     "data_volume_mb": "469985.28",
     "source_of_data_volume": "https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data",
     "estimated_manually": "nan"

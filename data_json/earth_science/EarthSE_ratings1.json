@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "4587KB",
+    "data_volume": "4587 KB",
     "data_volume_mb": "4.4794921875",
     "source_of_data_volume": "https://huggingface.co/ai-earth",
     "estimated_manually": "否"

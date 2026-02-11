@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "100MB",
+    "data_volume": "100 MB",
     "data_volume_mb": "100.0",
     "source_of_data_volume": "https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23",
     "estimated_manually": "是"

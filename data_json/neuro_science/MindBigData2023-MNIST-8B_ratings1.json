@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "52.52GB",
+    "data_volume": "52.52 GB",
     "data_volume_mb": "53780.48",
     "source_of_data_volume": "https://huggingface.co/datasets/DavidVivancos/MindBigData2023_MNIST-8B",
     "estimated_manually": "nan"

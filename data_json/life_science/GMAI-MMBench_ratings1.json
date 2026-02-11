@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "52.2GB",
+    "data_volume": "52.2 GB",
     "data_volume_mb": "53452.8",
     "source_of_data_volume": "https://huggingface.co/datasets/OpenGVLab/GMAI-MMBench/tree/main",
     "estimated_manually": "nan"

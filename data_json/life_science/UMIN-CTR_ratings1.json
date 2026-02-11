@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "40MB",
+    "data_volume": "40 MB",
     "data_volume_mb": "40.0",
     "source_of_data_volume": "https://www.umin.ac.jp/ctr/csvdata.html",
     "estimated_manually": "nan"

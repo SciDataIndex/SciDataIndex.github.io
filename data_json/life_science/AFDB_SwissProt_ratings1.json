@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "37GB",
+    "data_volume": "37 GB",
     "data_volume_mb": "37888.0",
     "source_of_data_volume": "https://ftp.ebi.ac.uk/pub/databases/alphafold/latest/",
     "estimated_manually": "nan"

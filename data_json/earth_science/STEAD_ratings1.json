@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "85GB",
+    "data_volume": "85 GB",
     "data_volume_mb": "87040.0",
     "source_of_data_volume": "https://github.com/smousavi05/STEAD",
     "estimated_manually": "否"

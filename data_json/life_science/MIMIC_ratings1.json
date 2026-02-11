@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "23.5GB",
+    "data_volume": "23.5 GB",
     "data_volume_mb": "24064.0",
     "source_of_data_volume": "https://physionet.org/content/mimicdb/1.0.0/",
     "estimated_manually": "nan"

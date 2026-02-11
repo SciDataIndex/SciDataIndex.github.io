@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "10.2GB",
+    "data_volume": "10.2 GB",
     "data_volume_mb": "10444.8",
     "source_of_data_volume": "https://rnasysu.com/chipbase3/batch_download.php",
     "estimated_manually": "nan"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "692MB",
+    "data_volume": "692 MB",
     "data_volume_mb": "692.0",
     "source_of_data_volume": "https://huggingface.co/datasets/osunlp/SMolInstruct",
     "estimated_manually": "否"

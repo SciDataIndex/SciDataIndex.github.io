@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "2.45GB",
+    "data_volume": "2.45 GB",
     "data_volume_mb": "2508.8",
     "source_of_data_volume": "https://huggingface.co/datasets/MSEarth/MSEarth_Captioning",
     "estimated_manually": "否"

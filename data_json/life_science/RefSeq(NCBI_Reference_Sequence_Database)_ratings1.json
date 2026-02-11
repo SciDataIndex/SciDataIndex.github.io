@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "163.9GB",
+    "data_volume": "163.9 GB",
     "data_volume_mb": "167833.6",
     "source_of_data_volume": "https://ftp.ncbi.nlm.nih.gov/refseq/release/",
     "estimated_manually": "nan"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "13.42GB",
+    "data_volume": "13.42 GB",
     "data_volume_mb": "13742.08",
     "source_of_data_volume": "https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1",
     "estimated_manually": "nan"

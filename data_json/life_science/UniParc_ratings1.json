@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "200GB",
+    "data_volume": "200 GB",
     "data_volume_mb": "nan",
     "source_of_data_volume": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/fasta/active/",
     "estimated_manually": "是"

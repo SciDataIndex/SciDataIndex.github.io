@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "42.9GB",
+    "data_volume": "42.9 GB",
     "data_volume_mb": "43929.6",
     "source_of_data_volume": "https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz",
     "estimated_manually": "nan"

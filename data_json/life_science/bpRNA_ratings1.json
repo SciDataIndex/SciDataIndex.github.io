@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "50.3GB",
+    "data_volume": "50.3 GB",
     "data_volume_mb": "51507.2",
     "source_of_data_volume": "https://bprna.cgrb.oregonstate.edu/download.php#bpRNA",
     "estimated_manually": "nan"

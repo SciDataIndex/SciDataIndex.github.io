@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "59.56GB",
+    "data_volume": "59.56 GB",
     "data_volume_mb": "60989.44",
     "source_of_data_volume": "https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA505693&o=acc_s%3Aa",
     "estimated_manually": "nan"

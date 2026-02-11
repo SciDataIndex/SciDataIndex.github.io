@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "100GB",
+    "data_volume": "100 GB",
     "data_volume_mb": "102400.0",
     "source_of_data_volume": "https://www.janelia.org/tools-and-data-release",
     "estimated_manually": "是"

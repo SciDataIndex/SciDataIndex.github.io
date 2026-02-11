@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "7.65GB",
+    "data_volume": "7.65 GB",
     "data_volume_mb": "7833.6",
     "source_of_data_volume": "https://huggingface.co/datasets/General-Medical-AI/SlideChat/tree/main",
     "estimated_manually": "nan"

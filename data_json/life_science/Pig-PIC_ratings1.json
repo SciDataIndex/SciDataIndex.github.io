@@ -13,7 +13,7 @@
     "application_difficulty": "nan"
   },
   "data_scale": {
-    "data_volume": "1.7GB",
+    "data_volume": "1.7 GB",
     "data_volume_mb": "1740.8",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Pig-PIC/explore/main",
     "estimated_manually": "nan"

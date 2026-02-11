@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "3.4GB",
+    "data_volume": "3.4 GB",
     "data_volume_mb": "3481.6",
     "source_of_data_volume": "https://download.cathdb.info/cath/releases/all-releases/v4_3_0/",
     "estimated_manually": "nan"

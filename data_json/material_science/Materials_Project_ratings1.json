@@ -13,7 +13,7 @@
     "application_difficulty": "申请简单"
   },
   "data_scale": {
-    "data_volume": "100TB",
+    "data_volume": "100 TB",
     "data_volume_mb": "104857600.0",
     "source_of_data_volume": "Updating...",
     "estimated_manually": "否"

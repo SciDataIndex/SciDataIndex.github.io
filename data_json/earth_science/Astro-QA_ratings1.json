@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "1647KB",
+    "data_volume": "1647 KB",
     "data_volume_mb": "1.6083984375",
     "source_of_data_volume": "https://github.com/ACMISLab/Astro-QA/tree/main",
     "estimated_manually": "否"

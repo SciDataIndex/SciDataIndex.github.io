@@ -13,7 +13,7 @@
     "application_difficulty": "nan"
   },
   "data_scale": {
-    "data_volume": "10.2GB",
+    "data_volume": "10.2 GB",
     "data_volume_mb": "10444.8",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/ImageNet-EEG/tree/main/raw/eeg_cvpr_2017/data",
     "estimated_manually": "nan"

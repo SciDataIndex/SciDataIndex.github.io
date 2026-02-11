@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "40.87MB",
+    "data_volume": "40.87 MB",
     "data_volume_mb": "40.87",
     "source_of_data_volume": "https://figshare.com/articles/dataset/A_Dataset_of_Curie_and_Neel_Temperatures_auto-generated_with_ChemDataExtractor_and_the_Snowball_Algorithm/29559686",
     "estimated_manually": "否"

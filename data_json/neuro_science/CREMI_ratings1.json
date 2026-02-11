@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "1GB",
+    "data_volume": "1 GB",
     "data_volume_mb": "1024.0",
     "source_of_data_volume": "https://cremi.org/data/",
     "estimated_manually": "是"

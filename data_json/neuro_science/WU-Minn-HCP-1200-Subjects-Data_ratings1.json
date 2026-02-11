@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "61.2GB",
+    "data_volume": "61.2 GB",
     "data_volume_mb": "62668.8",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/WU-Minn-HCP-1200-Subjects-Data/tree/main/raw",
     "estimated_manually": "nan"

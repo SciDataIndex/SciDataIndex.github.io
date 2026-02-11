@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "167.54GB",
+    "data_volume": "167.54 GB",
     "data_volume_mb": "171560.96",
     "source_of_data_volume": "https://kilthub.cmu.edu/articles/dataset/BOLD5000/6459449",
     "estimated_manually": "nan"

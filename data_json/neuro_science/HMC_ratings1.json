@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "15.7GB",
+    "data_volume": "15.7 GB",
     "data_volume_mb": "16076.8",
     "source_of_data_volume": "https://physionet.org/content/hmc-sleep-staging/1.1/",
     "estimated_manually": "nan"

@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "69.1TB",
+    "data_volume": "69.1 TB",
     "data_volume_mb": "72456601.6",
     "source_of_data_volume": "https://zenodo.org/records/10975225",
     "estimated_manually": "否"

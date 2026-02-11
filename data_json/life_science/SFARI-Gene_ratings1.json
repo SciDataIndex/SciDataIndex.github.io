@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "135.2KB",
+    "data_volume": "135.2 KB",
     "data_volume_mb": "0.13203125",
     "source_of_data_volume": "https://discovery.intern-ai.org.cn/org/ailab/dataset/687f512ac6be14a9cd38d9e3/nas-directory",
     "estimated_manually": "nan"

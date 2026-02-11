@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "1.5TB",
+    "data_volume": "1.5 TB",
     "data_volume_mb": "1572864.0",
     "source_of_data_volume": "https://www.theregister.com/2025/06/09/jwst_open_science_data/?utm_source=chatgpt.com",
     "estimated_manually": "否"

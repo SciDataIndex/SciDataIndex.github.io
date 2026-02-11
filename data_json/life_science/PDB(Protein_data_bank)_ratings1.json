@@ -13,7 +13,7 @@
     "application_difficulty": "无需申请"
   },
   "data_scale": {
-    "data_volume": "553.3GB",
+    "data_volume": "553.3 GB",
     "data_volume_mb": "566579.2",
     "source_of_data_volume": "https://opendatalab.com/OpenScienceLab/Protein%20data%20bank",
     "estimated_manually": "nan"
