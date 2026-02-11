@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
+  
+<script>
+  const pathParts = location.pathname.split("/");
+  const base = pathParts[1] === "scidataindex"
+    ? "/scidataindex/"
+    : "/";
+  document.write(`<base href="${base}">`);
+</script>
+<meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SciDataIndex · 数据榜单</title>
   <style>
