@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <script>
+    const pathParts = location.pathname.split("/");
+    const base = pathParts[1] === "scidataindex" ? "/scidataindex/" : "/";
+    document.write(`<base href="${base}">`);
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SciDataIndex · 数据集对比</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
+
+    :root {
+      --bg-0: #02061a;
+      --bg-1: #061338;
+      --bg-2: #0a1f4f;
+      --accent: #2ee6c9;
+      --glow: #6bdcff;
+      --text-0: #e9f2ff;
+      --text-1: #b6c7e6;
+      --card: rgba(12, 27, 69, 0.7);
+      --stroke: rgba(255, 255, 255, 0.18);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: "Sora", "HarmonyOS Sans SC", "PingFang SC", sans-serif;
+      color: var(--text-0);
+      background:
+        radial-gradient(900px 450px at 20% 20%, #183ea4 0%, transparent 60%),
+        radial-gradient(900px 520px at 80% 20%, #0c1a45 0%, transparent 70%),
+        linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 50%, var(--bg-0) 100%);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Nav ── */
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 48px;
+      height: 62px;
+      flex-shrink: 0;
+      background: rgba(3, 9, 32, 0.75);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      z-index: 10;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--glow);
+      text-decoration: none;
+    }
+
+    .brand-logo {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #6bf6ff, #1aa7ff 60%, #0a3476 100%);
+      box-shadow: 0 0 16px rgba(83, 211, 255, 0.5);
+      flex-shrink: 0;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: var(--text-1);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.15s;
+    }
+
+    .nav-links a:hover { color: var(--text-0); }
+    .nav-links a.active { color: var(--glow); font-weight: 600; }
+
+    /* ── Two-column layout ── */
+    .layout {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 290px 1fr;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(3, 8, 26, 0.55);
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .sidebar-header {
+      padding: 14px 16px 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+      flex-shrink: 0;
+    }
+
+    .sidebar-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-1);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+    }
+
+    .selected-counter {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      color: var(--glow);
+      background: rgba(107, 220, 255, 0.1);
+      border: 1px solid rgba(107, 220, 255, 0.25);
+      border-radius: 999px;
+      padding: 2px 10px;
+      margin-bottom: 10px;
+    }
+
+    .sidebar-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 999px;
+      padding: 7px 12px;
+    }
+
+    .sidebar-search svg {
+      flex-shrink: 0;
+      opacity: 0.5;
+    }
+
+    .sidebar-search input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text-0);
+      width: 100%;
+      font-size: 13px;
+      font-family: inherit;
+    }
+
+    .sidebar-search input::placeholder { color: rgba(182, 199, 230, 0.5); }
+
+    .category-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 6px 0 20px;
+    }
+
+    .category-list::-webkit-scrollbar { width: 4px; }
+    .category-list::-webkit-scrollbar-thumb {
+      background: rgba(107, 220, 255, 0.25);
+      border-radius: 999px;
+    }
+    .category-list::-webkit-scrollbar-track { background: transparent; }
+
+    /* Category accordion */
+    .cat-item {}
+
+    .cat-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 9px 16px;
+      cursor: pointer;
+      user-select: none;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--glow);
+      transition: background 0.15s;
+    }
+
+    .cat-header:hover { background: rgba(107, 220, 255, 0.06); }
+
+    .cat-header-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cat-count {
+      font-size: 11px;
+      font-weight: 400;
+      color: var(--text-1);
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 999px;
+      padding: 1px 7px;
+    }
+
+    .cat-arrow {
+      font-size: 10px;
+      color: var(--text-1);
+      transition: transform 0.2s ease;
+    }
+
+    .cat-item.open .cat-arrow { transform: rotate(90deg); }
+
+    .ds-list {
+      display: none;
+      padding-bottom: 2px;
+    }
+
+    .cat-item.open .ds-list { display: block; }
+
+    .ds-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px 6px 26px;
+      font-size: 12.5px;
+      color: var(--text-1);
+      transition: background 0.12s;
+    }
+
+    .ds-item:hover { background: rgba(255, 255, 255, 0.03); }
+
+    .ds-name {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: default;
+    }
+
+    .add-btn {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(107, 220, 255, 0.45);
+      background: transparent;
+      color: var(--glow);
+      font-size: 15px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+      padding: 0;
+      font-family: inherit;
+    }
+
+    .add-btn:hover:not(:disabled) {
+      background: rgba(107, 220, 255, 0.18);
+      border-color: var(--glow);
+    }
+
+    .add-btn.added {
+      border-color: var(--accent);
+      color: var(--accent);
+      font-size: 12px;
+      cursor: default;
+      opacity: 0.75;
+    }
+
+    .add-btn:disabled:not(.added) {
+      opacity: 0.25;
+      cursor: not-allowed;
+    }
+
+    .loading-hint {
+      padding: 8px 26px;
+      font-size: 12px;
+      color: var(--text-1);
+      opacity: 0.5;
+    }
+
+    /* Search results flat list */
+    .search-results { display: none; }
+    .search-results.active {
+      display: block;
+    }
+
+    .search-results .sr-category {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-1);
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      padding: 10px 16px 4px;
+      opacity: 0.6;
+    }
+
+    /* ── Main area ── */
+    .main {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .main-header {
+      padding: 18px 32px 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+      flex-shrink: 0;
+    }
+
+    .main-header h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-0);
+      margin-bottom: 3px;
+    }
+
+    .main-header p {
+      font-size: 13px;
+      color: var(--text-1);
+    }
+
+    .max-warning {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #ffb347;
+      background: rgba(255, 179, 71, 0.1);
+      border: 1px solid rgba(255, 179, 71, 0.25);
+      border-radius: 999px;
+      padding: 3px 12px;
+      margin-top: 6px;
+    }
+
+    .main-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px 32px 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .main-content::-webkit-scrollbar { width: 6px; }
+    .main-content::-webkit-scrollbar-thumb {
+      background: rgba(107, 220, 255, 0.25);
+      border-radius: 999px;
+    }
+    .main-content::-webkit-scrollbar-track { background: transparent; }
+
+    /* Empty state */
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      min-height: 380px;
+      color: var(--text-1);
+      user-select: none;
+    }
+
+    .empty-icon {
+      font-size: 52px;
+      opacity: 0.3;
+      filter: grayscale(1);
+    }
+
+    .empty-state h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-0);
+      opacity: 0.5;
+    }
+
+    .empty-state p {
+      font-size: 13px;
+      opacity: 0.4;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* Card */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    /* Side-by-side grid when content is present */
+    .compare-grid {
+      display: grid;
+      grid-template-columns: 460px 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+
+    /* Radar card */
+    .radar-card {
+      padding: 22px 20px 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .radar-card h3 {
+      width: 100%;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-1);
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin-bottom: 2px;
+    }
+
+    #compareCanvas {
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+      display: block;
+    }
+
+    /* Legend */
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 999px;
+      padding: 5px 10px 5px 8px;
+      font-size: 13px;
+    }
+
+    .legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .legend-name {
+      max-width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--text-0);
+    }
+
+    .legend-remove {
+      background: transparent;
+      border: none;
+      color: var(--text-1);
+      cursor: pointer;
+      padding: 0;
+      font-size: 16px;
+      line-height: 1;
+      margin-left: 2px;
+      opacity: 0.5;
+      transition: opacity 0.15s, color 0.15s;
+      font-family: inherit;
+    }
+
+    .legend-remove:hover {
+      opacity: 1;
+      color: #ff6b8a;
+    }
+
+    /* Score table card */
+    .table-card {
+      overflow: hidden;
+    }
+
+    .score-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .score-table th {
+      padding: 12px 14px;
+      text-align: center;
+      background: rgba(10, 18, 50, 0.6);
+      color: var(--text-1);
+      font-weight: 400;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .score-table th:first-child { text-align: left; min-width: 140px; }
+
+    .score-table td {
+      padding: 10px 14px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: var(--text-1);
+    }
+
+    .score-table tr:last-child td { border-bottom: none; }
+    .score-table td:first-child { text-align: left; }
+
+    .score-table .name-cell {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .name-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .name-text {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 160px;
+      color: var(--text-0);
+      font-weight: 600;
+    }
+
+    .total-score {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .score-val-high { color: #86efac; }
+    .score-val-mid  { color: #fde68a; }
+    .score-val-low  { color: #fca5a5; }
+
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 240px 1fr; }
+      .nav { padding: 0 20px; }
+      .main-content { padding: 16px; }
+    }
+
+    @media (max-width: 640px) {
+      .layout { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <a class="brand" href="index.html">
+        <div class="brand-logo"></div>
+        SciDataIndex
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">首页</a>
+        <a href="data_ranks/earth_science.html">数据榜单</a>
+        <a href="dataset_list.html">数据列表</a>
+        <a href="compare.html" class="active">数据集对比</a>
+        <a href="evaluation.html">技术说明</a>
+        <a href="about.html">关于我们</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title">选择数据集</div>
+        <div class="selected-counter">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+            <circle cx="5" cy="5" r="4" stroke="#6bdcff" stroke-width="1.5"/>
+          </svg>
+          <span id="selectedCount">0</span> / 6 已选
+        </div>
+        <div class="sidebar-search">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <circle cx="6" cy="6" r="4.5" stroke="#b6c7e6" stroke-width="1.4"/>
+            <line x1="9.5" y1="9.5" x2="13" y2="13" stroke="#b6c7e6" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <input id="sidebarSearch" type="search" placeholder="搜索数据集名称…" autocomplete="off" />
+        </div>
+      </div>
+
+      <!-- Normal accordion view -->
+      <div class="category-list" id="categoryList"></div>
+
+      <!-- Search results overlay -->
+      <div class="category-list search-results" id="searchResults" style="position:absolute; left:0; right:0; top:0; bottom:0; background:rgba(3,8,26,0.97); padding-top:0;"></div>
+    </aside>
+
+    <!-- ── Main ── -->
+    <main class="main">
+      <div class="main-header">
+        <h2>数据集横向对比</h2>
+        <p>从左侧选择数据集，雷达图将叠加展示各维度评分，最多同时对比 6 个</p>
+        <div class="max-warning" id="maxWarning" style="display:none;">
+          ⚠ 已达上限，请移除一个数据集后再添加
+        </div>
+      </div>
+      <div class="main-content" id="mainContent"></div>
+    </main>
+  </div>
+
+  <script>
+    const SUBJECTS = [
+      { label: "生命科学",   key: "life_science" },
+      { label: "地球科学",   key: "earth_science" },
+      { label: "材料科学",   key: "material_science" },
+      { label: "物质科学",   key: "physical_science" },
+      { label: "化学科学",   key: "chemistry_science" },
+      { label: "神经科学",   key: "neuro_science" },
+      { label: "天文科学",   key: "astronomy_science" },
+      { label: "通识科学",   key: "general_science" },
+      { label: "计算机科学", key: "computer_science" },
+    ];
+
+    const RADAR_LABELS = ["开放性", "规模", "影响力", "安全性", "AI就绪度", "数据质量"];
+    const SCORE_KEYS   = ["openness", "scale", "impact", "safety", "ai_readiness", "quality"];
+    const MAX_COMPARE  = 6;
+
+    const PALETTE = [
+      { stroke: "#2ee6c9", fill: "rgba(46,230,201,0.18)"   },
+      { stroke: "#6bdcff", fill: "rgba(107,220,255,0.18)"  },
+      { stroke: "#ff9f40", fill: "rgba(255,159,64,0.18)"   },
+      { stroke: "#ff6b8a", fill: "rgba(255,107,138,0.18)"  },
+      { stroke: "#a78bfa", fill: "rgba(167,139,250,0.18)"  },
+      { stroke: "#86efac", fill: "rgba(134,239,172,0.18)"  },
+    ];
+
+    // ── State ──────────────────────────────────────────────
+    let selected = [];                     // {name, catKey, scores, totalScore, colorIdx}
+    const freeColors = new Set([0,1,2,3,4,5]);
+    const catCache   = {};                 // catKey -> string[] (file names)
+    let   allDatasets = [];                // {name, catKey, catLabel}
+
+    // ── Helpers ────────────────────────────────────────────
+    function fileToName(fileName) {
+      return fileName.replace(/_ratings\d+\.json$/, "").replace(/_/g, " ");
+    }
+
+    function nameToScoreFile(name) {
+      return name.replace(/ /g, "_").replace(/[/\\]/g, "_") + "_scores.json";
+    }
+
+    async function tryFetch(url) {
+      try {
+        const r = await fetch(url);
+        if (!r.ok) return null;
+        return await r.json();
+      } catch { return null; }
+    }
+
+    async function fetchScore(catKey, name) {
+      const file = nameToScoreFile(name);
+      const base = `score_json/${catKey}/`;
+      const data = await tryFetch(base + file) || await tryFetch(base + encodeURIComponent(file));
+      if (!data) return null;
+      return data;
+    }
+
+    function scoreClass(v) {
+      if (v === null || v === undefined) return "";
+      if (v >= 7) return "score-val-high";
+      if (v >= 4) return "score-val-mid";
+      return "score-val-low";
+    }
+
+    // ── Sidebar ────────────────────────────────────────────
+    function buildSidebar() {
+      const container = document.getElementById("categoryList");
+      container.innerHTML = "";
+      SUBJECTS.forEach(subj => {
+        const item = document.createElement("div");
+        item.className = "cat-item";
+        item.innerHTML = `
+          <div class="cat-header">
+            <span class="cat-header-left">
+              <span>${subj.label}</span>
+              <span class="cat-count" id="cnt-${subj.key}">—</span>
+            </span>
+            <span class="cat-arrow">▶</span>
+          </div>
+          <div class="ds-list" id="list-${subj.key}">
+            <div class="loading-hint">点击展开后加载…</div>
+          </div>`;
+        item.querySelector(".cat-header").addEventListener("click", () => toggleCat(item, subj));
+        container.appendChild(item);
+      });
+    }
+
+    async function toggleCat(item, subj) {
+      const isOpen = item.classList.contains("open");
+      if (isOpen) { item.classList.remove("open"); return; }
+      item.classList.add("open");
+      if (!catCache[subj.key]) {
+        document.getElementById(`list-${subj.key}`).innerHTML =
+          '<div class="loading-hint">加载中…</div>';
+        await loadCat(subj);
+      }
+      renderCatList(subj.key);
+    }
+
+    async function loadCat(subj) {
+      try {
+        const r = await fetch(`data_json/${subj.key}/dataset_index.json`);
+        if (!r.ok) { catCache[subj.key] = []; return; }
+        const list = await r.json();
+        catCache[subj.key] = Array.isArray(list) ? list : [];
+      } catch { catCache[subj.key] = []; }
+
+      // Update count badge
+      const cnt = document.getElementById(`cnt-${subj.key}`);
+      if (cnt) cnt.textContent = catCache[subj.key].length;
+
+      // Add to global search pool (de-dup by name)
+      for (const fileName of catCache[subj.key]) {
+        const name = fileToName(fileName);
+        if (!allDatasets.find(d => d.name === name && d.catKey === subj.key)) {
+          allDatasets.push({ name, catKey: subj.key, catLabel: subj.label });
+        }
+      }
+    }
+
+    function renderCatList(catKey) {
+      const listEl = document.getElementById(`list-${catKey}`);
+      if (!listEl) return;
+      const files = catCache[catKey] || [];
+      if (files.length === 0) {
+        listEl.innerHTML = '<div class="loading-hint">暂无数据</div>'; return;
+      }
+      const maxReached = freeColors.size === 0;
+      listEl.innerHTML = "";
+      files.forEach(fileName => {
+        const name = fileToName(fileName);
+        const isAdded = selected.some(d => d.name === name && d.catKey === catKey);
+        const el = document.createElement("div");
+        el.className = "ds-item";
+        el.dataset.name = name;
+        el.dataset.cat = catKey;
+        el.innerHTML = `
+          <span class="ds-name" title="${name}">${name}</span>
+          <button class="add-btn ${isAdded ? "added" : ""}"
+                  ${(isAdded || maxReached) ? "disabled" : ""}
+                  title="${isAdded ? "已在对比中" : maxReached ? "已达上限" : "加入对比"}">
+            ${isAdded ? "✓" : "+"}
+          </button>`;
+        if (!isAdded && !maxReached) {
+          el.querySelector(".add-btn").addEventListener("click", () => addDataset(name, catKey, fileName));
+        }
+        listEl.appendChild(el);
+      });
+    }
+
+    // ── Search ─────────────────────────────────────────────
+    function setupSearch() {
+      const input   = document.getElementById("sidebarSearch");
+      const catList = document.getElementById("categoryList");
+      const srList  = document.getElementById("searchResults");
+
+      // Make searchResults relative to sidebar
+      document.querySelector(".sidebar").style.position = "relative";
+      srList.style.position = "absolute";
+      srList.style.left = "0";
+      srList.style.right = "0";
+      srList.style.bottom = "0";
+      srList.style.overflowY = "auto";
+
+      // Position searchResults below the header
+      function positionResults() {
+        const hdrH = document.querySelector(".sidebar-header").offsetHeight;
+        srList.style.top = hdrH + "px";
+      }
+
+      input.addEventListener("input", () => {
+        positionResults();
+        const q = input.value.trim().toLowerCase();
+        if (!q) {
+          srList.classList.remove("active");
+          catList.style.visibility = "";
+          return;
+        }
+        catList.style.visibility = "hidden";
+        srList.classList.add("active");
+        renderSearchResults(q);
+      });
+    }
+
+    function renderSearchResults(q) {
+      const srList = document.getElementById("searchResults");
+      const maxReached = freeColors.size === 0;
+      const matches = allDatasets.filter(d => d.name.toLowerCase().includes(q));
+
+      if (matches.length === 0) {
+        srList.innerHTML = '<div class="loading-hint" style="padding:20px 16px;">未找到匹配的数据集</div>';
+
+        // Hint if some categories not loaded yet
+        const unloaded = SUBJECTS.filter(s => !catCache[s.key]);
+        if (unloaded.length > 0) {
+          srList.innerHTML += `<div class="loading-hint">部分分类尚未加载，仍在后台加载中…</div>`;
+        }
+        return;
+      }
+
+      // Group by category
+      const grouped = {};
+      matches.forEach(d => {
+        if (!grouped[d.catKey]) grouped[d.catKey] = { label: d.catLabel, items: [] };
+        grouped[d.catKey].items.push(d);
+      });
+
+      let html = "";
+      Object.values(grouped).forEach(g => {
+        html += `<div class="sr-category">${g.label}</div>`;
+        g.items.forEach(d => {
+          const isAdded = selected.some(s => s.name === d.name && s.catKey === d.catKey);
+          html += `
+            <div class="ds-item" data-name="${d.name}" data-cat="${d.catKey}">
+              <span class="ds-name" title="${d.name}">${d.name}</span>
+              <button class="add-btn ${isAdded ? "added" : ""}"
+                      ${(isAdded || maxReached) ? "disabled" : ""}>
+                ${isAdded ? "✓" : "+"}
+              </button>
+            </div>`;
+        });
+      });
+
+      srList.innerHTML = html;
+
+      srList.querySelectorAll(".add-btn:not([disabled])").forEach(btn => {
+        const item = btn.closest(".ds-item");
+        const name = item.dataset.name;
+        const catKey = item.dataset.cat;
+        const fileName = name.replace(/ /g, "_") + "_ratings1.json";
+        btn.addEventListener("click", () => addDataset(name, catKey, fileName));
+      });
+    }
+
+    // ── Compare logic ──────────────────────────────────────
+    async function addDataset(name, catKey) {
+      if (selected.length >= MAX_COMPARE) return;
+      if (selected.some(d => d.name === name && d.catKey === catKey)) return;
+
+      const raw = await fetchScore(catKey, name);
+      let scores = SCORE_KEYS.map(k => raw?.scores?.[k] ?? null);
+      const totalScore = raw?.scores?.total_score ?? null;
+
+      const colorIdx = [...freeColors].sort((a, b) => a - b)[0];
+      freeColors.delete(colorIdx);
+      selected.push({ name, catKey, scores, totalScore, colorIdx });
+      updateAll();
+    }
+
+    function removeDataset(name, catKey) {
+      const idx = selected.findIndex(d => d.name === name && d.catKey === catKey);
+      if (idx === -1) return;
+      freeColors.add(selected[idx].colorIdx);
+      selected.splice(idx, 1);
+      updateAll();
+    }
+
+    function updateAll() {
+      // Update count
+      document.getElementById("selectedCount").textContent = selected.length;
+
+      // Max warning
+      const warn = document.getElementById("maxWarning");
+      warn.style.display = freeColors.size === 0 ? "inline-flex" : "none";
+
+      // Refresh open category lists
+      SUBJECTS.forEach(s => {
+        if (catCache[s.key]) renderCatList(s.key);
+      });
+
+      // Refresh search results if active
+      const q = document.getElementById("sidebarSearch").value.trim().toLowerCase();
+      if (q) renderSearchResults(q);
+
+      // Main area
+      renderMain();
+    }
+
+    // ── Main content ───────────────────────────────────────
+    function renderMain() {
+      const container = document.getElementById("mainContent");
+      if (selected.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">📊</div>
+            <h3>暂无对比数据集</h3>
+            <p>从左侧列表点击「+」<br>将数据集加入对比区域</p>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="compare-grid">
+          <div class="card radar-card">
+            <h3>雷达图对比</h3>
+            <canvas id="compareCanvas" width="420" height="400"></canvas>
+            <div class="legend" id="legendArea"></div>
+          </div>
+          <div class="card table-card">
+            <table class="score-table" id="scoreTable"></table>
+          </div>
+        </div>`;
+
+      renderLegend();
+      renderTable();
+      drawRadar();
+    }
+
+    function renderLegend() {
+      const legend = document.getElementById("legendArea");
+      legend.innerHTML = "";
+      selected.forEach(ds => {
+        const c = PALETTE[ds.colorIdx];
+        const item = document.createElement("div");
+        item.className = "legend-item";
+        item.innerHTML = `
+          <div class="legend-dot" style="background:${c.stroke}; box-shadow:0 0 7px ${c.stroke};"></div>
+          <span class="legend-name" title="${ds.name}">${ds.name}</span>
+          <button class="legend-remove" title="移除此数据集">×</button>`;
+        item.querySelector(".legend-remove").addEventListener("click", () => removeDataset(ds.name, ds.catKey));
+        legend.appendChild(item);
+      });
+    }
+
+    function renderTable() {
+      const table = document.getElementById("scoreTable");
+      const headers = ["数据集", ...RADAR_LABELS, "综合评分"];
+      let html = `<thead><tr>${headers.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>`;
+      selected.forEach(ds => {
+        const c = PALETTE[ds.colorIdx];
+        const displayTotal = ds.totalScore !== null
+          ? ds.totalScore.toFixed(2)
+          : ds.scores.every(s => s === null)
+            ? "—"
+            : (ds.scores.reduce((a, b) => a + (b ?? 0), 0) / ds.scores.filter(s => s !== null).length).toFixed(2);
+        html += `<tr>
+          <td>
+            <div class="name-cell">
+              <div class="name-dot" style="background:${c.stroke}; box-shadow:0 0 5px ${c.stroke};"></div>
+              <span class="name-text" title="${ds.name}">${ds.name}</span>
+            </div>
+          </td>
+          ${ds.scores.map(s => `<td class="${scoreClass(s)}">${s !== null ? s : "—"}</td>`).join("")}
+          <td class="total-score" style="color:${c.stroke};">${displayTotal}</td>
+        </tr>`;
+      });
+      html += "</tbody>";
+      table.innerHTML = html;
+    }
+
+    // ── Radar chart ────────────────────────────────────────
+    function drawRadar() {
+      const canvas = document.getElementById("compareCanvas");
+      if (!canvas) return;
+      const ctx = canvas.getContext("2d");
+      const dpr = Math.max(1, window.devicePixelRatio || 1);
+      const cssW = 420, cssH = 400;
+      canvas.style.width  = `${cssW}px`;
+      canvas.style.height = `${cssH}px`;
+      canvas.width  = Math.round(cssW * dpr);
+      canvas.height = Math.round(cssH * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      const n      = RADAR_LABELS.length;
+      const maxVal = 10;
+      const cx     = cssW / 2;
+      const cy     = cssH / 2 + 10;
+      const radius = 140;
+      const levels = 5;
+
+      ctx.clearRect(0, 0, cssW, cssH);
+
+      // Background rings
+      for (let l = 1; l <= levels; l++) {
+        const r = (radius / levels) * l;
+        ctx.beginPath();
+        for (let i = 0; i < n; i++) {
+          const angle = (Math.PI * 2 / n) * i - Math.PI / 2;
+          const x = cx + r * Math.cos(angle);
+          const y = cy + r * Math.sin(angle);
+          i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        }
+        ctx.closePath();
+        ctx.strokeStyle = l === levels
+          ? "rgba(255,255,255,0.18)"
+          : "rgba(255,255,255,0.08)";
+        ctx.lineWidth = l === levels ? 1.2 : 0.8;
+        ctx.stroke();
+
+        // Level label
+        ctx.fillStyle = "rgba(182,199,230,0.35)";
+        ctx.font = "10px Sora, sans-serif";
+        ctx.textAlign = "left";
+        ctx.textBaseline = "middle";
+        ctx.fillText(String(l * 2), cx + 4, cy - (radius / levels) * l);
+      }
+
+      // Axis lines
+      for (let i = 0; i < n; i++) {
+        const angle = (Math.PI * 2 / n) * i - Math.PI / 2;
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.lineTo(cx + radius * Math.cos(angle), cy + radius * Math.sin(angle));
+        ctx.strokeStyle = "rgba(255,255,255,0.15)";
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      // Labels
+      ctx.fillStyle = "#c0d4f0";
+      ctx.font = "13px Sora, sans-serif";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      RADAR_LABELS.forEach((label, i) => {
+        const angle = (Math.PI * 2 / n) * i - Math.PI / 2;
+        const lx = cx + (radius + 26) * Math.cos(angle);
+        const ly = cy + (radius + 26) * Math.sin(angle);
+        ctx.fillText(label, lx, ly);
+      });
+
+      // Dataset polygons (draw fills first, then strokes on top)
+      // Two passes: fills then strokes, for better visual layering
+      selected.forEach(ds => {
+        const c = PALETTE[ds.colorIdx];
+        ctx.beginPath();
+        ds.scores.forEach((score, i) => {
+          const ratio = Math.max(0, Math.min(maxVal, score ?? 0)) / maxVal;
+          const angle = (Math.PI * 2 / n) * i - Math.PI / 2;
+          const x = cx + radius * ratio * Math.cos(angle);
+          const y = cy + radius * ratio * Math.sin(angle);
+          i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.closePath();
+        ctx.fillStyle = c.fill;
+        ctx.fill();
+      });
+
+      selected.forEach(ds => {
+        const c = PALETTE[ds.colorIdx];
+        ctx.beginPath();
+        ds.scores.forEach((score, i) => {
+          const ratio = Math.max(0, Math.min(maxVal, score ?? 0)) / maxVal;
+          const angle = (Math.PI * 2 / n) * i - Math.PI / 2;
+          const x = cx + radius * ratio * Math.cos(angle);
+          const y = cy + radius * ratio * Math.sin(angle);
+          i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.closePath();
+        ctx.strokeStyle = c.stroke;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Vertex dots
+        ds.scores.forEach((score, i) => {
+          const ratio = Math.max(0, Math.min(maxVal, score ?? 0)) / maxVal;
+          const angle = (Math.PI * 2 / n) * i - Math.PI / 2;
+          const x = cx + radius * ratio * Math.cos(angle);
+          const y = cy + radius * ratio * Math.sin(angle);
+          ctx.beginPath();
+          ctx.arc(x, y, 4, 0, Math.PI * 2);
+          ctx.fillStyle = c.stroke;
+          ctx.fill();
+          ctx.beginPath();
+          ctx.arc(x, y, 2, 0, Math.PI * 2);
+          ctx.fillStyle = "#fff";
+          ctx.fill();
+        });
+      });
+    }
+
+    // ── Init ───────────────────────────────────────────────
+    buildSidebar();
+    setupSearch();
+    renderMain();
+
+    // Preload all categories in background for search to work
+    (async () => {
+      for (const subj of SUBJECTS) {
+        if (!catCache[subj.key]) {
+          await loadCat(subj);
+          // If category is already open, refresh its rendered list
+          const listEl = document.getElementById(`list-${subj.key}`);
+          const catEl  = listEl?.closest(".cat-item");
+          if (catEl?.classList.contains("open")) renderCatList(subj.key);
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
