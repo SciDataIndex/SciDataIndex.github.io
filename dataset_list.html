@@ -127,6 +127,116 @@
       color: rgba(255, 255, 255, 0.6);
     }
 
+    .task-search {
+      margin-bottom: 28px;
+      padding: 22px;
+      border: 1px solid rgba(107, 220, 255, 0.3);
+      border-radius: 18px;
+      background: rgba(12, 27, 69, 0.82);
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.24);
+    }
+
+    .task-search h2 {
+      margin: 0 0 7px;
+      font-size: 20px;
+    }
+
+    .task-search > p {
+      margin: 0 0 16px;
+      color: var(--text-1);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .task-search-form {
+      display: flex;
+      gap: 10px;
+    }
+
+    .task-search-form input {
+      min-width: 0;
+      flex: 1;
+      padding: 12px 15px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 12px;
+      outline: none;
+      background: rgba(255, 255, 255, 0.09);
+      color: var(--text-0);
+      font-size: 14px;
+    }
+
+    .task-search-form input:focus {
+      border-color: var(--glow);
+      box-shadow: 0 0 0 3px rgba(107, 220, 255, 0.12);
+    }
+
+    .task-search-form button {
+      padding: 0 20px;
+      border: 0;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--glow), var(--accent));
+      color: #061338;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .task-search-form button:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .task-status {
+      min-height: 20px;
+      margin: 10px 0 0;
+      color: #9fb4db;
+      font-size: 12px;
+    }
+
+    .task-status.error {
+      color: #ffb4b4;
+    }
+
+    .task-results {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .task-result {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      padding: 13px 14px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .task-result-rank {
+      color: var(--accent);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .task-result-name {
+      color: var(--text-0);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .task-result-description {
+      margin-top: 5px;
+      color: var(--text-1);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .task-result-score {
+      color: #8cebdc;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
     .board {
       border: 1px solid var(--stroke);
       border-radius: 18px;
@@ -279,6 +389,22 @@
       .board-row div:last-child {
         display: none;
       }
+
+      .task-search-form {
+        flex-direction: column;
+      }
+
+      .task-search-form button {
+        min-height: 42px;
+      }
+
+      .task-result {
+        grid-template-columns: 30px minmax(0, 1fr);
+      }
+
+      .task-result-score {
+        grid-column: 2;
+      }
     }
   </style>
 </head>
@@ -308,6 +434,17 @@
         <input id="searchInput" type="search" placeholder="搜索数据集名称..." />
       </label>
     </div>
+
+    <section class="task-search" aria-labelledby="taskSearchTitle">
+      <h2 id="taskSearchTitle">按研究任务检索数据集</h2>
+      <p>描述你的研究任务，浏览器将在本地完成语义编码，并从全部数据集中返回最相关的 5 项。首次使用需要下载并缓存模型。</p>
+      <form class="task-search-form" id="taskSearchForm">
+        <input id="taskQuery" type="text" maxlength="1000" autocomplete="off" placeholder="例如：寻找用于遥感图像目标检测的数据集" />
+        <button id="taskSearchButton" type="submit">查找 Top-5</button>
+      </form>
+      <p class="task-status" id="taskSearchStatus" role="status"></p>
+      <div class="task-results" id="taskSearchResults"></div>
+    </section>
 
     <section class="board">
       <div class="board-head">
@@ -352,10 +489,22 @@
     const lastPageBtn = document.getElementById("lastPage");
     const pageInput = document.getElementById("pageInput");
     const pageTotal = document.getElementById("pageTotal");
+    const taskSearchForm = document.getElementById("taskSearchForm");
+    const taskQuery = document.getElementById("taskQuery");
+    const taskSearchButton = document.getElementById("taskSearchButton");
+    const taskSearchStatus = document.getElementById("taskSearchStatus");
+    const taskSearchResults = document.getElementById("taskSearchResults");
     const pageSize = 15;
     let currentPage = 1;
     let allRows = [];
     let filteredRows = [];
+    let semanticIndexPromise = null;
+    let extractorPromise = null;
+
+    const EMBEDDING_MODEL = "Xenova/paraphrase-multilingual-MiniLM-L12-v2";
+    const TRANSFORMERS_CDN = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1";
+
+    const SUBJECT_LABELS = Object.fromEntries(SUBJECTS.map(subject => [subject.key, subject.label]));
 
     async function tryFetchJson(url) {
       try {
@@ -443,6 +592,135 @@
       filteredRows = [...allRows];
       renderPage();
     }
+
+    async function loadSemanticIndex() {
+      if (!semanticIndexPromise) {
+        semanticIndexPromise = Promise.all([
+          fetch("search/dataset_embeddings.json"),
+          fetch("search/dataset_embeddings.f32")
+        ]).then(async ([metadataResponse, vectorsResponse]) => {
+          if (!metadataResponse.ok || !vectorsResponse.ok) {
+            throw new Error("检索索引尚未生成，请先运行 npm run build:search-index。");
+          }
+          const metadata = await metadataResponse.json();
+          const buffer = await vectorsResponse.arrayBuffer();
+          const expectedBytes = metadata.count * metadata.dimensions * Float32Array.BYTES_PER_ELEMENT;
+          if (buffer.byteLength !== expectedBytes) throw new Error("检索索引文件不完整。");
+          return { metadata, vectors: new Float32Array(buffer) };
+        }).catch(error => {
+          semanticIndexPromise = null;
+          throw error;
+        });
+      }
+      return semanticIndexPromise;
+    }
+
+    function normalizeVector(vector) {
+      let squaredSum = 0;
+      for (const value of vector) squaredSum += value * value;
+      const magnitude = Math.sqrt(squaredSum);
+      if (!magnitude) throw new Error("查询编码为空，请换一种描述后重试。");
+      return vector.map(value => value / magnitude);
+    }
+
+    async function getLocalExtractor() {
+      if (!extractorPromise) {
+        extractorPromise = import(TRANSFORMERS_CDN).then(async ({ pipeline, env }) => {
+          env.allowLocalModels = false;
+          env.useBrowserCache = true;
+          return pipeline("feature-extraction", EMBEDDING_MODEL, {
+            dtype: "q8",
+            progress_callback: progress => {
+              if (progress.status === "progress" && Number.isFinite(progress.progress)) {
+                taskSearchStatus.textContent = `首次加载模型：${Math.round(progress.progress)}%`;
+              } else if (progress.status === "ready") {
+                taskSearchStatus.textContent = "模型加载完成，正在编码任务…";
+              }
+            }
+          });
+        }).catch(error => {
+          extractorPromise = null;
+          throw error;
+        });
+      }
+      return extractorPromise;
+    }
+
+    async function embedQuery(query) {
+      const extractor = await getLocalExtractor();
+      const output = await extractor(query, { pooling: "mean", normalize: true });
+      const embedding = Array.from(output.data);
+      return { model: EMBEDDING_MODEL, dimensions: embedding.length, embedding };
+    }
+
+    function findTopFive(index, queryVector) {
+      const { metadata, vectors } = index;
+      const scores = metadata.items.map((item, itemIndex) => {
+        const offset = itemIndex * metadata.dimensions;
+        let score = 0;
+        for (let dimension = 0; dimension < metadata.dimensions; dimension += 1) {
+          score += vectors[offset + dimension] * queryVector[dimension];
+        }
+        return { item, score };
+      });
+      return scores.sort((a, b) => b.score - a.score).slice(0, 5);
+    }
+
+    function renderTaskResults(results) {
+      taskSearchResults.replaceChildren();
+      results.forEach(({ item, score }, index) => {
+        const result = document.createElement("article");
+        result.className = "task-result";
+
+        const rank = document.createElement("div");
+        rank.className = "task-result-rank";
+        rank.textContent = String(index + 1).padStart(2, "0");
+
+        const content = document.createElement("div");
+        const link = document.createElement("a");
+        link.className = "task-result-name";
+        link.href = `dataset_detail.html?name=${encodeURIComponent(item.name)}&file=${encodeURIComponent(item.fileName)}&category=${encodeURIComponent(item.category)}`;
+        link.textContent = item.name;
+        const description = document.createElement("div");
+        description.className = "task-result-description";
+        description.textContent = `${SUBJECT_LABELS[item.category] || item.category} · ${item.description}`;
+        content.append(link, description);
+
+        const scoreElement = document.createElement("div");
+        scoreElement.className = "task-result-score";
+        scoreElement.textContent = `相似度 ${score.toFixed(3)}`;
+        result.append(rank, content, scoreElement);
+        taskSearchResults.appendChild(result);
+      });
+    }
+
+    taskSearchForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const query = taskQuery.value.trim();
+      if (!query) {
+        taskQuery.focus();
+        return;
+      }
+
+      taskSearchButton.disabled = true;
+      taskSearchStatus.className = "task-status";
+      taskSearchStatus.textContent = "正在浏览器中加载模型并编码任务…";
+      taskSearchResults.replaceChildren();
+      try {
+        const [index, encoded] = await Promise.all([loadSemanticIndex(), embedQuery(query)]);
+        if (encoded.model !== index.metadata.model || encoded.dimensions !== index.metadata.dimensions) {
+          throw new Error("查询模型与数据集索引不一致，请重新生成索引。");
+        }
+        const queryVector = normalizeVector(encoded.embedding);
+        renderTaskResults(findTopFive(index, queryVector));
+        taskSearchStatus.textContent = `已从 ${index.metadata.count} 个数据集中找到最相关的 5 项。`;
+      } catch (error) {
+        taskSearchStatus.className = "task-status error";
+        taskSearchStatus.textContent = error.message || "检索失败，请稍后重试。";
+      } finally {
+        taskSearchButton.disabled = false;
+      }
+    });
 
     searchInput.addEventListener("input", applySearch);
 

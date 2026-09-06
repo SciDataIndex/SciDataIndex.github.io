@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:search-index": "node scripts/generate_search_index.mjs"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "3.8.1"
+  }
+}

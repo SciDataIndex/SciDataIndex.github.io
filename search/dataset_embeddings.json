@@ -1,0 +1,3717 @@
+{
+  "model": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "normalized": true,
+  "generatedAt": "2026-09-04T08:31:09.088Z",
+  "count": 618,
+  "items": [
+    {
+      "name": "ATel",
+      "description": "ATel 是面向暂现源观测的快速通报服务，聚合并发布天文电报，可按波段和目标类型检索与订阅。",
+      "category": "astronomy_science",
+      "fileName": "ATel_ratings1.json"
+    },
+    {
+      "name": "Astro-NER",
+      "description": "Astro‑NER 面向天文文献的命名实体识别数据与方案，利用 LLM 预测辅助非领域标注以缓解标注稀缺。",
+      "category": "astronomy_science",
+      "fileName": "Astro-NER_ratings1.json"
+    },
+    {
+      "name": "Astro-QA",
+      "description": "Astro‑QA 是天文领域的问答基准数据集，包含英中双语问题与参考答案，用于评测 LLM 的天文知识与推理能力。",
+      "category": "astronomy_science",
+      "fileName": "Astro-QA_ratings1.json"
+    },
+    {
+      "name": "AstroBERT",
+      "description": "astroBERT 是基于 NASA ADS 天文论文语料训练的领域语言模型，目标是提升语义检索与实体识别等任务。",
+      "category": "astronomy_science",
+      "fileName": "AstroBERT_ratings1.json"
+    },
+    {
+      "name": "AstroLLaMA-chat",
+      "description": "AstroLLaMA‑Chat 是面向天文学对话的领域大模型，基于 LLaMA‑2 7B 并持续预训练天文语料后再进行对话微调。",
+      "category": "astronomy_science",
+      "fileName": "AstroLLaMA-chat_ratings1.json"
+    },
+    {
+      "name": "AstroLLaMA",
+      "description": "AstroLLaMA 是基于 LLaMA 的天文学语言模型，主要利用大规模 astro‑ph 文献语料进行领域化训练。",
+      "category": "astronomy_science",
+      "fileName": "AstroLLaMA_ratings1.json"
+    },
+    {
+      "name": "AstroLLaVA",
+      "description": "AstroLLaVA 是面向天文图像与文本交互的视觉‑语言模型，使用天文图像、描述与问答数据进行微调。",
+      "category": "astronomy_science",
+      "fileName": "AstroLLaVA_ratings1.json"
+    },
+    {
+      "name": "AstroMLab 1",
+      "description": "AstroMLab 1（AstroBench）是天文领域多项选择题基准，源自 ARAA 综述文献，用于评测 LLM 的天文学知识与推理。",
+      "category": "astronomy_science",
+      "fileName": "AstroMLab_1_ratings1.json"
+    },
+    {
+      "name": "AstroMLab 2",
+      "description": "AstroMLab 2 是 AstroMLab 面向天文领域 LLM 训练与评测的系列数据发布之一，强调天文知识与问答能力。",
+      "category": "astronomy_science",
+      "fileName": "AstroMLab_2_ratings1.json"
+    },
+    {
+      "name": "AstroMLab 3",
+      "description": "AstroMLab 3 是 AstroMLab 系列的天文领域数据发布，用于支撑天文 LLM 的训练与评测。",
+      "category": "astronomy_science",
+      "fileName": "AstroMLab_3_ratings1.json"
+    },
+    {
+      "name": "AstroMLab 4",
+      "description": "AstroMLab 4 是 AstroMLab 系列的天文数据发布，用于提升与评估天文领域的大模型能力。",
+      "category": "astronomy_science",
+      "fileName": "AstroMLab_4_ratings1.json"
+    },
+    {
+      "name": "AstroPT",
+      "description": "AstroPT 是面向天文观测数据的自回归预训练模型，基于大规模星系图像切片进行训练。",
+      "category": "astronomy_science",
+      "fileName": "AstroPT_ratings1.json"
+    },
+    {
+      "name": "Astrovisbench",
+      "description": "AstroVisBench 是天文领域的科学计算与可视化基准，评测模型生成分析流程与复杂图形的能力。",
+      "category": "astronomy_science",
+      "fileName": "Astrovisbench_ratings1.json"
+    },
+    {
+      "name": "PAPERCLIP",
+      "description": "PAPERCLIP 将望远镜观测与自然语言对齐，通过微调 CLIP 以实现图像‑文本联合检索与描述。",
+      "category": "astronomy_science",
+      "fileName": "PAPERCLIP_ratings1.json"
+    },
+    {
+      "name": "Pathfinder Dataset",
+      "description": "Pathfinder 面向天文文献的语义检索与知识发现，基于 ADS 大规模论文语料与 LLM 进行检索‑生成。",
+      "category": "astronomy_science",
+      "fileName": "Pathfinder_Dataset_ratings1.json"
+    },
+    {
+      "name": "PhyE2Es",
+      "description": "PhyE2Es 基于神经符号方法进行空间物理回归与公式发现，配套代码与数据用于符号回归任务。",
+      "category": "astronomy_science",
+      "fileName": "PhyE2Es_ratings1.json"
+    },
+    {
+      "name": "Starwhisper-pilsar",
+      "description": "StarWhisper‑Pulsar 面向脉冲星候选体分类，使用多模态大模型结合图像、文本与数值特征。",
+      "category": "astronomy_science",
+      "fileName": "Starwhisper-pilsar_ratings1.json"
+    },
+    {
+      "name": "Buchwald-Hartwig",
+      "description": "化学反应数据集",
+      "category": "chemistry_science",
+      "fileName": "Buchwald-Hartwig_ratings1.json"
+    },
+    {
+      "name": "Cantor HEA",
+      "description": "材料结构与性质数据集",
+      "category": "chemistry_science",
+      "fileName": "Cantor_HEA_ratings1.json"
+    },
+    {
+      "name": "ChEBI-20-MM",
+      "description": "ChEBI-20-MM 是一个多模态分子科学基准数据集，基于原始的 ChEBI-20 数据集构建而成。该数据集通过引入结构式图像、化学名称、结构编码等多种表示形式，为评估分子建模与推理任务中的人工智能系统提供了多角度、多任务的测试平台。它覆盖了从结构生成到图像识别、化学命名、描述生成及信息检索等多个子领域，是分子机器学习与图神经网络研究的重要资源。",
+      "category": "chemistry_science",
+      "fileName": "ChEBI-20-MM_ratings1.json"
+    },
+    {
+      "name": "ChemBL",
+      "description": "ChEMBL 是大规模生物活性化合物数据库。",
+      "category": "chemistry_science",
+      "fileName": "ChemBL_ratings1.json"
+    },
+    {
+      "name": "ChemBench",
+      "description": "ChemBench 是一个专门面向化学领域大型语言模型（LLMs）能力评估的系统性基准数据集，由耶拿大学等机构牵头构建。数据集包含超过 2700 条高质量问答样本，涵盖从本科到研究生课程中的多个核心化学主题。ChemBench 旨在为化学知识、推理、直觉等多维能力提供细粒度评估，支持模型、专家和工具增强系统的全面对比分析。项目还提供小规模代表性子集 ChemBench-Mini，适合快速评估。",
+      "category": "chemistry_science",
+      "fileName": "ChemBench_ratings1.json"
+    },
+    {
+      "name": "ChemNLP",
+      "description": "ChemNLP 是面向化学文本理解与问答的基准数据集。",
+      "category": "chemistry_science",
+      "fileName": "ChemNLP_ratings1.json"
+    },
+    {
+      "name": "ChemRxivQuest",
+      "description": "ChemRxivQuest 是基于 ChemRxiv 文献的化学问答数据集。",
+      "category": "chemistry_science",
+      "fileName": "ChemRxivQuest_ratings1.json"
+    },
+    {
+      "name": "DeepProtein",
+      "description": "DeepProtein 是蛋白质相关任务的基准与模型资源。",
+      "category": "chemistry_science",
+      "fileName": "DeepProtein_ratings1.json"
+    },
+    {
+      "name": "MMChemBench",
+      "description": "MMChemBench是ChemBench的多模态扩展版本，\n在不同粒度上考察模型对于分子描述、分子性质预测\n分子名称转换、温度预测、试剂选择、逆合成分析\n产率预测等七个任务的能力。",
+      "category": "chemistry_science",
+      "fileName": "MMChemBench_ratings1.json"
+    },
+    {
+      "name": "MOSES",
+      "description": "MOSES 是分子生成模型的基准数据集与评测框架。",
+      "category": "chemistry_science",
+      "fileName": "MOSES_ratings1.json"
+    },
+    {
+      "name": "PMO",
+      "description": "PMO 是蛋白‑小分子相互作用与性质预测的数据集。",
+      "category": "chemistry_science",
+      "fileName": "PMO_ratings1.json"
+    },
+    {
+      "name": "RGD1-CHNO",
+      "description": "化学反应数据集",
+      "category": "chemistry_science",
+      "fileName": "RGD1-CHNO_ratings1.json"
+    },
+    {
+      "name": "SMolInstruct",
+      "description": "SMolInstruct 是小分子领域的指令微调数据集。",
+      "category": "chemistry_science",
+      "fileName": "SMolInstruct_ratings1.json"
+    },
+    {
+      "name": "ScholarChemQA",
+      "description": "ScholarChemQA 是一个专门为学术化学领域构建的大规模问答数据集，旨在推动化学研究中的自然语言处理应用。该数据集基于真实的化学研究论文构建，题目以问号结尾的问题从标题中提取，答案则来自于对应的论文摘要。问题采用多选格式，候选答案为“yes”“no”“maybe”三类，用以衡量语言模型在学术领域推理与理解复杂文本的能力。",
+      "category": "chemistry_science",
+      "fileName": "ScholarChemQA_ratings1.json"
+    },
+    {
+      "name": "Suzuki-Miyaura",
+      "description": "一种用于自动化纳摩尔级反应筛选和微摩尔级流动合成的平台",
+      "category": "chemistry_science",
+      "fileName": "Suzuki-Miyaura_ratings1.json"
+    },
+    {
+      "name": "TDC2",
+      "description": "TDC（Therapeutics Data Commons）是药物发现任务集合与数据平台。",
+      "category": "chemistry_science",
+      "fileName": "TDC2_ratings1.json"
+    },
+    {
+      "name": "The SMolInstruct Dataset",
+      "description": "SMolInstruct 是一个面向化学领域，尤其是小分子任务的大规模、全面且高质量的指令微调数据集。该数据集涵盖了分子命名、性质预测、化学反应、分子描述与生成等多个核心任务，任务设计贴合真实科研与药物发现流程，具有极高的实用性和研究价值。数据总量超过 330 万条样本，且支持 SMILES 与 SELFIES 两种分子表示格式，能够满足不同模型输入需求，是训练和评估大型语言模型在化学领域理解与生成能力的理想资源。",
+      "category": "chemistry_science",
+      "fileName": "The_SMolInstruct_Dataset_ratings1.json"
+    },
+    {
+      "name": "Transition1x",
+      "description": "化学反应数据集",
+      "category": "chemistry_science",
+      "fileName": "Transition1x_ratings1.json"
+    },
+    {
+      "name": "TrialBench",
+      "description": "TrialBench 是临床试验信息抽取与推理基准。",
+      "category": "chemistry_science",
+      "fileName": "TrialBench_ratings1.json"
+    },
+    {
+      "name": "ZINC",
+      "description": "ZINC 是可购买化合物与分子结构数据库。",
+      "category": "chemistry_science",
+      "fileName": "ZINC_ratings1.json"
+    },
+    {
+      "name": "hMOF",
+      "description": "MOF结构与性质数据集",
+      "category": "chemistry_science",
+      "fileName": "hMOF_ratings1.json"
+    },
+    {
+      "name": "3.5B Web Pages from CommonCrawl 2012",
+      "description": "该数据集基于 Common Crawl 2012 语料，覆盖约 35 亿网页，用于大规模网页图与信息检索研究。",
+      "category": "computer_science",
+      "fileName": "3.5B_Web_Pages_from_CommonCrawl_2012_ratings1.json"
+    },
+    {
+      "name": "53.5B Web clicks of 100K users in Indiana Univ.",
+      "description": "印第安纳大学 Click Dataset 包含约 535 亿条 HTTP 请求，用于 Web 流量与用户行为分析。",
+      "category": "computer_science",
+      "fileName": "53.5B_Web_clicks_of_100K_users_in_Indiana_Univ._ratings1.json"
+    },
+    {
+      "name": "ADE20K",
+      "description": "ADE20K 是语义分割与场景解析数据集。",
+      "category": "computer_science",
+      "fileName": "ADE20K_ratings1.json"
+    },
+    {
+      "name": "AVA",
+      "description": "AVA 是视频动作定位数据集，包含时空动作标注。",
+      "category": "computer_science",
+      "fileName": "AVA_ratings1.json"
+    },
+    {
+      "name": "ActivityNet",
+      "description": "ActivityNet 是大规模视频理解与事件检测数据集。",
+      "category": "computer_science",
+      "fileName": "ActivityNet_ratings1.json"
+    },
+    {
+      "name": "BookCorpus",
+      "description": "BookCorpus 是小说文本语料，用于预训练语言模型。",
+      "category": "computer_science",
+      "fileName": "BookCorpus_ratings1.json"
+    },
+    {
+      "name": "CAIDA Internet Datasets",
+      "description": "CAIDA 互联网数据集汇总了拓扑、地理位置与流量等多类网络测量数据。",
+      "category": "computer_science",
+      "fileName": "CAIDA_Internet_Datasets_ratings1.json"
+    },
+    {
+      "name": "CIFAR-100",
+      "description": "CIFAR‑100 是 100 类 32×32 彩色图像分类数据集。",
+      "category": "computer_science",
+      "fileName": "CIFAR-100_ratings1.json"
+    },
+    {
+      "name": "CIFAR-10",
+      "description": "CIFAR‑10 是 10 类 32×32 彩色图像分类数据集。",
+      "category": "computer_science",
+      "fileName": "CIFAR-10_ratings1.json"
+    },
+    {
+      "name": "COCO-Stuff",
+      "description": "COCO‑Stuff 为 COCO 提供“stuff”像素级标注。",
+      "category": "computer_science",
+      "fileName": "COCO-Stuff_ratings1.json"
+    },
+    {
+      "name": "COCO",
+      "description": "COCO 是大规模目标检测、分割与图像描述数据集。",
+      "category": "computer_science",
+      "fileName": "COCO_ratings1.json"
+    },
+    {
+      "name": "CRAWDAD Wireless datasets from Dartmouth Univ.",
+      "description": "CRAWDAD 是无线与移动计算领域的测量数据存档，现迁移至 IEEE DataPort。",
+      "category": "computer_science",
+      "fileName": "CRAWDAD_Wireless_datasets_from_Dartmouth_Univ._ratings1.json"
+    },
+    {
+      "name": "Caltech-101",
+      "description": "Caltech‑101 是经典图像分类数据集，含 101 类对象。",
+      "category": "computer_science",
+      "fileName": "Caltech-101_ratings1.json"
+    },
+    {
+      "name": "Caltech-256",
+      "description": "Caltech‑256 是扩展的图像分类数据集，含 256 类对象。",
+      "category": "computer_science",
+      "fileName": "Caltech-256_ratings1.json"
+    },
+    {
+      "name": "Citeseer",
+      "description": "Citeseer 是引文网络图数据集。",
+      "category": "computer_science",
+      "fileName": "Citeseer_ratings1.json"
+    },
+    {
+      "name": "Cityscapes",
+      "description": "Cityscapes 是城市街景语义/实例分割数据集。",
+      "category": "computer_science",
+      "fileName": "Cityscapes_ratings1.json"
+    },
+    {
+      "name": "ClueWeb09 - 1B web pages",
+      "description": "ClueWeb09 是面向信息检索的大规模网页语料，包含约 10 亿网页（多语言）。",
+      "category": "computer_science",
+      "fileName": "ClueWeb09_-_1B_web_pages_ratings1.json"
+    },
+    {
+      "name": "ClueWeb12 - 733M web pages",
+      "description": "ClueWeb12 是 ClueWeb 系列的后继网页语料，含约 7.33 亿英文网页。",
+      "category": "computer_science",
+      "fileName": "ClueWeb12_-_733M_web_pages_ratings1.json"
+    },
+    {
+      "name": "CommonCrawl Web Data over 7 years",
+      "description": "Common Crawl 是开放网络爬取语料库，提供大规模网页存档数据。",
+      "category": "computer_science",
+      "fileName": "CommonCrawl_Web_Data_over_7_years_ratings1.json"
+    },
+    {
+      "name": "Common Voice",
+      "description": "Mozilla Common Voice 是多语言众包语音数据集。",
+      "category": "computer_science",
+      "fileName": "Common_Voice_ratings1.json"
+    },
+    {
+      "name": "Cora",
+      "description": "Cora 是经典的引文网络图数据集。",
+      "category": "computer_science",
+      "fileName": "Cora_ratings1.json"
+    },
+    {
+      "name": "Criteo click-through data",
+      "description": "Criteo 点击率数据集是 1TB 级广告点击日志，用于 CTR 预测与分布式学习评测。",
+      "category": "computer_science",
+      "fileName": "Criteo_click-through_data_ratings1.json"
+    },
+    {
+      "name": "DBpedia",
+      "description": "DBpedia 是从维基百科抽取的结构化知识图谱。",
+      "category": "computer_science",
+      "fileName": "DBpedia_ratings1.json"
+    },
+    {
+      "name": "Fashion-MNIST",
+      "description": "Fashion‑MNIST 是 10 类服饰图像数据集，用于替代 MNIST。",
+      "category": "computer_science",
+      "fileName": "Fashion-MNIST_ratings1.json"
+    },
+    {
+      "name": "Freebase",
+      "description": "Freebase 是历史知识图谱数据集（已停止更新）。",
+      "category": "computer_science",
+      "fileName": "Freebase_ratings1.json"
+    },
+    {
+      "name": "HMDB51",
+      "description": "HMDB51 是人类动作识别视频数据集，含 51 类动作。",
+      "category": "computer_science",
+      "fileName": "HMDB51_ratings1.json"
+    },
+    {
+      "name": "ImageNet-21K",
+      "description": "ImageNet-21K 是 ImageNet 全量 21K 类图像分类数据集。",
+      "category": "computer_science",
+      "fileName": "ImageNet-21K_ratings1.json"
+    },
+    {
+      "name": "ImageNet",
+      "description": "ImageNet 是大规模图像分类数据集，包含 1000 类 ILSVRC 子集。",
+      "category": "computer_science",
+      "fileName": "ImageNet_ratings1.json"
+    },
+    {
+      "name": "Internet-Wide Scan Data Repository",
+      "description": "Internet‑Wide Scan Data Repository（scans.io）是互联网测量数据公共档案。",
+      "category": "computer_science",
+      "fileName": "Internet-Wide_Scan_Data_Repository_ratings1.json"
+    },
+    {
+      "name": "KITTI",
+      "description": "KITTI 是自动驾驶场景视觉基准数据集。",
+      "category": "computer_science",
+      "fileName": "KITTI_ratings1.json"
+    },
+    {
+      "name": "Kinetics-700",
+      "description": "Kinetics‑700 是动作识别视频数据集。",
+      "category": "computer_science",
+      "fileName": "Kinetics-700_ratings1.json"
+    },
+    {
+      "name": "LibriSpeech",
+      "description": "LibriSpeech 是大规模英语语音识别数据集。",
+      "category": "computer_science",
+      "fileName": "LibriSpeech_ratings1.json"
+    },
+    {
+      "name": "MIRAGE-2019",
+      "description": "MIRAGE‑2019 是移动应用流量分析数据集，包含 40 个应用的真实流量与标注。",
+      "category": "computer_science",
+      "fileName": "MIRAGE-2019_ratings1.json"
+    },
+    {
+      "name": "MNIST",
+      "description": "MNIST 是手写数字识别数据集，包含 60k 训练与 10k 测试样本。",
+      "category": "computer_science",
+      "fileName": "MNIST_ratings1.json"
+    },
+    {
+      "name": "MS COCO Captioning",
+      "description": "COCO Captioning 提供图像‑文字描述数据，用于图像描述与视觉语言任务。",
+      "category": "computer_science",
+      "fileName": "MS_COCO_Captioning_ratings1.json"
+    },
+    {
+      "name": "Merklemap DNS records Dataset",
+      "description": "Merklemap DNS Records Database 提供数十亿条 DNS 记录，支持域名关系与安全分析。",
+      "category": "computer_science",
+      "fileName": "Merklemap_DNS_records_Dataset_ratings1.json"
+    },
+    {
+      "name": "OONI: Open Observatory of Network Interference - Internet censorship data",
+      "description": "OONI 数据集记录全球网络审查与干扰测量，是开放的互联网审查观测数据。",
+      "category": "computer_science",
+      "fileName": "OONI:_Open_Observatory_of_Network_Interference_-_Internet_censorship_data_ratings1.json"
+    },
+    {
+      "name": "OpenImages",
+      "description": "Open Images 是大规模目标检测与标注数据集。",
+      "category": "computer_science",
+      "fileName": "OpenImages_ratings1.json"
+    },
+    {
+      "name": "OpenStreetMap",
+      "description": "OpenStreetMap 提供全球开放地理数据。",
+      "category": "computer_science",
+      "fileName": "OpenStreetMap_ratings1.json"
+    },
+    {
+      "name": "Open Mobile Data by MobiPerf",
+      "description": "MobiPerf 开放移动网络测量数据，涵盖延迟、吞吐与 DNS 等指标。",
+      "category": "computer_science",
+      "fileName": "Open_Mobile_Data_by_MobiPerf_ratings1.json"
+    },
+    {
+      "name": "Oxford 102 Flowers",
+      "description": "Oxford 102 Flowers 是花卉细粒度分类数据集。",
+      "category": "computer_science",
+      "fileName": "Oxford_102_Flowers_ratings1.json"
+    },
+    {
+      "name": "PASCAL VOC",
+      "description": "PASCAL VOC 是经典目标检测与分割基准。",
+      "category": "computer_science",
+      "fileName": "PASCAL_VOC_ratings1.json"
+    },
+    {
+      "name": "Places365",
+      "description": "Places365 是场景分类大规模数据集。",
+      "category": "computer_science",
+      "fileName": "Places365_ratings1.json"
+    },
+    {
+      "name": "PubMed Graph",
+      "description": "PubMed 图数据集由论文引用关系构成。",
+      "category": "computer_science",
+      "fileName": "PubMed_Graph_ratings1.json"
+    },
+    {
+      "name": "Rapid7 Sonar Internet Scans",
+      "description": "Rapid7 Sonar 提供互联网级扫描数据，用于评估暴露面与安全风险。",
+      "category": "computer_science",
+      "fileName": "Rapid7_Sonar_Internet_Scans_ratings1.json"
+    },
+    {
+      "name": "SQuAD",
+      "description": "SQuAD 是阅读理解数据集，基于维基百科问答构建。",
+      "category": "computer_science",
+      "fileName": "SQuAD_ratings1.json"
+    },
+    {
+      "name": "SUN",
+      "description": "SUN 是大规模场景识别与分割数据集。",
+      "category": "computer_science",
+      "fileName": "SUN_ratings1.json"
+    },
+    {
+      "name": "SVHN",
+      "description": "SVHN 是街景门牌号数字识别数据集。",
+      "category": "computer_science",
+      "fileName": "SVHN_ratings1.json"
+    },
+    {
+      "name": "Shopper Intent Prediction from Clickstream E‑Commerce Data with Minimal Browsing Information",
+      "description": "Coveo Shopper Intent 数据集来自电商点击流，用于购物意图预测。",
+      "category": "computer_science",
+      "fileName": "Shopper_Intent_Prediction_from_Clickstream_E‑Commerce_Data_with_Minimal_Browsing_Information_ratings1.json"
+    },
+    {
+      "name": "Stanford Dogs",
+      "description": "Stanford Dogs 是细粒度犬种分类数据集。",
+      "category": "computer_science",
+      "fileName": "Stanford_Dogs_ratings1.json"
+    },
+    {
+      "name": "The Peer-to-Peer Trace Archive",
+      "description": "P2P Trace Archive 汇集多种 P2P 系统的测量轨迹，用于 P2P 系统分析。",
+      "category": "computer_science",
+      "fileName": "The_Peer-to-Peer_Trace_Archive_ratings1.json"
+    },
+    {
+      "name": "UCF101",
+      "description": "UCF101 是动作识别视频数据集，含 101 类动作。",
+      "category": "computer_science",
+      "fileName": "UCF101_ratings1.json"
+    },
+    {
+      "name": "UCSD Network Telescope, IPv4 /8 net",
+      "description": "UCSD Network Telescope 监测暗网段被动流量，用于研究背景辐射与安全事件。",
+      "category": "computer_science",
+      "fileName": "UCSD_Network_Telescope,_IPv4_-8_net_ratings1.json"
+    },
+    {
+      "name": "Visual Genome",
+      "description": "Visual Genome 提供图像区域、关系与场景图标注。",
+      "category": "computer_science",
+      "fileName": "Visual_Genome_ratings1.json"
+    },
+    {
+      "name": "Waymo Open Dataset",
+      "description": "Waymo Open Dataset 是自动驾驶多传感器数据集。",
+      "category": "computer_science",
+      "fileName": "Waymo_Open_Dataset_ratings1.json"
+    },
+    {
+      "name": "WikiText-103",
+      "description": "WikiText‑103 是长文本语言建模数据集。",
+      "category": "computer_science",
+      "fileName": "WikiText-103_ratings1.json"
+    },
+    {
+      "name": "Wikidata",
+      "description": "Wikidata 是社区维护的开放知识图谱，提供定期数据快照。",
+      "category": "computer_science",
+      "fileName": "Wikidata_ratings1.json"
+    },
+    {
+      "name": "Wikipedia Dump",
+      "description": "Wikipedia Dump 提供维基百科定期数据转储。",
+      "category": "computer_science",
+      "fileName": "Wikipedia_Dump_ratings1.json"
+    },
+    {
+      "name": "YouTube-8M",
+      "description": "YouTube‑8M 是大规模视频分类数据集，提供预提取特征。",
+      "category": "computer_science",
+      "fileName": "YouTube-8M_ratings1.json"
+    },
+    {
+      "name": "Astro-QA",
+      "description": "Astro-QA 是由 ACMIS Labs 构建的面向天文学领域的大语言模型评估基准，旨在系统评估中文语言模型在专业学科知识下的问答能力。该数据集聚焦于模型的知识准确性与生成质量，涵盖天文学中五大核心领域，通过高质量问题集合与细致的评分体系，提供了一个权威而全面的评估框架，具有较强的研究价值与应用推广潜力。",
+      "category": "earth_science",
+      "fileName": "Astro-QA_ratings1.json"
+    },
+    {
+      "name": "CRA5",
+      "description": "CRA5 是欧洲中期天气预报中心（ECMWF）再分析数据的压缩版本，相比于原始数据，其压缩倍率大约在470X。 该数据集现在包含原始ERA5数据集中常用的多层气压高度变量以及9个地表变量。提供了全球范围内逐小时0.25°分辨率的气象要素。目前数据年份为1979-2023，全面覆盖每小时全球多层次气象状态，可帮助研究人员利用少量的存储和带宽进行气象分析、气候研究、环境建模及可再生能源评估等研究。",
+      "category": "earth_science",
+      "fileName": "CRA5_ratings1.json"
+    },
+    {
+      "name": "ChatEarthNet",
+      "description": "ChatEarthNet 是全球尺度的卫星图像‑文本描述数据集，基于 Sentinel‑2 与 WorldCover 构建。",
+      "category": "earth_science",
+      "fileName": "ChatEarthNet_ratings1.json"
+    },
+    {
+      "name": "ClimaQA",
+      "description": "ClimaQA 是一个用于评估气候科学问答模型的大型基准数据集，分为两部分：ClimaQA-Gold（专家标注）和 ClimaQA-Silver（自动生成）。数据集来源于研究生级别的气候科学教科书，涵盖多种问答形式和难度层级，旨在评估大语言模型在科学领域中的知识准确性和推理能力。",
+      "category": "earth_science",
+      "fileName": "ClimaQA_ratings1.json"
+    },
+    {
+      "name": "ClimateBERT",
+      "description": "ClimateBERT 相关数据集用于识别企业披露中的气候相关段落与具体性。",
+      "category": "earth_science",
+      "fileName": "ClimateBERT_ratings1.json"
+    },
+    {
+      "name": "DIOR-RSVG",
+      "description": "DIOR‑RSVG 是遥感视觉定位数据集，基于 DIOR 图像构建指代表达标注。",
+      "category": "earth_science",
+      "fileName": "DIOR-RSVG_ratings1.json"
+    },
+    {
+      "name": "EHT M87 Polarized Data",
+      "description": "事件视界望远镜对 M87 黑洞 2017 年观测得到的校准极化数据集",
+      "category": "earth_science",
+      "fileName": "EHT_M87_Polarized_Data_ratings1.json"
+    },
+    {
+      "name": "EHT Visibility Amplitude Data of M87* in",
+      "description": "EHT 在 2011、2012 和 2013 年对 M87* 的观测数据",
+      "category": "earth_science",
+      "fileName": "EHT_Visibility_Amplitude_Data_of_M87*_in_ratings1.json"
+    },
+    {
+      "name": "EVAttrs-95k",
+      "description": "EVAttrs‑95K 是遥感对象级属性理解数据集，包含 9.5 万对象的细粒度属性描述。",
+      "category": "earth_science",
+      "fileName": "EVAttrs-95k_ratings1.json"
+    },
+    {
+      "name": "EarthSE",
+      "description": "EarthSE 是一个综合性的地球科学基准，旨在评估大型语言模型 (LLM) 在地球科学探索方面的能力，涵盖从基础知识到高级科学探索的各项任务 。它包含三个主要数据集：Earth-Iron 和 Earth-Silver，均为问答 (QA) 数据集，用于评估基础能力和专业知识，而 Earth-Gold 则是一个新颖的开放式对话数据集，专门用于评估 LLM 的高级科学探索能力，如方法归纳、局限性分析和概念提出 。该基准构建自 10 万篇地球科学研究论文，涵盖了地球的五大圈层（水圈、生物圈、岩石圈、大气圈、冰冻圈）和 114 个子学科，并定义了 11 种基本研究任务，包括知识问答、事实核查、分析、计算和实验设计等 。实验结果表明，主流 LLM 在地球科学知识深度和真正的科学探索能力方面仍存在显著不足 。",
+      "category": "earth_science",
+      "fileName": "EarthSE_ratings1.json"
+    },
+    {
+      "name": "EarthVQA",
+      "description": "EarthVQA 是面向遥感城市场景的视觉问答数据集，强调对象关系与综合推理。",
+      "category": "earth_science",
+      "fileName": "EarthVQA_ratings1.json"
+    },
+    {
+      "name": "Event Horizon Telescope Observations",
+      "description": "EHT 2017 年对 Centaurus A 射电喷流发射与准直的校准干涉观测数据",
+      "category": "earth_science",
+      "fileName": "Event_Horizon_Telescope_observations_ratings1.json"
+    },
+    {
+      "name": "FASHI Data Release 1",
+      "description": "该数据集是由中国科学院国家天文台（NAOC）主导的FAST望远镜发布的首个河外中性氢（HⅠ）巡天目录（FASHI）",
+      "category": "earth_science",
+      "fileName": "FASHI_Data_Release_1_ratings1.json"
+    },
+    {
+      "name": "FIT-RS",
+      "description": "FIT‑RS 是遥感领域的细粒度指令微调数据集，面向多模态遥感理解。",
+      "category": "earth_science",
+      "fileName": "FIT-RS_ratings1.json"
+    },
+    {
+      "name": "First 3C279 EHT Results: Calibrated Data",
+      "description": "这是事件视界望远镜发布的首个 3C279 类星体高分辨率 VLBI 校准数据集，经过多流程校准和极化简化，可用于复现论文结果和测试 VLBI 成像算法。",
+      "category": "earth_science",
+      "fileName": "First_3C279_EHT_Results:_Calibrated_Data_ratings1.json"
+    },
+    {
+      "name": "First M87 EHT Results: Calibrated Data",
+      "description": "该数据集是2017年Event Horizon Telescope对M87黑洞观测的经多管线处理的校准射电干涉数据，公开发布以支持第一批M87事件视界成像结果。",
+      "category": "earth_science",
+      "fileName": "First_M87_EHT_Results:_Calibrated_Data_ratings1.json"
+    },
+    {
+      "name": "First Sagittarius A* EHT Results: Calibr",
+      "description": "该数据集包含事件视界望远镜2017年4月对银河系中心黑洞射电观测的经多管线校准处理数据，支撑首批Sgr A*成像结果发布。",
+      "category": "earth_science",
+      "fileName": "First_Sagittarius_A*_EHT_Results:_Calibr_ratings1.json"
+    },
+    {
+      "name": "FloodNet",
+      "description": "FloodNet 是洪涝灾害遥感数据集，包含无人机影像与像素级分割标注。",
+      "category": "earth_science",
+      "fileName": "FloodNet_ratings1.json"
+    },
+    {
+      "name": "Four seasons star chart",
+      "description": "该星图集展示了40°北纬地区四季可见星空，标注方向和亮星，辅助识别星座及部分深空天体。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "earth_science",
+      "fileName": "Four_seasons_star_chart_ratings1.json"
+    },
+    {
+      "name": "Geo-Bench",
+      "description": "GEOBench-VLM 是一个面向遥感领域的多模态基准数据集，用于系统性评估视觉语言模型（VLM）在地理空间任务上的表现。该数据集聚焦遥感图像中的场景理解、目标检测与计数、事件检测、图像描述、语义分割、时序变化分析以及非光学图像分析等任务，旨在补齐通用 VLM 基准在地理空间分析方面的短板。",
+      "category": "earth_science",
+      "fileName": "Geo-Bench_ratings1.json"
+    },
+    {
+      "name": "GeoBench",
+      "description": "GEO‑Bench 是地球观测基础模型评测基准，覆盖多分类与分割任务。",
+      "category": "earth_science",
+      "fileName": "GeoBench_ratings1.json"
+    },
+    {
+      "name": "GeoLLaVA-8k",
+      "description": "GeoLLaVA‑8K 是面向超高分辨率遥感图像的多模态数据与模型资源。",
+      "category": "earth_science",
+      "fileName": "GeoLLaVA-8k_ratings1.json"
+    },
+    {
+      "name": "GeoSignal",
+      "description": "GeoSignal 的公开权威来源未检索到，暂按表格信息整理。",
+      "category": "earth_science",
+      "fileName": "GeoSignal_ratings1.json"
+    },
+    {
+      "name": "GeoChat",
+      "description": "GeoChat 是遥感视觉语言模型与指令数据集，支持图像描述与 VQA 等任务。",
+      "category": "earth_science",
+      "fileName": "Geochat_ratings1.json"
+    },
+    {
+      "name": "GoFA-(Golang-standards-Of-Fundamental-As",
+      "description": "基本天文学标准（SOFA）库的纯Golang实现，提供天文学计算功能。",
+      "category": "earth_science",
+      "fileName": "GoFA-(Golang-standards-Of-Fundamental-As_ratings1.json"
+    },
+    {
+      "name": "HST图像观测数据",
+      "description": "HST（Hubble Space Telescope）是由美国国家航空航天局（NASA）和欧洲空间局（ESA）联合开发并于1990年发射的一台空间望远镜。其在地球大气层外运行，避免了大气湍流对光学观测的干扰，能获得具有极高空间分辨率（~0.04 arcsec）的清晰图像，适用于研究遥远或精细结构的天体。",
+      "category": "earth_science",
+      "fileName": "HST图像观测数据_ratings1.json"
+    },
+    {
+      "name": "JWST历史全部观测数据",
+      "description": "JWST历史全部观测数据（All historical observation data of JWST），包含仪器：NIRCam-A(604次观测)、NIRCam-B(26次观测)、NIRISS(10次观测)、FGS-1(10次观测)、FGS-2(8次观测)、MIRI(5次观测)。覆盖时间跨度为：2022-3-7——2024-3-20 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "earth_science",
+      "fileName": "JWST历史全部观测数据_ratings1.json"
+    },
+    {
+      "name": "LAMOST-Quasar 类星体巡天数据集",
+      "description": "LAMOST望远镜发布的类星体光谱巡天数据集，包含数万个类星体的光谱、红移及黑洞质量估算数据。",
+      "category": "earth_science",
+      "fileName": "LAMOST-Quasar_类星体巡天数据集_ratings1.json"
+    },
+    {
+      "name": "LAMOST DR8 v2.0",
+      "description": "LAMOST第八次数据发布的2.0版本，包含1660万条光谱和791万组恒星参数星表，覆盖2011-2020年巡天观测数据",
+      "category": "earth_science",
+      "fileName": "LAMOST_DR8_v2.0_ratings1.json"
+    },
+    {
+      "name": "LHRS-Align",
+      "description": "LHRS‑Align 是基于 OSM 与 Google Earth 的遥感图像‑文本对齐数据集。",
+      "category": "earth_science",
+      "fileName": "LHRS-Align_ratings1.json"
+    },
+    {
+      "name": "LHRS-Instruct",
+      "description": "LHRS‑Instruct 是 LHRS‑Bot 提供的遥感多模态指令数据集。",
+      "category": "earth_science",
+      "fileName": "LHRS-Instruct_ratings1.json"
+    },
+    {
+      "name": "LRS-VQA",
+      "description": "LRS‑VQA 是大尺寸遥感图像视觉问答基准，专注高分辨率感知。",
+      "category": "earth_science",
+      "fileName": "LRS-VQA_ratings1.json"
+    },
+    {
+      "name": "MME-RealWorld-RS",
+      "description": "MME‑RealWorld‑RS 是 MME‑RealWorld 中的遥感分域评测子集。",
+      "category": "earth_science",
+      "fileName": "MME-RealWorld-RS_ratings1.json"
+    },
+    {
+      "name": "MMRS-1M",
+      "description": "MMRS‑1M 是多传感器遥感指令跟随数据集，包含光学、SAR 与红外图像。",
+      "category": "earth_science",
+      "fileName": "MMRS-1M_ratings1.json"
+    },
+    {
+      "name": "MSEarth",
+      "description": "MSEarth，一个从高质量、开放获取的科学出版物中整理出来的多模态大模型地球科学评测基准。其涵盖地球科学的五大领域：大气、冰冻圈、水圈、岩石圈和生物圈，拥有超过7K的图片以及对应的注释。MSEarth支持多种任务，包括图片注释生成、多项选择题和开放式问答挑战。通过弥合研究生水平基准的差距，MSEarth提供了一个可扩展和高保真的资源，以加强科学推理中多模态大模型的开发和评估。",
+      "category": "earth_science",
+      "fileName": "MSEarth_ratings1.json"
+    },
+    {
+      "name": "NWPU-Captions",
+      "description": "NWPU‑Captions 是遥感图像描述数据集，包含 3.1 万幅图像与 15.5 万条描述。",
+      "category": "earth_science",
+      "fileName": "NWPU-Captions_ratings1.json"
+    },
+    {
+      "name": "OceanBench",
+      "description": "OceanBench 是用于评估海洋预报系统的基准工具与评价集。",
+      "category": "earth_science",
+      "fileName": "OceanBench_ratings1.json"
+    },
+    {
+      "name": "OmniEarth-Bench",
+      "description": "OmniEarth-Bench是针对观测数据的涵盖地球科学六大领域（大气圈、岩石圈、海洋圈、冰冻圈、生物圈和人类活动圈）及跨领域的综合性多模态基准，拥有一百个由专家精心挑选的评估维度。OmniEarth-Bench 利用卫星传感器和现场测量的观测数据，整合了四个层级的 29,779 条注释：感知推理、一般推理、科学知识推理和思路链 (CoT) 推理。其主要贡献如下：",
+      "category": "earth_science",
+      "fileName": "OmniEarth-Bench_ratings1.json"
+    },
+    {
+      "name": "OpenFWI",
+      "description": "OpenFWI 是洛斯阿拉莫斯国家实验室牵头构建的开放式全波形反演（FWI）基准数据集集合，专门面向数据驱动 FWI 及相关 AI 研究。数据集共包含 12 个子数据集，总规模约 2.1 TB，既覆盖经典的 2‑D 问题，也提供首个公开的大规模 3‑D FWI benchmark，为多结构、多规模、多工况的研究提供统一测试平台。",
+      "category": "earth_science",
+      "fileName": "OpenFWI_ratings1.json"
+    },
+    {
+      "name": "RS5M",
+      "description": "RS5M 是包含 500 万遥感图像‑文本对的大规模预训练数据集。",
+      "category": "earth_science",
+      "fileName": "RS5M_ratings1.json"
+    },
+    {
+      "name": "RSICD",
+      "description": "RSICD 是遥感图像描述数据集，包含 10,921 张图像与 54,605 条描述。",
+      "category": "earth_science",
+      "fileName": "RSICD_ratings1.json"
+    },
+    {
+      "name": "RSICap",
+      "description": "RSICap 是遥感图像高质量图像描述数据集，用于训练遥感视觉语言模型。",
+      "category": "earth_science",
+      "fileName": "RSICap_ratings1.json"
+    },
+    {
+      "name": "RSIEval",
+      "description": "RSIEval 是遥感视觉语言模型评测集，包含图像描述与开放式问答。",
+      "category": "earth_science",
+      "fileName": "RSIEval_ratings1.json"
+    },
+    {
+      "name": "RSVP",
+      "description": "RSVQA（此处与 RSVP 同名处理）是遥感视觉问答数据集，基于 OSM 构建问题‑答案对。",
+      "category": "earth_science",
+      "fileName": "RSVP_ratings1.json"
+    },
+    {
+      "name": "RSVQA-HRBEN",
+      "description": "RSVQA‑HRBEN 是 RSVQA 的高分辨率版本，面向遥感 VQA 基准。",
+      "category": "earth_science",
+      "fileName": "RSVQA-HRBEN_ratings1.json"
+    },
+    {
+      "name": "RSVQA-LRBEN",
+      "description": "RSVQA‑LRBEN 是 RSVQA 的低分辨率版本，包含大规模问答对。",
+      "category": "earth_science",
+      "fileName": "RSVQA-LRBEN_ratings1.json"
+    },
+    {
+      "name": "SDSS: 斯隆数字巡天图像观测数据",
+      "description": "SDSS（斯隆数字巡天）图像数据由地面2.5米口径的光学望远镜拍摄，通过ugriz五波段滤光片拍摄天体，覆盖从光学到近红外波段。SDSS观测的图像分辨率较低（~1.3 arcsec），但视场大，覆盖整个北天三分之一，特别适合统计普查，大样本分析和机器学习等应用。",
+      "category": "earth_science",
+      "fileName": "SDSS:_斯隆数字巡天图像观测数据_ratings1.json"
+    },
+    {
+      "name": "SEVIR (Storm EVent ImagRy)",
+      "description": "SEVIR 是一个包含10,000+时空对齐天气事件的图像数据集（384km²/4小时），整合五种卫星与雷达数据，并关联NOAA风暴事件信息。",
+      "category": "earth_science",
+      "fileName": "SEVIR_(Storm_EVent_ImagRy)_ratings1.json"
+    },
+    {
+      "name": "STEAD",
+      "description": "STEAD（STanford EArthquake Dataset）地震数据集是斯坦福大学公布的一个大规模、高质量的全球性地震数据集。数据集包含来自全球地震台站的约120万条时间序列数据，记录了 1）局部地震波形，2）地震噪声波形。数据集总计超过19,000小时的地震信号，经过严格的质量控制和标签验证，确保其准确性和可靠性。",
+      "category": "earth_science",
+      "fileName": "STEAD_ratings1.json"
+    },
+    {
+      "name": "SeafloorAI",
+      "description": "SeafloorAI 是面向海底地质测绘的视觉‑语言数据集，包含声呐影像与分割标注。",
+      "category": "earth_science",
+      "fileName": "SeafloorAI_ratings1.json"
+    },
+    {
+      "name": "SkyEye-968k",
+      "description": "SkyEye‑968k 是遥感多模态指令数据集，包含 96.8 万条指令样本。",
+      "category": "earth_science",
+      "fileName": "SkyEye-968k_ratings1.json"
+    },
+    {
+      "name": "SkyScript",
+      "description": "SkyScript 是大规模遥感图像‑文本数据集，包含 520 万图文对。",
+      "category": "earth_science",
+      "fileName": "SkyScript_ratings1.json"
+    },
+    {
+      "name": "Stellar Parameters for over 20 Million S",
+      "description": "该数据集基于SAGES和Gaia数据，提供近2600万颗恒星的精准光学测光参数及金属丰度、温度、年龄等信息，助力银河系研究。",
+      "category": "earth_science",
+      "fileName": "Stellar_Parameters_for_over_20_Million_S_ratings1.json"
+    },
+    {
+      "name": "Sydney-Captions",
+      "description": "Sydney‑Captions 是 Sydney 影像数据集的图像描述扩展版本。",
+      "category": "earth_science",
+      "fileName": "Sydney-Captions_ratings1.json"
+    },
+    {
+      "name": "TEOChatlas",
+      "description": "TEOChatlas 是时序地球观测任务的指令微调数据集，规模超过 50 万条指令样本。",
+      "category": "earth_science",
+      "fileName": "TEOChatlas_ratings1.json"
+    },
+    {
+      "name": "The First LHAASO Catalog of Gamma-Ray Sources",
+      "description": "LHAASO伽马射线源星表 第一批数据",
+      "category": "earth_science",
+      "fileName": "The_First_LHAASO_Catalog_of_Gamma-Ray_Sources_ratings1.json"
+    },
+    {
+      "name": "The First U.S. Naval Observatory CCD Astrograph Catalog",
+      "description": "美国海军天文台发布的第一批照相星表数据，包含高精度的天体位置、星等和自行数据。THE FIRST US NAVAL OBSERVATORY CCD ASTROGRAPH CATALOG。",
+      "category": "earth_science",
+      "fileName": "The_First_U.S._Naval_Observatory_CCD_Astrograph_Catalog_ratings1.json"
+    },
+    {
+      "name": "The Fourth U.S. Naval Observatory CCD Astrograph Catalog (UCAC4)",
+      "description": "美国海军天文台照相星表第四批数据",
+      "category": "earth_science",
+      "fileName": "The_Fourth_U.S._Naval_Observatory_CCD_Astrograph_Catalog_(UCAC4)_ratings1.json"
+    },
+    {
+      "name": "The Second US Naval Observatory CCD Astrograph Catalog (UCAC2)",
+      "description": "美国海军天文台照相星表第二批数据",
+      "category": "earth_science",
+      "fileName": "The_Second_US_Naval_Observatory_CCD_Astrograph_Catalog_(UCAC2)_ratings1.json"
+    },
+    {
+      "name": "The Third US Naval Observatory CCD Astrograph Catalog (UCAC3)",
+      "description": "美国海军天文台照相星表第三批数据",
+      "category": "earth_science",
+      "fileName": "The_Third_US_Naval_Observatory_CCD_Astrograph_Catalog_(UCAC3)_ratings1.json"
+    },
+    {
+      "name": "Time frequency Bulletin",
+      "description": "时间频率公报（Time frequency Bulletin）主要包括导航卫星全球定位系统（GPS）的时间信号等相对国家授时中心协调世界时系统UTC (NTSC)的时差数据，地方原子时TA(NTSC)与UTC (NTSC)的相位偏差，IERS提供的地球自转参数的最终确定结果，利用我国短波授时系统给出了世界时时号的改正数，以JYD为原点的地极坐标等等时频相关信息。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "earth_science",
+      "fileName": "Time_frequency_Bulletin_ratings1.json"
+    },
+    {
+      "name": "UCM-Captions",
+      "description": "UCM‑Captions 是 UCMerced 土地利用图像的描述数据集。",
+      "category": "earth_science",
+      "fileName": "UCM-Captions_ratings1.json"
+    },
+    {
+      "name": "US-NAM",
+      "description": "North American Mesoscale (NAM) Forecast System，美国官方运行的区域性中尺度数值天气预报模型，提供北美地区高时空分辨率的天气预测数据。",
+      "category": "earth_science",
+      "fileName": "US-NAM_ratings1.json"
+    },
+    {
+      "name": "VRSBench",
+      "description": "VRSBench 是遥感视觉语言基准，覆盖图像描述、视觉定位与问答等任务。",
+      "category": "earth_science",
+      "fileName": "VRSBench_ratings1.json"
+    },
+    {
+      "name": "VersaD",
+      "description": "VersaD 是大规模遥感图像‑文本对数据集，提供丰富场景与属性描述。",
+      "category": "earth_science",
+      "fileName": "VersaD_ratings1.json"
+    },
+    {
+      "name": "WEATHER-5K",
+      "description": "WEATHER-5K是一个开源的大规模时间序列天气预报数据集，涵盖全球20000+个气象站的数据。它提供2000年-2024年、每小时间隔的天气数据，是时间序列预报研究的重要基准数据集，适用于评估和开发天气预报模型。",
+      "category": "earth_science",
+      "fileName": "WEATHER-5K_ratings1.json"
+    },
+    {
+      "name": "WeatherQA",
+      "description": "WeatherQA 是面向强对流天气预测的多模态问答数据集，融合气象图像与专家文本分析。",
+      "category": "earth_science",
+      "fileName": "WeatherQA_ratings1.json"
+    },
+    {
+      "name": "XLRS-Bench",
+      "description": "XLRS‑Bench 是超高分辨率遥感多模态基准，评测 MLLM 的感知与推理能力。",
+      "category": "earth_science",
+      "fileName": "XLRS-Bench_ratings1.json"
+    },
+    {
+      "name": "weatherQA_sft",
+      "description": "WeatherQA_SFT 是一个用于多模态语言模型的监督式微调（SFT）数据集，基于 WeatherQA 原始数据集构建，专注于美国本土（CONUS）范围内的极端天气定位与潜在灾害分析任务。其采用 sharegpt 格式组织，旨在提升模型对气象图像与语言信息的联合理解与推理能力。",
+      "category": "earth_science",
+      "fileName": "weatherQA_sft_ratings1.json"
+    },
+    {
+      "name": "中国古天文基础参考星表",
+      "description": "中国古天文基础参考星表基于依巴谷星表，整合15537颗亮星数据（J2000.0历元坐标、自行、视向速度），用于回推恒星历史位置及古星表认证。",
+      "category": "earth_science",
+      "fileName": "中国古天文基础参考星表_ratings1.json"
+    },
+    {
+      "name": "国际海洋大气综合数据集 ICOADS逐日数据",
+      "description": "ICOADS 是时间跨度最长、观测平台最丰富、更新最活跃的全球海面气候观测集成资料库之一，覆盖 1662 年至今，并提供逐日产品，是研究近四个世纪海—气相互作用和气候变率的关键数据源。",
+      "category": "earth_science",
+      "fileName": "国际海洋大气综合数据集_ICOADS逐日数据_ratings1.json"
+    },
+    {
+      "name": "国际海洋大气综合数据集 ICOADS逐月数据",
+      "description": "ICOADS 是时间跨度最长、观测平台最丰富、更新最活跃的全球海面气候观测集成资料库之一，覆盖 1662 年至今，并提供逐月产品，是研究近四个世纪海—气相互作用和气候变率的关键数据源。",
+      "category": "earth_science",
+      "fileName": "国际海洋大气综合数据集_ICOADS逐月数据_ratings1.json"
+    },
+    {
+      "name": "多波段天文观测与数据处理研究生课程光学红外数据处理数据",
+      "description": "该数据集为中国科学院大学天文实习课程成果，包含2023年兴隆观测站60cm/1.26m望远镜对DY Her和AU CrB两颗盾牌座δ型变星的多波段（BRV/gri）观测数据，为变星研究提供教学级实测样本。",
+      "category": "earth_science",
+      "fileName": "多波段天文观测与数据处理研究生课程光学红外数据处理数据_ratings1.json"
+    },
+    {
+      "name": "怀柔太阳磁场望远镜观测数据",
+      "description": "能获得FeI 5324Å波段的光球矢量磁场和视向速度场数据，还可获得Hβ 4861Å波段的色球视向磁场和视向速度场数据。此数据为1987年至今的观测数据。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "earth_science",
+      "fileName": "怀柔太阳磁场望远镜观测数据_ratings1.json"
+    },
+    {
+      "name": "月面地形标记地图（第三版）",
+      "description": "该第三版月面地图以4.5亿像素标注1294个地标，新增15处特征并修正历史错误，通过图形标注优化实现月溪/山脉等模糊地形的精准定位，是目前最完备的业余天文观测参考体系。",
+      "category": "earth_science",
+      "fileName": "月面地形标记地图（第三版）_ratings1.json"
+    },
+    {
+      "name": "月面地形标记地图（第二版）",
+      "description": "《月面地图（第二版）》以4.5亿像素超高清分辨率标注了1268个月面地形，涵盖环形坑、月海、山脉等15类共1268个地标（包括651个主环形坑、43条山脉及13个飞船着陆点等），完整呈现业余天文望远镜可观测的所有重要月表特征。",
+      "category": "earth_science",
+      "fileName": "月面地形标记地图（第二版）_ratings1.json"
+    },
+    {
+      "name": "欧洲气象中心全球气象再分析资料 V5单层变量",
+      "description": "ERA5 是由欧洲中期天气预报中心（ECMWF）发布的第五代全球气候再分析数据集，V5单层变量",
+      "category": "earth_science",
+      "fileName": "欧洲气象中心全球气象再分析资料_V5单层变量_ratings1.json"
+    },
+    {
+      "name": "欧洲气象中心全球气象再分析资料 V5高空变量",
+      "description": "ERA5 是由欧洲中期天气预报中心（ECMWF）发布的第五代全球气候再分析数据集，V6高空变量",
+      "category": "earth_science",
+      "fileName": "欧洲气象中心全球气象再分析资料_V5高空变量_ratings1.json"
+    },
+    {
+      "name": "美国变星观测者协会测光全天巡天第十次数据发布（APASS DR10）",
+      "description": "美国变星观测者协会测光全天巡天第十次数据发布（APASS DR10）（AAVSO Photometric All Sky Survey (APASS) Data Release 10） 12亿颗星等在7＜V＜17范围内的恒星，它们的星等已经在B、V、u'、g'、r'、i'、z'波段进行了校准。APASS旨在为天空中的任何地方和几乎所有的CCD图像提供校准的测光。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "earth_science",
+      "fileName": "美国变星观测者协会测光全天巡天第十次数据发布（APASS_DR10）_ratings1.json"
+    },
+    {
+      "name": "耦合气候模型比较项目 CMIP (Coupled Model Intercomparison Project)",
+      "description": "耦合气候模型比较项目CMIP（Coupled Model Intercomparison Project）是一个用于比较不同耦合气候模型的项目，通过该项目可以获取与之相关的数据集。",
+      "category": "earth_science",
+      "fileName": "耦合气候模型比较项目_CMIP_(Coupled_Model_Intercomparison_Project)_ratings1.json"
+    },
+    {
+      "name": "长春人造卫星观测站60CM激光测距SLR数据第二次数据释放",
+      "description": "包含2022年全年的激光卫星观测数据，从2022年1月1日到2022年12月31日。包含4个子数据集",
+      "category": "earth_science",
+      "fileName": "长春人造卫星观测站60CM激光测距SLR数据第二次数据释放_ratings1.json"
+    },
+    {
+      "name": "AGIEval",
+      "description": "AGIEval 是面向高等教育与资格考试的评测基准。",
+      "category": "general_science",
+      "fileName": "AGIEval_ratings1.json"
+    },
+    {
+      "name": "ArXivCap",
+      "description": "ArXivCap 是论文图表自动描述数据集，基于 arXiv 论文图像与图注构建。",
+      "category": "general_science",
+      "fileName": "ArXivCap_ratings1.json"
+    },
+    {
+      "name": "ArXivQA",
+      "description": "ArXivQA 是基于 arXiv 论文构建的学术问答数据集。",
+      "category": "general_science",
+      "fileName": "ArXivQA_ratings1.json"
+    },
+    {
+      "name": "BMMR",
+      "description": "BMMR 是多模态推理基准，覆盖表格、图像与文本的组合推理。",
+      "category": "general_science",
+      "fileName": "BMMR_ratings1.json"
+    },
+    {
+      "name": "C-Eval",
+      "description": "C‑Eval 是中文学科知识评测基准，覆盖 52 个科目。",
+      "category": "general_science",
+      "fileName": "C-Eval_ratings1.json"
+    },
+    {
+      "name": "CURIE",
+      "description": "CURIE 是化学推理与反应预测基准，包含分子与反应相关任务。",
+      "category": "general_science",
+      "fileName": "CURIE_ratings1.json"
+    },
+    {
+      "name": "GPQA",
+      "description": "GPQA 是研究生水平的科学问答基准。",
+      "category": "general_science",
+      "fileName": "GPQA_ratings1.json"
+    },
+    {
+      "name": "Galactica",
+      "description": "Galactica 是面向科学知识的语言模型与数据资源。",
+      "category": "general_science",
+      "fileName": "Galactica_ratings1.json"
+    },
+    {
+      "name": "HLE",
+      "description": "HLE（Humanity's Last Exam）是覆盖多学科的高难度通用能力评测基准。",
+      "category": "general_science",
+      "fileName": "HLE_ratings1.json"
+    },
+    {
+      "name": "JEEBench",
+      "description": "JEEBench 是理工科考试题基准，来源于印度 JEE 考试题库。",
+      "category": "general_science",
+      "fileName": "JEEBench_ratings1.json"
+    },
+    {
+      "name": "LLM-SRBench",
+      "description": "LLM‑SRBench 是科学推理基准，聚焦多步骤推理与知识调用。",
+      "category": "general_science",
+      "fileName": "LLM-SRBench_ratings1.json"
+    },
+    {
+      "name": "MMLU",
+      "description": "MMLU 是多学科知识评测基准，覆盖 STEM 与人文社科。",
+      "category": "general_science",
+      "fileName": "MMLU_ratings1.json"
+    },
+    {
+      "name": "MMMU Pro",
+      "description": "MMMU‑Pro 是 MMMU 的高难度增强版本。",
+      "category": "general_science",
+      "fileName": "MMMU_Pro_ratings1.json"
+    },
+    {
+      "name": "MMMU",
+      "description": "MMMU 是多学科多模态评测基准，覆盖 STEM 与人文学科。",
+      "category": "general_science",
+      "fileName": "MMMU_ratings1.json"
+    },
+    {
+      "name": "MMVU",
+      "description": "MMVU 是多模态视频理解基准，包含科学与教育类视频问题。",
+      "category": "general_science",
+      "fileName": "MMVU_ratings1.json"
+    },
+    {
+      "name": "MegaScience",
+      "description": "MegaScience 是综合性科学推理评测基准。",
+      "category": "general_science",
+      "fileName": "MegaScience_ratings1.json"
+    },
+    {
+      "name": "NaturalReasoning",
+      "description": "NaturalReasoning 是面向自然语言推理的大规模指令式数据集。",
+      "category": "general_science",
+      "fileName": "NaturalReasoning_ratings1.json"
+    },
+    {
+      "name": "Nemotron-Science",
+      "description": "Nemotron‑Science 是 NVIDIA 发布的科学领域指令与对话数据集。",
+      "category": "general_science",
+      "fileName": "Nemotron-Science_ratings1.json"
+    },
+    {
+      "name": "OlympiadBench",
+      "description": "OlympiadBench 是面向奥赛级别科学与数学推理的基准。",
+      "category": "general_science",
+      "fileName": "OlympiadBench_ratings1.json"
+    },
+    {
+      "name": "SCP-116K",
+      "description": "SCP‑116K 是科学论文段落级指令微调数据集。",
+      "category": "general_science",
+      "fileName": "SCP-116K_ratings1.json"
+    },
+    {
+      "name": "SFE",
+      "description": "SFE 是科学事实抽取与校验的评测基准。",
+      "category": "general_science",
+      "fileName": "SFE_ratings1.json"
+    },
+    {
+      "name": "SciArena",
+      "description": "SciArena 是科学领域模型对齐与偏好评测基准。",
+      "category": "general_science",
+      "fileName": "SciArena_ratings1.json"
+    },
+    {
+      "name": "SciBERT",
+      "description": "SciBERT 是基于科学论文语料训练的 BERT 模型与数据资源。",
+      "category": "general_science",
+      "fileName": "SciBERT_ratings1.json"
+    },
+    {
+      "name": "SciBench",
+      "description": "SciBench 是科学计算基准，评测模型对公式与数值问题的解答能力。",
+      "category": "general_science",
+      "fileName": "SciBench_ratings1.json"
+    },
+    {
+      "name": "SciEval",
+      "description": "SciEval 是科学能力评测基准，覆盖多学科知识与推理任务。",
+      "category": "general_science",
+      "fileName": "SciEval_ratings1.json"
+    },
+    {
+      "name": "SciKnowEval",
+      "description": "SciKnowEval 是科学知识评测基准，强调知识覆盖与解释性。",
+      "category": "general_science",
+      "fileName": "SciKnowEval_ratings1.json"
+    },
+    {
+      "name": "SciQA",
+      "description": "SciQA 是科学领域问答与推理基准，包含多类科学问题。",
+      "category": "general_science",
+      "fileName": "SciQA_ratings1.json"
+    },
+    {
+      "name": "Scicode",
+      "description": "SciCode 是科学编程评测基准，覆盖多学科代码生成与修复任务。",
+      "category": "general_science",
+      "fileName": "Scicode_ratings1.json"
+    },
+    {
+      "name": "ScienceAgentBench",
+      "description": "ScienceAgentBench 是科学智能体评测基准，覆盖文献检索与实验设计等任务。",
+      "category": "general_science",
+      "fileName": "ScienceAgentBench_ratings1.json"
+    },
+    {
+      "name": "ScienceQA",
+      "description": "ScienceQA 是包含图表与图像的科学问答数据集。",
+      "category": "general_science",
+      "fileName": "ScienceQA_ratings1.json"
+    },
+    {
+      "name": "SuperGPQA",
+      "description": "SuperGPQA 是 GPQA 的增强版，包含更难的研究生级科学问答。",
+      "category": "general_science",
+      "fileName": "SuperGPQA_ratings1.json"
+    },
+    {
+      "name": "TheoremQA",
+      "description": "TheoremQA 是数学与定理理解问答基准。",
+      "category": "general_science",
+      "fileName": "TheoremQA_ratings1.json"
+    },
+    {
+      "name": "Xiezhi",
+      "description": "Xiezhi 是通用能力评测基准，涵盖跨学科问题与推理。",
+      "category": "general_science",
+      "fileName": "Xiezhi_ratings1.json"
+    },
+    {
+      "name": "AFDB (AlphaFold Database)",
+      "description": "由 DeepMind 和 EMBL-EBI 维护，提供 AlphaFold2 预测的蛋白质三维结构，覆盖 UniProtKB 中的蛋白质。",
+      "category": "life_science",
+      "fileName": "AFDB_(AlphaFold_Database)_ratings1.json"
+    },
+    {
+      "name": "AFDB SwissProt",
+      "description": "AFDB 中由 SwissProt 中的序列预测得到的结构，通常代表质量更好的 AFDB 部分。",
+      "category": "life_science",
+      "fileName": "AFDB_SwissProt_ratings1.json"
+    },
+    {
+      "name": "AGCT",
+      "description": "AGCT 是面向时间序列基因表达的几何聚类与可视化工具，用于发现基因表达模式。",
+      "category": "life_science",
+      "fileName": "AGCT_ratings1.json"
+    },
+    {
+      "name": "AIMD-Chig",
+      "description": "用于训练chignolin的visnet的数据集，AIMD+隐式溶剂化采样，计算结果来自DFT",
+      "category": "life_science",
+      "fileName": "AIMD-Chig_ratings1.json"
+    },
+    {
+      "name": "AIforCOVID",
+      "description": "AIforCOVID 提供多中心胸部 X 光与临床信息，用于预测 COVID‑19 结局/风险。",
+      "category": "life_science",
+      "fileName": "AIforCOVID_ratings1.json"
+    },
+    {
+      "name": "AMOS-MM",
+      "description": "AMOS‑MM 是腹部 CT 多模态数据集，包含影像、报告与问答，用于多模态医学任务。",
+      "category": "life_science",
+      "fileName": "AMOS-MM_ratings1.json"
+    },
+    {
+      "name": "APARENT",
+      "description": "该数据库系统整合了RNase P的序列、结构及进化信息，为研究这一关键核酸酶的分子特征与进化关系提供基础资源。",
+      "category": "life_science",
+      "fileName": "APARENT_ratings1.json"
+    },
+    {
+      "name": "AdaBrain-Bench",
+      "description": "AdaBrain‑Bench 是面向非侵入式脑机接口的脑基础模型基准，覆盖多类脑信号任务。",
+      "category": "life_science",
+      "fileName": "AdaBrain-Bench_ratings1.json"
+    },
+    {
+      "name": "AeroPath",
+      "description": "AeroPath 提供气道病理学相关的 3D CT 数据，用于自动化分析与分割研究。",
+      "category": "life_science",
+      "fileName": "AeroPath_ratings1.json"
+    },
+    {
+      "name": "AfriMed-QA v2",
+      "description": "AfriMed‑QA v2 是面向非洲医学的问答数据集，覆盖多语言与多地区临床情境。",
+      "category": "life_science",
+      "fileName": "AfriMed-QA_v2_ratings1.json"
+    },
+    {
+      "name": "AgEval",
+      "description": "AgEval 是农业植物胁迫表型基准，用于评估视觉‑语言模型的农业理解能力。",
+      "category": "life_science",
+      "fileName": "AgEval_ratings1.json"
+    },
+    {
+      "name": "AgXQA",
+      "description": "AgXQA 是灌溉与农学问答数据集，支持农业推广场景的检索与生成。",
+      "category": "life_science",
+      "fileName": "AgXQA_ratings1.json"
+    },
+    {
+      "name": "AgentClinic-Lang",
+      "description": "AgentClinic‑Lang 是 AgentClinic 的多语言临床对话环境版本，覆盖 7 种语言。",
+      "category": "life_science",
+      "fileName": "AgentClinic-Lang_ratings1.json"
+    },
+    {
+      "name": "AgentClinic-MIMIC-IV",
+      "description": "AgentClinic‑MIMIC‑IV 基于真实住院数据构建临床问诊环境。",
+      "category": "life_science",
+      "fileName": "AgentClinic-MIMIC-IV_ratings1.json"
+    },
+    {
+      "name": "AgentClinic-MedQA",
+      "description": "AgentClinic‑MedQA 基于 MedQA 的医学考试型问答构建临床对话环境。",
+      "category": "life_science",
+      "fileName": "AgentClinic-MedQA_ratings1.json"
+    },
+    {
+      "name": "AgentClinic-NEJM",
+      "description": "AgentClinic‑NEJM 基于 NEJM 病例挑战构建多模态临床环境。",
+      "category": "life_science",
+      "fileName": "AgentClinic-NEJM_ratings1.json"
+    },
+    {
+      "name": "AgentClinic-Spec",
+      "description": "AgentClinic‑Spec 基于专科医学问答构建临床评测环境。",
+      "category": "life_science",
+      "fileName": "AgentClinic-Spec_ratings1.json"
+    },
+    {
+      "name": "AlphaMed19K",
+      "description": "AlphaMed19K 是医疗问答数据集，提供约 1.9 万条问答对并于 2025 年发布。",
+      "category": "life_science",
+      "fileName": "AlphaMed19K_ratings1.json"
+    },
+    {
+      "name": "Asclepius-Synthetic-Clinical-Notes",
+      "description": "Asclepius‑Synthetic‑Clinical‑Notes 是基于 PMC‑Patients 生成的合成临床文本数据集。",
+      "category": "life_science",
+      "fileName": "Asclepius-Synthetic-Clinical-Notes_ratings1.json"
+    },
+    {
+      "name": "Asclepius",
+      "description": "Asclepius‑R 在 PhysioNet 提供合成与真实临床笔记基准，用于评估临床 LLM。",
+      "category": "life_science",
+      "fileName": "Asclepius_ratings1.json"
+    },
+    {
+      "name": "BEACON",
+      "description": "BEACON 数据集汇集免疫耐受相关药物与临床试验信息，用于生物医学研究。",
+      "category": "life_science",
+      "fileName": "BEACON_ratings1.json"
+    },
+    {
+      "name": "BFD (Big Fantastic Database)",
+      "description": "大规模蛋白质序列数据库，整合 UniProt、Metaclust 等数据，通过聚类减少冗余。",
+      "category": "life_science",
+      "fileName": "BFD_(Big_Fantastic_Database)_ratings1.json"
+    },
+    {
+      "name": "BIMCV-R",
+      "description": "BIMCV‑R 是大规模胸部 CT 及放射学报告资源，用于图文检索与诊断研究。",
+      "category": "life_science",
+      "fileName": "BIMCV-R_ratings1.json"
+    },
+    {
+      "name": "BIOMEDICA",
+      "description": "BIOMEDICA 是大规模生物医学图文配对资源，用于训练生物医学多模态模型。",
+      "category": "life_science",
+      "fileName": "BIOMEDICA_ratings1.json"
+    },
+    {
+      "name": "BRENDA",
+      "description": "BRENDA是德国布伦瑞克工业大学开发的全球最全面的酶功能数据库，提供酶分类、反应特性、动力学参数等标准化数据，支撑生物化学与生物医学研究",
+      "category": "life_science",
+      "fileName": "BRENDA_ratings1.json"
+    },
+    {
+      "name": "Bio-ML",
+      "description": "Bio‑ML 是生物医学本体匹配数据集，提供 MONDO‑UMLS 的实体对应与层级关系。",
+      "category": "life_science",
+      "fileName": "Bio-ML_ratings1.json"
+    },
+    {
+      "name": "BioASQ10b-factoid",
+      "description": "BioASQ 10b factoid 是生物医学问答竞赛的事实型子任务数据。",
+      "category": "life_science",
+      "fileName": "BioASQ10b-factoid_ratings1.json"
+    },
+    {
+      "name": "BioASQ",
+      "description": "BioASQ 提供面向生物医学的问答与语义索引竞赛数据集。",
+      "category": "life_science",
+      "fileName": "BioASQ_ratings1.json"
+    },
+    {
+      "name": "BioCoder",
+      "description": "BioCoder 是生物信息学代码生成基准，评测 LLM 编写可执行分析代码的能力。",
+      "category": "life_science",
+      "fileName": "BioCoder_ratings1.json"
+    },
+    {
+      "name": "BioGPT",
+      "description": "BioGPT 是面向生物医学文本的 GPT 模型与资源，用于生成与文本挖掘。",
+      "category": "life_science",
+      "fileName": "BioGPT_ratings1.json"
+    },
+    {
+      "name": "BioLeaflets",
+      "description": "BioLeaflets 是药品说明书文本数据集，包含 1,336 份英文说明书。",
+      "category": "life_science",
+      "fileName": "BioLeaflets_ratings1.json"
+    },
+    {
+      "name": "BioPreDyn-bench",
+      "description": "BioPreDyn‑bench 是动力学模型参数估计的基准套件。",
+      "category": "life_science",
+      "fileName": "BioPreDyn-bench_ratings1.json"
+    },
+    {
+      "name": "BioProBench",
+      "description": "BioProBench 是生物学流程/实验协议生成与理解基准。",
+      "category": "life_science",
+      "fileName": "BioProBench_ratings1.json"
+    },
+    {
+      "name": "BioRED",
+      "description": "BioRED 是文献级生物医学关系抽取数据集，覆盖多类实体与新颖性标注。",
+      "category": "life_science",
+      "fileName": "BioRED_ratings1.json"
+    },
+    {
+      "name": "BioReason",
+      "description": "BioReason 是面向生物学知识与推理的基准与模型资源。",
+      "category": "life_science",
+      "fileName": "BioReason_ratings1.json"
+    },
+    {
+      "name": "BioinfoBench",
+      "description": "Bioinfo‑Bench 面向生物信息学工作流的 LLM 评测基准。",
+      "category": "life_science",
+      "fileName": "BioinfoBench_ratings1.json"
+    },
+    {
+      "name": "BioinformaticsBench",
+      "description": "面向Multi-omics领域，Text QA类型数据集，数据模态包含Textbook",
+      "category": "life_science",
+      "fileName": "BioinformaticsBench_ratings1.json"
+    },
+    {
+      "name": "Biology-Instructions",
+      "description": "面向Multi-omics领域，Text QA类型数据集，主要用于SFT，数据模态包含DNA, RNA, Protein sequence",
+      "category": "life_science",
+      "fileName": "Biology-Instructions_ratings1.json"
+    },
+    {
+      "name": "BixBench",
+      "description": "面向Multi-omics领域，Text QA类型数据集，数据模态包含Genomics transcriptomics text",
+      "category": "life_science",
+      "fileName": "BixBench_ratings1.json"
+    },
+    {
+      "name": "Bora-v1",
+      "description": "面向Healthcare and Medical Sciences领域，Video-text类型数据集，主要用于SFT，数据模态包含Endoscopy, MRI, Microscopy, US",
+      "category": "life_science",
+      "fileName": "Bora-v1_ratings1.json"
+    },
+    {
+      "name": "CATH / Gene3D v4.3",
+      "description": "蛋白质结构分类和注释的数据库 ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+      "category": "life_science",
+      "fileName": "CATH_-_Gene3D_v4.3_ratings1.json"
+    },
+    {
+      "name": "CBLUE",
+      "description": "面向Healthcare and Medical Sciences领域，Classification, Text QA类型数据集，数据模态包含Clinical trials, EHR, Medical forum, Medical textbooks",
+      "category": "life_science",
+      "fileName": "CBLUE_ratings1.json"
+    },
+    {
+      "name": "CDD(Conserved Domain Database)",
+      "description": "蛋白质保守结构域数据库 ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+      "category": "life_science",
+      "fileName": "CDD(Conserved_Domain_Database)_ratings1.json"
+    },
+    {
+      "name": "CELLxGENE scRNA-seq Collection",
+      "description": "面向Multi-omics领域，Gene Expression-pretrain类型数据集，主要用于Pre-training，数据模态包含scRNA-seq",
+      "category": "life_science",
+      "fileName": "CELLxGENE_scRNA-seq_Collection_ratings1.json"
+    },
+    {
+      "name": "CMB-Clin",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含Medical exams",
+      "category": "life_science",
+      "fileName": "CMB-Clin_ratings1.json"
+    },
+    {
+      "name": "CMB-Exam",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含Medical exams",
+      "category": "life_science",
+      "fileName": "CMB-Exam_ratings1.json"
+    },
+    {
+      "name": "CMCQA",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，主要用于SFT，数据模态包含Clinical dialogue",
+      "category": "life_science",
+      "fileName": "CMCQA_ratings1.json"
+    },
+    {
+      "name": "CMtMedQA",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含Clinical dialogue",
+      "category": "life_science",
+      "fileName": "CMtMedQA_ratings1.json"
+    },
+    {
+      "name": "COMET",
+      "description": "面向Multi-omics领域，Classification, Regression类型数据集，数据模态包含DNA, RBA, Protein Sequence/Residue",
+      "category": "life_science",
+      "fileName": "COMET_ratings1.json"
+    },
+    {
+      "name": "CORD-19",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含Academic papers",
+      "category": "life_science",
+      "fileName": "CORD-19_ratings1.json"
+    },
+    {
+      "name": "COVID-19-Data-Hub",
+      "description": "COVID-19 Data Hub整合多个来源的新冠疫情数据",
+      "category": "life_science",
+      "fileName": "COVID-19-Data-Hub_ratings1.json"
+    },
+    {
+      "name": "CPDB(ConsensusPathDB)",
+      "description": "人类功能作用网络数据库 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "life_science",
+      "fileName": "CPDB(ConsensusPathDB)_ratings1.json"
+    },
+    {
+      "name": "CRAFT-BioQA",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含Biomedical QA",
+      "category": "life_science",
+      "fileName": "CRAFT-BioQA_ratings1.json"
+    },
+    {
+      "name": "CROP",
+      "description": "面向Agriculture领域，Text QA类型数据集，主要用于SFT，数据模态包含Academic papers",
+      "category": "life_science",
+      "fileName": "CROP_ratings1.json"
+    },
+    {
+      "name": "CXR-LLM",
+      "description": "面向Healthcare and Medical Sciences领域，VQA类型数据集，主要用于SFT，数据模态包含X-ray",
+      "category": "life_science",
+      "fileName": "CXR-LLM_ratings1.json"
+    },
+    {
+      "name": "Cattle",
+      "description": "奶牛SNP序列数据集",
+      "category": "life_science",
+      "fileName": "Cattle_ratings1.json"
+    },
+    {
+      "name": "ChIPBase",
+      "description": "ChIPBase 整合了大量公开的 ChIP-Seq 数据（包括转录因子和组蛋白修饰），覆盖多种生物体和细胞类型，并提供详细的注释信息，如结合位点、靶基因和调控网络。",
+      "category": "life_science",
+      "fileName": "ChIPBase_ratings1.json"
+    },
+    {
+      "name": "ChatDoctor",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，主要用于SFT，数据模态包含Clinical dialogue",
+      "category": "life_science",
+      "fileName": "ChatDoctor_ratings1.json"
+    },
+    {
+      "name": "ChatMed-Consult-Dataset",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，主要用于SFT，数据模态包含Clinical dialogue",
+      "category": "life_science",
+      "fileName": "ChatMed-Consult-Dataset_ratings1.json"
+    },
+    {
+      "name": "CheXpertPlus",
+      "description": "面向Healthcare and Medical Sciences领域，Image-text类型数据集，主要用于Pre-training，数据模态包含X-ray",
+      "category": "life_science",
+      "fileName": "CheXpertPlus_ratings1.json"
+    },
+    {
+      "name": "ChiMed-VL",
+      "description": "面向Healthcare and Medical Sciences领域，Image-text, Text QA类型数据集，主要用于Pre-training, SFT，数据模态包含X-ray, CT, MRI, \\etc",
+      "category": "life_science",
+      "fileName": "ChiMed-VL_ratings1.json"
+    },
+    {
+      "name": "Chinese-medical-dialogue-data",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，主要用于SFT，数据模态包含Clinical dialogue",
+      "category": "life_science",
+      "fileName": "Chinese-medical-dialogue-data_ratings1.json"
+    },
+    {
+      "name": "ClinVar",
+      "description": "NCBI 提供的公共临床变异数据库",
+      "category": "life_science",
+      "fileName": "ClinVar_ratings1.json"
+    },
+    {
+      "name": "ClinicalBench",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含EHR",
+      "category": "life_science",
+      "fileName": "ClinicalBench_ratings1.json"
+    },
+    {
+      "name": "ClinicalLab",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，数据模态包含Clinical notes",
+      "category": "life_science",
+      "fileName": "ClinicalLab_ratings1.json"
+    },
+    {
+      "name": "Clinical Guidelines",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA with CoT类型数据集，主要用于Pre-training，数据模态包含Clinical guidelines",
+      "category": "life_science",
+      "fileName": "Clinical_Guidelines_ratings1.json"
+    },
+    {
+      "name": "DHD",
+      "description": "该数据库提供加拿大批准药品信息",
+      "category": "life_science",
+      "fileName": "DHD_ratings1.json"
+    },
+    {
+      "name": "DIR",
+      "description": "面向Neuroscience领域，Classification类型数据集，主要用于Pre-training, SFT，数据模态包含fMRI",
+      "category": "life_science",
+      "fileName": "DIR_ratings1.json"
+    },
+    {
+      "name": "DISC-Med-SFT",
+      "description": "面向Healthcare and Medical Sciences领域，Text QA类型数据集，主要用于SFT，数据模态包含Clinical dialogue",
+      "category": "life_science",
+      "fileName": "DISC-Med-SFT_ratings1.json"
+    },
+    {
+      "name": "DISEASES",
+      "description": "DISEASES提供基因-疾病关联信息",
+      "category": "life_science",
+      "fileName": "DISEASES_ratings1.json"
+    },
+    {
+      "name": "DNA2Image",
+      "description": "面向Multi-omics领域，Generation类型数据集，数据模态包含Nucleotide sequence",
+      "category": "life_science",
+      "fileName": "DNA2Image_ratings1.json"
+    },
+    {
+      "name": "DNA Long Bench",
+      "description": "面向Multi-omics领域，Classification, Regression类型数据集，数据模态包含DNA sequence",
+      "category": "life_science",
+      "fileName": "DNA_Long_Bench_ratings1.json"
+    },
+    {
+      "name": "DeepCRISPR-Off",
+      "description": "RNA基因编辑数据库‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+      "category": "life_science",
+      "fileName": "DeepCRISPR-Off_ratings1.json"
+    },
+    {
+      "name": "DeepCRISPR-On",
+      "description": "RNA基因编辑数据库‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "life_science",
+      "fileName": "DeepCRISPR-On_ratings1.json"
+    },
+    {
+      "name": "DeepEyeNet",
+      "description": "面向Healthcare and Medical Sciences领域，Image-text类型数据集，主要用于Pre-training，数据模态包含CFP, FFA",
+      "category": "life_science",
+      "fileName": "DeepEyeNet_ratings1.json"
+    },
+    {
+      "name": "Derm1M",
+      "description": "面向Healthcare and Medical Sciences领域，Image-text类型数据集，主要用于Pre-training，数据模态包含Dermatological images",
+      "category": "life_science",
+      "fileName": "Derm1M_ratings1.json"
+    },
+    {
+      "name": "Drosophila enhancers Stark",
+      "description": "面向Multi-omics领域，Classification类型数据集，数据模态包含Nucleotide sequence",
+      "category": "life_science",
+      "fileName": "Drosophila_enhancers_Stark_ratings1.json"
+    },
+    {
+      "name": "Duvel",
+      "description": "DUVEL 是面向基因‑变异组合关系抽取的生物医学语料，采用主动学习与人工标注构建。",
+      "category": "life_science",
+      "fileName": "Duvel_ratings1.json"
+    },
+    {
+      "name": "EHRXQA",
+      "description": "EHRXQA 是将结构化 EHR 与胸部 X 光结合的多模态问答数据集。",
+      "category": "life_science",
+      "fileName": "EHRXQA_ratings1.json"
+    },
+    {
+      "name": "Endangered Animal Behavior Understanding",
+      "description": "基于红外陷阱相机拍摄的12年跨度的濒危动物行为理解数据集，包含11种濒危物种的视频、图像及多任务标注。",
+      "category": "life_science",
+      "fileName": "Endangered_Animal_Behavior_Understanding_ratings1.json"
+    },
+    {
+      "name": "FDA Pharmaceuticals FAQ",
+      "description": "FDA 的 Drugs@FDA 数据文件提供已批准药物与审批信息的可下载数据表。",
+      "category": "life_science",
+      "fileName": "FDA_Pharmaceuticals_FAQ_ratings1.json"
+    },
+    {
+      "name": "Fhirfly Medical Questions",
+      "description": "Fhirfly Medical Questions 是医疗/非医疗问题二分类数据集。",
+      "category": "life_science",
+      "fileName": "Fhirfly_Medical_Questions_ratings1.json"
+    },
+    {
+      "name": "FluNet",
+      "description": "WHO全球流感病毒学数据共享平台",
+      "category": "life_science",
+      "fileName": "FluNet_ratings1.json"
+    },
+    {
+      "name": "FoldSeek-UniRef50",
+      "description": "基于 FoldSeek 算法对 UniRef50 数据库进行结构聚类的扩展数据集，结合 AlphaFold 结构预测",
+      "category": "life_science",
+      "fileName": "FoldSeek-UniRef50_ratings1.json"
+    },
+    {
+      "name": "Fundus-MMBench",
+      "description": "Fundus‑MMBench 是视网膜眼底图像的多任务评测基准。",
+      "category": "life_science",
+      "fileName": "Fundus-MMBench_ratings1.json"
+    },
+    {
+      "name": "GEMeX-VQA",
+      "description": "GEMeX 是面向胸部 X 光诊断的可解释医学 VQA 大规模基准。",
+      "category": "life_science",
+      "fileName": "GEMeX-VQA_ratings1.json"
+    },
+    {
+      "name": "GMAI-MMBench",
+      "description": "医学多模态测评数据集",
+      "category": "life_science",
+      "fileName": "GMAI-MMBench_ratings1.json"
+    },
+    {
+      "name": "GMAI-Reasoning10K",
+      "description": "医学多模态推理数据集",
+      "category": "life_science",
+      "fileName": "GMAI-Reasoning10K_ratings1.json"
+    },
+    {
+      "name": "GMAI-VL-5.5M",
+      "description": "GMAI‑VL‑5.5M 是大规模医学图文多模态数据集，用于通用医学视觉‑语言模型训练。",
+      "category": "life_science",
+      "fileName": "GMAI-VL-5.5M_ratings1.json"
+    },
+    {
+      "name": "GPD",
+      "description": "GPD（Gut Phage Database）是人类肠道噬菌体基因组集合。",
+      "category": "life_science",
+      "fileName": "GPD_ratings1.json"
+    },
+    {
+      "name": "GPT-4 BiasBenchmark",
+      "description": "BiasBench 提供大模型偏见评测与排行榜，包含 GPT‑4 等模型表现。",
+      "category": "life_science",
+      "fileName": "GPT-4_BiasBenchmark_ratings1.json"
+    },
+    {
+      "name": "GRCh37/hg19",
+      "description": "GRCh37/hg19 是 2009 年发布的人类参考基因组版本。",
+      "category": "life_science",
+      "fileName": "GRCh37-hg19_ratings1.json"
+    },
+    {
+      "name": "GRCh38/hg38",
+      "description": "GRCh38/hg38 是当前主流的人类参考基因组版本。",
+      "category": "life_science",
+      "fileName": "GRCh38-hg38_ratings1.json"
+    },
+    {
+      "name": "GUE Benchmark",
+      "description": "GUE（Genome Understanding Evaluation）是基因组序列理解的任务集合基准。",
+      "category": "life_science",
+      "fileName": "GUE_Benchmark_ratings1.json"
+    },
+    {
+      "name": "GVD",
+      "description": "GVD（Gut Virome Database）提供人类肠道病毒组的参考序列与条目。",
+      "category": "life_science",
+      "fileName": "GVD_ratings1.json"
+    },
+    {
+      "name": "GeneChat-test",
+      "description": "GeneChat‑test 是 GeneChat 相关基准的测试集，用于基因功能推理评估。",
+      "category": "life_science",
+      "fileName": "GeneChat-test_ratings1.json"
+    },
+    {
+      "name": "GeneChat",
+      "description": "GeneChat 是面向基因功能预测的多模态大模型与数据方案。",
+      "category": "life_science",
+      "fileName": "GeneChat_ratings1.json"
+    },
+    {
+      "name": "GeneHop",
+      "description": "GeneHop 是 GeneGPT 引入的多跳基因组问答基准。",
+      "category": "life_science",
+      "fileName": "GeneHop_ratings1.json"
+    },
+    {
+      "name": "GeneTuring",
+      "description": "GeneTuring 是评测基因组知识与推理能力的问答基准。",
+      "category": "life_science",
+      "fileName": "GeneTuring_ratings1.json"
+    },
+    {
+      "name": "Genome-Bench",
+      "description": "Genome‑Bench 是基于真实科研讨论构建的基因组学推理基准。",
+      "category": "life_science",
+      "fileName": "Genome-Bench_ratings1.json"
+    },
+    {
+      "name": "Genomic Benchmark",
+      "description": "Genomic Benchmarks 是面向基因组序列分类的标准数据集集合。",
+      "category": "life_science",
+      "fileName": "Genomic_Benchmark_ratings1.json"
+    },
+    {
+      "name": "Genomics instructions",
+      "description": "Genomics instructions 是面向序列任务的指令式训练数据。",
+      "category": "life_science",
+      "fileName": "Genomics_instructions_ratings1.json"
+    },
+    {
+      "name": "HMC",
+      "description": "HMC 睡眠分期数据集包含整夜 PSG 记录与人工分期标注。",
+      "category": "life_science",
+      "fileName": "HMC_ratings1.json"
+    },
+    {
+      "name": "Healix-V1",
+      "description": "Healix‑V1 是大规模医学问答对数据集。",
+      "category": "life_science",
+      "fileName": "Healix-V1_ratings1.json"
+    },
+    {
+      "name": "HealthBench",
+      "description": "HealthBench 是面向临床对话的医疗模型评测基准。",
+      "category": "life_science",
+      "fileName": "HealthBench_ratings1.json"
+    },
+    {
+      "name": "HealthsearchQA",
+      "description": "HealthSearchQA 是面向消费者健康问题的问答数据集。",
+      "category": "life_science",
+      "fileName": "HealthsearchQA_ratings1.json"
+    },
+    {
+      "name": "Huatuo-26M",
+      "description": "华佗 26M 是超大规模中文医疗问答数据集。",
+      "category": "life_science",
+      "fileName": "Huatuo-26M_ratings1.json"
+    },
+    {
+      "name": "Huatuo26M-Lite",
+      "description": "Huatuo‑Lite 是对 Huatuo‑26M 进行清洗与重写的精炼版本。",
+      "category": "life_science",
+      "fileName": "Huatuo26M-Lite_ratings1.json"
+    },
+    {
+      "name": "HuatuoGPT2-SFT-GPT4-140K",
+      "description": "HuatuoGPT2‑SFT‑GPT4‑140K 是 GPT‑4 生成的中文医疗指令微调数据。",
+      "category": "life_science",
+      "fileName": "HuatuoGPT2-SFT-GPT4-140K_ratings1.json"
+    },
+    {
+      "name": "Human Cell Atlas Dataset",
+      "description": "Human Cell Atlas 汇集多组织、多组学的单细胞参考数据。",
+      "category": "life_science",
+      "fileName": "Human_Cell_Atlas_Dataset_ratings1.json"
+    },
+    {
+      "name": "Human Pancreas",
+      "description": "Human Pancreas 汇集 HCA 胰腺网络的单细胞数据集。",
+      "category": "life_science",
+      "fileName": "Human_Pancreas_ratings1.json"
+    },
+    {
+      "name": "Human enhancers Cohn",
+      "description": "Human enhancers (Cohn) 是基因组增强子序列分类子集。",
+      "category": "life_science",
+      "fileName": "Human_enhancers_Cohn_ratings1.json"
+    },
+    {
+      "name": "Human enhancers Ensembl",
+      "description": "该数据集来自 Genomic Benchmarks，基于 Ensembl/FANTOM5 等来源构建的人类增强子序列分类任务。",
+      "category": "life_science",
+      "fileName": "Human_enhancers_Ensembl_ratings1.json"
+    },
+    {
+      "name": "Human genome",
+      "description": "人类参考基因组由 GRC 维护，提供 GRCh38 等版本用于基因组比对与注释。",
+      "category": "life_science",
+      "fileName": "Human_genome_ratings1.json"
+    },
+    {
+      "name": "Human non-TATA promoters",
+      "description": "Genomic Benchmarks 中的非 TATA 启动子序列数据，用于启动子识别任务。",
+      "category": "life_science",
+      "fileName": "Human_non-TATA_promoters_ratings1.json"
+    },
+    {
+      "name": "Human ocr Ensembl",
+      "description": "Genomic Benchmarks 中的人类开放染色质区域（OCR）序列分类数据。",
+      "category": "life_science",
+      "fileName": "Human_ocr_Ensembl_ratings1.json"
+    },
+    {
+      "name": "Human regulatory Ensembl",
+      "description": "Genomic Benchmarks 中的人类调控元件多分类数据（增强子/启动子/OCR）。",
+      "category": "life_science",
+      "fileName": "Human_regulatory_Ensembl_ratings1.json"
+    },
+    {
+      "name": "ICG-CXR",
+      "description": "ICG‑CXR 是用于可解释反事实生成的纵向胸片数据集，包含前后影像、进展提示与解释文本。",
+      "category": "life_science",
+      "fileName": "ICG-CXR_ratings1.json"
+    },
+    {
+      "name": "IEDB",
+      "description": "IEDB是一个免疫表位数据库",
+      "category": "life_science",
+      "fileName": "IEDB_ratings1.json"
+    },
+    {
+      "name": "IMCS-V2",
+      "description": "IMCS‑V2 是中文在线医患对话数据集，覆盖 10 种儿科疾病并带多层标注。",
+      "category": "life_science",
+      "fileName": "IMCS-V2_ratings1.json"
+    },
+    {
+      "name": "IMed-361M",
+      "description": "医学图像交互式分割基准数据集",
+      "category": "life_science",
+      "fileName": "IMed-361M_ratings1.json"
+    },
+    {
+      "name": "INFORM",
+      "description": "全球风险指数",
+      "category": "life_science",
+      "fileName": "INFORM_ratings1.json"
+    },
+    {
+      "name": "INSPECT",
+      "description": "INSPECT 是肺栓塞相关的多模态临床数据集，融合 CT、报告与 EHR。",
+      "category": "life_science",
+      "fileName": "INSPECT_ratings1.json"
+    },
+    {
+      "name": "ImageClef-VQA Med 2018",
+      "description": "ImageCLEF VQA‑Med 2018 是医学视觉问答竞赛首届数据集。",
+      "category": "life_science",
+      "fileName": "ImageClef-VQA_Med_2018_ratings1.json"
+    },
+    {
+      "name": "ImageClef-VQA Med 2019",
+      "description": "ImageCLEF VQA‑Med 2019 延续医学影像问答任务并扩展数据规模。",
+      "category": "life_science",
+      "fileName": "ImageClef-VQA_Med_2019_ratings1.json"
+    },
+    {
+      "name": "ImageClef-VQA Med 2020",
+      "description": "ImageCLEF VQA‑Med 2020 提供 VQA 与 VQG 双任务的放射影像数据集。",
+      "category": "life_science",
+      "fileName": "ImageClef-VQA_Med_2020_ratings1.json"
+    },
+    {
+      "name": "ImageClef-VQA Med 2021",
+      "description": "ImageCLEF VQA‑Med 2021 持续提供医学 VQA/VQG 竞赛数据。",
+      "category": "life_science",
+      "fileName": "ImageClef-VQA_Med_2021_ratings1.json"
+    },
+    {
+      "name": "ImmGen-ULI-Deep-RNA-seq-data",
+      "description": "ImmGen提供小鼠免疫细胞的基因表达数据",
+      "category": "life_science",
+      "fileName": "ImmGen-ULI-Deep-RNA-seq-data_ratings1.json"
+    },
+    {
+      "name": "InterPro",
+      "description": "综合性蛋白质家族、结构域和功能位点注释数据库，提供多数据库整合的标准化功能分析。",
+      "category": "life_science",
+      "fileName": "InterPro_ratings1.json"
+    },
+    {
+      "name": "Know Medical Dialogues",
+      "description": "Know Medical Dialogues 是面向医疗对话的指令式数据集。",
+      "category": "life_science",
+      "fileName": "Know_Medical_Dialogues_ratings1.json"
+    },
+    {
+      "name": "LAB-Bench",
+      "description": "LAB‑Bench 是面向生物学科研能力的语言代理评测基准。",
+      "category": "life_science",
+      "fileName": "LAB-Bench_ratings1.json"
+    },
+    {
+      "name": "LLaMA-Gene (DNA)",
+      "description": "LLaMA‑Gene（DNA）提供 DNA 序列与指令微调数据，用于基因任务语言模型训练。",
+      "category": "life_science",
+      "fileName": "LLaMA-Gene_(DNA)_ratings1.json"
+    },
+    {
+      "name": "LLaMA-Gene (protein)",
+      "description": "LLaMA‑Gene（protein）提供蛋白质序列与指令微调数据。",
+      "category": "life_science",
+      "fileName": "LLaMA-Gene_(protein)_ratings1.json"
+    },
+    {
+      "name": "LLaVA-Med",
+      "description": "LLaVA‑Med 是面向生物医学图文对话的多模态指令数据与模型资源。",
+      "category": "life_science",
+      "fileName": "LLaVA-Med_ratings1.json"
+    },
+    {
+      "name": "Lavita Medical QA",
+      "description": "Lavita Medical QA 是大规模英文医疗问答集合。",
+      "category": "life_science",
+      "fileName": "Lavita_Medical_QA_ratings1.json"
+    },
+    {
+      "name": "LiveQA",
+      "description": "LiveQA 医疗任务来自 TREC 2017，面向消费者健康问答。",
+      "category": "life_science",
+      "fileName": "LiveQA_ratings1.json"
+    },
+    {
+      "name": "LiveQA trec2017",
+      "description": "LiveQA TREC2017 是 TREC 2017 LiveQA 医疗问答数据集。",
+      "category": "life_science",
+      "fileName": "LiveQA_trec2017_ratings1.json"
+    },
+    {
+      "name": "M3D-Bench",
+      "description": "M3D‑Bench 是 3D 医学多模态评测基准，覆盖 8 类任务。",
+      "category": "life_science",
+      "fileName": "M3D-Bench_ratings1.json"
+    },
+    {
+      "name": "M3D-Data (caption)",
+      "description": "M3D‑Data 提供 3D 医学影像‑文本配对数据，用于检索与报告生成等任务。",
+      "category": "life_science",
+      "fileName": "M3D-Data_(caption)_ratings1.json"
+    },
+    {
+      "name": "M3D-Data (instruction)",
+      "description": "M3D‑Data 指令集提供 3D 医学影像的指令‑响应数据。",
+      "category": "life_science",
+      "fileName": "M3D-Data_(instruction)_ratings1.json"
+    },
+    {
+      "name": "MD17",
+      "description": "专注多种小分子",
+      "category": "life_science",
+      "fileName": "MD17_ratings1.json"
+    },
+    {
+      "name": "MD22",
+      "description": "共7种较大有机分子",
+      "category": "life_science",
+      "fileName": "MD22_ratings1.json"
+    },
+    {
+      "name": "MEDIQA-AnS",
+      "description": "MEDIQA‑AnS 是面向消费者健康问答的答案摘要数据集。",
+      "category": "life_science",
+      "fileName": "MEDIQA-AnS_ratings1.json"
+    },
+    {
+      "name": "MGnify",
+      "description": "EMBL-EBI 的元基因组蛋白序列数据库，专注于微生物群落的环境功能分析",
+      "category": "life_science",
+      "fileName": "MGnify_ratings1.json"
+    },
+    {
+      "name": "MIMIC-CXR",
+      "description": "MIMIC‑CXR 是大规模胸部 X 光影像与放射报告数据库。",
+      "category": "life_science",
+      "fileName": "MIMIC-CXR_ratings1.json"
+    },
+    {
+      "name": "MIMIC-Diff-VQA",
+      "description": "MIMIC‑Diff‑VQA 是基于 MIMIC‑CXR 的差分视觉问答数据集。",
+      "category": "life_science",
+      "fileName": "MIMIC-Diff-VQA_ratings1.json"
+    },
+    {
+      "name": "MIMIC-Ext-MIMIC-CXR-VQA",
+      "description": "MIMIC‑Ext‑MIMIC‑CXR‑VQA 是大规模胸片 VQA 指令数据集。",
+      "category": "life_science",
+      "fileName": "MIMIC-Ext-MIMIC-CXR-VQA_ratings1.json"
+    },
+    {
+      "name": "MIMIC-Extract",
+      "description": "MIMIC‑Extract 是 MIMIC‑III 的数据抽取与预处理流水线。",
+      "category": "life_science",
+      "fileName": "MIMIC-Extract_ratings1.json"
+    },
+    {
+      "name": "MIMIC-IV",
+      "description": "MIMIC‑IV 是大型去标识化临床电子病历数据库。",
+      "category": "life_science",
+      "fileName": "MIMIC-IV_ratings1.json"
+    },
+    {
+      "name": "MIMIC",
+      "description": "包括 2001–2008 年间数万 ICU 患者的高分辨率波形数据",
+      "category": "life_science",
+      "fileName": "MIMIC_ratings1.json"
+    },
+    {
+      "name": "MIRAGE",
+      "description": "MIRAGE 是面向医学 RAG 系统的问答评测基准。",
+      "category": "life_science",
+      "fileName": "MIRAGE_ratings1.json"
+    },
+    {
+      "name": "MLEC-QA",
+      "description": "MLEC‑QA 是中文多选生物医学问答数据集，来源于中国医师资格考试题库。",
+      "category": "life_science",
+      "fileName": "MLEC-QA_ratings1.json"
+    },
+    {
+      "name": "MM-Retinal",
+      "description": "MM‑Retinal 是眼底图文多模态数据集，来自专业眼底图谱书籍的图像‑文本配对。",
+      "category": "life_science",
+      "fileName": "MM-Retinal_ratings1.json"
+    },
+    {
+      "name": "MORFITT",
+      "description": "MorFITT 是法语生物医学文本多标签分类数据集，属于 DrBenchmark 基准套件。",
+      "category": "life_science",
+      "fileName": "MORFITT_ratings1.json"
+    },
+    {
+      "name": "MTS-Dialog",
+      "description": "MTS‑Dialog 是医患对话摘要数据集，包含对话与结构化摘要。",
+      "category": "life_science",
+      "fileName": "MTS-DIALOG_ratings1.json"
+    },
+    {
+      "name": "Med-ChatGLM",
+      "description": "Med‑ChatGLM 是面向中文医疗问答的 ChatGLM 指令微调资源。",
+      "category": "life_science",
+      "fileName": "Med-ChatGLM_ratings1.json"
+    },
+    {
+      "name": "MedAgentBench",
+      "description": "MedAgentBench 是面向 EHR 场景的医疗代理评测基准，包含可交互任务。",
+      "category": "life_science",
+      "fileName": "MedAgentBench_ratings1.json"
+    },
+    {
+      "name": "MedAlpaca",
+      "description": "MedAlpaca 构建医疗指令数据（Medical Meadow）用于医学问答与指令微调。",
+      "category": "life_science",
+      "fileName": "MedAlpaca_ratings1.json"
+    },
+    {
+      "name": "MedBench",
+      "description": "MedBench 是中文医疗大模型评测平台，汇集大规模医学考试与临床题库。",
+      "category": "life_science",
+      "fileName": "MedBench_ratings1.json"
+    },
+    {
+      "name": "MedChatZH",
+      "description": "MedChatZH 面向中医咨询的中文医疗对话数据与模型。",
+      "category": "life_science",
+      "fileName": "MedChatZH_ratings1.json"
+    },
+    {
+      "name": "MedDG",
+      "description": "MedDG 是面向实体感知医疗对话生成的大规模医患对话数据集。",
+      "category": "life_science",
+      "fileName": "MedDG_ratings1.json"
+    },
+    {
+      "name": "MedDialog-CN",
+      "description": "MedDialog‑CN 是大规模中文医患对话数据集。",
+      "category": "life_science",
+      "fileName": "MedDialog-CN_ratings1.json"
+    },
+    {
+      "name": "MedDialog",
+      "description": "MedDialog 提供英/中文两套大规模医疗对话数据集。",
+      "category": "life_science",
+      "fileName": "MedDialog_ratings1.json"
+    },
+    {
+      "name": "MedGPT-5k-ko",
+      "description": "MedGPT‑5k‑ko 是韩语医疗指令问答数据集。",
+      "category": "life_science",
+      "fileName": "MedGPT-5k-ko_ratings1.json"
+    },
+    {
+      "name": "MedICaT",
+      "description": "MedICaT 汇集医学论文中的图像、图注与引用文本。",
+      "category": "life_science",
+      "fileName": "MedICaT_ratings1.json"
+    },
+    {
+      "name": "MedMCQA",
+      "description": "MedMCQA 是大规模医学考试多选问答数据集。",
+      "category": "life_science",
+      "fileName": "MedMCQA_ratings1.json"
+    },
+    {
+      "name": "MedMD",
+      "description": "MedMD 是用于放射学基础模型训练的多模态医学影像大规模数据集。",
+      "category": "life_science",
+      "fileName": "MedMD_ratings1.json"
+    },
+    {
+      "name": "MedNERF",
+      "description": "MedNeRF 提供 CT‑DRR 数据用于单张 X 光的 3D 重建研究。",
+      "category": "life_science",
+      "fileName": "MedNERF_ratings1.json"
+    },
+    {
+      "name": "MedPix-single",
+      "description": "MedPix 是 NLM 维护的医学影像与病例知识库。",
+      "category": "life_science",
+      "fileName": "MedPix-single_ratings1.json"
+    },
+    {
+      "name": "MedQA",
+      "description": "MedQA（USMLE）是基于医学执业考试的多选问答数据集。",
+      "category": "life_science",
+      "fileName": "MedQA_ratings1.json"
+    },
+    {
+      "name": "MedQuAD",
+      "description": "MedQuAD 是从 NIH 网站构建的医疗问答数据集。",
+      "category": "life_science",
+      "fileName": "MedQuAD_ratings1.json"
+    },
+    {
+      "name": "MedReason",
+      "description": "MedReason 是带推理链的医学问答数据集。",
+      "category": "life_science",
+      "fileName": "MedReason_ratings1.json"
+    },
+    {
+      "name": "MedSyn",
+      "description": "MedSyn 是结合医学知识图谱的合成临床文本生成框架。",
+      "category": "life_science",
+      "fileName": "MedSyn_ratings1.json"
+    },
+    {
+      "name": "MedTrinity-25M",
+      "description": "MedTrinity‑25M 是大规模多模态医学图文数据集。",
+      "category": "life_science",
+      "fileName": "MedTrinity-25M_ratings1.json"
+    },
+    {
+      "name": "MedVideoCap-55K",
+      "description": "MedVideoCap‑55K 是医学视频‑文本配对数据集。",
+      "category": "life_science",
+      "fileName": "MedVideoCap-55K_ratings1.json"
+    },
+    {
+      "name": "MedXpertQA",
+      "description": "MedXpertQA 是专家级医学推理问答基准，含文本与多模态子集。",
+      "category": "life_science",
+      "fileName": "MedXpertQA_ratings1.json"
+    },
+    {
+      "name": "Medbullets",
+      "description": "MedBullets 数据集提供医学多选问答，用于医学模型评测。",
+      "category": "life_science",
+      "fileName": "Medbullets_ratings1.json"
+    },
+    {
+      "name": "MediQ",
+      "description": "MediQ 相关公开来源尚未检索到明确条目。",
+      "category": "life_science",
+      "fileName": "MediQ_ratings1.json"
+    },
+    {
+      "name": "Medical Cord19",
+      "description": "CORD‑19 是面向 COVID‑19 的开放科研文献集合。",
+      "category": "life_science",
+      "fileName": "Medical_Cord19_ratings1.json"
+    },
+    {
+      "name": "Mental health chatbot dataset",
+      "description": "该数据集汇集心理健康相关文本与情绪/状态标签，可用于聊天机器人与情感分析。",
+      "category": "life_science",
+      "fileName": "Mental_health_chatbot_dataset_ratings1.json"
+    },
+    {
+      "name": "MicroVQA",
+      "description": "MicroVQA 是面向显微图像的多模态科学推理问答基准。",
+      "category": "life_science",
+      "fileName": "MicroVQA_ratings1.json"
+    },
+    {
+      "name": "MoMu",
+      "description": "MoMu 是面向分子图‑文本多模态学习的基准与数据集合。",
+      "category": "life_science",
+      "fileName": "MoMu_ratings1.json"
+    },
+    {
+      "name": "Mol-Instructions",
+      "description": "Mol‑Instructions 是分子领域的指令微调数据集。",
+      "category": "life_science",
+      "fileName": "Mol-Instructions_ratings1.json"
+    },
+    {
+      "name": "MoleculeQA",
+      "description": "MoleculeQA 是分子性质相关的问答数据集。",
+      "category": "life_science",
+      "fileName": "MoleculeQA_ratings1.json"
+    },
+    {
+      "name": "Multi-species genome",
+      "description": "Multi‑species genome 汇集多物种基因组参考序列数据。",
+      "category": "life_science",
+      "fileName": "Multi-species_genome_ratings1.json"
+    },
+    {
+      "name": "MultiMedBench",
+      "description": "MultiMedBench 是多模态医疗大模型评测基准，覆盖图像、文本与时序信号。",
+      "category": "life_science",
+      "fileName": "MultiMedBench_ratings1.json"
+    },
+    {
+      "name": "MultiMedEval",
+      "description": "MultiMedEval 是面向医疗多模态模型的综合评测基准。",
+      "category": "life_science",
+      "fileName": "MultiMedEval_ratings1.json"
+    },
+    {
+      "name": "MultiRM",
+      "description": "该数据集整合了20个表观转录组图谱，涵盖15种单碱基分辨率技术和12类RNA修饰类型，并提供严格筛选的阴性对照，为开发高精度RNA修饰位点预测模型提供了迄今最全面的训练资源。",
+      "category": "life_science",
+      "fileName": "MultiRM_ratings1.json"
+    },
+    {
+      "name": "Multiple Sclerosis",
+      "description": "Multiple Sclerosis Dataset 提供多发性硬化 MRI 影像与标注。",
+      "category": "life_science",
+      "fileName": "Multiple_Sclerosis_ratings1.json"
+    },
+    {
+      "name": "Multispecies dataset",
+      "description": "MultiSpecies 数据集用于药物‑靶点相互作用预测，涵盖多物种蛋白。",
+      "category": "life_science",
+      "fileName": "Multispecies_dataset_ratings1.json"
+    },
+    {
+      "name": "Myeloid",
+      "description": "Myeloid 数据集提供人类髓系细胞的单细胞转录组数据。",
+      "category": "life_science",
+      "fileName": "Myeloid_ratings1.json"
+    },
+    {
+      "name": "NCBI-GenBank",
+      "description": "GenBank 是 NCBI 维护的公开核酸序列数据库。",
+      "category": "life_science",
+      "fileName": "NCBI-GenBank_ratings1.json"
+    },
+    {
+      "name": "NEJM-AI Benchmarking",
+      "description": "NEJM AI Benchmarking 提供临床任务评测与数据资源。",
+      "category": "life_science",
+      "fileName": "NEJM-AI_Benchmarking_ratings1.json"
+    },
+    {
+      "name": "NONCODE",
+      "description": "NONCODE 提供了广泛的非编码RNA序列，涵盖了多种生物体，包括模式生物和非模式生物。同时包含了非编码RNA序列的详细注释，包括它们的生成、生物学功能、结构和进化保守性等信息。",
+      "category": "life_science",
+      "fileName": "NONCODE_ratings1.json"
+    },
+    {
+      "name": "NSD-Imagery",
+      "description": "NSD‑Imagery 是自然场景刺激图像集，配套大规模 fMRI 记录。",
+      "category": "life_science",
+      "fileName": "NSD-Imagery_ratings1.json"
+    },
+    {
+      "name": "NSD",
+      "description": "NSD 是自然场景 fMRI 数据集，包含大规模刺激图像与多次重复实验。",
+      "category": "life_science",
+      "fileName": "NSD_ratings1.json"
+    },
+    {
+      "name": "NT Benchmark",
+      "description": "NT‑Benchmark 是神经科学文本理解与推理基准。",
+      "category": "life_science",
+      "fileName": "NT_Benchmark_ratings1.json"
+    },
+    {
+      "name": "Neuro-3D",
+      "description": "Neuro‑3D 提供神经元 3D 重建与表面网格数据。",
+      "category": "life_science",
+      "fileName": "Neuro-3D_ratings1.json"
+    },
+    {
+      "name": "NoteChat",
+      "description": "NoteChat 是基于 MIMIC‑III 临床笔记构建的对话数据集。",
+      "category": "life_science",
+      "fileName": "NoteChat_ratings1.json"
+    },
+    {
+      "name": "OAS (Observed Antibody Space)",
+      "description": "抗体序列数据",
+      "category": "life_science",
+      "fileName": "OAS_(Observed_Antibody_Space)_ratings1.json"
+    },
+    {
+      "name": "OPI",
+      "description": "OmniPath 提供细胞信号传导与分子相互作用知识库。",
+      "category": "life_science",
+      "fileName": "OPI_ratings1.json"
+    },
+    {
+      "name": "OmniMedVQA",
+      "description": "医学多模态测评数据集",
+      "category": "life_science",
+      "fileName": "OmniMedVQA_ratings1.json"
+    },
+    {
+      "name": "OncQA",
+      "description": "OncQA 是肿瘤学领域的问答与推理基准数据集。",
+      "category": "life_science",
+      "fileName": "OncQA_ratings1.json"
+    },
+    {
+      "name": "Open-PMC-18M",
+      "description": "Open‑PMC‑18M 汇集 PubMed Central 开放获取全文语料。",
+      "category": "life_science",
+      "fileName": "Open-PMC-18M_ratings1.json"
+    },
+    {
+      "name": "OpenGenome2",
+      "description": "OpenGenome2 为长序列基因组建模提供训练语料与评测基准。",
+      "category": "life_science",
+      "fileName": "OpenGenome2_ratings1.json"
+    },
+    {
+      "name": "OpenGenome",
+      "description": "OpenGenome 是面向基因组语言模型的基准与数据集。",
+      "category": "life_science",
+      "fileName": "OpenGenome_ratings1.json"
+    },
+    {
+      "name": "OpenI",
+      "description": "OpenI 是 NLM 提供的医学图像与报告检索平台。",
+      "category": "life_science",
+      "fileName": "OpenI_ratings1.json"
+    },
+    {
+      "name": "OpenMM-Medical",
+      "description": "OpenMM‑Medical 提供医学多模态微调数据与基准。",
+      "category": "life_science",
+      "fileName": "OpenMM-Medical_ratings1.json"
+    },
+    {
+      "name": "OpenProteinSet",
+      "description": "开源数据集，提供 AlphaFold 2 训练所需的 MSA 和模板数据。",
+      "category": "life_science",
+      "fileName": "OpenProteinSet_ratings1.json"
+    },
+    {
+      "name": "OpenVaccine",
+      "description": "疫苗降解率预测数据集‌",
+      "category": "life_science",
+      "fileName": "OpenVaccine_ratings1.json"
+    },
+    {
+      "name": "OphVL",
+      "description": "OphVL 是面向眼科影像的视觉‑语言模型与数据资源。",
+      "category": "life_science",
+      "fileName": "OphVL_ratings1.json"
+    },
+    {
+      "name": "Ophora-160K",
+      "description": "医学眼科手术视频-文本对数据集",
+      "category": "life_science",
+      "fileName": "Ophora-160K_ratings1.json"
+    },
+    {
+      "name": "Optimus",
+      "description": "RNA核糖体负载数据库‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "life_science",
+      "fileName": "Optimus_ratings1.json"
+    },
+    {
+      "name": "PCdes",
+      "description": "PCdes 是蛋白‑配体结合构象生成数据集与模型基准。",
+      "category": "life_science",
+      "fileName": "PCdes_ratings1.json"
+    },
+    {
+      "name": "PDB(Protein data bank)",
+      "description": "蛋白质结构数据库",
+      "category": "life_science",
+      "fileName": "PDB(Protein_data_bank)_ratings1.json"
+    },
+    {
+      "name": "PEER",
+      "description": "PEER 是蛋白质工程领域的序列‑功能预测基准。",
+      "category": "life_science",
+      "fileName": "PEER_ratings1.json"
+    },
+    {
+      "name": "PMC-CaseReport",
+      "description": "PMC‑CaseReport 汇集开放获取病例报告文本。",
+      "category": "life_science",
+      "fileName": "PMC-CaseReport_ratings1.json"
+    },
+    {
+      "name": "PMC-Inline",
+      "description": "PMC‑Inline 提供 PMC 论文的内联引用与上下文文本。",
+      "category": "life_science",
+      "fileName": "PMC-Inline_ratings1.json"
+    },
+    {
+      "name": "PMC-OA",
+      "description": "PMC‑OA 是 PubMed Central 开放获取全文语料集。",
+      "category": "life_science",
+      "fileName": "PMC-OA_ratings1.json"
+    },
+    {
+      "name": "PMC-Patients-ReCDS",
+      "description": "PMC‑Patients‑ReCDS 提供合成病人叙述与临床文本样本。",
+      "category": "life_science",
+      "fileName": "PMC-Patients-ReCDS_ratings1.json"
+    },
+    {
+      "name": "PMC-Patients",
+      "description": "PMC‑Patients 是从 PMC 病例报告中抽取的大规模患者摘要与关系数据集，用于临床检索与相似病例匹配。",
+      "category": "life_science",
+      "fileName": "PMC-Patients_ratings1.json"
+    },
+    {
+      "name": "PMC-VQA",
+      "description": "PMC‑VQA 是从 PMC 论文图表构建的临床图像视觉问答数据集。",
+      "category": "life_science",
+      "fileName": "PMC-VQA_ratings1.json"
+    },
+    {
+      "name": "PanglaoDB",
+      "description": "PanglaoDB 是人/鼠单细胞转录组数据库，提供预处理结果与细胞类型标记物查询。",
+      "category": "life_science",
+      "fileName": "PanglaoDB_ratings1.json"
+    },
+    {
+      "name": "PathVQA",
+      "description": "PathVQA 是病理图像视觉问答数据集，面向“AI 病理学家”场景。",
+      "category": "life_science",
+      "fileName": "PathVQA_ratings1.json"
+    },
+    {
+      "name": "Pfam",
+      "description": "基于蛋白质家族和结构域的分类数据库 ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+      "category": "life_science",
+      "fileName": "Pfam_ratings1.json"
+    },
+    {
+      "name": "PhosphoSitePlus v6.7.4",
+      "description": "蛋白修饰位点数据库",
+      "category": "life_science",
+      "fileName": "PhosphoSitePlus_v6.7.4_ratings1.json"
+    },
+    {
+      "name": "Pig-PIC",
+      "description": "猪SNP序列数据集",
+      "category": "life_science",
+      "fileName": "Pig-PIC_ratings1.json"
+    },
+    {
+      "name": "Pile-PubMed Central",
+      "description": "PMC Open Access 子集提供可再利用的生物医学全文语料，常用于预训练语料构建。",
+      "category": "life_science",
+      "fileName": "Pile-PubMed_Central_ratings1.json"
+    },
+    {
+      "name": "Pima",
+      "description": "Pima Indians Diabetes 是经典糖尿病预测数据集，含 768 条记录与 8 项医学特征。",
+      "category": "life_science",
+      "fileName": "Pima_ratings1.json"
+    },
+    {
+      "name": "ProCoT",
+      "description": "ProCoT（Protein Chain‑of‑Thought）将蛋白相互作用推理表述为链式思维提示，用于蛋白推理模型训练。",
+      "category": "life_science",
+      "fileName": "ProCoT_ratings1.json"
+    },
+    {
+      "name": "ProteinLMDataset",
+      "description": "ProteinLMDataset 为蛋白序列理解提供大规模预训练与指令微调数据。",
+      "category": "life_science",
+      "fileName": "ProteinLMDataset_ratings1.json"
+    },
+    {
+      "name": "PubChemSTM",
+      "description": "PubChemSTM 是分子结构‑文本对齐数据集，用于分子检索与文本编辑任务。",
+      "category": "life_science",
+      "fileName": "PubChemSTM_ratings1.json"
+    },
+    {
+      "name": "PubMedQA instruction",
+      "description": "PubMedQA_instruction 是将 PubMedQA 转为指令微调格式的数据集。",
+      "category": "life_science",
+      "fileName": "PubMedQA_instruction_ratings1.json"
+    },
+    {
+      "name": "PubMedQA",
+      "description": "PubMedQA 是生物医学研究问答数据集，答案为 yes/no/maybe。",
+      "category": "life_science",
+      "fileName": "PubMedQA_ratings1.json"
+    },
+    {
+      "name": "PubMedVision",
+      "description": "PubMedVision 是大规模医学 VQA 数据集，从 PubMed 图文对构建。",
+      "category": "life_science",
+      "fileName": "PubMedVision_ratings1.json"
+    },
+    {
+      "name": "Pubmed Causal",
+      "description": "Pubmed_Causal 是用于检测科学文本因果语言的问答数据集。",
+      "category": "life_science",
+      "fileName": "Pubmed_Causal_ratings1.json"
+    },
+    {
+      "name": "QiZhenGPT-20k",
+      "description": "QiZhenGPT‑20k 是启真医学知识库构建的 2 万条中文医疗指令数据。",
+      "category": "life_science",
+      "fileName": "QiZhenGPT-20k_ratings1.json"
+    },
+    {
+      "name": "Quilt-1M",
+      "description": "Quilt‑1M 是面向组织病理的百万级图文对数据集。",
+      "category": "life_science",
+      "fileName": "Quilt-1M_ratings1.json"
+    },
+    {
+      "name": "Quilt-Instruct",
+      "description": "Quilt‑Instruct 是面向病理学的指令式 VQA 数据集。",
+      "category": "life_science",
+      "fileName": "Quilt-Instruct_ratings1.json"
+    },
+    {
+      "name": "RCSB_PDB1",
+      "description": "RCSB_PDB 中结构的 生物组装（BioAssembly）文件",
+      "category": "life_science",
+      "fileName": "RCSB_PDB1_ratings1.json"
+    },
+    {
+      "name": "RCSB PDB",
+      "description": "全球生物大分子结构数据库，存储实验测定的蛋白质、核酸结构",
+      "category": "life_science",
+      "fileName": "RCSB_PDB_ratings1.json"
+    },
+    {
+      "name": "RJUA-QA",
+      "description": "RJUA‑QA 是泌尿外科专科问答与推理数据集。",
+      "category": "life_science",
+      "fileName": "RJUA-QA_ratings1.json"
+    },
+    {
+      "name": "RNA-QA",
+      "description": "RNA‑QA 是由 RNAcentral 与文献摘要构建的 RNA 序列‑文本问答数据集。",
+      "category": "life_science",
+      "fileName": "RNA-QA_ratings1.json"
+    },
+    {
+      "name": "RNAContact-Distance",
+      "description": "RNA接触图结构数据",
+      "category": "life_science",
+      "fileName": "RNAContact-Distance_ratings1.json"
+    },
+    {
+      "name": "RNAContact",
+      "description": "RNA接触图结构数据",
+      "category": "life_science",
+      "fileName": "RNAContact_ratings1.json"
+    },
+    {
+      "name": "RNA Switches",
+      "description": "RNA可编程开关数据库‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "life_science",
+      "fileName": "RNA_Switches_ratings1.json"
+    },
+    {
+      "name": "RNAcentral",
+      "description": "RNAcentral 是非编码 RNA 序列数据库，整合多来源 ncRNA 数据并以 CC0 发布。",
+      "category": "life_science",
+      "fileName": "RNAcentral_ratings1.json"
+    },
+    {
+      "name": "ROCO",
+      "description": "ROCO 是从 PMC OA 论文抽取的放射影像‑图注多模态数据集。",
+      "category": "life_science",
+      "fileName": "ROCO_ratings1.json"
+    },
+    {
+      "name": "ROCOv2",
+      "description": "ROCOv2 是 ROCO 的更新版医学影像‑图注数据集。",
+      "category": "life_science",
+      "fileName": "ROCOv2_ratings1.json"
+    },
+    {
+      "name": "RP3D-DiagDS",
+      "description": "RP3D‑DiagDS 是大规模长尾放射学诊断数据集，涵盖多模态与多解剖区域。",
+      "category": "life_science",
+      "fileName": "RP3D-DiagDS_ratings1.json"
+    },
+    {
+      "name": "RSCB_PDB_Seq",
+      "description": "RCSB_PDB 中结构对应的序列信息",
+      "category": "life_science",
+      "fileName": "RSCB_PDB_Seq_ratings1.json"
+    },
+    {
+      "name": "RadGenome-Chest CT",
+      "description": "RadGenome‑Chest CT 是区域指导的 3D 胸部 CT 解读数据集。",
+      "category": "life_science",
+      "fileName": "RadGenome-Chest_CT_ratings1.json"
+    },
+    {
+      "name": "RadVisDial (G)",
+      "description": "RadVisDial 是基于 MIMIC‑CXR 的放射学视觉对话数据集，含 silver/gold 两类对话。",
+      "category": "life_science",
+      "fileName": "RadVisDial_(G)_ratings1.json"
+    },
+    {
+      "name": "RareBench",
+      "description": "RareBench 是罕见病诊断评测基准，整合多来源病例数据。",
+      "category": "life_science",
+      "fileName": "RareBench_ratings1.json"
+    },
+    {
+      "name": "ReXVQA",
+      "description": "ReXVQA 是胸部放射影像 VQA 基准，涵盖多类临床推理技能。",
+      "category": "life_science",
+      "fileName": "ReXVQA_ratings1.json"
+    },
+    {
+      "name": "RealMedQA",
+      "description": "RealMedQA 是面向真实临床问题的医学问答数据集。",
+      "category": "life_science",
+      "fileName": "RealMedQA_ratings1.json"
+    },
+    {
+      "name": "ReasonMed",
+      "description": "ReasonMed 是 37 万条医学推理数据集，面向医学知识推理训练。",
+      "category": "life_science",
+      "fileName": "ReasonMed_ratings1.json"
+    },
+    {
+      "name": "RefSeq(NCBI Reference Sequence Database)",
+      "description": "基因组、转录本和蛋白质序列参考序列数据库。",
+      "category": "life_science",
+      "fileName": "RefSeq(NCBI_Reference_Sequence_Database)_ratings1.json"
+    },
+    {
+      "name": "RetinaRocks",
+      "description": "RetinaRocks 的公开权威来源未检索到。",
+      "category": "life_science",
+      "fileName": "RetinaRocks_ratings1.json"
+    },
+    {
+      "name": "Retina Image Bank",
+      "description": "Retina Image Bank 是 ASRS 提供的开放视网膜影像库。",
+      "category": "life_science",
+      "fileName": "Retina_Image_Bank_ratings1.json"
+    },
+    {
+      "name": "RexGradient-160K",
+      "description": "RexGradient‑160K 是临床推理与反思数据集，用于训练可解释医学推理。",
+      "category": "life_science",
+      "fileName": "RexGradient-160K_ratings1.json"
+    },
+    {
+      "name": "SDOH-NLI",
+      "description": "SDOH‑NLI 是社会健康决定因素的医学文本推理数据集。",
+      "category": "life_science",
+      "fileName": "SDOH-NLI_ratings1.json"
+    },
+    {
+      "name": "SEED-IV",
+      "description": "SEED‑IV 是脑电情感识别数据集，包含 4 类情绪标注。",
+      "category": "life_science",
+      "fileName": "SEED-IV_ratings1.json"
+    },
+    {
+      "name": "SEED",
+      "description": "SEED 是脑电情感识别基准数据集，含多被试与多次实验记录。",
+      "category": "life_science",
+      "fileName": "SEED_ratings1.json"
+    },
+    {
+      "name": "SFARI-Gene",
+      "description": "SFARI Gene是一个自闭症研究倡议基因数据库",
+      "category": "life_science",
+      "fileName": "SFARI-Gene_ratings1.json"
+    },
+    {
+      "name": "SHADR",
+      "description": "SHADR 是皮肤炎症影像数据集，包含多类皮肤炎症病变图像。",
+      "category": "life_science",
+      "fileName": "SHADR_ratings1.json"
+    },
+    {
+      "name": "SHHS",
+      "description": "SHHS 是 Sleep Heart Health Study 的多中心多导睡眠数据集。",
+      "category": "life_science",
+      "fileName": "SHHS_ratings1.json"
+    },
+    {
+      "name": "SHU",
+      "description": "SHU 是精神健康数据集仓库，包含多项心理与精神健康研究数据。",
+      "category": "life_science",
+      "fileName": "SHU_ratings1.json"
+    },
+    {
+      "name": "SILVA",
+      "description": "SILVA 为综合微生物 rRNA 基因数据库，涵盖三域（细菌/古菌/真核）的 SSU（16S/18S）与 LSU（23S/28S）序列，当前版本 v128（2016年更新）",
+      "category": "life_science",
+      "fileName": "SILVA_ratings1.json"
+    },
+    {
+      "name": "SLAKE",
+      "description": "SLAKE 是带定位标注的医学视觉问答数据集。",
+      "category": "life_science",
+      "fileName": "SLAKE_ratings1.json"
+    },
+    {
+      "name": "STRING",
+      "description": "蛋白质相互作用数据库",
+      "category": "life_science",
+      "fileName": "STRING_ratings1.json"
+    },
+    {
+      "name": "SWISS-2DPAGE",
+      "description": "电泳图数据库 ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+      "category": "life_science",
+      "fileName": "SWISS-2DPAGE_ratings1.json"
+    },
+    {
+      "name": "SeedBench",
+      "description": "SEED‑Bench 是多模态基础模型评测基准，覆盖图像与视频理解。",
+      "category": "life_science",
+      "fileName": "SeedBench_ratings1.json"
+    },
+    {
+      "name": "Seq2Func",
+      "description": "Seq2Func 是蛋白序列到功能描述的生成与评测数据集。",
+      "category": "life_science",
+      "fileName": "Seq2Func_ratings1.json"
+    },
+    {
+      "name": "ShenNong-TCM-Dataset",
+      "description": "神农中医数据集包含中医知识图谱与问答数据，用于中医知识推理。",
+      "category": "life_science",
+      "fileName": "ShenNong-TCM-Dataset_ratings1.json"
+    },
+    {
+      "name": "SkinCAP",
+      "description": "SkinCAP 是皮肤病图像字幕数据集，用于图像描述与皮肤病识别。",
+      "category": "life_science",
+      "fileName": "SkinCAP_ratings1.json"
+    },
+    {
+      "name": "Sleep-EDF",
+      "description": "Sleep‑EDF 是经典睡眠 EEG 数据集，提供整夜 PSG 记录与标注。",
+      "category": "life_science",
+      "fileName": "Sleep-EDF_ratings1.json"
+    },
+    {
+      "name": "SlideBench",
+      "description": "病理切片多模态测评数据集",
+      "category": "life_science",
+      "fileName": "SlideBench_ratings1.json"
+    },
+    {
+      "name": "SlideInstruct",
+      "description": "病理切片指令微调数据集",
+      "category": "life_science",
+      "fileName": "SlideInstruct_ratings1.json"
+    },
+    {
+      "name": "SourceData",
+      "description": "SourceData 为生物医学论文图表提供结构化元数据与可检索标注。",
+      "category": "life_science",
+      "fileName": "SourceData_ratings1.json"
+    },
+    {
+      "name": "SpeciesClassification",
+      "description": "SpeciesClassification 提供野生动物相机陷阱图像的物种分类基准。",
+      "category": "life_science",
+      "fileName": "SpeciesClassification_ratings1.json"
+    },
+    {
+      "name": "SpliceAI",
+      "description": "RNA剪切位点数据库",
+      "category": "life_science",
+      "fileName": "SpliceAI_ratings1.json"
+    },
+    {
+      "name": "StatPearls",
+      "description": "StatPearls 提供医学知识条目与题库，常用于医学教育与问答构建。",
+      "category": "life_science",
+      "fileName": "StatPearls_ratings1.json"
+    },
+    {
+      "name": "StructureImpute",
+      "description": "RNA二级结构补全数据",
+      "category": "life_science",
+      "fileName": "StructureImpute_ratings1.json"
+    },
+    {
+      "name": "SwissProt",
+      "description": "人类标注蛋白质注释数据",
+      "category": "life_science",
+      "fileName": "SwissProt_ratings1.json"
+    },
+    {
+      "name": "Synthetic CSAW 100k Mammograms",
+      "description": "Synthetic CSAW 100k Mammograms 是基于 CSAW 的合成乳腺 X 光数据集。",
+      "category": "life_science",
+      "fileName": "Synthetic_CSAW_100k_Mammograms_ratings1.json"
+    },
+    {
+      "name": "TCPA",
+      "description": "TCPA 是癌症蛋白组学数据分析平台，提供 RPPA 蛋白表达数据。",
+      "category": "life_science",
+      "fileName": "TCPA_ratings1.json"
+    },
+    {
+      "name": "TOMG-Bench",
+      "description": "TOMG‑Bench 是中医多模态理解与生成基准。",
+      "category": "life_science",
+      "fileName": "TOMG-Bench_ratings1.json"
+    },
+    {
+      "name": "TUAB",
+      "description": "TUAB 是 Temple University Hospital 的异常 EEG 数据集。",
+      "category": "life_science",
+      "fileName": "TUAB_ratings1.json"
+    },
+    {
+      "name": "TUEV",
+      "description": "TUEV 是癫痫发作相关 EEG 事件检测数据集。",
+      "category": "life_science",
+      "fileName": "TUEV_ratings1.json"
+    },
+    {
+      "name": "TUSL",
+      "description": "TUSL 是 EEG 短片段诊断标签数据集。",
+      "category": "life_science",
+      "fileName": "TUSL_ratings1.json"
+    },
+    {
+      "name": "Taiyi-Instruction-Data-001",
+      "description": "太一医学指令数据集包含中文医疗问答与指令样本。",
+      "category": "life_science",
+      "fileName": "Taiyi-Instruction-Data-001_ratings1.json"
+    },
+    {
+      "name": "The 1000G",
+      "description": "1000 Genomes Project 提供人类基因组变异参考数据。",
+      "category": "life_science",
+      "fileName": "The_1000G_ratings1.json"
+    },
+    {
+      "name": "Things-EEG1",
+      "description": "THINGS‑EEG1 是基于 THINGS 图像集的 EEG 视觉认知数据。",
+      "category": "life_science",
+      "fileName": "Things-EEG1_ratings1.json"
+    },
+    {
+      "name": "Things-EEG2",
+      "description": "THINGS‑EEG2 为 THINGS‑EEG 的扩展版，提供更多被试与重复记录。",
+      "category": "life_science",
+      "fileName": "Things-EEG2_ratings1.json"
+    },
+    {
+      "name": "Things-MEG",
+      "description": "THINGS‑MEG 提供基于 THINGS 图像集的 MEG 视觉认知数据。",
+      "category": "life_science",
+      "fileName": "Things-MEG_ratings1.json"
+    },
+    {
+      "name": "Things-fMRI",
+      "description": "THINGS‑fMRI 提供基于 THINGS 图像集的 fMRI 视觉认知数据。",
+      "category": "life_science",
+      "fileName": "Things-fMRI_ratings1.json"
+    },
+    {
+      "name": "ToT‑Biology",
+      "description": "ToT‑Biology 是生物学教学任务树数据集，面向复杂推理与课程生成。",
+      "category": "life_science",
+      "fileName": "ToT‑Biology_ratings1.json"
+    },
+    {
+      "name": "TrEMBL",
+      "description": "UniProtKB 子数据库，存储计算机自动注释的蛋白质序列。",
+      "category": "life_science",
+      "fileName": "TrEMBL_ratings1.json"
+    },
+    {
+      "name": "UMIN-CTR",
+      "description": "UMIN-CTR是日本的临床试验注册系统",
+      "category": "life_science",
+      "fileName": "UMIN-CTR_ratings1.json"
+    },
+    {
+      "name": "UniMerge30",
+      "description": "UniParc、UniProtKB、MGnify、JGI 聚类数据库，按 30% 序列同一性聚类",
+      "category": "life_science",
+      "fileName": "UniMerge30_ratings1.json"
+    },
+    {
+      "name": "UniMerge50",
+      "description": "UniProt 聚类数据库，按 50% 序列同一性聚类，减少冗余。",
+      "category": "life_science",
+      "fileName": "UniMerge50_ratings1.json"
+    },
+    {
+      "name": "UniMod（Unified Modification Database）",
+      "description": "面向质谱蛋白质组学的标准化修饰数据库，提供蛋白质翻译后修饰（PTMs）的化学结构与质量变化信息。",
+      "category": "life_science",
+      "fileName": "UniMod（Unified_Modification_Database）_ratings1.json"
+    },
+    {
+      "name": "UniParc",
+      "description": "UniProt 的非冗余序列数据库，归档所有公开蛋白序列。",
+      "category": "life_science",
+      "fileName": "UniParc_ratings1.json"
+    },
+    {
+      "name": "UniProtKB/Swiss-Prot",
+      "description": "UniProtKB/Swiss‑Prot 是人工审校的蛋白质序列与功能注释库。",
+      "category": "life_science",
+      "fileName": "UniProtKB-Swiss-Prot_ratings1.json"
+    },
+    {
+      "name": "UniProt（Universal Protein Resource）",
+      "description": "全球最权威的蛋白质数据库，整合序列、功能注释及结构信息，支持生物医学与蛋白质组学研究。",
+      "category": "life_science",
+      "fileName": "UniProt（Universal_Protein_Resource）_ratings1.json"
+    },
+    {
+      "name": "UniRef90",
+      "description": "UniPort SeqID90 聚类中心",
+      "category": "life_science",
+      "fileName": "UniRef90_ratings1.json"
+    },
+    {
+      "name": "VAERS",
+      "description": "疫苗不良事件报告系统",
+      "category": "life_science",
+      "fileName": "VAERS_ratings1.json"
+    },
+    {
+      "name": "VL-Health",
+      "description": "VL‑Health 是中文医疗视觉‑语言评测基准。",
+      "category": "life_science",
+      "fileName": "VL-Health_ratings1.json"
+    },
+    {
+      "name": "VQA-RAD",
+      "description": "VQA‑RAD 是放射影像视觉问答数据集。",
+      "category": "life_science",
+      "fileName": "VQA-RAD_ratings1.json"
+    },
+    {
+      "name": "ViHealthQA",
+      "description": "ViHealthQA 是越南语医疗问答数据集。",
+      "category": "life_science",
+      "fileName": "ViHealthQA_ratings1.json"
+    },
+    {
+      "name": "Visual Med-Alpaca",
+      "description": "Visual Med‑Alpaca 是 MedAlpaca 的多模态指令数据子集。",
+      "category": "life_science",
+      "fileName": "Visual_Med-Alpaca_ratings1.json"
+    },
+    {
+      "name": "WHO-TB-Database",
+      "description": "WHO全球结核病数据库",
+      "category": "life_science",
+      "fileName": "WHO-TB-Database_ratings1.json"
+    },
+    {
+      "name": "WTCCC1",
+      "description": "大规模全基因组关联研究（GWAS）数据集，涵盖1型和2型糖尿病的遗传变异与疾病关联分析，支持异质性研究。",
+      "category": "life_science",
+      "fileName": "WTCCC1_ratings1.json"
+    },
+    {
+      "name": "WikiMedQA",
+      "description": "WikiMedQA 是基于维基百科的多语言医疗问答数据集。",
+      "category": "life_science",
+      "fileName": "WikiMedQA_ratings1.json"
+    },
+    {
+      "name": "William Hoyt ImageText",
+      "description": "William Hoyt 图像‑文本集合为 OpenI 提供放射影像与报告对。",
+      "category": "life_science",
+      "fileName": "William_Hoyt_ImageText_ratings1.json"
+    },
+    {
+      "name": "Workload",
+      "description": "NASA‑TLX Workload 数据集包含多任务工作负荷与生理测量。",
+      "category": "life_science",
+      "fileName": "Workload_ratings1.json"
+    },
+    {
+      "name": "WorldMedQA-V",
+      "description": "WorldMedQA‑V 是多语言医学视觉问答基准，覆盖多国医学考试题。",
+      "category": "life_science",
+      "fileName": "WorldMedQA-V_ratings1.json"
+    },
+    {
+      "name": "Zheng68k",
+      "description": "Zheng68k 是医学对话与问答数据集。",
+      "category": "life_science",
+      "fileName": "Zheng68k_ratings1.json"
+    },
+    {
+      "name": "ZuCo1",
+      "description": "ZuCo 1.0 是包含眼动与 EEG 的阅读认知数据集。",
+      "category": "life_science",
+      "fileName": "ZuCo1_ratings1.json"
+    },
+    {
+      "name": "ZuCo2",
+      "description": "ZuCo 2.0 扩展了 ZuCo 的阅读认知数据与任务设置。",
+      "category": "life_science",
+      "fileName": "ZuCo2_ratings1.json"
+    },
+    {
+      "name": "bpRNA",
+      "description": "基于比较建模标注的大规模 RNA 二级结构数据集，涵盖多种 RNA 家族的结构信息。",
+      "category": "life_science",
+      "fileName": "bpRNA_ratings1.json"
+    },
+    {
+      "name": "cMedQA2",
+      "description": "cMedQA2 是中文医疗问答数据集，包含问答与病历摘要任务。",
+      "category": "life_science",
+      "fileName": "cMedQA2_ratings1.json"
+    },
+    {
+      "name": "emrQA",
+      "description": "emrQA 是从 MIMIC‑III 构建的临床问答数据集。",
+      "category": "life_science",
+      "fileName": "emrQA_ratings1.json"
+    },
+    {
+      "name": "genomics-long-range-benchmark",
+      "description": "Genomics Long‑Range Benchmark 面向长序列基因组建模评测。",
+      "category": "life_science",
+      "fileName": "genomics-long-range-benchmark_ratings1.json"
+    },
+    {
+      "name": "maize-AMES",
+      "description": "包含全球玉米种质资源的遗传多样性数据集，用于玉米性状遗传研究与育种改良。",
+      "category": "life_science",
+      "fileName": "maize-AMES_ratings1.json"
+    },
+    {
+      "name": "medical-o1-reasoning-SFT",
+      "description": "medical‑o1‑reasoning‑SFT 是医学推理指令微调数据集。",
+      "category": "life_science",
+      "fileName": "medical-o1-reasoning-SFT_ratings1.json"
+    },
+    {
+      "name": "nRC",
+      "description": "包含13类ncRNA序列的数据集，用于非编码RNA家族预测研究。",
+      "category": "life_science",
+      "fileName": "nRC_ratings1.json"
+    },
+    {
+      "name": "repoDB",
+      "description": "repoDB是一个用于计算药物再利用的标准数据集。",
+      "category": "life_science",
+      "fileName": "repoDB_ratings1.json"
+    },
+    {
+      "name": "scFoundation Dataset",
+      "description": "scFoundation 数据集支撑单细胞基础模型训练，覆盖大规模细胞转录组。",
+      "category": "life_science",
+      "fileName": "scFoundation_Dataset_ratings1.json"
+    },
+    {
+      "name": "scMMGPT data",
+      "description": "scMMGPT 数据集用于单细胞多模态基础模型训练。",
+      "category": "life_science",
+      "fileName": "scMMGPT_data_ratings1.json"
+    },
+    {
+      "name": "spice",
+      "description": "200万团簇",
+      "category": "life_science",
+      "fileName": "spice_ratings1.json"
+    },
+    {
+      "name": "webMedQA",
+      "description": "webMedQA 是从在线医疗问答平台抓取的中文 QA 数据集。",
+      "category": "life_science",
+      "fileName": "webMedQA_ratings1.json"
+    },
+    {
+      "name": "CURIE",
+      "description": "CURIE 是一个专为科学领域设计的大型语言模型（LLM）评估基准，用于测试模型在长上下文理解、多任务推理和信息提取方面的能力。数据集聚焦于模拟科学家在真实工作流程中的任务场景，涵盖从概念提取、聚合分析、符号推导到代码生成等各类高复杂度问题，特别强调从完整科研论文中提取关键信息的能力。",
+      "category": "material_science",
+      "fileName": "CURIE_ratings1.json"
+    },
+    {
+      "name": "CheMatAgent：化学与材料工具调用benchmark",
+      "description": "ChemToolBench是一个面向化学和材料领域的工具调用学习的大规模数据集，专注于支持基于大语言模型的化学材料智能体（ChemMatAgent）在单工具和多工具场景下的调用、推理与交互。该数据集通过标准化的参数命名、工具文档与示例输入，实现了化学工具调用学习与评估的一体化资源。",
+      "category": "material_science",
+      "fileName": "CheMatAgent：化学与材料工具调用benchmark_ratings1.json"
+    },
+    {
+      "name": "GNOME",
+      "description": "材料结构与性质数据集",
+      "category": "material_science",
+      "fileName": "GNOME_ratings1.json"
+    },
+    {
+      "name": "GuacaMol",
+      "description": "该数据集由 ChEMBL 24 数据库派生而来，经过系统清洗与筛选，用于训练与评估分子生成模型，尤其面向“de novo 分子设计”的任务。它代表了一组真实合成过并测试过生物活性的化合物，提供了用于分布学习和目标导向优化的标准训练基础。",
+      "category": "material_science",
+      "fileName": "GuacaMol_ratings1.json"
+    },
+    {
+      "name": "JARVIS-QETB",
+      "description": "材料结构与性质数据集",
+      "category": "material_science",
+      "fileName": "JARVIS-QETB_ratings1.json"
+    },
+    {
+      "name": "Jarvis-DFT",
+      "description": "材料结构与性质数据集",
+      "category": "material_science",
+      "fileName": "Jarvis-DFT_ratings1.json"
+    },
+    {
+      "name": "LLM4Mat-Bench",
+      "description": "LLM4Mat-Bench 是目前规模最大、最全面的基准数据集之一，旨在评估大语言模型（LLMs）在晶体材料性质预测任务中的表现。该数据集聚合了来自10个公开数据库的约190万晶体结构，涵盖45种材料性质。",
+      "category": "material_science",
+      "fileName": "LLM4Mat-Bench_ratings1.json"
+    },
+    {
+      "name": "MatText",
+      "description": "MatText 是一个为材料科学领域中基于文本的语言模型设计的基准测试工具和数据集套件。它提供了多种将晶体结构转化为文本的表示方法，并配备标准化的训练与测试划分、评估探针和分析工具，以系统性地评估语言模型在材料建模中的表现和局限性。",
+      "category": "material_science",
+      "fileName": "MatText_ratings1.json"
+    },
+    {
+      "name": "Materials Project",
+      "description": "Materials Project提供大量计算得出的材料属性，加速新材料的发现。项目于2011年启动，由Kristin Persson博士领导，开源。数据库涵盖多种材料，包括无机化合物和分子。提供的主要属性包括：形成焓：指示材料稳定性。晶体结构 (CIF)：描述原子排列。带隙：固体材料中价带（Valence Band）顶部与导带（Conduction Band）底部之间的能量差。Materials Project的数据通过计算方法生成，主要使用密度泛函理论（DFT），通过与实验数据对比确保高精度。自2011年启动以来，数据库显著增长。截至2025年中，估计包含超过18万个材料，基于2021年超过13万无机化合物和3.5万分子的数据，新增了数万条目。材料项目广泛用于识别新材料、预测其属性和分析趋势，支持可持续技术的进步。",
+      "category": "material_science",
+      "fileName": "Materials_Project_ratings1.json"
+    },
+    {
+      "name": "NLP4MatSci",
+      "description": "MatSci-NLP 是一个面向材料科学领域的自然语言处理（NLP）评估基准，旨在系统地衡量语言模型在处理材料科学文本中的能力。该数据集源于公开的材料科学文献，涵盖多个任务类型，构成了一个多样化、多任务的评估平台。该项目的核心贡献是提供标准化评测，推动专用科学 NLP 模型的发展，尤其是在数据资源稀缺的科学领域。",
+      "category": "material_science",
+      "fileName": "NLP4MatSci_ratings1.json"
+    },
+    {
+      "name": "OMDB",
+      "description": "材料结构与性质数据集",
+      "category": "material_science",
+      "fileName": "OMDB_ratings1.json"
+    },
+    {
+      "name": "OQMD",
+      "description": "材料结构与性质数据集",
+      "category": "material_science",
+      "fileName": "OQMD_ratings1.json"
+    },
+    {
+      "name": "QMOF",
+      "description": "Quantum MOF (QMOF) 数据库是一个公开可用的材料科学数据集，包含了超过 20,000 个金属有机框架（MOFs）和配位聚合物的量子化学性质。该数据集基于高通量周期性密度泛函理论（DFT）计算生成，专注于金属有机材料的电子结构属性，为材料设计与预测提供重要基础。",
+      "category": "material_science",
+      "fileName": "QMOF_ratings1.json"
+    },
+    {
+      "name": "SciCode",
+      "description": "SciCode 是一个专为自然科学领域研究问题设计的代码生成评估数据集，旨在更真实地评估大语言模型（LLMs）在科研编码任务中的表现。该数据集由来自数学、物理、化学、生物学和材料科学等 16 个子领域的科学家和 AI 研究者共同构建，覆盖科学研究中常见的实际问题，具有高度挑战性、科学性与现实性。",
+      "category": "material_science",
+      "fileName": "SciCode_ratings1.json"
+    },
+    {
+      "name": "matpes",
+      "description": "约40万结构",
+      "category": "material_science",
+      "fileName": "matpes_ratings1.json"
+    },
+    {
+      "name": "APT-36K",
+      "description": "APT-36K的提供了现实场景中的动物姿态估计和跟踪标注。通过筛选TouTube视频，保留了了2400个有效视频片段，每个片段包含15帧，涵盖动物园、森林、沙漠等不同场景的30种不同动物。 发表于NeurIPS2023。",
+      "category": "neuro_science",
+      "fileName": "APT-36K_ratings1.json"
+    },
+    {
+      "name": "AdaBrain-Bench",
+      "description": "AdaBrain-Bench是一个专门用于评估脑电信号基础模型的标准化测评数据集，该数据集涵盖了7类关键的非侵入式脑机接口任务，涉及认知状态评估、人类增强和临床监测等多种应用场景，全面评估模型在各种脑机接口场景下的下游任务泛化能力。",
+      "category": "neuro_science",
+      "fileName": "AdaBrain-Bench_ratings1.json"
+    },
+    {
+      "name": "Animal-Kingdom",
+      "description": "Animal Kingdom是首个涵盖850种动物、多环境条件与多任务标注（行为定位/动作识别/姿态估计）的大规模动物行为数据集，其提出的CARe模型为跨物种行为分析提供新范式。",
+      "category": "neuro_science",
+      "fileName": "Animal-Kingdom_ratings1.json"
+    },
+    {
+      "name": "BCI-IV-2A",
+      "description": "该数据集由9名受试者的EEG数据组成，受试者在实验过程中需要进行四种不同的运动想象任务，即左手（1类）、右手（2类）、双脚（3类）和舌头（4类）运动想象。",
+      "category": "neuro_science",
+      "fileName": "BCI-IV-2A_ratings1.json"
+    },
+    {
+      "name": "BOLD5000",
+      "description": "一个大规模、慢速事件相关的 fMRI 数据集，收集了 4 个受试者，每个受试者在 15 个扫描过程中观察 5,254 个图像。该数据集包含从 SUN、COCO 和 ImageNet 数据集提取的近 5,000 张不同图像，用于慢速事件相关的 fMRI 研究。四名参与者每人进行约 20 小时的 MRI 扫描。",
+      "category": "neuro_science",
+      "fileName": "BOLD5000_ratings1.json"
+    },
+    {
+      "name": "BigBrain",
+      "description": "人脑的超高分辨率三维 (3D) 模型，接近细胞分辨率 20 微米",
+      "category": "neuro_science",
+      "fileName": "BigBrain_ratings1.json"
+    },
+    {
+      "name": "BraTS-2021",
+      "description": "多模态(T1 T1Gd T2 T2-FLAIR)的MR图像，多期，2012-2021年每年都有，总数据量3000+",
+      "category": "neuro_science",
+      "fileName": "BraTS-2021_ratings1.json"
+    },
+    {
+      "name": "CQ500",
+      "description": "头部CT扫描数据集，可以用来训练识别脑部出血，骨折等病情，一共491个数据",
+      "category": "neuro_science",
+      "fileName": "CQ500_ratings1.json"
+    },
+    {
+      "name": "CREMI",
+      "description": "该数据集包含成年黑腹果蝇大脑的电子显微镜切片图像及其神经元分割和突触连接注释，用于评估自动神经回路重建算法在神经元分割、突触检测与配对识别方面的准确性与通用性。",
+      "category": "neuro_science",
+      "fileName": "CREMI_ratings1.json"
+    },
+    {
+      "name": "FIB-25",
+      "description": "果蝇7-column medulla 的FIB-SEM重建数据",
+      "category": "neuro_science",
+      "fileName": "FIB-25_ratings1.json"
+    },
+    {
+      "name": "Gold Standard Neuron Data",
+      "description": "跨物种的、广泛多样的三维神经元图像数据集及基准测试，迄今最大的神经元重建基准测试数据集。",
+      "category": "neuro_science",
+      "fileName": "Gold_Standard_Neuron_Data_ratings1.json"
+    },
+    {
+      "name": "HMC",
+      "description": "五分类睡眠分期脑电数据集",
+      "category": "neuro_science",
+      "fileName": "HMC_ratings1.json"
+    },
+    {
+      "name": "Hemibrain Dataset",
+      "description": "Hemibrain（半脑）是黑腹果蝇连接组数据集，覆盖了果蝇大脑的显著部分",
+      "category": "neuro_science",
+      "fileName": "Hemibrain_Dataset_ratings1.json"
+    },
+    {
+      "name": "ImageNet-EEG",
+      "description": "记录受试者（N=6）观看40人ImageNet图像时的脑电信号（EEG）。",
+      "category": "neuro_science",
+      "fileName": "ImageNet-EEG_ratings1.json"
+    },
+    {
+      "name": "MacaquePose",
+      "description": "MacaquePose是标注了自然场景中猕猴的身体部位位置（关键点）的数据集，它由超过 13,000 张图像组成，每张图片中每只猴子的 17 个关键点（鼻子、左右耳、眼睛、肩膀、肘部、手腕、臀部、膝盖和脚踝）。",
+      "category": "neuro_science",
+      "fileName": "MacaquePose_ratings1.json"
+    },
+    {
+      "name": "MammalNet|动物识别数据集|行为分析数据集",
+      "description": "MammalNet视频数据集围绕涵盖 17 个目、69 个科和 173 个哺乳动物类别的生物哺乳动物分类学构建，并包括 12 种常见的高级哺乳动物行为（例如狩猎、梳理行为）。 MammalNet 能够单独或联合研究动物和行为识别。它还有助于研究具有挑战性的构图场景，测试模型的零样本和低样本迁移能力。",
+      "category": "neuro_science",
+      "fileName": "MammalNet|动物识别数据集|行为分析数据集_ratings1.json"
+    },
+    {
+      "name": "MindBigData2023-MNIST-8B",
+      "description": "MNIST-8B是全球首个通过128通道EEG系统完整映射MNIST数字视觉-听觉双模态感知的脑电数据集，包含70,000个样本，为脑机接口与机器学习交叉研究提供基准资源。",
+      "category": "neuro_science",
+      "fileName": "MindBigData2023-MNIST-8B_ratings1.json"
+    },
+    {
+      "name": "Neuro-3D",
+      "description": "是首个基于脑电（EEG）信号解码重建 3D 视觉感知的多模态神经影像数据集。",
+      "category": "neuro_science",
+      "fileName": "Neuro-3D_ratings1.json"
+    },
+    {
+      "name": "RSNA Intracranial Hemorrhage Detection",
+      "description": "MR扫描的切片；发表于2018-2019年；包含80w+切片；",
+      "category": "neuro_science",
+      "fileName": "RSNA_Intracranial_Hemorrhage_Detection_ratings1.json"
+    },
+    {
+      "name": "SHHS",
+      "description": "五分类睡眠分期脑电数据集",
+      "category": "neuro_science",
+      "fileName": "SHHS_ratings1.json"
+    },
+    {
+      "name": "Siena",
+      "description": "二分类临床异常检测脑电数据集",
+      "category": "neuro_science",
+      "fileName": "Siena_ratings1.json"
+    },
+    {
+      "name": "Sleep-EDF",
+      "description": "五分类睡眠分期脑电数据集",
+      "category": "neuro_science",
+      "fileName": "Sleep-EDF_ratings1.json"
+    },
+    {
+      "name": "Stanford Research Data",
+      "description": "该数据集包含10名被试的MATLAB格式预处理脑电数据，以2D特征矩阵和3D电极×时间×试验矩阵形式存储。",
+      "category": "neuro_science",
+      "fileName": "Stanford_Research_Data_ratings1.json"
+    },
+    {
+      "name": "TUAB",
+      "description": "二分类临床异常检测脑电数据集",
+      "category": "neuro_science",
+      "fileName": "TUAB_ratings1.json"
+    },
+    {
+      "name": "TUEV",
+      "description": "六分类临床异常检测脑电数据集",
+      "category": "neuro_science",
+      "fileName": "TUEV_ratings1.json"
+    },
+    {
+      "name": "Things-EEG2",
+      "description": "Things-EEG2是视觉解码脑电数据集",
+      "category": "neuro_science",
+      "fileName": "Things-EEG2_ratings1.json"
+    },
+    {
+      "name": "Thoughtviz dataset",
+      "description": "收集了23名受试者观看图片时的脑电数据。视觉刺激是10 个不同 的ImageNet 类别图像，每类 100 张，总共 1,000 张图像",
+      "category": "neuro_science",
+      "fileName": "Thoughtviz_dataset_ratings1.json"
+    },
+    {
+      "name": "WU-Minn-HCP-1200-Subjects-Data",
+      "description": "包含1200名健康年轻成年人的多模态脑成像、行为及遗传数据，用于研究人脑宏观连接组。",
+      "category": "neuro_science",
+      "fileName": "WU-Minn-HCP-1200-Subjects-Data_ratings1.json"
+    },
+    {
+      "name": "zebra-finch",
+      "description": "斑胸草雀行为、神经活动及生态学数据集，涵盖鸣唱学习、配偶识别、温度适应等研究领域。",
+      "category": "neuro_science",
+      "fileName": "zebra-finch_ratings1.json"
+    },
+    {
+      "name": "小鼠海马体单神经数据集",
+      "description": "Single-neuron datasets for mouse hippocampus（小鼠海马体单神经数据集），包含超过1万海马体单神经数据集。 ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌",
+      "category": "neuro_science",
+      "fileName": "小鼠海马体单神经数据集_ratings1.json"
+    },
+    {
+      "name": "Buchwald-Hartwig couplings",
+      "description": "以主动学习为核心，通过系统化流程设计与实验，深入探索并记录了多样化钯催化C–N偶联反应条件下的底物配对及其产率数据，为神经网络模型在样本外反应中高效预测并筛选高产方案提供了丰富而精准的数据支撑。",
+      "category": "physical_science",
+      "fileName": "Buchwald-Hartwig_couplings_ratings1.json"
+    },
+    {
+      "name": "C-N cross-coupling",
+      "description": "包含钯催化C–N偶联反应的高通量实验数据，用于训练机器学习模型预测催化剂对复杂底物的耐受性，并帮助分析其抑制机制。",
+      "category": "physical_science",
+      "fileName": "C-N_cross-coupling_ratings1.json"
+    },
+    {
+      "name": "CPA-catalyzed thiol addition to N-acylim",
+      "description": "基于嵌入空间与电子信息的知识图模型和分子相互作用模块，精准预测反应产率与立体选择性，具备可解释的外推能力，为合成开发提供指导。",
+      "category": "physical_science",
+      "fileName": "CPA-catalyzed_thiol_addition_to_N-acylim_ratings1.json"
+    },
+    {
+      "name": "Chignolin-VisNet",
+      "description": "用于训练chignolin的visnet的数据集，分子力场+隐式溶剂化采样，计算结果来自DFT",
+      "category": "physical_science",
+      "fileName": "Chignolin-VisNet_ratings1.json"
+    },
+    {
+      "name": "Deoxyfluorination with Sulfonyl Fluoride",
+      "description": "通过微调剂剂和碱基，磺酰氟可高效氟化多种醇，机器学习能准确预测新底物的高产率条件。",
+      "category": "physical_science",
+      "fileName": "Deoxyfluorination_with_Sulfonyl_Fluoride_ratings1.json"
+    },
+    {
+      "name": "FSReD",
+      "description": "FSReD 是物理问题的公式步骤推理数据集。",
+      "category": "physical_science",
+      "fileName": "FSReD_ratings1.json"
+    },
+    {
+      "name": "IntPhys 2",
+      "description": "IntPhys 2 是物理直觉评测视频数据集，包含物体遮挡与碰撞场景。",
+      "category": "physical_science",
+      "fileName": "IntPhys_2_ratings1.json"
+    },
+    {
+      "name": "MM-PhyQA",
+      "description": "MM‑PhyQA 是面向多模态物理推理的问答基准，覆盖图表、示意图与公式。",
+      "category": "physical_science",
+      "fileName": "MM-PhyQA_ratings1.json"
+    },
+    {
+      "name": "MPF",
+      "description": "m3gnet 的训练数据，包含结构和能量、受力",
+      "category": "physical_science",
+      "fileName": "MPF_ratings1.json"
+    },
+    {
+      "name": "MVBench",
+      "description": "MVBench 是多视频理解基准，包含物理现象与常识推理问题。",
+      "category": "physical_science",
+      "fileName": "MVBench_ratings1.json"
+    },
+    {
+      "name": "MVP-Bench",
+      "description": "MVP‑Bench 是面向多模态物理推理的视频理解基准。",
+      "category": "physical_science",
+      "fileName": "MVP-Bench_ratings1.json"
+    },
+    {
+      "name": "MoleculeNet",
+      "description": "MoleculeNet 是分子机器学习的大规模基准。",
+      "category": "physical_science",
+      "fileName": "MoleculeNet_ratings1.json"
+    },
+    {
+      "name": "Open-catalyst-project",
+      "description": "Open-catalyst-project challenge比赛数据集，包含structure和energy、force标签",
+      "category": "physical_science",
+      "fileName": "Open-catalyst-project_ratings1.json"
+    },
+    {
+      "name": "PHYBench",
+      "description": "PHYBench 是物理多步推理基准，包含高校与竞赛层级题目。",
+      "category": "physical_science",
+      "fileName": "PHYBench_ratings1.json"
+    },
+    {
+      "name": "PHYSICS",
+      "description": "Domain：Mechanics, Electromagnetism, Thermodynamics, Optics, \\etc；Modality：Text (problem statements, equations, reasoning), Diagrams (illustrations, charts, experimental setups)；Level：Undergraduate；Type：Text QA, VQA",
+      "category": "physical_science",
+      "fileName": "PHYSICS_ratings1.json"
+    },
+    {
+      "name": "PIQA",
+      "description": "PIQA 是物理直觉问答基准，评测模型对日常物理常识的判断。",
+      "category": "physical_science",
+      "fileName": "PIQA_ratings1.json"
+    },
+    {
+      "name": "PROST",
+      "description": "PROST 是物理推理与符号推导评测基准。",
+      "category": "physical_science",
+      "fileName": "PROST_ratings1.json"
+    },
+    {
+      "name": "PhyX",
+      "description": "PhyX 是物理推理与外部工具调用基准，强调符号计算与验证。",
+      "category": "physical_science",
+      "fileName": "PhyX_ratings1.json"
+    },
+    {
+      "name": "PhysReason",
+      "description": "PhysReason 是物理推理基准数据集，强调多步推导与逻辑一致性。",
+      "category": "physical_science",
+      "fileName": "PhysReason_ratings1.json"
+    },
+    {
+      "name": "PhysUniBench",
+      "description": "PhysUniBench 是高校物理题评测基准，覆盖多个物理学科方向。",
+      "category": "physical_science",
+      "fileName": "PhysUniBench_ratings1.json"
+    },
+    {
+      "name": "PhysicsArena",
+      "description": "PhysicsArena 是面向物理推理的大模型评测平台与数据集。",
+      "category": "physical_science",
+      "fileName": "PhysicsArena_ratings1.json"
+    },
+    {
+      "name": "SPICE-2.0.1",
+      "description": "SPICE-2.0.1 含有1.1M个类药物和氨基酸小分子DFT( ωB97M-D3(BJ)/def2-TZVPPD)计算能量受力的结果,涵盖15种元素、带点与中性分子、共价作用力与非共价作用力‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌",
+      "category": "physical_science",
+      "fileName": "SPICE-2.0.1_ratings1.json"
+    },
+    {
+      "name": "SRBench",
+      "description": "SRBench 是科学推理基准，覆盖物理/化学等学科的多步推理任务。",
+      "category": "physical_science",
+      "fileName": "SRBench_ratings1.json"
+    },
+    {
+      "name": "SeePhys",
+      "description": "SeePhys 是面向物理视觉理解的多模态数据集。",
+      "category": "physical_science",
+      "fileName": "SeePhys_ratings1.json"
+    },
+    {
+      "name": "Suzuki-Miyaura coupling on nanomole scal",
+      "description": "一种用于自动化纳摩尔级反应筛选和微摩尔级流动合成的平台",
+      "category": "physical_science",
+      "fileName": "Suzuki-Miyaura_coupling_on_nanomole_scal_ratings1.json"
+    },
+    {
+      "name": "TPBench",
+      "description": "Domain：Cosmology, High Energy Theory, General Relativity, Astrophysics, Electromagnetism, Quantum Mechanics, Mechanics, \\etc；Modality：Text；Type：Text QA",
+      "category": "physical_science",
+      "fileName": "TPBench_ratings1.json"
+    },
+    {
+      "name": "UGPhysics",
+      "description": "UGPhysics 是本科物理题推理数据集，含多步推导与解题过程。",
+      "category": "physical_science",
+      "fileName": "UGPhysics_ratings1.json"
+    },
+    {
+      "name": "Yield Curation of USPTO",
+      "description": "基于USPTO专利数据整理的化学反应产率数据集，用于机器学习辅助化学合成优化研究。",
+      "category": "physical_science",
+      "fileName": "Yield_Curation_of_USPTO_ratings1.json"
+    },
+    {
+      "name": "edbo",
+      "description": "基于贝叶斯优化的实验设计数据集，用于高效优化材料、制药等领域的配方与工艺参数。",
+      "category": "physical_science",
+      "fileName": "edbo_ratings1.json"
+    }
+  ]
+}
